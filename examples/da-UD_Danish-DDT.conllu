@@ -1,0 +1,2148 @@
+# sent_id = train-v2-1910
+# text = Det er lykkedes mig nok en gang at lave dit ansigt om til jern."
+1	Det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	_
+3	lykkedes	lykkes	VERB	_	Tense=Past|VerbForm=Part	0	root	_	_
+4	mig	jeg	PRON	_	Case=Acc|Gender=Com|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+5	nok	nok	ADV	_	_	7	advmod	_	_
+6	en	en	DET	_	Gender=Com|Number=Sing|PronType=Ind	7	det	_	_
+7	gang	gang	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	3	obl	_	_
+8	at	at	PART	_	PartType=Inf	9	mark	_	_
+9	lave	lave	VERB	_	VerbForm=Inf|Voice=Act	1	acl:relcl	_	_
+10	dit	din	DET	_	Gender=Neut|Number=Sing|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs	11	det	_	_
+11	ansigt	ansigt	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	9	obj	_	_
+12	om	om	ADV	_	_	9	advmod	_	_
+13	til	til	ADP	_	AdpType=Prep	14	case	_	_
+14	jern	jern	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	12	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	3	punct	_	_
+
+# sent_id = train-v2-1106
+# text = RUBRIK
+1	RUBRIK	rubrik	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	0	root	_	_
+
+# sent_id = train-v2-3727
+# text = Beløbet kan synes stort, men reelt er der tale om småpenge, når man skuer over Carlsbergs igangværende satsninger.
+1	Beløbet	beløb	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	_
+3	synes	synes	VERB	_	VerbForm=Inf|Voice=Act	0	root	_	_
+4	stort	stor	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	8	punct	_	_
+6	men	men	CCONJ	_	_	8	cc	_	_
+7	reelt	reelt	ADV	_	Degree=Pos	8	advmod	_	_
+8	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
+9	der	der	ADV	_	PartType=Inf	8	expl	_	_
+10	tale	tale	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	8	obj	_	_
+11	om	om	ADP	_	AdpType=Prep	12	case	_	_
+12	småpenge	småpenge	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	8	punct	_	_
+14	når	når	SCONJ	_	_	16	mark	_	_
+15	man	man	PRON	_	Case=Nom|Gender=Com|PronType=Ind	16	nsubj	_	_
+16	skuer	skue	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	advmod	_	_
+17	over	over	ADP	_	AdpType=Prep	20	case	_	_
+18	Carlsbergs	Carlsberg	PROPN	_	Case=Gen	20	nmod:poss	_	_
+19	igangværende	igangværende	ADJ	_	Degree=Pos	20	amod	_	_
+20	satsninger	satsning	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	16	obl	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = train-v2-1473
+# text = KOLDING: Så er den koldingensiske bilsælger Christian Christensen igen klar til at tage kampen op med partisanerne i Guatamalas jungle.
+1	KOLDING	Kolding	PROPN	_	_	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+3	Så	så	ADV	_	_	11	advmod	_	_
+4	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	_	_
+5	den	den	DET	_	Gender=Com|Number=Sing|PronType=Dem	8	det	_	_
+6	koldingensiske	koldingensisk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	8	amod	_	_
+7	bilsælger	bilsælger	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	8	nmod	_	_
+8	Christian	Christian	PROPN	_	_	11	nsubj	_	_
+9	Christensen	Christensen	PROPN	_	_	8	flat	_	_
+10	igen	igen	ADV	_	_	11	advmod	_	_
+11	klar	klar	ADJ	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	1	list	_	_
+12	til	til	ADP	_	AdpType=Prep	14	mark	_	_
+13	at	at	PART	_	PartType=Inf	14	mark	_	_
+14	tage	tage	VERB	_	VerbForm=Inf|Voice=Act	11	acl:relcl	_	_
+15	kampen	kamp	NOUN	_	Definite=Def|Gender=Com|Number=Sing	14	obj	_	_
+16	op	op	ADV	_	_	14	obl:loc	_	_
+17	med	med	ADP	_	AdpType=Prep	18	case	_	_
+18	partisanerne	partisan	NOUN	_	Definite=Def|Gender=Com|Number=Plur	16	obl	_	_
+19	i	i	ADP	_	AdpType=Prep	21	case	_	_
+20	Guatamalas	Guatamala	PROPN	_	Case=Gen	21	nmod:poss	_	_
+21	jungle	jungle	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = train-v2-4371
+# text = Begge de to bankers økonomiske "engagement" i Brøndby er for nærværende så eksklusivt, at de - qua konkursbegæringer - begge den dag i går i praksis kunne have sparket Brøndby langt ud af dansk topfodbold.
+1	Begge	begge	DET	_	Number=Plur|PronType=Dem	7	det	_	_
+2	de	den	DET	_	Number=Plur|PronType=Dem	4	det	_	_
+3	to	to	NUM	_	NumType=Card	4	nummod	_	_
+4	bankers	bank	NOUN	_	Case=Gen|Definite=Ind|Gender=Com|Number=Plur	7	nmod	_	_
+5	økonomiske	økonomisk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	7	amod	_	_
+6	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	engagement	engagement	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	15	nsubj	_	SpaceAfter=No
+8	"	"	PUNCT	_	_	7	punct	_	_
+9	i	i	ADP	_	AdpType=Prep	10	case	_	_
+10	Brøndby	Brøndby	PROPN	_	_	7	nmod	_	_
+11	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	15	cop	_	_
+12	for	for	ADP	_	AdpType=Prep	13	case	_	_
+13	nærværende	nærværende	ADJ	_	Degree=Pos	15	advmod	_	_
+14	så	så	ADV	_	_	15	advmod	_	_
+15	eksklusivt	eksklusiv	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	at	at	SCONJ	_	_	32	mark	_	_
+18	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	32	nsubj	_	_
+19	-	-	PUNCT	_	_	18	punct	_	_
+20	qua	qua	SCONJ	_	_	21	mark	_	_
+21	konkursbegæringer	konkursbegæring	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	32	advmod	_	_
+22	-	-	PUNCT	_	_	21	punct	_	_
+23	begge	begge	PRON	_	Number=Plur|PronType=Dem	32	obl	_	_
+24	den	den	DET	_	Gender=Com|Number=Sing|PronType=Dem	25	det	_	_
+25	dag	dag	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	32	obl	_	_
+26	i	i	ADP	_	AdpType=Prep	25	advmod	_	_
+27	går	går	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	26	fixed	_	_
+28	i	i	ADP	_	AdpType=Prep	29	case	_	_
+29	praksis	praksis	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	32	obl	_	_
+30	kunne	kunne	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	32	aux	_	_
+31	have	have	AUX	_	VerbForm=Inf|Voice=Act	32	aux	_	_
+32	sparket	sparke	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	14	advcl	_	_
+33	Brøndby	Brøndby	PROPN	_	_	32	obj	_	_
+34	langt	langt	ADV	_	Degree=Pos	35	advmod	_	_
+35	ud	ud	ADV	_	_	32	obl:loc	_	_
+36	af	af	ADP	_	AdpType=Prep	38	case	_	_
+37	dansk	dansk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	38	amod	_	_
+38	topfodbold	topfodbold	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	35	obl	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = train-v2-2494
+# text = "Vi har nu forstærket indsatsen mod det åbenlyse hashmarked, og vi har fået positive tilkendegivelser om, at nogle beboere er tilfredse med vores indsats.
+1	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+2	Vi	vi	PRON	_	Case=Nom|Gender=Com|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
+3	har	have	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	_
+4	nu	nu	ADV	_	_	5	advmod	_	_
+5	forstærket	forstærke	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	indsatsen	indsats	NOUN	_	Definite=Def|Gender=Com|Number=Sing	5	obj	_	_
+7	mod	mod	ADP	_	AdpType=Prep	10	case	_	_
+8	det	den	DET	_	Gender=Neut|Number=Sing|PronType=Dem	10	det	_	_
+9	åbenlyse	åbenlys	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	10	amod	_	_
+10	hashmarked	hashmarked	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	15	punct	_	_
+12	og	og	CCONJ	_	_	15	cc	_	_
+13	vi	vi	PRON	_	Case=Nom|Gender=Com|Number=Plur|Person=1|PronType=Prs	15	nsubj	_	_
+14	har	have	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	15	aux	_	_
+15	fået	få	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
+16	positive	positiv	ADJ	_	Degree=Pos|Number=Plur	17	amod	_	_
+17	tilkendegivelser	tilkendegivelse	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	15	obj	_	_
+18	om	om	ADP	_	AdpType=Prep	24	mark	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	at	at	SCONJ	_	_	24	mark	_	_
+21	nogle	nogen	DET	_	Number=Plur|PronType=Ind	22	det	_	_
+22	beboere	beboer	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	24	nsubj	_	_
+23	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	24	cop	_	_
+24	tilfredse	tilfreds	ADJ	_	Degree=Pos|Number=Plur	17	amod	_	_
+25	med	med	ADP	_	AdpType=Prep	27	case	_	_
+26	vores	vores	DET	_	Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	27	det	_	_
+27	indsats	indsats	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	24	obl	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = train-v2-3314
+# text = Lejligheden er indrettet i en tidligere politistation i en hyggelig andelsforening i et 1700-tals hus med sydlandske balkoner, bindingsværk og udsigt til Marmorkirken i København.
+1	Lejligheden	lejlighed	NOUN	_	Definite=Def|Gender=Com|Number=Sing	3	nsubj	_	_
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	_
+3	indrettet	indrette	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	i	i	ADP	_	AdpType=Prep	7	case	_	_
+5	en	en	DET	_	Gender=Com|Number=Sing|PronType=Ind	7	det	_	_
+6	tidligere	tidlig	ADJ	_	Degree=Cmp	7	amod	_	_
+7	politistation	politistation	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	3	obl	_	_
+8	i	i	ADP	_	AdpType=Prep	11	case	_	_
+9	en	en	DET	_	Gender=Com|Number=Sing|PronType=Ind	11	det	_	_
+10	hyggelig	hyggelig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	11	amod	_	_
+11	andelsforening	andelsforening	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	7	nmod	_	_
+12	i	i	ADP	_	AdpType=Prep	15	case	_	_
+13	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Ind	15	det	_	_
+14	1700-tals	1700-tal	NOUN	_	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing	15	nmod	_	_
+15	hus	hus	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	11	nmod	_	_
+16	med	med	ADP	_	AdpType=Prep	18	case	_	_
+17	sydlandske	sydlandsk	ADJ	_	Degree=Pos|Number=Plur	18	amod	_	_
+18	balkoner	balkon	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	15	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	20	punct	_	_
+20	bindingsværk	bindingsværk	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	18	conj	_	_
+21	og	og	CCONJ	_	_	22	cc	_	_
+22	udsigt	udsigt	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	18	conj	_	_
+23	til	til	ADP	_	AdpType=Prep	24	case	_	_
+24	Marmorkirken	marmorkirke	NOUN	_	Definite=Def|Gender=Com|Number=Sing	22	nmod	_	_
+25	i	i	ADP	_	AdpType=Prep	26	case	_	_
+26	København	København	PROPN	_	_	24	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = train-v2-1537
+# text = Hvad havde de, som nu savnes?
+1	Hvad	hvad	PRON	_	Number=Sing|PronType=Int,Rel	7	mark	_	_
+2	havde	have	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	2	punct	_	_
+5	som	som	PRON	_	PartType=Inf	7	nsubj	_	_
+6	nu	nu	ADV	_	_	7	advmod	_	_
+7	savnes	savne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	2	obj	_	SpaceAfter=No
+8	?	?	PUNCT	_	_	2	punct	_	_
+
+# sent_id = train-v2-4373
+# text = Fysioterapi, der tilstræber at gøre den enkelte patient mest muligt uafhængig af andres hjælp, er en vigtig behandlingsform.
+1	Fysioterapi	fysioterapi	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	20	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	der	der	PRON	_	PartType=Inf	4	nsubj	_	_
+4	tilstræber	tilstræbe	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	1	acl:relcl	_	_
+5	at	at	PART	_	PartType=Inf	6	mark	_	_
+6	gøre	gøre	VERB	_	VerbForm=Inf|Voice=Act	4	obj	_	_
+7	den	den	DET	_	Gender=Com|Number=Sing|PronType=Dem	9	det	_	_
+8	enkelte	enkelt	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	9	amod	_	_
+9	patient	patient	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	6	obj	_	_
+10	mest	mest	ADV	_	Degree=Sup	11	advmod	_	_
+11	muligt	muligt	ADV	_	Degree=Pos	12	advmod	_	_
+12	uafhængig	uafhængig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	6	amod	_	_
+13	af	af	ADP	_	AdpType=Prep	15	case	_	_
+14	andres	anden	DET	_	Case=Gen|Number=Plur|PronType=Ind	15	det	_	_
+15	hjælp	hjælp	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	12	obl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	4	punct	_	_
+17	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	20	cop	_	_
+18	en	en	DET	_	Gender=Com|Number=Sing|PronType=Ind	20	det	_	_
+19	vigtig	vigtig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	20	amod	_	_
+20	behandlingsform	behandlingsform	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	0	root	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = train-v2-854
+# text = "Men vi besluttede at lade prisfaldet komme vores forhandlere til gode," siger underdirektør Jan E. Nilsson til Ritzau.
+1	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+2	Men	men	CCONJ	_	_	4	cc	_	_
+3	vi	vi	PRON	_	Case=Nom|Gender=Com|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+4	besluttede	beslutte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	at	at	PART	_	PartType=Inf	6	mark	_	_
+6	lade	lade	VERB	_	VerbForm=Inf|Voice=Act	4	obj	_	_
+7	prisfaldet	prisfald	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	6	obj	_	_
+8	komme	komme	VERB	_	VerbForm=Inf|Voice=Act	6	xcomp	_	_
+9	vores	vores	DET	_	Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	10	det	_	_
+10	forhandlere	forhandler	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	8	obj	_	_
+11	til	til	ADP	_	AdpType=Prep	8	compound:prt	_	_
+12	gode	gode	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	11	fixed	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	4	punct	_	SpaceAfter=No
+14	"	"	PUNCT	_	_	4	punct	_	_
+15	siger	sige	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_
+16	underdirektør	underdirektør	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	17	nmod	_	_
+17	Jan	Jan	PROPN	_	_	15	nsubj	_	_
+18	E.	E.	PROPN	_	_	17	flat	_	_
+19	Nilsson	Nilsson	PROPN	_	_	17	flat	_	_
+20	til	til	ADP	_	AdpType=Prep	21	case	_	_
+21	Ritzau	Ritzau	PROPN	_	_	15	obl	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = train-v2-4325
+# text = Der er fx god mening i at bruge sit engelske eller sit tyske i forbindelse med Østersøprojektet.
+1	Der	der	ADV	_	PartType=Inf	2	expl	_	_
+2	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	fx	for_eksempel	ADV	_	_	2	advmod	_	_
+4	god	god	ADJ	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	5	amod	_	_
+5	mening	mening	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	2	obj	_	_
+6	i	i	ADP	_	AdpType=Prep	8	mark	_	_
+7	at	at	PART	_	PartType=Inf	8	mark	_	_
+8	bruge	bruge	VERB	_	VerbForm=Inf|Voice=Act	5	advcl	_	_
+9	sit	sin	DET	_	Gender=Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Reflex=Yes	10	det	_	_
+10	engelske	engelsk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	8	obj	_	_
+11	eller	eller	CCONJ	_	_	10	dep	_	_
+12	sit	sin	DET	_	Gender=Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Reflex=Yes	13	det	_	_
+13	tyske	tysk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	10	conj	_	_
+14	i	i	ADP	_	AdpType=Prep	15	case	_	_
+15	forbindelse	forbindelse	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	8	obl	_	_
+16	med	med	ADP	_	AdpType=Prep	17	case	_	_
+17	Østersøprojektet	Østersøprojekt	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = train-v2-1226
+# text = "Men det er næppe den to-årige, der selv har stukket nålene ind i sin krop.
+1	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+2	Men	men	CCONJ	_	_	7	cc	_	_
+3	det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+4	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_
+5	næppe	næppe	ADV	_	_	7	advmod	_	_
+6	den	den	DET	_	Gender=Com|Number=Sing|PronType=Dem	7	det	_	_
+7	to-årige	to-årig	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	der	der	PRON	_	PartType=Inf	12	nsubj	_	_
+10	selv	selv	PRON	_	PronType=Dem	12	obl	_	_
+11	har	have	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux	_	_
+12	stukket	stikke	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+13	nålene	nål	NOUN	_	Definite=Def|Gender=Com|Number=Plur	12	obj	_	_
+14	ind	ind	ADV	_	_	12	obl:loc	_	_
+15	i	i	ADP	_	AdpType=Prep	17	case	_	_
+16	sin	sin	DET	_	Gender=Com|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Reflex=Yes	17	det	_	_
+17	krop	krop	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	14	obl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = train-v2-1331
+# text = Man noterer sig straks, at de største er de nemmeste i sportens verden.
+1	Man	man	PRON	_	Case=Nom|Gender=Com|PronType=Ind	2	nsubj	_	_
+2	noterer	notere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	sig	sig	PRON	_	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	2	iobj	_	_
+4	straks	straks	ADV	_	_	2	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	2	punct	_	_
+6	at	at	SCONJ	_	_	11	mark	_	_
+7	de	den	DET	_	Number=Plur|PronType=Dem	8	det	_	_
+8	største	stor	ADJ	_	Definite=Def|Degree=Sup	11	nsubj	_	_
+9	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	_	_
+10	de	den	DET	_	Number=Plur|PronType=Dem	11	det	_	_
+11	nemmeste	nem	ADJ	_	Definite=Def|Degree=Sup	2	amod	_	_
+12	i	i	ADP	_	AdpType=Prep	14	case	_	_
+13	sportens	sport	NOUN	_	Case=Gen|Definite=Def|Gender=Com|Number=Sing	14	nmod:poss	_	_
+14	verden	verden	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	11	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = train-v2-2835
+# text = Nogenlunde samtidig fik jeg meldinger fra flygtningelejrene, at antallet i lejrene nu var steget til over 40.000, og at overgrebene inde i Bhutan var intensiveret.
+1	Nogenlunde	nogenlunde	ADV	_	Degree=Pos	2	advmod	_	_
+2	samtidig	samtidig	ADV	_	_	3	advmod	_	_
+3	fik	få	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	jeg	jeg	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+5	meldinger	melding	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	3	obj	_	_
+6	fra	fra	ADP	_	AdpType=Prep	7	case	_	_
+7	flygtningelejrene	flygtningelejr	NOUN	_	Definite=Def|Gender=Com|Number=Plur	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	5	punct	_	_
+9	at	at	SCONJ	_	_	15	mark	_	_
+10	antallet	antal	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	15	nsubj	_	_
+11	i	i	ADP	_	AdpType=Prep	12	case	_	_
+12	lejrene	lejr	NOUN	_	Definite=Def|Gender=Com|Number=Plur	10	nmod	_	_
+13	nu	nu	ADV	_	_	15	advmod	_	_
+14	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	15	aux	_	_
+15	steget	stige	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	5	advcl	_	_
+16	til	til	ADP	_	AdpType=Prep	18	case	_	_
+17	over	over	ADP	_	AdpType=Prep	18	case	_	_
+18	40.000	40.000	NUM	_	NumType=Card	15	nummod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	15	punct	_	_
+20	og	og	CCONJ	_	_	15	cc	_	_
+21	at	at	SCONJ	_	_	27	mark	_	_
+22	overgrebene	overgreb	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	27	nsubj	_	_
+23	inde	inde	ADV	_	_	22	advmod	_	_
+24	i	i	ADP	_	AdpType=Prep	25	case	_	_
+25	Bhutan	Bhutan	PROPN	_	_	23	obl	_	_
+26	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	27	aux	_	_
+27	intensiveret	intensivere	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	15	dep	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = train-v2-3069
+# text = - Jeg ved godt, at vi ikke har kendt hinanden ret længe, men det er ikke altid det, det drejer sig om.
+1	-	-	PUNCT	_	_	3	punct	_	_
+2	Jeg	jeg	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	ved	vide	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	godt	godt	ADV	_	Degree=Pos	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	20	punct	_	_
+6	at	at	SCONJ	_	_	10	mark	_	_
+7	vi	vi	PRON	_	Case=Nom|Gender=Com|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	_
+8	ikke	ikke	ADV	_	_	10	advmod	_	_
+9	har	have	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	10	aux	_	_
+10	kendt	kende	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	3	ccomp	_	_
+11	hinanden	hinanden	PRON	_	Number=Plur|PronType=Rcp	10	obj	_	_
+12	ret	ret	ADV	_	_	13	advmod	_	_
+13	længe	længe	ADV	_	Degree=Pos	10	advmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	10	punct	_	_
+15	men	men	CCONJ	_	_	20	cc	_	_
+16	det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
+17	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	20	cop	_	_
+18	ikke	ikke	ADV	_	_	20	advmod	_	_
+19	altid	altid	ADV	_	_	20	advmod	_	_
+20	det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	conj	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
+23	drejer	dreje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	16	acl:relcl	_	_
+24	sig	sig	PRON	_	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	23	obj	_	_
+25	om	om	ADP	_	AdpType=Prep	23	mark	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = train-v2-4165
+# text = Hun fik også et kys af sin mand, CHRISTIAN, som gerne opkaldte en rose, "Flittig Tove", efter sin viv.
+1	Hun	hun	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	fik	få	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	også	også	ADV	_	_	2	advmod	_	_
+4	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Ind	5	det	_	_
+5	kys	kys	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	obj	_	_
+6	af	af	ADP	_	AdpType=Prep	8	case	_	_
+7	sin	sin	DET	_	Gender=Com|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Reflex=Yes	8	det	_	_
+8	mand	mand	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	2	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	CHRISTIAN	Christian	PROPN	_	_	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	som	som	PRON	_	PartType=Inf	14	nsubj	_	_
+13	gerne	gerne	ADV	_	_	14	advmod	_	_
+14	opkaldte	opkalde	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	8	acl:relcl	_	_
+15	en	en	DET	_	Gender=Com|Number=Sing|PronType=Ind	16	det	_	_
+16	rose	rose	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	14	obj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	14	punct	_	_
+18	"	"	PUNCT	_	_	20	punct	_	SpaceAfter=No
+19	Flittig	flittig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	20	amod	_	_
+20	Tove	Tove	PROPN	_	_	14	obl	_	SpaceAfter=No
+21	"	"	PUNCT	_	_	20	punct	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	20	punct	_	_
+23	efter	efter	ADP	_	AdpType=Prep	25	case	_	_
+24	sin	sin	DET	_	Gender=Com|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Reflex=Yes	25	det	_	_
+25	viv	viv	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	14	obl	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = train-v2-3358
+# text = Ordene klinger hult i det snavsede, ynkeligt nedslidte klasseværelse i et medborgerhus i Belfasts katolske slum, hvor han holder pressemøde.
+1	Ordene	ord	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	2	nsubj	_	_
+2	klinger	klinge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	hult	hult	ADV	_	Degree=Pos	2	amod	_	_
+4	i	i	ADP	_	AdpType=Prep	10	case	_	_
+5	det	den	DET	_	Gender=Neut|Number=Sing|PronType=Dem	10	det	_	_
+6	snavsede	snavset	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	10	amod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	10	punct	_	_
+8	ynkeligt	ynkeligt	ADV	_	Degree=Pos	9	advmod	_	_
+9	nedslidte	nedslidt	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	10	amod	_	_
+10	klasseværelse	klasseværelse	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	obl	_	_
+11	i	i	ADP	_	AdpType=Prep	13	case	_	_
+12	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Ind	13	det	_	_
+13	medborgerhus	medborgerhus	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	10	nmod	_	_
+14	i	i	ADP	_	AdpType=Prep	17	case	_	_
+15	Belfasts	Belfast	PROPN	_	Case=Gen	17	nmod:poss	_	_
+16	katolske	katolsk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	17	amod	_	_
+17	slum	slum	NOUN	_	Definite=Ind|Number=Sing	13	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	10	punct	_	_
+19	hvor	hvor	ADV	_	_	21	advmod	_	_
+20	han	han	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
+21	holder	holde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	10	acl:relcl	_	_
+22	pressemøde	pressemøde	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	21	obj	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = train-v2-269
+# text = Styrkeforholdet må være det afgørende, siger de begge.
+1	Styrkeforholdet	styrkeforhold	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	5	nsubj	_	_
+2	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	_
+3	være	være	AUX	_	VerbForm=Inf|Voice=Act	5	cop	_	_
+4	det	den	DET	_	Gender=Neut|Number=Sing|PronType=Dem	5	det	_	_
+5	afgørende	afgørende	ADJ	_	Degree=Pos	7	amod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	siger	sige	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	_
+9	begge	begge	PRON	_	Number=Plur|PronType=Dem	8	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = train-v2-851
+# text = De kan imidlertid hurtigt blive, hvad de endnu ikke er.
+1	De	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
+2	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	_
+3	imidlertid	imidlertid	ADV	_	_	5	advmod	_	_
+4	hurtigt	hurtigt	ADV	_	Degree=Pos	5	advmod	_	_
+5	blive	blive	VERB	_	VerbForm=Inf|Voice=Act	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	hvad	hvad	PRON	_	Number=Sing|PronType=Int,Rel	11	mark	_	_
+8	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	_
+9	endnu	endnu	ADV	_	_	11	advmod	_	_
+10	ikke	ikke	ADV	_	_	11	advmod	_	_
+11	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl:relcl	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = train-v2-3791
+# text = Folkevisdommen véd i sin afmagt noget om det.
+1	Folkevisdommen	folkevisdom	NOUN	_	Definite=Def|Gender=Com|Number=Sing	2	nsubj	_	_
+2	véd	vide	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	i	i	ADP	_	AdpType=Prep	5	case	_	_
+4	sin	sin	DET	_	Gender=Com|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Reflex=Yes	5	det	_	_
+5	afmagt	afmagt	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	2	obl	_	_
+6	noget	nogen	PRON	_	Gender=Neut|Number=Sing|PronType=Ind	2	obj	_	_
+7	om	om	ADP	_	AdpType=Prep	8	case	_	_
+8	det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obl	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = train-v2-4352
+# text = VI. Levevilkår, sociale grupperinger og familieliv
+1	VI.	VI.	ADJ	_	NumType=Ord	0	root	_	_
+2	Levevilkår	levevilkår	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	1	list	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	5	punct	_	_
+4	sociale	social	ADJ	_	Degree=Pos|Number=Plur	5	amod	_	_
+5	grupperinger	gruppering	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	2	conj	_	_
+6	og	og	CCONJ	_	_	7	cc	_	_
+7	familieliv	familieliv	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	conj	_	_
+
+# sent_id = train-v2-2021
+# text = Cylinderlås.
+1	Cylinderlås	cylinderlås	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = train-v2-1825
+# text = Levestandarden i Japan har været i konstant stigning siden 2. verdenskrig.
+1	Levestandarden	levestandard	NOUN	_	Definite=Def|Gender=Com|Number=Sing	5	nsubj	_	_
+2	i	i	ADP	_	AdpType=Prep	3	case	_	_
+3	Japan	Japan	PROPN	_	_	1	nmod	_	_
+4	har	have	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	_
+5	været	være	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	i	i	ADP	_	AdpType=Prep	8	case	_	_
+7	konstant	konstant	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	8	amod	_	_
+8	stigning	stigning	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	5	obl	_	_
+9	siden	siden	ADP	_	AdpType=Prep	11	case	_	_
+10	2.	2.	ADJ	_	NumType=Ord	11	amod	_	_
+11	verdenskrig	verdenskrig	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	5	obl	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = train-v2-1961
+# text = Og hele mit liv vil jeg spørge mig selv og andre: Jamen gjorde vi nok, "siger Sophia Loren.
+1	Og	og	CCONJ	_	_	7	cc	_	_
+2	hele	hel	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	4	amod	_	_
+3	mit	min	DET	_	Gender=Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	4	det	_	_
+4	liv	liv	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	7	obl	_	_
+5	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	_
+6	jeg	jeg	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+7	spørge	spørge	VERB	_	VerbForm=Inf|Voice=Act	0	root	_	_
+8	mig	jeg	PRON	_	Case=Acc|Gender=Com|Number=Sing|Person=1|PronType=Prs	7	iobj	_	_
+9	selv	selv	PRON	_	PronType=Dem	8	nmod	_	_
+10	og	og	CCONJ	_	_	11	cc	_	_
+11	andre	anden	PRON	_	Number=Plur|PronType=Ind	8	conj	_	SpaceAfter=No
+12	:	:	PUNCT	_	_	14	punct	_	_
+13	Jamen	jamen	CCONJ	_	_	7	ccomp	_	_
+14	gjorde	gøre	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	_
+15	vi	vi	PRON	_	Case=Nom|Gender=Com|Number=Plur|Person=1|PronType=Prs	14	nsubj	_	_
+16	nok	nok	ADV	_	_	14	advmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	7	punct	_	_
+18	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+19	siger	sige	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	_
+20	Sophia	Sophia	PROPN	_	_	19	nsubj	_	_
+21	Loren	Loren	PROPN	_	_	20	flat	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = train-v2-2288
+# text = Sikkerhedshegnet omkring banen er konstrueret så dårligt, at flere hundrede mennesker ikke kan se for den store stål-konstruktion, der sidder lige i øjen-højde.
+1	Sikkerhedshegnet	sikkerhedshegn	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	5	nsubj	_	_
+2	omkring	omkring	ADP	_	AdpType=Prep	3	case	_	_
+3	banen	bane	NOUN	_	Definite=Def|Gender=Com|Number=Sing	1	nmod	_	_
+4	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	_
+5	konstrueret	konstruere	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	så	så	ADV	_	_	7	advmod	_	_
+7	dårligt	dårligt	ADV	_	Degree=Pos	5	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	at	at	SCONJ	_	_	15	mark	_	_
+10	flere	mange	ADJ	_	Degree=Cmp|Number=Plur	11	nummod	_	_
+11	hundrede	hundrede	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	15	nsubj	_	_
+12	mennesker	menneske	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	11	nmod	_	_
+13	ikke	ikke	ADV	_	_	15	advmod	_	_
+14	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	15	aux	_	_
+15	se	se	VERB	_	VerbForm=Inf|Voice=Act	6	advcl	_	_
+16	for	for	ADP	_	AdpType=Prep	19	case	_	_
+17	den	den	DET	_	Gender=Com|Number=Sing|PronType=Dem	19	det	_	_
+18	store	stor	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	19	amod	_	_
+19	stål-konstruktion	stål-konstruktion	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	15	obl	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	der	der	PRON	_	PartType=Inf	22	nsubj	_	_
+22	sidder	sidde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	19	acl:relcl	_	_
+23	lige	lige	ADV	_	_	25	advmod	_	_
+24	i	i	ADP	_	AdpType=Prep	23	case	_	_
+25	øjen-højde	øjen-højde	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	22	obl	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = train-v2-2241
+# text = Det sker under Nordkalotten.
+1	Det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	sker	ske	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	under	under	ADP	_	AdpType=Prep	4	case	_	_
+4	Nordkalotten	Nordkalotten	PROPN	_	_	2	obl	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = train-v2-326
+# text = På Gotland var skovbranden så voldsom, at røgen ifølge det finske nyhedsbureau FNB kunne lugtes helt op i det sydlige Finland.
+1	På	på	ADP	_	AdpType=Prep	2	case	_	_
+2	Gotland	Gotland	PROPN	_	_	6	obl	_	_
+3	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	6	cop	_	_
+4	skovbranden	skovbrand	NOUN	_	Definite=Def|Gender=Com|Number=Sing	6	nsubj	_	_
+5	så	så	ADV	_	_	6	advmod	_	_
+6	voldsom	voldsom	ADJ	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	at	at	SCONJ	_	_	16	mark	_	_
+9	røgen	røg	NOUN	_	Definite=Def|Gender=Com|Number=Sing	16	nsubj	_	_
+10	ifølge	ifølge	ADP	_	AdpType=Prep	14	case	_	_
+11	det	den	DET	_	Gender=Neut|Number=Sing|PronType=Dem	14	det	_	_
+12	finske	finsk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	14	amod	_	_
+13	nyhedsbureau	nyhedsbureau	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	14	nmod	_	_
+14	FNB	FNB	PROPN	_	_	16	obl	_	_
+15	kunne	kunne	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	16	aux	_	_
+16	lugtes	lugte	VERB	_	VerbForm=Inf|Voice=Pass	5	advcl	_	_
+17	helt	helt	ADV	_	Degree=Pos	18	advmod	_	_
+18	op	op	ADV	_	_	16	obl:loc	_	_
+19	i	i	ADP	_	AdpType=Prep	22	case	_	_
+20	det	den	DET	_	Gender=Neut|Number=Sing|PronType=Dem	22	det	_	_
+21	sydlige	sydlig	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	22	amod	_	_
+22	Finland	Finland	PROPN	_	_	18	obl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = train-v2-3294
+# text = (RB)
+1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	RB	RB	PROPN	_	_	0	root	_	SpaceAfter=No
+3	)	)	PUNCT	_	_	2	punct	_	_
+
+# sent_id = train-v2-2217
+# text = Det er jo næsten til at græde over (eller give sin kæreste et ekstra kys, mens der endnu er tid, som i titelnummeret).
+1	Det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	jo	jo	ADV	_	_	2	advmod	_	_
+4	næsten	næsten	ADV	_	_	2	advmod	_	_
+5	til	til	ADP	_	AdpType=Prep	7	mark	_	_
+6	at	at	PART	_	PartType=Inf	7	mark	_	_
+7	græde	græde	VERB	_	VerbForm=Inf|Voice=Act	2	advcl	_	_
+8	over	over	ADP	_	AdpType=Prep	7	mark	_	_
+9	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
+10	eller	eller	CCONJ	_	_	11	cc	_	_
+11	give	give	VERB	_	VerbForm=Inf|Voice=Act	7	conj	_	_
+12	sin	sin	DET	_	Gender=Com|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Reflex=Yes	13	det	_	_
+13	kæreste	kæreste	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	11	iobj	_	_
+14	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Ind	16	det	_	_
+15	ekstra	ekstra	ADJ	_	Degree=Pos	16	amod	_	_
+16	kys	kys	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	11	obj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	11	punct	_	_
+18	mens	mens	SCONJ	_	_	21	mark	_	_
+19	der	der	ADV	_	PartType=Inf	21	expl	_	_
+20	endnu	endnu	ADV	_	_	21	advmod	_	_
+21	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	advmod	_	_
+22	tid	tid	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	21	obj	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	21	punct	_	_
+24	som	som	ADP	_	PartType=Inf	25	case	_	_
+25	i	i	ADP	_	AdpType=Prep	26	case	_	_
+26	titelnummeret	titelnummer	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	21	obl	_	SpaceAfter=No
+27	)	)	PUNCT	_	_	7	punct	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = train-v2-2365
+# text = Johnny Walther var junkie i otte år.
+1	Johnny	Johnny	PROPN	_	_	4	nsubj	_	_
+2	Walther	Walther	PROPN	_	_	1	flat	_	_
+3	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	4	cop	_	_
+4	junkie	junkie	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	0	root	_	_
+5	i	i	ADP	_	AdpType=Prep	7	case	_	_
+6	otte	otte	NUM	_	NumType=Card	7	nummod	_	_
+7	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	4	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = train-v2-2972
+# text = Foretrækker man selv at køre på skiferie, så formidler Dansk Fri Ferie, Valby, en række lejligheder i de kendte, men også i de mindre kendte skisportssteder i Østrig, Frankrig, Schweiz og Italien.
+1	Foretrækker	foretrække	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	10	mark	_	_
+2	man	man	PRON	_	Case=Nom|Gender=Com|PronType=Ind	1	nsubj	_	_
+3	selv	selv	PRON	_	PronType=Dem	1	obl	_	_
+4	at	at	PART	_	PartType=Inf	5	mark	_	_
+5	køre	køre	VERB	_	VerbForm=Inf|Voice=Act	1	obj	_	_
+6	på	på	ADP	_	AdpType=Prep	7	case	_	_
+7	skiferie	skiferie	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	1	punct	_	_
+9	så	så	ADV	_	_	10	advmod	_	_
+10	formidler	formidle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+11	Dansk	dansk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	13	amod	_	_
+12	Fri	fri	ADJ	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	13	amod	_	_
+13	Ferie	ferie	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	10	nsubj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	Valby	Valby	PROPN	_	_	13	appos	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	en	en	DET	_	Gender=Com|Number=Sing|PronType=Ind	18	det	_	_
+18	række	række	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	10	obj	_	_
+19	lejligheder	lejlighed	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	18	nmod	_	_
+20	i	i	ADP	_	AdpType=Prep	30	case	_	_
+21	de	den	DET	_	Number=Plur|PronType=Dem	30	det	_	_
+22	kendte	kendt	ADJ	_	Degree=Pos|Number=Plur	30	amod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	30	punct	_	_
+24	men	men	CCONJ	_	_	20	cc	_	_
+25	også	også	ADV	_	_	20	advmod	_	_
+26	i	i	ADP	_	AdpType=Prep	25	case	_	_
+27	de	den	DET	_	Number=Plur|PronType=Dem	29	det	_	_
+28	mindre	mindre	ADV	_	Degree=Cmp	29	advmod	_	_
+29	kendte	kendt	ADJ	_	Degree=Pos|Number=Plur	20	amod	_	_
+30	skisportssteder	skisportssted	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	18	nmod	_	_
+31	i	i	ADP	_	AdpType=Prep	32	case	_	_
+32	Østrig	Østrig	PROPN	_	_	30	nmod	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	34	punct	_	_
+34	Frankrig	Frankrig	PROPN	_	_	32	conj	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	36	punct	_	_
+36	Schweiz	Schweiz	PROPN	_	_	32	conj	_	_
+37	og	og	CCONJ	_	_	38	cc	_	_
+38	Italien	Italien	PROPN	_	_	32	conj	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = train-v2-2646
+# text = Da Korsholmskolen i Hinnerup søgte en ny pedel fik Kjeld Christensen pladsen.
+1	Da	da	SCONJ	_	_	5	mark	_	_
+2	Korsholmskolen	Korsholmskole	NOUN	_	Definite=Def|Gender=Com|Number=Sing	5	nsubj	_	_
+3	i	i	ADP	_	AdpType=Prep	4	case	_	_
+4	Hinnerup	Hinnerup	PROPN	_	_	2	nmod	_	_
+5	søgte	søge	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	9	advmod	_	_
+6	en	en	DET	_	Gender=Com|Number=Sing|PronType=Ind	8	det	_	_
+7	ny	ny	ADJ	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	8	amod	_	_
+8	pedel	pedel	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	5	obj	_	_
+9	fik	få	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	Kjeld	Kjeld	PROPN	_	_	9	nsubj	_	_
+11	Christensen	Christensen	PROPN	_	_	10	flat	_	_
+12	pladsen	plads	NOUN	_	Definite=Def|Gender=Com|Number=Sing	9	obj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = train-v2-1143
+# text = Det er ellers ikke tilladt, men Einar var vist et særtilfælde i mere end én forstand, i hvert fald lod konduktøren ham være i fred, da først hans kammerater havde bedyret, at de sagtens kunne have Einar liggende på tværs ind over sig under turen.
+1	Det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	ellers	ellers	ADV	_	_	2	advmod	_	_
+4	ikke	ikke	ADV	_	_	2	advmod	_	_
+5	tilladt	tillade	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	2	xcomp	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	12	punct	_	_
+7	men	men	CCONJ	_	_	12	cc	_	_
+8	Einar	Einar	PROPN	_	_	12	nsubj	_	_
+9	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	12	cop	_	_
+10	vist	vist	ADV	_	_	12	advmod	_	_
+11	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Ind	12	det	_	_
+12	særtilfælde	særtilfælde	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	conj	_	_
+13	i	i	ADP	_	AdpType=Prep	14	case	_	_
+14	mere	meget	ADJ	_	Definite=Ind|Degree=Cmp|Number=Sing	12	nmod	_	_
+15	end	end	ADP	_	_	17	case	_	_
+16	én	en	DET	_	Gender=Com|Number=Sing|PronType=Ind	17	det	_	_
+17	forstand	forstand	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	14	obl	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	22	punct	_	_
+19	i	i	ADP	_	AdpType=Prep	22	advmod	_	_
+20	hvert	hver	DET	_	Gender=Com|Number=Sing|PronType=Ind	19	fixed	_	_
+21	fald	fald	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	19	fixed	_	_
+22	lod	lade	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	12	conj	_	_
+23	konduktøren	konduktør	NOUN	_	Definite=Def|Gender=Com|Number=Sing	22	nsubj	_	_
+24	ham	han	PRON	_	Case=Acc|Gender=Com|Number=Sing|Person=3|PronType=Prs	22	obj	_	_
+25	være	være	VERB	_	VerbForm=Inf|Voice=Act	22	xcomp	_	_
+26	i	i	ADP	_	AdpType=Prep	27	case	_	_
+27	fred	fred	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	25	obl	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	22	punct	_	_
+29	da	da	SCONJ	_	_	42	mark	_	_
+30	først	først	ADV	_	_	42	advmod	_	_
+31	hans	hans	DET	_	Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	32	det	_	_
+32	kammerater	kammerat	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	42	nsubj	_	_
+33	havde	have	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	42	aux	_	_
+34	bedyret	bedyre	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	42	xcomp	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	42	punct	_	_
+36	at	at	SCONJ	_	_	42	mark	_	_
+37	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	42	nsubj	_	_
+38	sagtens	sagtens	ADV	_	_	42	advmod	_	_
+39	kunne	kunne	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	42	aux	_	_
+40	have	have	AUX	_	VerbForm=Inf|Voice=Act	42	aux	_	_
+41	Einar	Einar	PROPN	_	_	42	obj	_	_
+42	liggende	ligge	VERB	_	Tense=Pres|VerbForm=Part	22	advcl	_	_
+43	på	på	ADP	_	AdpType=Prep	44	case	_	_
+44	tværs	tværs	ADV	_	_	42	advmod	_	_
+45	ind	ind	ADV	_	_	42	obl:loc	_	_
+46	over	over	ADP	_	AdpType=Prep	47	case	_	_
+47	sig	sig	PRON	_	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	45	obl	_	_
+48	under	under	ADP	_	AdpType=Prep	49	case	_	_
+49	turen	tur	NOUN	_	Definite=Def|Gender=Com|Number=Sing	42	obl	_	SpaceAfter=No
+50	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = train-v2-359
+# text = Du må ikke græde!
+1	Du	du	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	_
+2	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
+3	ikke	ikke	ADV	_	_	4	advmod	_	_
+4	græde	græde	VERB	_	VerbForm=Inf|Voice=Act	0	root	_	SpaceAfter=No
+5	!	!	PUNCT	_	_	4	punct	_	_
+
+# sent_id = train-v2-1650
+# text = En velsignet træthed melder sig, da jeg før middagen sidder foran pejsen og stirrer ind i ilden.
+1	En	en	DET	_	Gender=Com|Number=Sing|PronType=Ind	3	det	_	_
+2	velsignet	velsignet	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	3	amod	_	_
+3	træthed	træthed	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	4	nsubj	_	_
+4	melder	melde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	sig	sig	PRON	_	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	4	punct	_	_
+7	da	da	SCONJ	_	_	11	mark	_	_
+8	jeg	jeg	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+9	før	før	ADP	_	AdpType=Prep	10	case	_	_
+10	middagen	middag	NOUN	_	Definite=Def|Gender=Com|Number=Sing	11	obl	_	_
+11	sidder	sidde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	advmod	_	_
+12	foran	foran	ADP	_	AdpType=Prep	13	case	_	_
+13	pejsen	pejs	NOUN	_	Definite=Def|Gender=Com|Number=Sing	11	obl	_	_
+14	og	og	CCONJ	_	_	15	cc	_	_
+15	stirrer	stirre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	conj	_	_
+16	ind	ind	ADV	_	_	15	obl:loc	_	_
+17	i	i	ADP	_	AdpType=Prep	18	case	_	_
+18	ilden	ild	NOUN	_	Definite=Def|Gender=Com|Number=Sing	16	obl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = train-v2-987
+# text = Til gengæld var der ingen tvivl om, at Lars Elstrup forløb sig.
+1	Til	til	ADP	_	AdpType=Prep	2	case	_	_
+2	gengæld	gengæld	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	3	obl	_	_
+3	var	være	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	der	der	ADV	_	PartType=Inf	3	expl	_	_
+5	ingen	ingen	DET	_	Gender=Com|Number=Sing|PronType=Ind	6	det	_	_
+6	tvivl	tvivl	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	3	obj	_	_
+7	om	om	ADP	_	AdpType=Prep	12	mark	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	at	at	SCONJ	_	_	12	mark	_	_
+10	Lars	Lars	PROPN	_	_	12	nsubj	_	_
+11	Elstrup	Elstrup	PROPN	_	_	10	flat	_	_
+12	forløb	forløbe	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	6	advcl	_	_
+13	sig	sig	PRON	_	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	12	obj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = train-v2-2776
+# text = "Spiser man hver dag et par kapsler med det kold-lagrede hvidløg, får man alle de fordele, der findes i det rå hvidløg, og et par stykker oveni, mener doktor Benjamin Lau, der er professor ved Loma Linda Universitet i USA:
+1	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+2	Spiser	spise	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	14	ccomp	_	_
+3	man	man	PRON	_	Case=Nom|Gender=Com|PronType=Ind	2	nsubj	_	_
+4	hver	hver	PRON	_	Gender=Com|Number=Sing|PronType=Ind	5	mark	_	_
+5	dag	dag	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	2	dep	_	_
+6	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Ind	7	det	_	_
+7	par	par	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	obj	_	_
+8	kapsler	kapsel	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	7	nmod	_	_
+9	med	med	ADP	_	AdpType=Prep	12	case	_	_
+10	det	den	DET	_	Gender=Neut|Number=Sing|PronType=Dem	12	det	_	_
+11	kold-lagrede	kold-lagret	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	12	amod	_	_
+12	hvidløg	hvidløg	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	7	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	2	punct	_	_
+14	får	få	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	33	ccomp	_	_
+15	man	man	PRON	_	Case=Nom|Gender=Com|PronType=Ind	14	nsubj	_	_
+16	alle	al	ADJ	_	Degree=Pos|Number=Plur	18	amod	_	_
+17	de	den	DET	_	Number=Plur|PronType=Dem	18	det	_	_
+18	fordele	fordel	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	14	obj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	der	der	PRON	_	PartType=Inf	21	nsubj	_	_
+21	findes	findes	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	18	acl:relcl	_	_
+22	i	i	ADP	_	AdpType=Prep	25	case	_	_
+23	det	den	DET	_	Gender=Neut|Number=Sing|PronType=Dem	25	det	_	_
+24	rå	rå	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	25	amod	_	_
+25	hvidløg	hvidløg	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	21	obl	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	21	punct	_	_
+27	og	og	CCONJ	_	_	14	cc	_	_
+28	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Ind	29	det	_	_
+29	par	par	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	14	obj	_	_
+30	stykker	stykke	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	29	nmod	_	_
+31	oveni	oveni	ADV	_	_	14	advmod	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	14	punct	_	_
+33	mener	mene	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+34	doktor	doktor	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	35	nmod	_	_
+35	Benjamin	Benjamin	PROPN	_	_	33	nsubj	_	_
+36	Lau	Lau	PROPN	_	_	35	flat	_	SpaceAfter=No
+37	,	,	PUNCT	_	_	35	punct	_	_
+38	der	der	ADV	_	PartType=Inf	40	nsubj	_	_
+39	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	40	cop	_	_
+40	professor	professor	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	35	acl:relcl	_	_
+41	ved	ved	ADP	_	AdpType=Prep	42	case	_	_
+42	Loma	Loma	PROPN	_	_	40	nmod	_	_
+43	Linda	Linda	PROPN	_	_	42	flat	_	_
+44	Universitet	universitet	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	42	flat	_	_
+45	i	i	ADP	_	AdpType=Prep	46	case	_	_
+46	USA	USA	PROPN	_	_	42	nmod	_	SpaceAfter=No
+47	:	:	PUNCT	_	_	33	punct	_	_
+
+# sent_id = train-v2-2055
+# text = ODENSE: 11 personer døde sidste år i Odense Politikreds som følge af narkotikamisbrug.
+1	ODENSE	Odense	PROPN	_	_	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+3	11	11	NUM	_	NumType=Card	4	nummod	_	_
+4	personer	person	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	5	nsubj	_	_
+5	døde	dø	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	1	list	_	_
+6	sidste	sidste	ADJ	_	Degree=Pos	5	amod	_	_
+7	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	obl	_	_
+8	i	i	ADP	_	AdpType=Prep	9	case	_	_
+9	Odense	Odense	PROPN	_	_	5	obl	_	_
+10	Politikreds	politikreds	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	9	flat	_	_
+11	som	som	ADP	_	PartType=Inf	12	case	_	_
+12	følge	følge	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	5	obl	_	_
+13	af	af	ADP	_	AdpType=Prep	14	case	_	_
+14	narkotikamisbrug	narkotikamisbrug	NOUN	_	Definite=Ind|Number=Sing	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = train-v2-2355
+# text = Omvendt vil jeg spørge: Hvad skal vi bruge den økonomiske vækst til?
+1	Omvendt	omvendt	ADV	_	Degree=Pos	9	advmod	_	_
+2	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux	_	_
+3	jeg	jeg	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+4	spørge	spørge	VERB	_	VerbForm=Inf|Voice=Act	9	xcomp	_	SpaceAfter=No
+5	:	:	PUNCT	_	_	9	punct	_	_
+6	Hvad	hvad	PRON	_	Number=Sing|PronType=Int,Rel	9	obl	_	_
+7	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux	_	_
+8	vi	vi	PRON	_	Case=Nom|Gender=Com|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	_
+9	bruge	bruge	VERB	_	VerbForm=Inf|Voice=Act	0	root	_	_
+10	den	den	DET	_	Gender=Com|Number=Sing|PronType=Dem	12	det	_	_
+11	økonomiske	økonomisk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	12	amod	_	_
+12	vækst	vækst	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	9	obj	_	_
+13	til	til	ADP	_	AdpType=Prep	6	case	_	SpaceAfter=No
+14	?	?	PUNCT	_	_	9	punct	_	_
+
+# sent_id = train-v2-1315
+# text = Hun er lidt vanskelig at få ud af en kano.
+1	Hun	hun	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+3	lidt	lidt	ADV	_	Degree=Pos	4	advmod	_	_
+4	vanskelig	vanskelig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	0	root	_	_
+5	at	at	PART	_	PartType=Inf	6	mark	_	_
+6	få	få	VERB	_	VerbForm=Inf|Voice=Act	4	acl:relcl	_	_
+7	ud	ud	ADV	_	_	6	obl:loc	_	_
+8	af	af	ADP	_	AdpType=Prep	10	case	_	_
+9	en	en	DET	_	Gender=Com|Number=Sing|PronType=Ind	10	det	_	_
+10	kano	kano	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	7	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = train-v2-1001
+# text = Det skal ikke glemmes, at det var "Langes" skyld, at vi overhovedet nåede semifinalen i Europa Cup'en.
+1	Det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
+3	ikke	ikke	ADV	_	_	4	advmod	_	_
+4	glemmes	glemme	VERB	_	VerbForm=Inf|Voice=Pass	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	at	at	SCONJ	_	_	10	mark	_	_
+7	det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+8	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	10	cop	_	_
+9	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	Langes	lang	ADJ	_	Case=Gen|Definite=Def|Degree=Pos|Number=Sing	1	amod	_	SpaceAfter=No
+11	"	"	PUNCT	_	_	10	punct	_	_
+12	skyld	skyld	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	10	nmod:poss	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	10	punct	_	_
+14	at	at	SCONJ	_	_	17	mark	_	_
+15	vi	vi	PRON	_	Case=Nom|Gender=Com|Number=Plur|Person=1|PronType=Prs	17	nsubj	_	_
+16	overhovedet	overhovedet	ADV	_	_	17	advmod	_	_
+17	nåede	nå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	7	acl:relcl	_	_
+18	semifinalen	semifinale	NOUN	_	Definite=Def|Gender=Com|Number=Sing	17	obj	_	_
+19	i	i	ADP	_	AdpType=Prep	20	case	_	_
+20	Europa	Europa	PROPN	_	_	18	nmod	_	_
+21	Cup'en	Cup	NOUN	_	Definite=Def|Gender=Com|Number=Sing	20	flat	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = train-v2-2374
+# text = Koteletterne til torsdagens efterret koster 78 kr. pr. kg og lammefrikadellerne til fredag 70 kr..
+1	Koteletterne	kotelet	NOUN	_	Definite=Def|Gender=Com|Number=Plur	5	nsubj	_	_
+2	til	til	ADP	_	AdpType=Prep	4	case	_	_
+3	torsdagens	torsdag	NOUN	_	Case=Gen|Definite=Def|Gender=Com|Number=Sing	4	nmod:poss	_	_
+4	efterret	efterret	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	1	nmod	_	_
+5	koster	koste	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	78	78	NUM	_	NumType=Card	7	nummod	_	_
+7	kr.	krone	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	5	obj	_	_
+8	pr.	per	ADP	_	AdpType=Prep	9	case	_	_
+9	kg	kilo	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	7	nmod	_	_
+10	og	og	CCONJ	_	_	5	cc	_	_
+11	lammefrikadellerne	lammefrikadelle	NOUN	_	Definite=Def|Gender=Com|Number=Plur	5	nsubj	_	_
+12	til	til	ADP	_	AdpType=Prep	13	case	_	_
+13	fredag	fredag	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	11	nmod	_	_
+14	70	70	NUM	_	NumType=Card	15	nummod	_	_
+15	kr.	krone	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	5	obj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = train-v2-3280
+# text = Samtidig strømmer økonomisk udviklings-bistand ind i landet.
+1	Samtidig	samtidig	ADV	_	_	2	advmod	_	_
+2	strømmer	strømme	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	økonomisk	økonomisk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	4	amod	_	_
+4	udviklings-bistand	udviklings-bistand	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	2	nsubj	_	_
+5	ind	ind	ADV	_	_	2	obl:loc	_	_
+6	i	i	ADP	_	AdpType=Prep	7	case	_	_
+7	landet	land	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	5	obl	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = train-v2-3986
+# text = Et emne har forfatterne dog besluttet at udelukke - AIDS: - Vi er trætte af, at dødsangst og seksualitet skal hænge så tæt sammen.
+1	Et	en	DET	_	Gender=Neut|Number=Sing|PronType=Ind	2	det	_	_
+2	emne	emne	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	8	obj	_	_
+3	har	have	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	_	_
+4	forfatterne	forfatter	NOUN	_	Definite=Def|Gender=Com|Number=Plur	6	nsubj	_	_
+5	dog	dog	ADV	_	_	6	advmod	_	_
+6	besluttet	beslutte	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	at	at	PART	_	PartType=Inf	8	mark	_	_
+8	udelukke	udelukke	VERB	_	VerbForm=Inf|Voice=Act	6	obj	_	_
+9	-	-	PUNCT	_	_	8	punct	_	_
+10	AIDS	aids	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	8	obl	_	SpaceAfter=No
+11	:	:	PUNCT	_	_	6	punct	_	_
+12	-	-	PUNCT	_	_	15	punct	_	_
+13	Vi	vi	PRON	_	Case=Nom|Gender=Com|Number=Plur|Person=1|PronType=Prs	15	nsubj	_	_
+14	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	15	cop	_	_
+15	trætte	træt	ADJ	_	Degree=Pos|Number=Plur	6	amod	_	_
+16	af	af	ADP	_	AdpType=Prep	23	mark	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	at	at	SCONJ	_	_	23	mark	_	_
+19	dødsangst	dødsangst	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	23	nsubj	_	_
+20	og	og	CCONJ	_	_	21	cc	_	_
+21	seksualitet	seksualitet	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	19	conj	_	_
+22	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	23	aux	_	_
+23	hænge	hænge	VERB	_	VerbForm=Inf|Voice=Act	15	acl:relcl	_	_
+24	så	så	ADV	_	_	25	advmod	_	_
+25	tæt	tæt	ADV	_	Degree=Pos	26	advmod	_	_
+26	sammen	sammen	ADV	_	_	23	advmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = train-v2-3920
+# text = Vores forhold til barndommen bliver defensivt, præget af bekymring og ængstelse.
+1	Vores	vores	DET	_	Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	2	det	_	_
+2	forhold	forhold	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	nsubj	_	_
+3	til	til	ADP	_	AdpType=Prep	4	case	_	_
+4	barndommen	barndom	NOUN	_	Definite=Def|Gender=Com|Number=Sing	2	nmod	_	_
+5	bliver	blive	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
+6	defensivt	defensiv	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	8	punct	_	_
+8	præget	præge	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	6	conj	_	_
+9	af	af	ADP	_	AdpType=Prep	10	case	_	_
+10	bekymring	bekymring	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	8	obl	_	_
+11	og	og	CCONJ	_	_	12	cc	_	_
+12	ængstelse	ængstelse	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	10	conj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = train-v2-1404
+# text = "Ladies and Gentlemen, Michael Jackson has left the stadium!".
+1	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+2	Ladies	Ladies	PROPN	_	_	8	vocative	_	_
+3	and	and	X	_	Foreign=Yes	2	cc	_	_
+4	Gentlemen	Gentlemen	PROPN	_	_	3	conj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	2	punct	_	_
+6	Michael	Michael	PROPN	_	_	8	nsubj	_	_
+7	Jackson	Jackson	PROPN	_	_	6	flat	_	_
+8	has	has	X	_	Foreign=Yes	0	root	_	_
+9	left	left	X	_	Foreign=Yes	8	dep	_	_
+10	the	the	X	_	Foreign=Yes	9	obj	_	_
+11	stadium	stadium	X	_	Foreign=Yes	10	dep	_	SpaceAfter=No
+12	!	!	PUNCT	_	_	8	punct	_	SpaceAfter=No
+13	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = train-v2-1564
+# text = Jørgen Vetter sagde på personaleforeningens vegne, at medarbejderne var enige i målet om et bedre resultat på bundlinien og en bedre konsolidering.
+1	Jørgen	Jørgen	PROPN	_	_	3	nsubj	_	_
+2	Vetter	Vetter	PROPN	_	_	1	flat	_	_
+3	sagde	sige	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	på	på	ADP	_	AdpType=Prep	6	case	_	_
+5	personaleforeningens	personaleforening	NOUN	_	Case=Gen|Definite=Def|Gender=Com|Number=Sing	6	nmod:poss	_	_
+6	vegne	vegne	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	3	punct	_	_
+8	at	at	SCONJ	_	_	11	mark	_	_
+9	medarbejderne	medarbejder	NOUN	_	Definite=Def|Gender=Com|Number=Plur	11	nsubj	_	_
+10	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	11	cop	_	_
+11	enige	enig	ADJ	_	Degree=Pos|Number=Plur	3	amod	_	_
+12	i	i	ADP	_	AdpType=Prep	13	case	_	_
+13	målet	mål	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	11	obl	_	_
+14	om	om	ADP	_	AdpType=Prep	17	case	_	_
+15	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Ind	17	det	_	_
+16	bedre	god	ADJ	_	Degree=Cmp	17	amod	_	_
+17	resultat	resultat	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	13	nmod	_	_
+18	på	på	ADP	_	AdpType=Prep	19	case	_	_
+19	bundlinien	bundlinie	NOUN	_	Definite=Def|Gender=Com|Number=Sing	17	nmod	_	_
+20	og	og	CCONJ	_	_	17	dep	_	_
+21	en	en	DET	_	Gender=Com|Number=Sing|PronType=Ind	23	det	_	_
+22	bedre	god	ADJ	_	Degree=Cmp	23	amod	_	_
+23	konsolidering	konsolidering	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	17	conj	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = train-v2-2894
+# text = Og de insisterer på at vende fødderne indad, som var de alle fejl-opereret på samme hospital.
+1	Og	og	CCONJ	_	_	3	cc	_	_
+2	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+3	insisterer	insistere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	på	på	ADP	_	AdpType=Prep	6	mark	_	_
+5	at	at	PART	_	PartType=Inf	6	mark	_	_
+6	vende	vende	VERB	_	VerbForm=Inf|Voice=Act	3	advcl	_	_
+7	fødderne	fod	NOUN	_	Definite=Def|Gender=Com|Number=Plur	6	obj	_	_
+8	indad	indad	ADV	_	_	6	obl:loc	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	3	punct	_	_
+10	som	som	ADP	_	PartType=Inf	11	mark	_	_
+11	var	være	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	3	advcl	_	_
+12	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	_
+13	alle	al	ADJ	_	Degree=Pos|Number=Plur	12	amod	_	_
+14	fejl-opereret	fejl-operere	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	11	xcomp	_	_
+15	på	på	ADP	_	AdpType=Prep	17	case	_	_
+16	samme	samme	ADJ	_	Degree=Pos	17	amod	_	_
+17	hospital	hospital	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	11	obl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = train-v2-3677
+# text = Ikke?
+1	Ikke	ikke	ADV	_	_	0	root	_	SpaceAfter=No
+2	?	?	PUNCT	_	_	1	punct	_	_
+
+# sent_id = train-v2-2450
+# text = Vi tager chancen nu.
+1	Vi	vi	PRON	_	Case=Nom|Gender=Com|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	tager	tage	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	chancen	chance	NOUN	_	Definite=Def|Gender=Com|Number=Sing	2	obj	_	_
+4	nu	nu	ADV	_	_	2	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = train-v2-311
+# text = Der ventes en fortsat tilfredsstillende udvikling.
+1	Der	der	ADV	_	PartType=Inf	2	expl	_	_
+2	ventes	vente	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+3	en	en	DET	_	Gender=Com|Number=Sing|PronType=Ind	6	det	_	_
+4	fortsat	fortsat	ADV	_	_	5	advmod	_	_
+5	tilfredsstillende	tilfredsstille	VERB	_	Tense=Pres|VerbForm=Part	6	amod	_	_
+6	udvikling	udvikling	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	2	obj	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = train-v2-3575
+# text = Dagen er ganske vist først 21. januar, men når mennesker skal mødes sker det mest praktisk på en fredag, hvis andre end de sædvanlige receptionsløver skal møde frem.
+1	Dagen	dag	NOUN	_	Definite=Def|Gender=Com|Number=Sing	7	nsubj	_	_
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_
+3	ganske	ganske	ADV	_	_	4	advmod	_	_
+4	vist	vist	ADV	_	_	7	advmod	_	_
+5	først	først	ADV	_	_	7	advmod	_	_
+6	21.	21.	ADJ	_	NumType=Ord	7	amod	_	_
+7	januar	januar	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	14	punct	_	_
+9	men	men	CCONJ	_	_	14	cc	_	_
+10	når	når	SCONJ	_	_	13	mark	_	_
+11	mennesker	menneske	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	13	nsubj	_	_
+12	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	13	aux	_	_
+13	mødes	mødes	VERB	_	VerbForm=Inf|Voice=Act	14	advmod	_	_
+14	sker	ske	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	_
+15	det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+16	mest	mest	ADV	_	Degree=Sup	17	advmod	_	_
+17	praktisk	praktisk	ADV	_	Degree=Pos	14	advmod	_	_
+18	på	på	ADP	_	AdpType=Prep	20	case	_	_
+19	en	en	DET	_	Gender=Com|Number=Sing|PronType=Ind	20	det	_	_
+20	fredag	fredag	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	14	obl	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	14	punct	_	_
+22	hvis	hvis	SCONJ	_	_	29	mark	_	_
+23	andre	anden	DET	_	Number=Plur|PronType=Ind	27	det	_	_
+24	end	end	ADP	_	_	27	case	_	_
+25	de	den	DET	_	Number=Plur|PronType=Dem	27	det	_	_
+26	sædvanlige	sædvanlig	ADJ	_	Degree=Pos|Number=Plur	27	amod	_	_
+27	receptionsløver	receptionsløve	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	29	nsubj	_	_
+28	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	29	aux	_	_
+29	møde	møde	VERB	_	VerbForm=Inf|Voice=Act	14	advmod	_	_
+30	frem	frem	ADV	_	_	29	compound:prt	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = train-v2-341
+# text = Piloten forsøgte at rette maskinen op - så kunne jeg ikke se mere, men pludselig var der gnister i luften, "siger øjenvidnet Peter de Neef.
+1	Piloten	pilot	NOUN	_	Definite=Def|Gender=Com|Number=Sing	2	nsubj	_	_
+2	forsøgte	forsøge	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	24	ccomp	_	_
+3	at	at	PART	_	PartType=Inf	4	mark	_	_
+4	rette	rette	VERB	_	VerbForm=Inf|Voice=Act	2	obj	_	_
+5	maskinen	maskine	NOUN	_	Definite=Def|Gender=Com|Number=Sing	4	obj	_	_
+6	op	op	ADV	_	_	4	advmod	_	_
+7	-	-	PUNCT	_	_	12	punct	_	_
+8	så	så	ADV	_	_	12	advmod	_	_
+9	kunne	kunne	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	12	aux	_	_
+10	jeg	jeg	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+11	ikke	ikke	ADV	_	_	12	advmod	_	_
+12	se	se	VERB	_	VerbForm=Inf|Voice=Act	2	conj	_	_
+13	mere	meget	ADJ	_	Definite=Ind|Degree=Cmp|Number=Sing	12	obj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	17	punct	_	_
+15	men	men	CCONJ	_	_	17	cc	_	_
+16	pludselig	pludselig	ADV	_	_	17	advmod	_	_
+17	var	være	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	12	conj	_	_
+18	der	der	ADV	_	PartType=Inf	17	expl	_	_
+19	gnister	gnist	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	17	obj	_	_
+20	i	i	ADP	_	AdpType=Prep	21	case	_	_
+21	luften	luft	NOUN	_	Definite=Def|Gender=Com|Number=Sing	17	obl	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	17	punct	_	_
+23	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+24	siger	sige	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+25	øjenvidnet	øjenvidne	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	24	nsubj	_	_
+26	Peter	Peter	PROPN	_	_	25	appos	_	_
+27	de	de	PROPN	_	_	26	flat	_	_
+28	Neef	Neef	PROPN	_	_	26	flat	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	24	punct	_	_
+
+# sent_id = train-v2-3835
+# text = Noget andet, der undrer mig som ung dansker, er, at regeringen har godkendt unionstraktaten før den overhovedet forelå på dansk.
+1	Noget	nogen	PRON	_	Gender=Neut|Number=Sing|PronType=Ind	11	nsubj	_	_
+2	andet	anden	PRON	_	Gender=Neut|Number=Sing|PronType=Ind	1	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	1	punct	_	_
+4	der	der	PRON	_	PartType=Inf	5	nsubj	_	_
+5	undrer	undre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	1	acl:relcl	_	_
+6	mig	jeg	PRON	_	Case=Acc|Gender=Com|Number=Sing|Person=1|PronType=Prs	5	obj	_	_
+7	som	som	ADP	_	PartType=Inf	9	case	_	_
+8	ung	ung	ADJ	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	9	amod	_	_
+9	dansker	dansker	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	5	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	5	punct	_	_
+11	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	at	at	SCONJ	_	_	16	mark	_	_
+14	regeringen	regering	NOUN	_	Definite=Def|Gender=Com|Number=Sing	16	nsubj	_	_
+15	har	have	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	16	aux	_	_
+16	godkendt	godkende	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	11	ccomp	_	_
+17	unionstraktaten	unionstraktat	NOUN	_	Definite=Def|Gender=Com|Number=Sing	16	obj	_	_
+18	før	før	SCONJ	_	_	21	mark	_	_
+19	den	den	PRON	_	Case=Acc|Gender=Com|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
+20	overhovedet	overhovedet	ADV	_	_	21	advmod	_	_
+21	forelå	foreligge	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	16	advmod	_	_
+22	på	på	ADP	_	AdpType=Prep	23	case	_	_
+23	dansk	dansk	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	21	obl	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = train-v2-288
+# text = Eneste af de ellers ophugningsmodne fartøjer, der slet ikke må sejle videre, er ubåden Spækhuggeren, S327, som siden 1957 har passet på Østersøen og af og til også været ude i Atlanten som enhed i STAVLANDNORTH, NATOs stående Atlanterhavsflåde.
+1	Eneste	eneste	ADJ	_	Degree=Pos	16	nsubj	_	_
+2	af	af	ADP	_	AdpType=Prep	6	case	_	_
+3	de	den	DET	_	Number=Plur|PronType=Dem	6	det	_	_
+4	ellers	ellers	ADV	_	_	5	advmod	_	_
+5	ophugningsmodne	ophugningsmoden	ADJ	_	Degree=Pos|Number=Plur	6	amod	_	_
+6	fartøjer	fartøj	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	1	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	1	punct	_	_
+8	der	der	PRON	_	PartType=Inf	12	nsubj	_	_
+9	slet	slet	ADV	_	_	10	advmod	_	_
+10	ikke	ikke	ADV	_	_	12	advmod	_	_
+11	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux	_	_
+12	sejle	sejle	VERB	_	VerbForm=Inf|Voice=Act	1	acl:relcl	_	_
+13	videre	videre	ADV	_	_	12	obl:loc	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	12	punct	_	_
+15	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	16	cop	_	_
+16	ubåden	ubåd	NOUN	_	Definite=Def|Gender=Com|Number=Sing	0	root	_	_
+17	Spækhuggeren	spækhugger	NOUN	_	Definite=Def|Gender=Com|Number=Sing	16	appos	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	S327	S327	X	_	_	17	appos	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	som	som	PRON	_	PartType=Inf	25	nsubj	_	_
+22	siden	siden	ADP	_	AdpType=Prep	23	case	_	_
+23	1957	1957	NUM	_	NumType=Card	25	nummod	_	_
+24	har	have	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	25	aux	_	_
+25	passet	passe	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	16	acl:relcl	_	_
+26	på	på	ADP	_	AdpType=Prep	27	case	_	_
+27	Østersøen	Østersøen	PROPN	_	_	25	obl	_	_
+28	og	og	CCONJ	_	_	34	cc	_	_
+29	af	af	ADV	_	_	34	advmod	_	_
+30	og	og	CCONJ	_	_	31	cc	_	_
+31	til	til	ADV	_	_	29	conj	_	_
+32	også	også	ADV	_	_	34	advmod	_	_
+33	været	være	AUX	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	34	cop	_	_
+34	ude	ude	ADV	_	_	25	conj	_	_
+35	i	i	ADP	_	AdpType=Prep	36	case	_	_
+36	Atlanten	Atlanten	PROPN	_	_	34	obl	_	_
+37	som	som	ADP	_	PartType=Inf	38	case	_	_
+38	enhed	enhed	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	34	obl	_	_
+39	i	i	ADP	_	AdpType=Prep	40	case	_	_
+40	STAVLANDNORTH	Stavlandnorth	PROPN	_	_	38	nmod	_	SpaceAfter=No
+41	,	,	PUNCT	_	_	40	punct	_	_
+42	NATOs	NATO	PROPN	_	Case=Gen	44	nmod:poss	_	_
+43	stående	stå	VERB	_	Tense=Pres|VerbForm=Part	44	amod	_	_
+44	Atlanterhavsflåde	atlanterhavsflåde	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	40	appos	_	SpaceAfter=No
+45	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = train-v2-2259
+# text = DE BEDSTE VENNER
+1	DE	den	DET	_	Number=Plur|PronType=Dem	3	det	_	_
+2	BEDSTE	god	ADJ	_	Definite=Def|Degree=Sup	3	amod	_	_
+3	VENNER	ven	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	0	root	_	_
+
+# sent_id = train-v2-394
+# text = Vi taler altså om en forøgelse på mere end 10 procent.
+1	Vi	vi	PRON	_	Case=Nom|Gender=Com|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	taler	tale	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	altså	altså	ADV	_	_	2	advmod	_	_
+4	om	om	ADP	_	AdpType=Prep	6	case	_	_
+5	en	en	DET	_	Gender=Com|Number=Sing|PronType=Ind	6	det	_	_
+6	forøgelse	forøgelse	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	2	obl	_	_
+7	på	på	ADP	_	AdpType=Prep	8	case	_	_
+8	mere	meget	ADJ	_	Definite=Ind|Degree=Cmp|Number=Sing	6	nmod	_	_
+9	end	end	ADP	_	_	11	case	_	_
+10	10	10	NUM	_	NumType=Card	11	nummod	_	_
+11	procent	procent	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	8	obl	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = train-v2-1242
+# text = Der arbejdede han de næste 10 år.
+1	Der	der	ADV	_	_	2	obl:loc	_	_
+2	arbejdede	arbejde	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	han	han	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+4	de	den	DET	_	Number=Plur|PronType=Dem	7	det	_	_
+5	næste	næste	ADJ	_	Degree=Pos	7	amod	_	_
+6	10	10	NUM	_	NumType=Card	7	nummod	_	_
+7	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	2	obl:tmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = train-v2-2401
+# text = "Vi tar'en tysker frem, vi tar'en tysker tilbage, vi tar'en tysker frem, åååårrr så ryster vi ham lidt!"
+1	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+2	Vi	vi	PRON	_	Case=Nom|Gender=Com|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+3	tar'	tage	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	en	en	DET	_	Gender=Com|Number=Sing|PronType=Ind	5	det	_	_
+5	tysker	tysker	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	3	obj	_	_
+6	frem	frem	ADV	_	_	3	obl:loc	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	9	punct	_	_
+8	vi	vi	PRON	_	Case=Nom|Gender=Com|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	_
+9	tar'	tage	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	SpaceAfter=No
+10	en	en	DET	_	Gender=Com|Number=Sing|PronType=Ind	11	det	_	_
+11	tysker	tysker	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	9	obj	_	_
+12	tilbage	tilbage	ADV	_	_	9	obl:loc	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	15	punct	_	_
+14	vi	vi	PRON	_	Case=Nom|Gender=Com|Number=Plur|Person=1|PronType=Prs	15	nsubj	_	_
+15	tar'	tage	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	SpaceAfter=No
+16	en	en	DET	_	Gender=Com|Number=Sing|PronType=Ind	17	det	_	_
+17	tysker	tysker	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	15	obj	_	_
+18	frem	frem	ADV	_	_	15	obl:loc	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	15	punct	_	_
+20	åååårrr	åååårrr	INTJ	_	_	15	cc	_	_
+21	så	så	ADV	_	_	22	advmod	_	_
+22	ryster	ryste	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	20	conj	_	_
+23	vi	vi	PRON	_	Case=Nom|Gender=Com|Number=Plur|Person=1|PronType=Prs	22	nsubj	_	_
+24	ham	han	PRON	_	Case=Acc|Gender=Com|Number=Sing|Person=3|PronType=Prs	22	obj	_	_
+25	lidt	lidt	ADV	_	Degree=Pos	22	advmod	_	SpaceAfter=No
+26	!	!	PUNCT	_	_	3	punct	_	SpaceAfter=No
+27	"	"	PUNCT	_	_	3	punct	_	_
+
+# sent_id = train-v2-3514
+# text = Pludselig skete der imidlertid en overraskende udvikling.
+1	Pludselig	pludselig	ADV	_	_	2	advmod	_	_
+2	skete	ske	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	der	der	ADV	_	PartType=Inf	2	expl	_	_
+4	imidlertid	imidlertid	ADV	_	_	2	advmod	_	_
+5	en	en	DET	_	Gender=Com|Number=Sing|PronType=Ind	7	det	_	_
+6	overraskende	overraske	VERB	_	Tense=Pres|VerbForm=Part	7	amod	_	_
+7	udvikling	udvikling	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	2	obj	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = train-v2-2344
+# text = Det er ganske urimeligt: jeg sætter 2.000 kr. til på sådan en dag."
+1	Det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+3	ganske	ganske	ADV	_	_	4	advmod	_	_
+4	urimeligt	urimelig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+5	:	:	PUNCT	_	_	7	punct	_	_
+6	jeg	jeg	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+7	sætter	sætte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_
+8	2.000	2.000	NUM	_	NumType=Card	9	nummod	_	_
+9	kr.	krone	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	7	obj	_	_
+10	til	til	ADV	_	_	7	advmod	_	_
+11	på	på	ADP	_	AdpType=Prep	14	case	_	_
+12	sådan	sådan	ADJ	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	14	amod	_	_
+13	en	en	DET	_	Gender=Com|Number=Sing|PronType=Ind	14	det	_	_
+14	dag	dag	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	7	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	4	punct	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	4	punct	_	_
+
+# sent_id = train-v2-2123
+# text = Og prismæssigt ligger Seat Toledo også pænt i forhold til konkurrenterne.
+1	Og	og	CCONJ	_	_	3	cc	_	_
+2	prismæssigt	prismæssigt	ADV	_	Degree=Pos	3	advmod	_	_
+3	ligger	ligge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	Seat	Seat	PROPN	_	_	3	nsubj	_	_
+5	Toledo	Toledo	PROPN	_	_	4	flat	_	_
+6	også	også	ADV	_	_	3	advmod	_	_
+7	pænt	pænt	ADV	_	Degree=Pos	3	amod	_	_
+8	i	i	ADP	_	AdpType=Prep	9	case	_	_
+9	forhold	forhold	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	obl	_	_
+10	til	til	ADP	_	AdpType=Prep	11	case	_	_
+11	konkurrenterne	konkurrent	NOUN	_	Definite=Def|Gender=Com|Number=Plur	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = train-v2-1259
+# text = Farvekataloget, som blev uddelt ved seancens begyndelse, er en vigtig del af køkkenkulturen.
+1	Farvekataloget	farvekatalog	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	13	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	som	som	PRON	_	PartType=Inf	5	nsubj	_	_
+4	blev	blive	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	5	aux	_	_
+5	uddelt	uddele	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	1	acl:relcl	_	_
+6	ved	ved	ADP	_	AdpType=Prep	8	case	_	_
+7	seancens	seance	NOUN	_	Case=Gen|Definite=Def|Gender=Com|Number=Sing	8	nmod:poss	_	_
+8	begyndelse	begyndelse	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	5	punct	_	_
+10	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	13	cop	_	_
+11	en	en	DET	_	Gender=Com|Number=Sing|PronType=Ind	13	det	_	_
+12	vigtig	vigtig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	13	amod	_	_
+13	del	del	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	0	root	_	_
+14	af	af	ADP	_	AdpType=Prep	15	case	_	_
+15	køkkenkulturen	køkkenkultur	NOUN	_	Definite=Def|Gender=Com|Number=Sing	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = train-v2-728
+# text = REVANCHE
+1	REVANCHE	revanche	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	0	root	_	_
+
+# sent_id = train-v2-3758
+# text = I Slavonski Brod, en kroatisk by på grænsen til Bosnien, blev otte børn og to kvinder dræbt, da en bombe fra et jugoslavisk fly ødelagde deres beskyttelsesrum, siger lokale forsvarsmyndigheder.
+1	I	i	ADP	_	AdpType=Prep	2	case	_	_
+2	Slavonski	Slavonski	PROPN	_	_	19	obl	_	_
+3	Brod	Brod	PROPN	_	_	2	flat	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	2	punct	_	_
+5	en	en	DET	_	Gender=Com|Number=Sing|PronType=Ind	7	det	_	_
+6	kroatisk	kroatisk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	7	amod	_	_
+7	by	by	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	2	appos	_	_
+8	på	på	ADP	_	AdpType=Prep	9	case	_	_
+9	grænsen	grænse	NOUN	_	Definite=Def|Gender=Com|Number=Sing	7	nmod	_	_
+10	til	til	ADP	_	AdpType=Prep	11	case	_	_
+11	Bosnien	Bosnien	PROPN	_	_	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	7	punct	_	_
+13	blev	blive	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	19	aux	_	_
+14	otte	otte	NUM	_	NumType=Card	15	nummod	_	_
+15	børn	barn	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	19	nsubj	_	_
+16	og	og	CCONJ	_	_	15	dep	_	_
+17	to	to	NUM	_	NumType=Card	18	nummod	_	_
+18	kvinder	kvinde	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	15	conj	_	_
+19	dræbt	dræbe	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	32	ccomp	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	da	da	SCONJ	_	_	28	mark	_	_
+22	en	en	DET	_	Gender=Com|Number=Sing|PronType=Ind	23	det	_	_
+23	bombe	bombe	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	28	nsubj	_	_
+24	fra	fra	ADP	_	AdpType=Prep	27	case	_	_
+25	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Ind	27	det	_	_
+26	jugoslavisk	jugoslavisk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	27	amod	_	_
+27	fly	fly	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	23	nmod	_	_
+28	ødelagde	ødelægge	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	19	advmod	_	_
+29	deres	deres	DET	_	Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	30	det	_	_
+30	beskyttelsesrum	beskyttelsesrum	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	28	obj	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	28	punct	_	_
+32	siger	sige	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+33	lokale	lokal	ADJ	_	Degree=Pos|Number=Plur	34	amod	_	_
+34	forsvarsmyndigheder	forsvarsmyndighed	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	32	nsubj	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	32	punct	_	_
+
+# sent_id = train-v2-2992
+# text = Men lad os nu glemme ham.
+1	Men	men	CCONJ	_	_	2	cc	_	_
+2	lad	lade	VERB	_	Mood=Imp	0	root	_	_
+3	os	vi	PRON	_	Case=Acc|Gender=Com|Number=Plur|Person=1|PronType=Prs	2	obj	_	_
+4	nu	nu	ADV	_	_	2	advmod	_	_
+5	glemme	glemme	VERB	_	VerbForm=Inf|Voice=Act	2	xcomp	_	_
+6	ham	han	PRON	_	Case=Acc|Gender=Com|Number=Sing|Person=3|PronType=Prs	5	obj	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = train-v2-1337
+# text = Kasselåse:
+1	Kasselåse	kasselås	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+
+# sent_id = train-v2-2220
+# text = Vi skal i dag se et spil fra det jyske lokalopgør mellem på den ene side Steen Schou fra Århus med Anker Pabst, H. C. Nielsen og Knud-Aage Boesgaard og på den anden side Frederik Mørk fra Vejle med Torben Stetkær, Erik Brok og Otto Dahl.
+1	Vi	vi	PRON	_	Case=Nom|Gender=Com|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
+2	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	_
+3	i	i	ADP	_	AdpType=Prep	5	advmod	_	_
+4	dag	dag	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	3	fixed	_	_
+5	se	se	VERB	_	VerbForm=Inf|Voice=Act	0	root	_	_
+6	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Ind	7	det	_	_
+7	spil	spil	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	obj	_	_
+8	fra	fra	ADP	_	AdpType=Prep	11	case	_	_
+9	det	den	DET	_	Gender=Neut|Number=Sing|PronType=Dem	11	det	_	_
+10	jyske	jysk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	11	amod	_	_
+11	lokalopgør	lokalopgør	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	7	nmod	_	_
+12	mellem	mellem	ADP	_	AdpType=Prep	17	case	_	_
+13	på	på	ADP	_	AdpType=Prep	16	case	_	_
+14	den	den	DET	_	Gender=Com|Number=Sing|PronType=Dem	16	det	_	_
+15	ene	ene	ADJ	_	Degree=Pos	16	amod	_	_
+16	side	side	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	17	nmod	_	_
+17	Steen	Steen	PROPN	_	_	11	nmod	_	_
+18	Schou	Schou	PROPN	_	_	17	flat	_	_
+19	fra	fra	ADP	_	AdpType=Prep	20	case	_	_
+20	Århus	Århus	PROPN	_	_	17	nmod	_	_
+21	med	med	ADP	_	AdpType=Prep	22	case	_	_
+22	Anker	Anker	PROPN	_	_	17	nmod	_	_
+23	Pabst	Pabst	PROPN	_	_	22	flat	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	25	punct	_	_
+25	H.	H.	PROPN	_	_	22	conj	_	_
+26	C.	C.	PROPN	_	_	25	flat	_	_
+27	Nielsen	Nielsen	PROPN	_	_	25	flat	_	_
+28	og	og	CCONJ	_	_	29	cc	_	_
+29	Knud-Aage	Knud-Aage	PROPN	_	_	22	conj	_	_
+30	Boesgaard	Boesgaard	PROPN	_	_	29	flat	_	_
+31	og	og	CCONJ	_	_	36	cc	_	_
+32	på	på	ADP	_	AdpType=Prep	35	case	_	_
+33	den	den	DET	_	Gender=Com|Number=Sing|PronType=Dem	35	det	_	_
+34	anden	anden	DET	_	Gender=Com|Number=Sing|PronType=Ind	35	det	_	_
+35	side	side	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	36	nmod	_	_
+36	Frederik	Frederik	PROPN	_	_	17	conj	_	_
+37	Mørk	Mørk	PROPN	_	_	36	flat	_	_
+38	fra	fra	ADP	_	AdpType=Prep	39	case	_	_
+39	Vejle	Vejle	PROPN	_	_	36	nmod	_	_
+40	med	med	ADP	_	AdpType=Prep	41	case	_	_
+41	Torben	Torben	PROPN	_	_	36	nmod	_	_
+42	Stetkær	Stetkær	PROPN	_	_	41	flat	_	SpaceAfter=No
+43	,	,	PUNCT	_	_	44	punct	_	_
+44	Erik	Erik	PROPN	_	_	41	conj	_	_
+45	Brok	Brok	PROPN	_	_	44	flat	_	_
+46	og	og	CCONJ	_	_	47	cc	_	_
+47	Otto	Otto	PROPN	_	_	41	conj	_	_
+48	Dahl	Dahl	PROPN	_	_	47	flat	_	SpaceAfter=No
+49	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = train-v2-1836
+# text = Er du med i en læsegruppe, hvor I overhører hinanden, så prøv at lægge mærke til, hvad du reagerer på i kammeraternes fremlæggelse.
+1	Er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
+2	du	du	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
+3	med	med	ADV	_	_	14	mark	_	_
+4	i	i	ADP	_	AdpType=Prep	6	case	_	_
+5	en	en	DET	_	Gender=Com|Number=Sing|PronType=Ind	6	det	_	_
+6	læsegruppe	læsegruppe	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	hvor	hvor	ADV	_	_	10	advmod	_	_
+9	I	I	PRON	_	Case=Nom|Gender=Com|Number=Plur|Person=2|PronType=Prs	10	nsubj	_	_
+10	overhører	overhøre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl:relcl	_	_
+11	hinanden	hinanden	PRON	_	Number=Plur|PronType=Rcp	10	obj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	10	punct	_	_
+13	så	så	ADV	_	_	14	advmod	_	_
+14	prøv	prøve	VERB	_	Mood=Imp	0	root	_	_
+15	at	at	PART	_	PartType=Inf	16	mark	_	_
+16	lægge	lægge	VERB	_	VerbForm=Inf|Voice=Act	14	obj	_	_
+17	mærke	mærke	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	16	obj	_	_
+18	til	til	ADP	_	AdpType=Prep	22	mark	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	hvad	hvad	PRON	_	Number=Sing|PronType=Int,Rel	22	mark	_	_
+21	du	du	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=2|PronType=Prs	22	nsubj	_	_
+22	reagerer	reagere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	16	advcl	_	_
+23	på	på	ADP	_	AdpType=Prep	22	mark	_	_
+24	i	i	ADP	_	AdpType=Prep	26	case	_	_
+25	kammeraternes	kammerat	NOUN	_	Case=Gen|Definite=Def|Gender=Com|Number=Plur	26	nmod:poss	_	_
+26	fremlæggelse	fremlæggelse	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	22	obl	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = train-v2-2653
+# text = Dette er ikke problemløst.
+1	Dette	denne	PRON	_	Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	_
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+3	ikke	ikke	ADV	_	_	4	advmod	_	_
+4	problemløst	problemløs	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = train-v2-3585
+# text = Men ikke altid det politikerne ønsker, vi skal gøre.
+1	Men	men	CCONJ	_	_	2	cc	_	_
+2	ikke	ikke	ADV	_	_	0	root	_	_
+3	altid	altid	ADV	_	_	2	advmod	_	_
+4	det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+5	politikerne	politiker	NOUN	_	Definite=Def|Gender=Com|Number=Plur	6	nsubj	_	_
+6	ønsker	ønske	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl:relcl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	vi	vi	PRON	_	Case=Nom|Gender=Com|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	_
+9	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	10	aux	_	_
+10	gøre	gøre	VERB	_	VerbForm=Inf|Voice=Act	6	ccomp	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = train-v2-552
+# text = M-åbning
+1	M-åbning	M-åbning	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	0	root	_	_
+
+# sent_id = train-v2-881
+# text = Især ikke om det såkaldte privatliv, som efter deres opfattelse trues af at blive udsat for direkte lys eller ligefrem forsvinder."
+1	Især	især	ADV	_	_	6	advmod	_	_
+2	ikke	ikke	ADV	_	_	6	advmod	_	_
+3	om	om	ADP	_	AdpType=Prep	1	case	_	_
+4	det	den	DET	_	Gender=Neut|Number=Sing|PronType=Dem	6	det	_	_
+5	såkaldte	såkaldt	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	6	amod	_	_
+6	privatliv	privatliv	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	som	som	PRON	_	PartType=Inf	12	nsubj	_	_
+9	efter	efter	ADP	_	AdpType=Prep	11	case	_	_
+10	deres	deres	DET	_	Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	11	det	_	_
+11	opfattelse	opfattelse	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	12	obl	_	_
+12	trues	true	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	6	acl:relcl	_	_
+13	af	af	ADP	_	AdpType=Prep	16	mark	_	_
+14	at	at	PART	_	PartType=Inf	16	mark	_	_
+15	blive	blive	AUX	_	VerbForm=Inf|Voice=Act	16	aux	_	_
+16	udsat	udsætte	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	12	advcl	_	_
+17	for	for	ADP	_	AdpType=Prep	19	case	_	_
+18	direkte	direkte	ADJ	_	Degree=Pos	19	amod	_	_
+19	lys	lys	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	16	obl	_	_
+20	eller	eller	CCONJ	_	_	22	cc	_	_
+21	ligefrem	ligefrem	ADV	_	_	22	advmod	_	_
+22	forsvinder	forsvinde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	12	conj	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+24	"	"	PUNCT	_	_	6	punct	_	_
+
+# sent_id = train-v2-580
+# text = Slutningen lyder næsten som "sejle op ad åen".
+1	Slutningen	slutning	NOUN	_	Definite=Def|Gender=Com|Number=Sing	2	nsubj	_	_
+2	lyder	lyde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	næsten	næsten	ADV	_	_	2	advmod	_	_
+4	som	som	ADP	_	PartType=Inf	6	mark	_	_
+5	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	sejle	sejle	VERB	_	VerbForm=Inf|Voice=Act	2	advcl	_	_
+7	op	op	ADV	_	_	6	obl:loc	_	_
+8	ad	ad	ADP	_	AdpType=Prep	9	case	_	_
+9	åen	å	NOUN	_	Definite=Def|Gender=Com|Number=Sing	7	obl	_	SpaceAfter=No
+10	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = train-v2-902
+# text = Sol og badning i egne med varmere og mere tørre klimaforhold end vore har vist sig at have en gavnlig virkning.
+1	Sol	sol	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	15	nsubj	_	_
+2	og	og	CCONJ	_	_	3	cc	_	_
+3	badning	badning	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	1	conj	_	_
+4	i	i	ADP	_	AdpType=Prep	5	case	_	_
+5	egne	egn	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	1	nmod	_	_
+6	med	med	ADP	_	AdpType=Prep	11	case	_	_
+7	varmere	varm	ADJ	_	Degree=Cmp	11	amod	_	_
+8	og	og	CCONJ	_	_	10	cc	_	_
+9	mere	mere	ADV	_	Degree=Cmp	10	advmod	_	_
+10	tørre	tør	ADJ	_	Degree=Pos|Number=Plur	7	conj	_	_
+11	klimaforhold	klimaforhold	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	5	nmod	_	_
+12	end	end	ADP	_	_	13	mark	_	_
+13	vore	vores	PRON	_	Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs|Style=Form	7	obl	_	_
+14	har	have	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	15	aux	_	_
+15	vist	vise	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+16	sig	sig	PRON	_	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	15	iobj	_	_
+17	at	at	PART	_	PartType=Inf	18	mark	_	_
+18	have	have	VERB	_	VerbForm=Inf|Voice=Act	15	obj	_	_
+19	en	en	DET	_	Gender=Com|Number=Sing|PronType=Ind	21	det	_	_
+20	gavnlig	gavnlig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	21	amod	_	_
+21	virkning	virkning	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	18	obj	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = train-v2-1099
+# text = Det er også det hun betjener sig af på pladens øvrige numre, hvor Alex Riel overtager trommerne.
+1	Det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+3	også	også	ADV	_	_	4	advmod	_	_
+4	det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	root	_	_
+5	hun	hun	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	betjener	betjene	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	1	acl:relcl	_	_
+7	sig	sig	PRON	_	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	6	obj	_	_
+8	af	af	ADP	_	AdpType=Prep	6	mark	_	_
+9	på	på	ADP	_	AdpType=Prep	12	case	_	_
+10	pladens	plade	NOUN	_	Case=Gen|Definite=Def|Gender=Com|Number=Sing	12	nmod:poss	_	_
+11	øvrige	øvrig	ADJ	_	Degree=Pos|Number=Plur	12	amod	_	_
+12	numre	nummer	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	6	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	hvor	hvor	ADV	_	_	17	advmod	_	_
+15	Alex	Alex	PROPN	_	_	17	nsubj	_	_
+16	Riel	Riel	PROPN	_	_	15	flat	_	_
+17	overtager	overtage	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	12	acl:relcl	_	_
+18	trommerne	tromme	NOUN	_	Definite=Def|Gender=Com|Number=Plur	17	obj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = train-v2-4197
+# text = Brug tiden til sammen med hele familien at overveje følgende punkter:
+1	Brug	bruge	VERB	_	Mood=Imp	0	root	_	_
+2	tiden	tid	NOUN	_	Definite=Def|Gender=Com|Number=Sing	1	obj	_	_
+3	til	til	ADP	_	AdpType=Prep	9	mark	_	_
+4	sammen	sammen	ADV	_	_	8	advmod	_	_
+5	med	med	ADP	_	AdpType=Prep	7	case	_	_
+6	hele	hel	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	7	amod	_	_
+7	familien	familie	NOUN	_	Definite=Def|Gender=Com|Number=Sing	4	obl	_	_
+8	at	at	PART	_	PartType=Inf	9	mark	_	_
+9	overveje	overveje	VERB	_	VerbForm=Inf|Voice=Act	1	advcl	_	_
+10	følgende	følge	VERB	_	Tense=Pres|VerbForm=Part	11	amod	_	_
+11	punkter	punkt	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	9	obj	_	SpaceAfter=No
+12	:	:	PUNCT	_	_	1	punct	_	_
+
+# sent_id = train-v2-3015
+# text = Men det får de tilbedende damer ikke at vide - medmindre en ond journalist sladrer...
+1	Men	men	CCONJ	_	_	3	cc	_	_
+2	det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+3	får	få	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	de	den	DET	_	Number=Plur|PronType=Dem	6	det	_	_
+5	tilbedende	tilbede	VERB	_	Tense=Pres|VerbForm=Part	6	amod	_	_
+6	damer	dame	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	3	nsubj	_	_
+7	ikke	ikke	ADV	_	_	3	advmod	_	_
+8	at	at	PART	_	PartType=Inf	9	mark	_	_
+9	vide	vide	VERB	_	VerbForm=Inf|Voice=Act	3	obj	_	_
+10	-	-	PUNCT	_	_	3	punct	_	_
+11	medmindre	medmindre	SCONJ	_	_	15	mark	_	_
+12	en	en	DET	_	Gender=Com|Number=Sing|PronType=Ind	14	det	_	_
+13	ond	ond	ADJ	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	14	amod	_	_
+14	journalist	journalist	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	15	nsubj	_	_
+15	sladrer	sladre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	advmod	_	SpaceAfter=No
+16	...	...	PUNCT	_	_	3	punct	_	_
+
+# sent_id = train-v2-3305
+# text = I mit stille køkken-ukultiverede sind undrer det mig, at brødbokssættet på side 9 er dyrere med gule låg end med røde.
+1	I	i	ADP	_	AdpType=Prep	5	case	_	_
+2	mit	min	DET	_	Gender=Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	5	det	_	_
+3	stille	stille	ADJ	_	Degree=Pos	5	amod	_	_
+4	køkken-ukultiverede	køkken-ukultiveret	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	5	amod	_	_
+5	sind	sind	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	obl	_	_
+6	undrer	undre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+8	mig	jeg	PRON	_	Case=Acc|Gender=Com|Number=Sing|Person=1|PronType=Prs	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	6	punct	_	_
+10	at	at	SCONJ	_	_	16	mark	_	_
+11	brødbokssættet	brødbokssæt	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	16	nsubj	_	_
+12	på	på	ADP	_	AdpType=Prep	13	case	_	_
+13	side	side	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	11	nmod	_	_
+14	9	9	NUM	_	NumType=Card	13	nmod	_	_
+15	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	16	cop	_	_
+16	dyrere	dyr	ADJ	_	Degree=Cmp	7	amod	_	_
+17	med	med	ADP	_	AdpType=Prep	19	case	_	_
+18	gule	gul	ADJ	_	Degree=Pos|Number=Plur	19	amod	_	_
+19	låg	låg	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	16	obl	_	_
+20	end	end	ADP	_	_	16	mark	_	_
+21	med	med	ADP	_	AdpType=Prep	20	case	_	_
+22	røde	rød	ADJ	_	Degree=Pos|Number=Plur	16	amod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = train-v2-1831
+# text = For sådan som han præsenterer sig i Bent William Rasmussens roman "Der ligger en mand på en bænk", er det så som så med friheden.
+1	For	for	CCONJ	_	_	0	root	_	_
+2	sådan	sådan	ADV	_	_	24	advmod	_	_
+3	som	som	ADP	_	PartType=Inf	5	mark	_	_
+4	han	han	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+5	præsenterer	præsentere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
+6	sig	sig	PRON	_	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	5	obj	_	_
+7	i	i	ADP	_	AdpType=Prep	11	case	_	_
+8	Bent	Bent	PROPN	_	_	11	nmod:poss	_	_
+9	William	William	PROPN	_	_	8	flat	_	_
+10	Rasmussens	Rasmussen	PROPN	_	Case=Gen	8	flat	_	_
+11	roman	roman	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	5	obl	_	_
+12	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+13	Der	der	PRON	_	PartType=Inf	14	expl	_	_
+14	ligger	ligge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	appos	_	_
+15	en	en	DET	_	Gender=Com|Number=Sing|PronType=Ind	16	det	_	_
+16	mand	mand	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	14	obj	_	_
+17	på	på	ADP	_	AdpType=Prep	19	case	_	_
+18	en	en	DET	_	Gender=Com|Number=Sing|PronType=Ind	19	det	_	_
+19	bænk	bænk	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	14	obl	_	SpaceAfter=No
+20	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	5	punct	_	_
+22	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	24	cop	_	_
+23	det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	_
+24	så	så	ADJ	_	Degree=Pos	1	amod	_	_
+25	som	som	ADP	_	PartType=Inf	26	case	_	_
+26	så	så	ADJ	_	Degree=Pos	24	amod	_	_
+27	med	med	ADP	_	AdpType=Prep	28	case	_	_
+28	friheden	frihed	NOUN	_	Definite=Def|Gender=Com|Number=Sing	24	obl	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = train-v2-310
+# text = Sidder bevidstheden inde i kraniet?
+1	Sidder	sidde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	bevidstheden	bevidsthed	NOUN	_	Definite=Def|Gender=Com|Number=Sing	1	nsubj	_	_
+3	inde	inde	ADV	_	_	1	obl:loc	_	_
+4	i	i	ADP	_	AdpType=Prep	5	case	_	_
+5	kraniet	kranie	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No
+6	?	?	PUNCT	_	_	1	punct	_	_
+
+# sent_id = train-v2-1697
+# text = "Jeg var næsten ved at konvertere," fortæller bøssen Henrik Schouw om mødet med Camilla Miehe-Renard.
+1	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+2	Jeg	jeg	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	var	være	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	10	ccomp	_	_
+4	næsten	næsten	ADV	_	_	3	advmod	_	_
+5	ved	ved	ADP	_	AdpType=Prep	7	mark	_	_
+6	at	at	PART	_	PartType=Inf	7	mark	_	_
+7	konvertere	konvertere	VERB	_	VerbForm=Inf|Voice=Act	3	advcl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	3	punct	_	SpaceAfter=No
+9	"	"	PUNCT	_	_	3	punct	_	_
+10	fortæller	fortælle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+11	bøssen	bøsse	NOUN	_	Definite=Def|Gender=Com|Number=Sing	10	nsubj	_	_
+12	Henrik	Henrik	PROPN	_	_	11	appos	_	_
+13	Schouw	Schouw	PROPN	_	_	12	flat	_	_
+14	om	om	ADP	_	AdpType=Prep	15	case	_	_
+15	mødet	møde	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	10	obl	_	_
+16	med	med	ADP	_	AdpType=Prep	17	case	_	_
+17	Camilla	Camilla	PROPN	_	_	15	nmod	_	_
+18	Miehe-Renard	Miehe-Renard	PROPN	_	_	17	flat	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = train-v2-570
+# text = Det skal du nok finde ud af hen ad vejen.
+1	Det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	obl	_	_
+2	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	_
+3	du	du	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=2|PronType=Prs	5	nsubj	_	_
+4	nok	nok	ADV	_	_	5	advmod	_	_
+5	finde	finde	VERB	_	VerbForm=Inf|Voice=Act	0	root	_	_
+6	ud	ud	ADV	_	_	5	advmod	_	_
+7	af	af	ADP	_	AdpType=Prep	1	case	_	_
+8	hen	hen	ADV	_	_	5	advmod	_	_
+9	ad	ad	ADP	_	AdpType=Prep	10	case	_	_
+10	vejen	vej	NOUN	_	Definite=Def|Gender=Com|Number=Sing	8	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = train-v2-130
+# text = Der findes 2 typer: Som kasselås til påskruning på dørens indvendige side eller som indstukken lås.
+1	Der	der	ADV	_	PartType=Inf	2	expl	_	_
+2	findes	findes	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	2	2	NUM	_	NumType=Card	7	nummod	_	_
+4	typer	type	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	7	nmod	_	SpaceAfter=No
+5	:	:	PUNCT	_	_	7	punct	_	_
+6	Som	som	ADP	_	PartType=Inf	7	case	_	_
+7	kasselås	kasselås	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	2	obj	_	_
+8	til	til	ADP	_	AdpType=Prep	9	case	_	_
+9	påskruning	påskruning	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	7	nmod	_	_
+10	på	på	ADP	_	AdpType=Prep	13	case	_	_
+11	dørens	dør	NOUN	_	Case=Gen|Definite=Def|Gender=Com|Number=Sing	13	nmod:poss	_	_
+12	indvendige	indvendig	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	13	amod	_	_
+13	side	side	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	9	nmod	_	_
+14	eller	eller	CCONJ	_	_	17	cc	_	_
+15	som	som	ADP	_	PartType=Inf	17	case	_	_
+16	indstukken	indstukken	ADJ	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	17	amod	_	_
+17	lås	lås	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	7	conj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = train-v2-1366
+# text = Efter en uge i træningslejr i Akureyri i Island - dog ikke i telt - er Mie Graversen, Olga Osetrova, Karo Thomsen og Susan Frankenstein nu begyndt marchen over Grønland
+1	Efter	efter	ADP	_	AdpType=Prep	3	case	_	_
+2	en	en	DET	_	Gender=Com|Number=Sing|PronType=Ind	3	det	_	_
+3	uge	uge	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	29	obl	_	_
+4	i	i	ADP	_	AdpType=Prep	5	case	_	_
+5	træningslejr	træningslejr	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	3	nmod	_	_
+6	i	i	ADP	_	AdpType=Prep	7	case	_	_
+7	Akureyri	Akureyri	PROPN	_	_	5	nmod	_	_
+8	i	i	ADP	_	AdpType=Prep	9	case	_	_
+9	Island	Island	PROPN	_	_	7	nmod	_	_
+10	-	-	PUNCT	_	_	3	punct	_	_
+11	dog	dog	ADV	_	_	14	advmod	_	_
+12	ikke	ikke	ADV	_	_	14	advmod	_	_
+13	i	i	ADP	_	AdpType=Prep	11	case	_	_
+14	telt	telt	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	nmod	_	_
+15	-	-	PUNCT	_	_	14	punct	_	_
+16	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	29	aux	_	_
+17	Mie	Mie	PROPN	_	_	29	nsubj	_	_
+18	Graversen	Graversen	PROPN	_	_	17	flat	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	20	punct	_	_
+20	Olga	Olga	PROPN	_	_	17	conj	_	_
+21	Osetrova	Osetrova	PROPN	_	_	20	flat	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	23	punct	_	_
+23	Karo	Karo	PROPN	_	_	17	conj	_	_
+24	Thomsen	Thomsen	PROPN	_	_	23	flat	_	_
+25	og	og	CCONJ	_	_	26	cc	_	_
+26	Susan	Susan	PROPN	_	_	17	conj	_	_
+27	Frankenstein	Frankenstein	PROPN	_	_	26	flat	_	_
+28	nu	nu	ADV	_	_	29	advmod	_	_
+29	begyndt	begynde	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+30	marchen	march	NOUN	_	Definite=Def|Gender=Com|Number=Sing	29	obj	_	_
+31	over	over	ADP	_	AdpType=Prep	32	case	_	_
+32	Grønland	Grønland	PROPN	_	_	30	nmod	_	_
+
+# sent_id = train-v2-3909
+# text = Et andet interesant punkt på listen over Clinton-seværdigheder er McClardÁs Bar-B-Que, hvor den senere præsidentkandidat samledes med sine venner på varme sommeraftener.
+1	Et	en	DET	_	Gender=Neut|Number=Sing|PronType=Ind	4	det	_	_
+2	andet	anden	DET	_	Gender=Neut|Number=Sing|PronType=Ind	4	det	_	_
+3	interesant	interesant	X	_	_	4	amod	_	_
+4	punkt	punkt	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	11	nsubj	_	_
+5	på	på	ADP	_	AdpType=Prep	6	case	_	_
+6	listen	liste	NOUN	_	Definite=Def|Gender=Com|Number=Sing	4	nmod	_	_
+7	over	over	ADP	_	AdpType=Prep	8	case	_	_
+8	Clinton-seværdigheder	Clinton-seværdighed	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	6	nmod	_	_
+9	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	_	_
+10	McClardÁs	McClardÁ	PROPN	_	Case=Gen	11	nmod:poss	_	_
+11	Bar-B-Que	Bar-B-Que	PROPN	_	_	0	root	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	hvor	hvor	ADV	_	_	17	advmod	_	_
+14	den	den	DET	_	Gender=Com|Number=Sing|PronType=Dem	16	det	_	_
+15	senere	sen	ADJ	_	Degree=Cmp	16	amod	_	_
+16	præsidentkandidat	præsidentkandidat	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	17	nsubj	_	_
+17	samledes	samle	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	11	acl:relcl	_	_
+18	med	med	ADP	_	AdpType=Prep	20	case	_	_
+19	sine	sin	DET	_	Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Reflex=Yes	20	det	_	_
+20	venner	ven	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	17	obl	_	_
+21	på	på	ADP	_	AdpType=Prep	23	case	_	_
+22	varme	varm	ADJ	_	Degree=Pos|Number=Plur	23	amod	_	_
+23	sommeraftener	sommeraften	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	17	obl	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = train-v2-3903
+# text = Men nu er der heldigvis et så stort pres fra både den amerikanske ambassade og det danske udenrigsministerium, at det skal lykkes, at få besætningen hjem, "siger Jan Fabricius.
+1	Men	men	CCONJ	_	_	3	cc	_	_
+2	nu	nu	ADV	_	_	3	advmod	_	_
+3	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	der	der	ADV	_	PartType=Inf	3	expl	_	_
+5	heldigvis	heldigvis	ADV	_	_	3	advmod	_	_
+6	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Ind	9	det	_	_
+7	så	så	ADV	_	_	8	advmod	_	_
+8	stort	stor	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	pres	pres	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	obj	_	_
+10	fra	fra	ADP	_	AdpType=Prep	14	case	_	_
+11	både	både	ADV	_	_	14	advmod	_	_
+12	den	den	DET	_	Gender=Com|Number=Sing|PronType=Dem	14	det	_	_
+13	amerikanske	amerikansk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	14	amod	_	_
+14	ambassade	ambassade	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	9	nmod	_	_
+15	og	og	CCONJ	_	_	14	dep	_	_
+16	det	den	DET	_	Gender=Neut|Number=Sing|PronType=Dem	18	det	_	_
+17	danske	dansk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	18	amod	_	_
+18	udenrigsministerium	udenrigsministerium	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	14	conj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	9	punct	_	_
+20	at	at	SCONJ	_	_	23	mark	_	_
+21	det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
+22	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	23	aux	_	_
+23	lykkes	lykkes	VERB	_	VerbForm=Inf|Voice=Act	7	advcl	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	at	at	PART	_	PartType=Inf	26	mark	_	_
+26	få	få	VERB	_	VerbForm=Inf|Voice=Act	21	acl:relcl	_	_
+27	besætningen	besætning	NOUN	_	Definite=Def|Gender=Com|Number=Sing	26	obj	_	_
+28	hjem	hjem	ADV	_	_	26	compound:prt	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	23	punct	_	_
+30	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+31	siger	sige	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
+32	Jan	Jan	PROPN	_	_	31	nsubj	_	_
+33	Fabricius	Fabricius	PROPN	_	_	32	flat	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = train-v2-1036
+# text = "hold op og hold ud..!" prøvekøres i første omgang på Bornholm, hvor de skønsvis 3.000 storrygerne fra på mandag kan ringe til gratisnummeret 80 30 31 30 og få hjælp af et hold frivillige eksrygere.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	hold	holde	VERB	_	Mood=Imp	10	nsubj	_	_
+3	op	op	ADV	_	_	2	advmod	_	_
+4	og	og	CCONJ	_	_	5	cc	_	_
+5	hold	holde	VERB	_	Mood=Imp	2	conj	_	_
+6	ud	ud	ADV	_	_	5	advmod	_	SpaceAfter=No
+7	..	..	PUNCT	_	_	2	punct	_	SpaceAfter=No
+8	!	!	PUNCT	_	_	2	punct	_	SpaceAfter=No
+9	"	"	PUNCT	_	_	2	punct	_	_
+10	prøvekøres	prøvekøre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+11	i	i	ADP	_	AdpType=Prep	13	case	_	_
+12	første	første	ADJ	_	Degree=Pos	13	amod	_	_
+13	omgang	omgang	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	10	obl	_	_
+14	på	på	ADP	_	AdpType=Prep	15	case	_	_
+15	Bornholm	Bornholm	PROPN	_	_	10	obl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	hvor	hvor	ADV	_	_	26	advmod	_	_
+18	de	den	DET	_	Number=Plur|PronType=Dem	21	det	_	_
+19	skønsvis	skønsvis	ADV	_	Degree=Pos	21	advmod	_	_
+20	3.000	3.000	NUM	_	NumType=Card	21	nummod	_	_
+21	storrygerne	storryger	NOUN	_	Definite=Def|Gender=Com|Number=Plur	26	nsubj	_	_
+22	fra	fra	ADP	_	AdpType=Prep	24	case	_	_
+23	på	på	ADP	_	AdpType=Prep	24	case	_	_
+24	mandag	mandag	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	26	obl	_	_
+25	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	26	aux	_	_
+26	ringe	ringe	VERB	_	VerbForm=Inf|Voice=Act	15	acl:relcl	_	_
+27	til	til	ADP	_	AdpType=Prep	28	case	_	_
+28	gratisnummeret	gratisnummer	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	26	obl	_	_
+29	80	80	NUM	_	NumType=Card	28	appos	_	_
+30	30	30	NUM	_	NumType=Card	29	list	_	_
+31	31	31	NUM	_	NumType=Card	30	list	_	_
+32	30	30	NUM	_	NumType=Card	31	list	_	_
+33	og	og	CCONJ	_	_	34	cc	_	_
+34	få	få	VERB	_	VerbForm=Inf|Voice=Act	26	conj	_	_
+35	hjælp	hjælp	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	34	obj	_	_
+36	af	af	ADP	_	AdpType=Prep	38	case	_	_
+37	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Ind	38	det	_	_
+38	hold	hold	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	34	obl	_	_
+39	frivillige	frivillig	ADJ	_	Degree=Pos|Number=Plur	38	amod	_	_
+40	eksrygere	eksryger	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	38	nmod	_	SpaceAfter=No
+41	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = train-v2-2567
+# text = Hvordan finder brevduerne hjem?
+1	Hvordan	hvordan	ADV	_	_	2	advmod	_	_
+2	finder	finde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	brevduerne	brevdue	NOUN	_	Definite=Def|Gender=Com|Number=Plur	2	nsubj	_	_
+4	hjem	hjem	ADV	_	_	2	obl:loc	_	SpaceAfter=No
+5	?	?	PUNCT	_	_	2	punct	_	_
+
+# sent_id = train-v2-3169
+# text = De fleste af Majors modstandere måtte i går indrømme, at det danske EF-udspil nu gjorde, at de ikke længere kunne have indvendinger mod, at regeringen indledte ratificeringsprocessen.
+1	De	den	DET	_	Number=Plur|PronType=Dem	2	det	_	_
+2	fleste	mange	ADJ	_	Definite=Def|Degree=Sup|Number=Plur	9	nsubj	_	_
+3	af	af	ADP	_	AdpType=Prep	5	case	_	_
+4	Majors	Major	PROPN	_	Case=Gen	5	nmod:poss	_	_
+5	modstandere	modstander	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	2	obl	_	_
+6	måtte	måtte	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	9	aux	_	_
+7	i	i	ADP	_	AdpType=Prep	9	advmod	_	_
+8	går	går	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	7	fixed	_	_
+9	indrømme	indrømme	VERB	_	VerbForm=Inf|Voice=Act	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	at	at	SCONJ	_	_	16	mark	_	_
+12	det	den	DET	_	Gender=Neut|Number=Sing|PronType=Dem	14	det	_	_
+13	danske	dansk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	14	amod	_	_
+14	EF-udspil	EF-udspil	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	16	nsubj	_	_
+15	nu	nu	ADV	_	_	16	advmod	_	_
+16	gjorde	gøre	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	9	obj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	at	at	SCONJ	_	_	23	mark	_	_
+19	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	23	nsubj	_	_
+20	ikke	ikke	ADV	_	_	23	advmod	_	_
+21	længere	længe	ADV	_	Degree=Cmp	23	advmod	_	_
+22	kunne	kunne	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	23	aux	_	_
+23	have	have	VERB	_	VerbForm=Inf|Voice=Act	16	ccomp	_	_
+24	indvendinger	indvending	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	23	obj	_	_
+25	mod	mod	ADP	_	AdpType=Prep	29	mark	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	at	at	SCONJ	_	_	29	mark	_	_
+28	regeringen	regering	NOUN	_	Definite=Def|Gender=Com|Number=Sing	29	nsubj	_	_
+29	indledte	indlede	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	24	advcl	_	_
+30	ratificeringsprocessen	ratificeringsproces	NOUN	_	Definite=Def|Gender=Com|Number=Sing	29	obj	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = train-v2-2654
+# text = Topmålet af farlig indoktrinering indtraf d. 12. januar 1976, da Clevin for øjnene af en halv million mindreårige sagde: - Og nu skal vi bruge hammeren til at sætte sejlet fast.
+1	Topmålet	topmål	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	5	nsubj	_	_
+2	af	af	ADP	_	AdpType=Prep	4	case	_	_
+3	farlig	farlig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	4	amod	_	_
+4	indoktrinering	indoktrinering	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	1	nmod	_	_
+5	indtraf	indtræffe	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	d.	den	DET	_	Gender=Com|Number=Sing|PronType=Dem	8	det	_	_
+7	12.	12.	ADJ	_	NumType=Ord	8	amod	_	_
+8	januar	januar	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	5	obl	_	_
+9	1976	1976	NUM	_	NumType=Card	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	5	punct	_	_
+11	da	da	SCONJ	_	_	20	mark	_	_
+12	Clevin	Clevin	PROPN	_	_	20	nsubj	_	_
+13	for	for	ADP	_	AdpType=Prep	14	case	_	_
+14	øjnene	øje	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	20	obl	_	_
+15	af	af	ADP	_	AdpType=Prep	18	case	_	_
+16	en	en	DET	_	Gender=Com|Number=Sing|PronType=Ind	17	det	_	_
+17	halv	halv	ADJ	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	18	nummod	_	_
+18	million	million	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	14	nmod	_	_
+19	mindreårige	mindreårig	ADJ	_	Degree=Pos|Number=Plur	18	amod	_	_
+20	sagde	sige	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	5	advmod	_	SpaceAfter=No
+21	:	:	PUNCT	_	_	27	punct	_	_
+22	-	-	PUNCT	_	_	27	punct	_	_
+23	Og	og	CCONJ	_	_	20	ccomp	_	_
+24	nu	nu	ADV	_	_	27	advmod	_	_
+25	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	27	aux	_	_
+26	vi	vi	PRON	_	Case=Nom|Gender=Com|Number=Plur|Person=1|PronType=Prs	27	nsubj	_	_
+27	bruge	bruge	VERB	_	VerbForm=Inf|Voice=Act	20	conj	_	_
+28	hammeren	hammer	NOUN	_	Definite=Def|Gender=Com|Number=Sing	27	obj	_	_
+29	til	til	ADP	_	AdpType=Prep	31	mark	_	_
+30	at	at	PART	_	PartType=Inf	31	mark	_	_
+31	sætte	sætte	VERB	_	VerbForm=Inf|Voice=Act	27	advcl	_	_
+32	sejlet	sejl	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	31	obj	_	_
+33	fast	fast	ADV	_	Degree=Pos	31	compound:prt	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = train-v2-3395
+# text = Hun boede i den anden ende af landsbyden.
+1	Hun	hun	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	boede	bo	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	i	i	ADP	_	AdpType=Prep	6	case	_	_
+4	den	den	DET	_	Gender=Com|Number=Sing|PronType=Dem	6	det	_	_
+5	anden	anden	DET	_	Gender=Com|Number=Sing|PronType=Ind	6	det	_	_
+6	ende	ende	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	2	obl	_	_
+7	af	af	ADP	_	AdpType=Prep	8	case	_	_
+8	landsbyden	landsbyden	X	_	_	6	advmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = train-v2-1254
+# text = Her med sine med sine sønner, PILOU, 10 år, MARTIN, 17 år, og THOMAS, 19 år.
+1	Her	her	ADV	_	_	0	root	_	_
+2	med	med	ADP	_	AdpType=Prep	6	case	_	_
+3	sine	sin	DET	_	Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Reflex=Yes	6	det	_	_
+4	med	med	X	_	_	6	amod	_	_
+5	sine	sine	X	_	_	4	dep	_	_
+6	sønner	søn	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	1	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	PILOU	Pilou	PROPN	_	_	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	13	punct	_	_
+10	10	10	NUM	_	NumType=Card	11	nummod	_	_
+11	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	8	list	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	MARTIN	Martin	PROPN	_	_	8	conj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	17	17	NUM	_	NumType=Card	16	nummod	_	_
+16	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	13	list	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	19	punct	_	_
+18	og	og	CCONJ	_	_	19	cc	_	_
+19	THOMAS	Thomas	PROPN	_	_	8	conj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	19	19	NUM	_	NumType=Card	22	nummod	_	_
+22	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	19	list	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = train-v2-1098
+# text = BREMSER: Ventillerede skiver for og skiver bag.
+1	BREMSER	bremse	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+3	Ventillerede	ventilleret	ADJ	_	Degree=Pos|Number=Plur	4	amod	_	_
+4	skiver	skive	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	1	nmod	_	_
+5	for	for	ADV	_	_	4	advmod	_	_
+6	og	og	CCONJ	_	_	7	cc	_	_
+7	skiver	skive	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	4	conj	_	_
+8	bag	bag	ADV	_	_	7	advmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = train-v2-70
+# text = Jeg fik blot besked om, at der overhovedet ikke var nogen problemer.
+1	Jeg	jeg	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	fik	få	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	blot	blot	ADV	_	_	2	advmod	_	_
+4	besked	besked	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	2	obj	_	_
+5	om	om	ADP	_	AdpType=Prep	11	mark	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	at	at	SCONJ	_	_	11	mark	_	_
+8	der	der	ADV	_	PartType=Inf	11	expl	_	_
+9	overhovedet	overhovedet	ADV	_	_	10	advmod	_	_
+10	ikke	ikke	ADV	_	_	11	advmod	_	_
+11	var	være	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	4	advcl	_	_
+12	nogen	nogen	DET	_	Gender=Com|Number=Sing|PronType=Ind	13	det	_	_
+13	problemer	problem	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	11	obj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = train-v2-3864
+# text = Men det tidligere Jugoslavien, som blev sammentømret med hård hånd af Anden Verdenskrigs partisanhelt, marskal Tito, tog ikke hensyn til befolkningens etniske grænser.
+1	Men	men	CCONJ	_	_	20	cc	_	_
+2	det	den	DET	_	Gender=Neut|Number=Sing|PronType=Dem	4	det	_	_
+3	tidligere	tidlig	ADJ	_	Degree=Cmp	4	amod	_	_
+4	Jugoslavien	Jugoslavien	PROPN	_	_	20	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	som	som	PRON	_	PartType=Inf	8	nsubj	_	_
+7	blev	blive	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	8	aux	_	_
+8	sammentømret	sammentømre	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+9	med	med	ADP	_	AdpType=Prep	11	case	_	_
+10	hård	hård	ADJ	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	11	amod	_	_
+11	hånd	hånd	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	8	obl	_	_
+12	af	af	ADP	_	AdpType=Prep	15	case	_	_
+13	Anden	anden	ADJ	_	NumType=Ord	15	amod	_	_
+14	Verdenskrigs	verdenskrig	NOUN	_	Case=Gen|Definite=Ind|Gender=Com|Number=Sing	15	nmod:poss	_	_
+15	partisanhelt	partisanhelt	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	8	obl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	marskal	marskal	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	18	nmod	_	_
+18	Tito	Tito	PROPN	_	_	15	appos	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	tog	tage	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+21	ikke	ikke	ADV	_	_	20	advmod	_	_
+22	hensyn	hensyn	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	20	obj	_	_
+23	til	til	ADP	_	AdpType=Prep	24	case	_	_
+24	befolkningens	befolkning	NOUN	_	Case=Gen|Definite=Def|Gender=Com|Number=Sing	22	nmod	_	_
+25	etniske	etnisk	ADJ	_	Degree=Pos|Number=Plur	24	amod	_	_
+26	grænser	grænse	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	24	nmod:poss	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = train-v2-0
+# text = På fredag har SID inviteret til reception i SID-huset i anledning af at formanden Kjeld Christensen går ind i de glade tressere.
+1	På	på	ADP	_	AdpType=Prep	2	case	_	_
+2	fredag	fredag	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	5	obl	_	_
+3	har	have	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	_
+4	SID	SiD	PROPN	_	_	5	nsubj	_	_
+5	inviteret	invitere	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	til	til	ADP	_	AdpType=Prep	7	case	_	_
+7	reception	reception	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	5	obl	_	_
+8	i	i	ADP	_	AdpType=Prep	9	case	_	_
+9	SID-huset	SID-hus	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	7	nmod	_	_
+10	i	i	ADP	_	AdpType=Prep	11	case	_	_
+11	anledning	anledning	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	7	nmod	_	_
+12	af	af	ADP	_	AdpType=Prep	17	mark	_	_
+13	at	at	SCONJ	_	_	17	mark	_	_
+14	formanden	formand	NOUN	_	Definite=Def|Gender=Com|Number=Sing	17	nsubj	_	_
+15	Kjeld	Kjeld	PROPN	_	_	14	appos	_	_
+16	Christensen	Christensen	PROPN	_	_	15	flat	_	_
+17	går	gå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	advcl	_	_
+18	ind	ind	ADV	_	_	17	obl:loc	_	_
+19	i	i	ADP	_	AdpType=Prep	22	case	_	_
+20	de	den	DET	_	Number=Plur|PronType=Dem	22	det	_	_
+21	glade	glad	ADJ	_	Degree=Pos|Number=Plur	22	amod	_	_
+22	tressere	tresser	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	18	obl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = train-v2-2812
+# text = Heldigvis kan vi nøjes med at skulle kunne det den ene gang: lære verden at kende som den ser ud for mennesker på egnen hvor vi fødes.
+1	Heldigvis	heldigvis	ADV	_	_	8	advmod	_	_
+2	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux	_	_
+3	vi	vi	PRON	_	Case=Nom|Gender=Com|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	_
+4	nøjes	nøjes	VERB	_	VerbForm=Inf|Voice=Act	8	xcomp	_	_
+5	med	med	ADP	_	AdpType=Prep	8	mark	_	_
+6	at	at	PART	_	PartType=Inf	8	mark	_	_
+7	skulle	skulle	AUX	_	VerbForm=Inf|Voice=Act	8	aux	_	_
+8	kunne	kunne	VERB	_	VerbForm=Inf|Voice=Act	0	root	_	_
+9	det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+10	den	den	DET	_	Gender=Com|Number=Sing|PronType=Dem	11	det	_	_
+11	ene	ene	ADJ	_	Degree=Pos	8	amod	_	_
+12	gang	gang	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	11	obl	_	SpaceAfter=No
+13	:	:	PUNCT	_	_	8	punct	_	_
+14	lære	lære	VERB	_	VerbForm=Inf|Voice=Act	9	acl:relcl	_	_
+15	verden	verden	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	14	obj	_	_
+16	at	at	PART	_	PartType=Inf	17	mark	_	_
+17	kende	kende	VERB	_	VerbForm=Inf|Voice=Act	14	xcomp	_	_
+18	som	som	ADP	_	PartType=Inf	20	amod	_	_
+19	den	den	PRON	_	Case=Acc|Gender=Com|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
+20	ser	se	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	15	acl:relcl	_	_
+21	ud	ud	ADV	_	_	20	advmod	_	_
+22	for	for	ADP	_	AdpType=Prep	23	case	_	_
+23	mennesker	menneske	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	20	obl	_	_
+24	på	på	ADP	_	AdpType=Prep	25	case	_	_
+25	egnen	egn	NOUN	_	Definite=Def|Gender=Com|Number=Sing	23	nmod	_	_
+26	hvor	hvor	ADV	_	_	28	obl:loc	_	_
+27	vi	vi	PRON	_	Case=Nom|Gender=Com|Number=Plur|Person=1|PronType=Prs	28	nsubj	_	_
+28	fødes	føde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	25	acl:relcl	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = train-v2-1507
+# text = Der skal hentes 60 mill. kroner ved aktieudvidelser.
+1	Der	der	ADV	_	PartType=Inf	3	expl	_	_
+2	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	_
+3	hentes	hente	VERB	_	VerbForm=Inf|Voice=Pass	0	root	_	_
+4	60	60	NUM	_	NumType=Card	5	nummod	_	_
+5	mill.	million	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	3	obj	_	_
+6	kroner	krone	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	5	nmod	_	_
+7	ved	ved	ADP	_	AdpType=Prep	8	case	_	_
+8	aktieudvidelser	aktieudvidelse	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	3	obl	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = train-v2-918
+# text = Men det var alligevel den opdigtede tvillinge-fødsel, der til sidst afslørede bortførelsen af Nils.
+1	Men	men	CCONJ	_	_	7	cc	_	_
+2	det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+3	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	7	cop	_	_
+4	alligevel	alligevel	ADV	_	_	7	advmod	_	_
+5	den	den	DET	_	Gender=Com|Number=Sing|PronType=Dem	7	det	_	_
+6	opdigtede	opdigte	VERB	_	Definite=Def|Number=Sing|Tense=Past|VerbForm=Part	7	amod	_	_
+7	tvillinge-fødsel	tvillinge-fødsel	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	der	der	PRON	_	PartType=Inf	12	nsubj	_	_
+10	til	til	ADP	_	AdpType=Prep	12	advmod	_	_
+11	sidst	sidst	ADV	_	_	10	fixed	_	_
+12	afslørede	afsløre	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
+13	bortførelsen	bortførelse	NOUN	_	Definite=Def|Gender=Com|Number=Sing	12	obj	_	_
+14	af	af	ADP	_	AdpType=Prep	15	case	_	_
+15	Nils	Nils	PROPN	_	_	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	7	punct	_	_
+

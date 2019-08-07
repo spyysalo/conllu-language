@@ -1,0 +1,1641 @@
+# sent_id = train-s564
+# text = bà Liễu cứ đứng như trời trồng nhìn hạnh và chồng.
+1	bà	bà	NOUN	Nc	_	2	compound	_	_
+2	Liễu	Liễu	NOUN	Np	_	5	nsubj	_	_
+3	cứ	cứ	X	R	_	5	advmod	_	_
+4	đứng như trời trồng	đứng như trời trồng	X	X	_	5	dep	_	_
+5	nhìn	nhìn	VERB	V	_	0	root	_	_
+6	hạnh	hạnh	NOUN	Np	_	5	obj	_	_
+7	và	và	SCONJ	CC	_	8	cc	_	_
+8	chồng	chồng	NOUN	N	_	6	conj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = train-s1075
+# text = Tuyết nhớ ra các thám tử chuyên nghiệp.
+1	Tuyết	Tuyết	NOUN	Np	_	2	nsubj	_	_
+2	nhớ	nhớ	VERB	V	_	0	root	_	_
+3	ra	ra	VERB	V	_	2	xcomp	_	_
+4	các	các	DET	L	_	5	det	_	_
+5	thám tử	thám tử	NOUN	N	_	2	obj	_	_
+6	chuyên nghiệp	chuyên nghiệp	ADJ	A	_	5	amod	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = train-s1193
+# text = Lan bắt đầu cảm động trước người đàn ông bản lĩnh, phóng khoáng và nhân hậu này.
+1	Lan	Lan	NOUN	Np	_	2	nsubj	_	_
+2	bắt đầu	bắt đầu	VERB	V	_	0	root	_	_
+3	cảm động	cảm động	VERB	V	_	2	xcomp	_	_
+4	trước	trước	ADP	E	_	6	case	_	_
+5	người	người	NOUN	Nc	_	6	compound	_	_
+6	đàn ông	đàn ông	NOUN	N	_	3	obl	_	_
+7	bản lĩnh	bản lĩnh	NOUN	N	_	6	compound	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	12	punct	_	_
+9	phóng khoáng	phóng khoáng	ADJ	A	_	6	amod	_	_
+10	và	và	SCONJ	CC	_	11	cc	_	_
+11	nhân hậu	nhân hậu	ADJ	A	_	9	conj	_	_
+12	này	này	PROPN	P	_	6	conj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = train-s376
+# text = điểm đổi mới nổi bật thứ ba là trong phần đề cập tới trách nhiệm của bà con đối với đất nước đã không đặt nặng nghĩa vụ đóng góp của bà con.
+1	điểm	điểm	NOUN	N	_	8	nsubj	_	_
+2	đổi mới	đổi mới	NOUN	N	_	1	compound	_	_
+3	nổi bật	nổi bật	ADJ	A	_	1	amod	_	_
+4	thứ	thứ	NOUN	N	_	1	compound	_	_
+5	ba	ba	NUM	M	NumType=Card	4	nummod	_	_
+6	là	là	AUX	V	_	8	cop	_	_
+7	trong	trong	ADP	E	_	8	case	_	_
+8	phần	phần	NOUN	N	_	0	root	_	_
+9	đề cập	đề cập	VERB	V	_	8	xcomp	_	_
+10	tới	tới	ADP	E	_	11	case	_	_
+11	trách nhiệm	trách nhiệm	NOUN	N	_	9	obl	_	_
+12	của	của	ADP	E	_	13	case	_	_
+13	bà con	bà con	NOUN	N	_	11	nmod	_	_
+14	đối với	đối với	ADP	E	_	15	case	_	_
+15	đất nước	đất nước	NOUN	N	_	11	nmod	_	_
+16	đã	đã	X	R	_	18	advmod	_	_
+17	không	không	X	R	Polarity=Neg	18	advmod	_	_
+18	đặt	đặt	VERB	V	_	8	ccomp	_	_
+19	nặng	nặng	ADJ	A	_	18	xcomp	_	_
+20	nghĩa vụ	nghĩa vụ	NOUN	N	_	18	obj	_	_
+21	đóng góp	đóng góp	VERB	V	_	20	xcomp	_	_
+22	của	của	ADP	E	_	23	case	_	_
+23	bà con	bà con	NOUN	N	_	20	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = train-s283
+# text = ông Luân: "Không có quy định rõ, nhưng theo quy chế làm việc thì thứ trưởng thường trực đi vắng, thứ trưởng ở nhà ký thay.
+1	ông	ông	NOUN	Nc	_	2	compound	_	_
+2	Luân	Luân	NOUN	Np	_	6	nsubj	_	SpaceAfter=No
+3	:	:	PUNCT	:	_	6	punct	_	_
+4	"	"	PUNCT	"	_	6	punct	_	SpaceAfter=No
+5	Không	Không	X	R	Polarity=Neg	6	advmod	_	_
+6	có	có	VERB	V	_	0	root	_	_
+7	quy định	quy định	NOUN	N	_	6	obj	_	_
+8	rõ	rõ	ADJ	A	_	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	6	punct	_	_
+10	nhưng	nhưng	CCONJ	C	_	6	cc	_	_
+11	theo	theo	ADP	E	_	12	case	_	_
+12	quy chế	quy chế	NOUN	N	_	17	obl	_	_
+13	làm việc	làm việc	VERB	V	_	12	xcomp	_	_
+14	thì	thì	CCONJ	C	_	17	cc	_	_
+15	thứ trưởng	thứ trưởng	NOUN	N	_	17	nsubj	_	_
+16	thường trực	thường trực	VERB	V	_	15	xcomp	_	_
+17	đi	đi	VERB	V	_	6	parataxis	_	_
+18	vắng	vắng	ADJ	A	_	17	xcomp	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	17	punct	_	_
+20	thứ trưởng	thứ trưởng	NOUN	N	_	23	nsubj	_	_
+21	ở	ở	VERB	V	_	20	xcomp	_	_
+22	nhà	nhà	NOUN	N	_	21	obj	_	_
+23	ký	ký	VERB	V	_	17	parataxis	_	_
+24	thay	thay	VERB	V	_	23	xcomp	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = train-s535
+# text = cuộc chạm trán bất ngờ.
+1	cuộc	cuộc	NOUN	N	_	0	root	_	_
+2	chạm trán	chạm trán	VERB	V	_	1	xcomp	_	_
+3	bất ngờ	bất ngờ	ADJ	A	_	1	amod	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = train-s122
+# text = hợp đồng lao động được thực hiện từ tháng 8 – 2003, thời hạn 36 tháng với loại công việc là công nhân xây dựng.
+1	hợp đồng	hợp đồng	NOUN	N	_	4	nsubj	_	_
+2	lao động	lao động	NOUN	N	_	1	compound	_	_
+3	được	được	VERB	V	_	4	aux:pass	_	_
+4	thực hiện	thực hiện	VERB	V	_	0	root	_	_
+5	từ	từ	ADP	E	_	6	case	_	_
+6	tháng	tháng	NOUN	N	_	4	obl	_	_
+7	8 – 2003	8 – 2003	NUM	M	NumType=Card	6	nummod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	4	punct	_	_
+9	thời hạn	thời hạn	NOUN	N	_	4	obl	_	_
+10	36	36	NUM	M	NumType=Card	11	nummod	_	_
+11	tháng	tháng	NOUN	N	_	9	compound	_	_
+12	với	với	ADP	E	_	16	case	_	_
+13	loại	loại	NOUN	N	_	16	nsubj	_	_
+14	công việc	công việc	NOUN	N	_	13	compound	_	_
+15	là	là	AUX	V	_	16	cop	_	_
+16	công nhân	công nhân	NOUN	N	_	11	ccomp	_	_
+17	xây dựng	xây dựng	VERB	V	_	16	xcomp	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = train-s21
+# text = từ đây, ruộng nhọc nhằn một vụ thi đua trồng ba vụ.
+1	từ	từ	ADP	E	_	2	case	_	_
+2	đây	đây	PROPN	P	_	8	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	8	punct	_	_
+4	ruộng	ruộng	NOUN	N	_	8	nsubj	_	_
+5	nhọc nhằn	nhọc nhằn	ADJ	A	_	4	amod	_	_
+6	một	một	NUM	M	NumType=Card	7	nummod	_	_
+7	vụ	vụ	NOUN	N	_	4	compound	_	_
+8	thi đua	thi đua	VERB	V	_	0	root	_	_
+9	trồng	trồng	VERB	V	_	8	xcomp	_	_
+10	ba	ba	NUM	M	NumType=Card	11	nummod	_	_
+11	vụ	vụ	NOUN	N	_	9	obj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = train-s1029
+# text = Đó là chưa kể việc Liên có thể sụp đổ đến mức tự vẫn hay bỏ nhà, bỏ việc.
+1	Đó	Đó	PROPN	P	_	4	nsubj	_	_
+2	là	là	AUX	V	_	4	cop	_	_
+3	chưa	chưa	X	R	_	4	advmod	_	_
+4	kể	kể	VERB	V	_	0	root	_	_
+5	việc	việc	NOUN	N	_	4	obj	_	_
+6	Liên	Liên	NOUN	Np	_	8	nsubj	_	_
+7	có thể	có thể	X	R	_	8	aux	_	_
+8	sụp đổ	sụp đổ	VERB	V	_	5	ccomp	_	_
+9	đến	đến	ADP	E	_	10	case	_	_
+10	mức	mức	NOUN	N	_	8	obl	_	_
+11	tự vẫn	tự vẫn	VERB	V	_	10	xcomp	_	_
+12	hay	hay	CCONJ	C	_	13	cc	_	_
+13	bỏ	bỏ	VERB	V	_	11	conj	_	_
+14	nhà	nhà	NOUN	N	_	13	obj	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	16	punct	_	_
+16	bỏ	bỏ	VERB	V	_	13	conj	_	_
+17	việc	việc	NOUN	N	_	16	obj	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = train-s1220
+# text = Thắng cho Nhi nghe các cuộc trò chuyện của mình và lan qua ghi âm và phân tích tình hình cụ thể.
+1	Thắng	Thắng	NOUN	Np	_	2	nsubj	_	_
+2	cho	cho	VERB	V	_	0	root	_	_
+3	Nhi	Nhi	NOUN	Np	_	2	obj	_	_
+4	nghe	nghe	VERB	V	_	2	ccomp	_	_
+5	các	các	DET	L	_	7	det	_	_
+6	cuộc	cuộc	NOUN	Nc	_	7	compound	_	_
+7	trò chuyện	trò chuyện	NOUN	N	_	4	obj	_	_
+8	của	của	ADP	E	_	11	case	_	_
+9	mình	mình	PROPN	P	_	11	det	_	_
+10	và	và	SCONJ	CC	_	11	cc	_	_
+11	lan	lan	NOUN	Np	_	7	nmod	_	_
+12	qua	qua	ADP	E	_	13	case	_	_
+13	ghi âm	ghi âm	VERB	V	_	7	mark	_	_
+14	và	và	SCONJ	CC	_	15	cc	_	_
+15	phân tích	phân tích	VERB	V	_	2	conj	_	_
+16	tình hình	tình hình	NOUN	N	_	15	obj	_	_
+17	cụ thể	cụ thể	ADJ	A	_	16	amod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = train-s1087
+# text = việc tiếp theo của Thắng là tìm xem Nam dùng sim này để làm gì.
+1	việc	việc	NOUN	N	_	6	nsubj	_	_
+2	tiếp theo	tiếp theo	VERB	V	_	1	xcomp	_	_
+3	của	của	ADP	E	_	4	case	_	_
+4	Thắng	Thắng	NOUN	Np	_	2	obl	_	_
+5	là	là	AUX	V	_	6	cop	_	_
+6	tìm	tìm	VERB	V	_	0	root	_	_
+7	xem	xem	X	R	_	6	advmod	_	_
+8	Nam	Nam	NOUN	Np	_	9	nsubj	_	_
+9	dùng	dùng	VERB	V	_	6	ccomp	_	_
+10	sim	sim	NOUN	N	_	9	obj	_	_
+11	này	này	PROPN	P	_	10	det	_	_
+12	để	để	ADP	E	_	9	case	_	_
+13	làm	làm	VERB	V	_	12	mark	_	_
+14	gì	gì	PROPN	P	_	13	obj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = train-s876
+# text = Vì ngồi gần nên Thư cầm máy.
+1	Vì	Vì	CCONJ	C	_	2	cc	_	_
+2	ngồi	ngồi	VERB	V	_	0	root	_	_
+3	gần	gần	ADJ	A	_	2	xcomp	_	_
+4	nên	nên	CCONJ	C	_	6	cc	_	_
+5	Thư	Thư	NOUN	Np	_	6	nsubj	_	_
+6	cầm	cầm	VERB	V	_	2	parataxis	_	_
+7	máy	máy	NOUN	N	_	6	obj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = train-s1362
+# text = Nếu là bọn họ thì chỉ có thể đi taxi.
+1	Nếu	Nếu	CCONJ	C	_	3	cc	_	_
+2	là	là	AUX	V	_	3	cop	_	_
+3	bọn	bọn	NOUN	Nc	_	0	root	_	_
+4	họ	họ	PROPN	P	_	3	det	_	_
+5	thì	thì	CCONJ	C	_	3	cc	_	_
+6	chỉ	chỉ	X	R	_	7	advmod	_	_
+7	có thể	có thể	ADJ	A	_	3	aux	_	_
+8	đi	đi	VERB	V	_	7	xcomp	_	_
+9	taxi	taxi	NOUN	N	_	7	obj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = train-s167
+# text = báo TT có thể là đầu tàu, qua đó rộng rãi độc giả, nhất là các doanh nghiệp, có thể lên tiếng và đưa ra biện pháp trợ giúp.
+1	báo	báo	NOUN	N	_	5	nsubj	_	_
+2	TT	TT	NOUN	Ny	_	1	compound	_	_
+3	có thể	có thể	X	R	_	5	aux	_	_
+4	là	là	AUX	V	_	5	cop	_	_
+5	đầu tàu	đầu tàu	NOUN	N	_	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	qua	qua	ADP	E	_	17	advcl	_	_
+8	đó	đó	PROPN	P	_	7	nmod	_	_
+9	rộng rãi	rộng rãi	ADJ	A	_	10	amod	_	_
+10	độc giả	độc giả	NOUN	N	_	17	nsubj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	14	punct	_	_
+12	nhất là	nhất là	X	X	_	14	dep	_	_
+13	các	các	DET	L	_	14	det	_	_
+14	doanh nghiệp	doanh nghiệp	NOUN	N	_	10	conj	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	17	punct	_	_
+16	có thể	có thể	X	R	_	17	aux	_	_
+17	lên tiếng	lên tiếng	VERB	V	_	5	parataxis	_	_
+18	và	và	SCONJ	CC	_	19	cc	_	_
+19	đưa	đưa	VERB	V	_	17	conj	_	_
+20	ra	ra	X	R	_	19	advmod	_	_
+21	biện pháp	biện pháp	NOUN	N	_	19	obj	_	_
+22	trợ giúp	trợ giúp	VERB	V	_	21	xcomp	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = train-s426
+# text = rào cản về thủ tục hành chính cũng được đề cập.
+1	rào cản	rào cản	NOUN	N	_	7	nsubj	_	_
+2	về	về	ADP	E	_	3	case	_	_
+3	thủ tục	thủ tục	NOUN	N	_	1	nmod	_	_
+4	hành chính	hành chính	NOUN	N	_	3	compound	_	_
+5	cũng	cũng	X	R	_	7	advmod	_	_
+6	được	được	VERB	V	_	7	aux:pass	_	_
+7	đề cập	đề cập	VERB	V	_	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = train-s398
+# text = hội nghị thành ủy TP. HCM lần 16 bch đảng bộ TP khóa VII: kinh tế sụt giảm, nguyên nhân từ đâu?
+1	hội nghị	hội nghị	NOUN	N	_	14	nsubj	_	_
+2	thành ủy	thành ủy	NOUN	N	_	1	compound	_	_
+3	TP	TP	NOUN	Ny	_	2	compound	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	2	punct	_	_
+5	HCM	HCM	NOUN	Ny	_	2	compound	_	_
+6	lần	lần	NOUN	N	_	1	compound	_	_
+7	16	16	NUM	M	NumType=Card	6	nummod	_	_
+8	bch	bch	NOUN	Ny	_	1	compound	_	_
+9	đảng bộ	đảng bộ	NOUN	N	_	8	compound	_	_
+10	TP	TP	NOUN	Ny	_	9	compound	_	_
+11	khóa	khóa	NOUN	N	_	8	compound	_	_
+12	VII	VII	NUM	M	NumType=Card	11	nummod	_	SpaceAfter=No
+13	:	:	PUNCT	:	_	14	punct	_	_
+14	kinh tế	kinh tế	NOUN	N	_	0	root	_	_
+15	sụt giảm	sụt giảm	VERB	V	_	14	xcomp	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	17	punct	_	_
+17	nguyên nhân	nguyên nhân	NOUN	N	_	14	conj	_	_
+18	từ	từ	ADP	E	_	19	case	_	_
+19	đâu	đâu	PROPN	P	_	17	nmod	_	SpaceAfter=No
+20	?	?	PUNCT	?	_	14	punct	_	_
+
+# sent_id = train-s912
+# text = Thư yêu cầu hai người viết giấy nhận tội quan hệ bất chính, vi phạm luật hôn nhân gia đình.
+1	Thư	Thư	NOUN	Np	_	2	nsubj	_	_
+2	yêu cầu	yêu cầu	VERB	V	_	0	root	_	_
+3	hai	hai	NUM	M	NumType=Card	4	nummod	_	_
+4	người	người	NOUN	N	_	2	obj	_	_
+5	viết	viết	VERB	V	_	2	ccomp	_	_
+6	giấy	giấy	NOUN	N	_	5	obj	_	_
+7	nhận	nhận	VERB	V	_	6	xcomp	_	_
+8	tội	tội	NOUN	N	_	7	obj	_	_
+9	quan hệ	quan hệ	VERB	V	_	8	xcomp	_	_
+10	bất chính	bất chính	ADJ	A	_	9	xcomp	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	12	punct	_	_
+12	vi phạm	vi phạm	VERB	V	_	8	conj	_	_
+13	luật	luật	NOUN	N	_	12	obj	_	_
+14	hôn nhân	hôn nhân	NOUN	N	_	13	compound	_	_
+15	gia đình	gia đình	NOUN	N	_	14	compound	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = train-s1153
+# text = đội thiếu niên tiền phong đã được tập từ trước nên hàng ngũ rất tề chỉnh.
+1	đội	đội	NOUN	N	_	6	nsubj	_	_
+2	thiếu niên	thiếu niên	NOUN	N	_	1	compound	_	_
+3	tiền phong	tiền phong	ADJ	A	_	2	amod	_	_
+4	đã	đã	X	R	_	6	advmod	_	_
+5	được	được	VERB	V	_	6	aux:pass	_	_
+6	tập	tập	VERB	V	_	0	root	_	_
+7	từ	từ	ADP	E	_	8	case	_	_
+8	trước	trước	NOUN	N	_	6	obl	_	_
+9	nên	nên	CCONJ	C	_	6	cc	_	_
+10	hàng ngũ	hàng ngũ	NOUN	N	_	6	nsubj	_	_
+11	rất	rất	X	R	_	12	advmod	_	_
+12	tề chỉnh	tề chỉnh	ADJ	A	_	10	amod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = train-s228
+# text = phải mấy phút sau mới có một ông to cao đeo kính xuất hiện.
+1	phải	phải	VERB	V	_	3	aux	_	_
+2	mấy	mấy	DET	L	_	3	det	_	_
+3	phút	phút	NOUN	Nu	_	6	obl	_	_
+4	sau	sau	NOUN	N	_	3	compound	_	_
+5	mới	mới	X	R	_	6	advmod	_	_
+6	có	có	VERB	V	_	0	root	_	_
+7	một	một	NUM	M	NumType=Card	8	nummod	_	_
+8	ông	ông	NOUN	N	_	13	nsubj	_	_
+9	to	to	ADJ	A	_	8	amod	_	_
+10	cao	cao	ADJ	A	_	9	amod	_	_
+11	đeo	đeo	VERB	V	_	8	xcomp	_	_
+12	kính	kính	NOUN	N	_	11	obj	_	_
+13	xuất hiện	xuất hiện	VERB	V	_	6	ccomp	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = train-s988
+# text = Thư không ăn, không ngủ, tâm can như có kim đâm, muối xát...
+1	Thư	Thư	NOUN	Np	_	3	nsubj	_	_
+2	không	không	X	R	Polarity=Neg	3	advmod	_	_
+3	ăn	ăn	VERB	V	_	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	_
+5	không	không	X	R	Polarity=Neg	6	advmod	_	_
+6	ngủ	ngủ	VERB	V	_	3	conj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	3	punct	_	_
+8	tâm can	tâm can	NOUN	N	_	10	nsubj	_	_
+9	như	như	CCONJ	C	_	10	cc	_	_
+10	có	có	VERB	V	_	3	parataxis	_	_
+11	kim	kim	NOUN	N	_	10	obj	_	_
+12	đâm	đâm	VERB	V	_	11	xcomp	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	14	punct	_	_
+14	muối	muối	NOUN	N	_	11	conj	_	_
+15	xát	xát	VERB	V	_	14	xcomp	_	SpaceAfter=No
+16	...	...	PUNCT	...	_	3	punct	_	_
+
+# sent_id = train-s1054
+# text = Nhưng thôi, Nhi tạm cho là như vậy.
+1	Nhưng	Nhưng	CCONJ	C	_	5	cc	_	_
+2	thôi	thôi	VERB	V	_	5	advcl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	Nhi	Nhi	NOUN	Np	_	5	nsubj	_	_
+5	tạm	tạm	ADJ	A	_	0	root	_	_
+6	cho	cho	VERB	V	_	5	xcomp	_	_
+7	là	là	CCONJ	C	_	5	cc	_	_
+8	như vậy	như vậy	X	X	_	5	obj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = train-s182
+# text = theo ông Hải, đây là vấn đề bức xúc của TP..
+1	theo	theo	VERB	V	_	7	advcl	_	_
+2	ông	ông	NOUN	Nc	_	3	compound	_	_
+3	Hải	Hải	NOUN	Np	_	1	obj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	7	punct	_	_
+5	đây	đây	PROPN	P	_	7	nsubj	_	_
+6	là	là	AUX	V	_	7	cop	_	_
+7	vấn đề	vấn đề	NOUN	N	_	0	root	_	_
+8	bức xúc	bức xúc	ADJ	A	_	7	amod	_	_
+9	của	của	ADP	E	_	10	case	_	_
+10	TP.	TP.	NOUN	Ny	_	7	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = train-s744
+# text = giám đốc James đã tìm ra người viết lá đơn nặc danh tố cáo ông kèm theo chứng cứ rõ ràng.
+1	giám đốc	giám đốc	NOUN	N	_	4	nsubj	_	_
+2	James	James	NOUN	Np	_	1	compound	_	_
+3	đã	đã	X	R	_	4	advmod	_	_
+4	tìm	tìm	VERB	V	_	0	root	_	_
+5	ra	ra	X	R	_	4	advmod	_	_
+6	người	người	NOUN	N	_	4	obj	_	_
+7	viết	viết	VERB	V	_	6	xcomp	_	_
+8	lá	lá	NOUN	Nc	_	9	compound	_	_
+9	đơn	đơn	NOUN	N	_	7	obj	_	_
+10	nặc danh	nặc danh	ADJ	A	_	9	amod	_	_
+11	tố cáo	tố cáo	VERB	V	_	6	xcomp	_	_
+12	ông	ông	NOUN	N	_	11	obj	_	_
+13	kèm	kèm	VERB	V	_	6	xcomp	_	_
+14	theo	theo	X	R	_	13	advmod	_	_
+15	chứng cứ	chứng cứ	NOUN	N	_	13	obj	_	_
+16	rõ ràng	rõ ràng	ADJ	A	_	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = train-s1076
+# text = chuông điện thoại lúc nửa đêm.
+1	chuông	chuông	NOUN	N	_	0	root	_	_
+2	điện thoại	điện thoại	NOUN	N	_	1	compound	_	_
+3	lúc	lúc	NOUN	N	_	1	nmod	_	_
+4	nửa đêm	nửa đêm	NOUN	N	_	3	nmod	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = train-s621
+# text = đến 4 giờ sáng, một người nhô lên mặt nước báo tin vui: đoạn ống đã được vá xong.
+1	đến	đến	ADP	E	_	3	case	_	_
+2	4	4	NUM	M	NumType=Card	3	nummod	_	_
+3	giờ	giờ	NOUN	Nu	_	8	obl	_	_
+4	sáng	sáng	NOUN	N	_	3	compound	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	8	punct	_	_
+6	một	một	NUM	M	NumType=Card	7	nummod	_	_
+7	người	người	NOUN	N	_	8	nsubj	_	_
+8	nhô	nhô	VERB	V	_	0	root	_	_
+9	lên	lên	X	R	_	8	advmod	_	_
+10	mặt nước	mặt nước	NOUN	N	_	8	obj	_	_
+11	báo	báo	VERB	V	_	8	ccomp	_	_
+12	tin	tin	NOUN	N	_	11	obj	_	_
+13	vui	vui	VERB	V	_	12	xcomp	_	SpaceAfter=No
+14	:	:	PUNCT	:	_	12	punct	_	_
+15	đoạn	đoạn	NOUN	N	_	19	nsubj	_	_
+16	ống	ống	NOUN	N	_	15	compound	_	_
+17	đã	đã	X	R	_	19	advmod	_	_
+18	được	được	VERB	V	_	19	aux:pass	_	_
+19	vá	vá	VERB	V	_	12	ccomp	_	_
+20	xong	xong	X	R	_	19	advmod	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = train-s1258
+# text = Tiền sẽ được chuyển cho Lan từng phần, phụ thuộc vào tiến độ thực hiện "dự án" trên.
+1	Tiền	Tiền	NOUN	N	_	4	nsubj	_	_
+2	sẽ	sẽ	X	R	_	4	advmod	_	_
+3	được	được	VERB	V	_	4	aux:pass	_	_
+4	chuyển	chuyển	VERB	V	_	0	root	_	_
+5	cho	cho	ADP	E	_	6	case	_	_
+6	Lan	Lan	NOUN	Np	_	4	obl	_	_
+7	từng	từng	X	R	_	8	advmod	_	_
+8	phần	phần	NOUN	N	_	4	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	10	punct	_	_
+10	phụ thuộc	phụ thuộc	VERB	V	_	4	conj	_	_
+11	vào	vào	ADP	E	_	12	case	_	_
+12	tiến độ	tiến độ	NOUN	N	_	10	obl	_	_
+13	thực hiện	thực hiện	VERB	V	_	12	xcomp	_	_
+14	"	"	PUNCT	"	_	15	punct	_	SpaceAfter=No
+15	dự án	dự án	NOUN	N	_	13	obj	_	SpaceAfter=No
+16	"	"	PUNCT	"	_	15	punct	_	_
+17	trên	trên	NOUN	N	_	15	compound	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = train-s914
+# text = Cả hai cam kết chấm dứt quan hệ vĩnh viễn.
+1	Cả	Cả	PROPN	P	_	2	det	_	_
+2	hai	hai	NUM	M	NumType=Card	3	nsubj	_	_
+3	cam kết	cam kết	VERB	V	_	0	root	_	_
+4	chấm dứt	chấm dứt	VERB	V	_	3	xcomp	_	_
+5	quan hệ	quan hệ	VERB	V	_	4	xcomp	_	_
+6	vĩnh viễn	vĩnh viễn	ADJ	A	_	5	xcomp	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = train-s1306
+# text = Các nạn nhân không đơn độc.
+1	Các	Các	DET	L	_	2	det	_	_
+2	nạn nhân	nạn nhân	NOUN	N	_	4	nsubj	_	_
+3	không	không	X	R	Polarity=Neg	4	advmod	_	_
+4	đơn độc	đơn độc	ADJ	A	_	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = train-s826
+# text = Bà nghẹn ngào: "có khi nó bị chở về bằng xe heo.
+1	Bà	Bà	NOUN	N	_	2	nsubj	_	_
+2	nghẹn ngào	nghẹn ngào	VERB	V	_	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	:	_	2	punct	_	_
+4	"	"	PUNCT	"	_	2	punct	_	SpaceAfter=No
+5	có	có	VERB	V	_	9	obl	_	_
+6	khi	khi	NOUN	N	_	5	obj	_	_
+7	nó	nó	PROPN	P	_	9	nsubj	_	_
+8	bị	bị	VERB	V	_	9	aux:pass	_	_
+9	chở	chở	VERB	V	_	2	ccomp	_	_
+10	về	về	VERB	V	_	9	xcomp	_	_
+11	bằng	bằng	ADP	E	_	12	case	_	_
+12	xe	xe	NOUN	N	_	9	obl	_	_
+13	heo	heo	NOUN	N	_	12	compound	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = train-s494
+# text = Hai phút - chiếc xe gỗ đầu tiên qua, hai phút sau xe khác lại tới.
+1	Hai	Hai	NUM	M	NumType=Card	2	nummod	_	_
+2	phút	phút	NOUN	N	_	8	obl	_	_
+3	-	-	PUNCT	-	_	8	punct	_	_
+4	chiếc	chiếc	NOUN	Nc	_	5	compound	_	_
+5	xe	xe	NOUN	N	_	8	nsubj	_	_
+6	gỗ	gỗ	NOUN	N	_	5	compound	_	_
+7	đầu tiên	đầu tiên	ADJ	A	_	5	amod	_	_
+8	qua	qua	VERB	V	_	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	8	punct	_	_
+10	hai	hai	NUM	M	NumType=Card	11	nummod	_	_
+11	phút	phút	NOUN	N	_	16	obl	_	_
+12	sau	sau	ADJ	A	_	11	amod	_	_
+13	xe	xe	NOUN	N	_	16	nsubj	_	_
+14	khác	khác	ADJ	A	_	13	amod	_	_
+15	lại	lại	X	R	_	16	advmod	_	_
+16	tới	tới	VERB	V	_	8	parataxis	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = train-s778
+# text = tiếp cận ông xe ba gác, các thám tử cũng được biết bà Sinh bị ung thư.
+1	tiếp cận	tiếp cận	VERB	V	_	10	advcl	_	_
+2	ông	ông	NOUN	Nc	_	3	compound	_	_
+3	xe	xe	NOUN	N	_	1	obj	_	_
+4	ba gác	ba gác	NOUN	N	_	3	compound	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	10	punct	_	_
+6	các	các	DET	L	_	7	det	_	_
+7	thám tử	thám tử	NOUN	N	_	10	nsubj	_	_
+8	cũng	cũng	X	R	_	10	advmod	_	_
+9	được	được	VERB	V	_	10	aux:pass	_	_
+10	biết	biết	VERB	V	_	0	root	_	_
+11	bà	bà	NOUN	Nc	_	12	compound	_	_
+12	Sinh	Sinh	NOUN	Np	_	14	nsubj	_	_
+13	bị	bị	VERB	V	_	14	aux:pass	_	_
+14	ung thư	ung thư	NOUN	N	_	10	ccomp	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = train-s993
+# text = Toàn âm thầm theo Thư.
+1	Toàn	Toàn	NOUN	Np	_	2	nsubj	_	_
+2	âm thầm	âm thầm	ADJ	A	_	0	root	_	_
+3	theo	theo	VERB	V	_	2	xcomp	_	_
+4	Thư	Thư	NOUN	Np	_	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = train-s356
+# text = đến trạm thu phí tạm...
+1	đến	đến	VERB	V	_	0	root	_	_
+2	trạm	trạm	NOUN	N	_	1	obj	_	_
+3	thu	thu	VERB	V	_	2	xcomp	_	_
+4	phí	phí	NOUN	N	_	3	obj	_	_
+5	tạm	tạm	ADJ	A	_	3	xcomp	_	SpaceAfter=No
+6	...	...	PUNCT	...	_	1	punct	_	_
+
+# sent_id = train-s1288
+# text = Mới đây người dân cù lao Rùa đã kiến nghị tập thể lên thủ tướng Chính phủ nhằm chấm dứt khai thác ở quanh cù lao này.
+1	Mới	Mới	X	R	_	2	advmod	_	_
+2	đây	đây	PROPN	P	_	8	obl	_	_
+3	người	người	NOUN	N	_	8	nsubj	_	_
+4	dân	dân	NOUN	N	_	3	compound	_	_
+5	cù lao	cù lao	NOUN	N	_	3	compound	_	_
+6	Rùa	Rùa	NOUN	Np	_	3	compound	_	_
+7	đã	đã	X	R	_	8	advmod	_	_
+8	kiến nghị	kiến nghị	VERB	V	_	0	root	_	_
+9	tập thể	tập thể	ADJ	A	_	8	xcomp	_	_
+10	lên	lên	ADP	E	_	11	case	_	_
+11	thủ tướng	thủ tướng	NOUN	N	_	8	obl	_	_
+12	Chính phủ	Chính phủ	NOUN	N	_	11	compound	_	_
+13	nhằm	nhằm	VERB	V	_	8	ccomp	_	_
+14	chấm dứt	chấm dứt	VERB	V	_	13	xcomp	_	_
+15	khai thác	khai thác	VERB	V	_	14	xcomp	_	_
+16	ở	ở	ADP	E	_	17	case	_	_
+17	quanh	quanh	NOUN	N	_	15	obl	_	_
+18	cù lao	cù lao	NOUN	N	_	17	compound	_	_
+19	này	này	PROPN	P	_	17	det	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = train-s422
+# text = quý 1 là thời điểm biểu hiện rõ nhất sự thiếu bền vững này".
+1	quý	quý	NOUN	N	_	4	nsubj	_	_
+2	1	1	NUM	M	NumType=Card	1	nummod	_	_
+3	là	là	AUX	V	_	4	cop	_	_
+4	thời điểm	thời điểm	NOUN	N	_	0	root	_	_
+5	biểu hiện	biểu hiện	VERB	V	_	4	xcomp	_	_
+6	rõ	rõ	ADJ	A	_	5	xcomp	_	_
+7	nhất	nhất	ADJ	A	_	6	amod	_	_
+8	sự	sự	NOUN	Nc	_	5	obj	_	_
+9	thiếu	thiếu	VERB	V	_	8	xcomp	_	_
+10	bền vững	bền vững	ADJ	A	_	8	amod	_	_
+11	này	này	PROPN	P	_	8	det	_	SpaceAfter=No
+12	"	"	PUNCT	"	_	4	punct	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = train-s80
+# text = Cứ nhà nào có người ốm đau, bệnh hoạn anh đều có mặt.
+1	Cứ	Cứ	X	R	_	2	advmod	_	_
+2	nhà	nhà	NOUN	N	_	4	nsubj	_	_
+3	nào	nào	PROPN	P	_	2	det	_	_
+4	có	có	VERB	V	_	0	root	_	_
+5	người	người	NOUN	N	_	4	obj	_	_
+6	ốm đau	ốm đau	ADJ	A	_	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	8	punct	_	_
+8	bệnh hoạn	bệnh hoạn	ADJ	A	_	6	conj	_	_
+9	anh	anh	NOUN	N	_	11	nsubj	_	_
+10	đều	đều	X	R	_	11	advmod	_	_
+11	có mặt	có mặt	VERB	V	_	4	parataxis	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = train-s22
+# text = trên mặt đất, đồn bót phơi trơ trơ.
+1	trên	trên	ADP	E	_	2	case	_	_
+2	mặt đất	mặt đất	NOUN	N	_	5	advcl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	đồn bót	đồn bót	NOUN	N	_	5	nsubj	_	_
+5	phơi	phơi	VERB	V	_	0	root	_	_
+6	trơ trơ	trơ trơ	ADJ	A	_	5	xcomp	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = train-s270
+# text = "là tín dụng ưu đãi theo kế hoạch của Chính phủ...", ông bộ trưởng trả lời.
+1	"	"	PUNCT	"	_	3	punct	_	SpaceAfter=No
+2	là	là	AUX	V	_	3	cop	_	_
+3	tín dụng	tín dụng	NOUN	N	_	0	root	_	_
+4	ưu đãi	ưu đãi	VERB	V	_	3	xcomp	_	_
+5	theo	theo	ADP	E	_	6	case	_	_
+6	kế hoạch	kế hoạch	NOUN	N	_	3	nmod	_	_
+7	của	của	ADP	E	_	8	case	_	_
+8	Chính phủ	Chính phủ	NOUN	N	_	6	nmod	_	SpaceAfter=No
+9	...	...	PUNCT	...	_	3	punct	_	SpaceAfter=No
+10	"	"	PUNCT	"	_	3	punct	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	3	punct	_	_
+12	ông	ông	NOUN	Nc	_	13	compound	_	_
+13	bộ trưởng	bộ trưởng	NOUN	N	_	14	nsubj	_	_
+14	trả lời	trả lời	VERB	V	_	3	parataxis	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = train-s904
+# text = Chị đi một mình và tiến thẳng vào lễ tân xin thuê phòng.
+1	Chị	Chị	NOUN	N	_	2	nsubj	_	_
+2	đi	đi	VERB	V	_	0	root	_	_
+3	một mình	một mình	X	X	_	2	obj	_	_
+4	và	và	SCONJ	CC	_	5	cc	_	_
+5	tiến	tiến	VERB	V	_	2	conj	_	_
+6	thẳng	thẳng	ADJ	A	_	5	xcomp	_	_
+7	vào	vào	ADP	E	_	8	case	_	_
+8	lễ tân	lễ tân	NOUN	N	_	5	obl	_	_
+9	xin	xin	VERB	V	_	2	conj	_	_
+10	thuê	thuê	VERB	V	_	9	xcomp	_	_
+11	phòng	phòng	NOUN	N	_	10	obj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = train-s1074
+# text = kết quả của hai nữ thám tử nghiệp dư chỉ dừng ở đó và họ bó tay.
+1	kết quả	kết quả	NOUN	N	_	8	nsubj	_	_
+2	của	của	ADP	E	_	4	case	_	_
+3	hai	hai	NUM	M	NumType=Card	4	nummod	_	_
+4	nữ	nữ	NOUN	N	_	1	nmod	_	_
+5	thám tử	thám tử	NOUN	N	_	4	compound	_	_
+6	nghiệp dư	nghiệp dư	ADJ	A	_	4	amod	_	_
+7	chỉ	chỉ	X	R	_	8	advmod	_	_
+8	dừng	dừng	VERB	V	_	0	root	_	_
+9	ở	ở	ADP	E	_	10	case	_	_
+10	đó	đó	PROPN	P	_	8	obl	_	_
+11	và	và	SCONJ	CC	_	13	cc	_	_
+12	họ	họ	PROPN	P	_	13	nsubj	_	_
+13	bó tay	bó tay	VERB	V	_	8	conj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = train-s209
+# text = bỏ được qui định này đi thì tốt.
+1	bỏ	bỏ	VERB	V	_	7	csubj	_	_
+2	được	được	X	R	_	1	advmod	_	_
+3	qui định	qui định	NOUN	N	_	1	obj	_	_
+4	này	này	PROPN	P	_	3	det	_	_
+5	đi	đi	X	R	_	1	advmod	_	_
+6	thì	thì	CCONJ	C	_	7	cc	_	_
+7	tốt	tốt	ADJ	A	_	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = train-s85
+# text = Vậy mà cây trái vườn nhà anh cứ lên xanh.
+1	Vậy mà	Vậy mà	CCONJ	C	_	8	cc	_	_
+2	cây	cây	NOUN	N	_	8	nsubj	_	_
+3	trái	trái	NOUN	N	_	2	compound	_	_
+4	vườn	vườn	NOUN	N	_	2	compound	_	_
+5	nhà	nhà	NOUN	N	_	4	compound	_	_
+6	anh	anh	NOUN	N	_	4	compound	_	_
+7	cứ	cứ	X	R	_	8	advmod	_	_
+8	lên	lên	VERB	V	_	0	root	_	_
+9	xanh	xanh	ADJ	A	_	8	xcomp	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = train-s1242
+# text = Hơn nữa, Lan cũng không muốn phá vỡ hạnh phúc gia đình họ thì chắc chắn cô ấy sẽ bù đắp tiền cho lan khôi phục cuộc sống...
+1	Hơn nữa	Hơn nữa	CCONJ	C	_	6	cc	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	6	punct	_	_
+3	Lan	Lan	NOUN	Np	_	6	nsubj	_	_
+4	cũng	cũng	X	R	_	6	advmod	_	_
+5	không	không	X	R	Polarity=Neg	6	advmod	_	_
+6	muốn	muốn	VERB	V	_	0	root	_	_
+7	phá	phá	VERB	V	_	6	xcomp	_	_
+8	vỡ	vỡ	VERB	V	_	7	xcomp	_	_
+9	hạnh phúc	hạnh phúc	NOUN	N	_	7	obj	_	_
+10	gia đình	gia đình	NOUN	N	_	9	compound	_	_
+11	họ	họ	PROPN	P	_	10	det	_	_
+12	thì	thì	CCONJ	C	_	6	cc	_	_
+13	chắc chắn	chắc chắn	ADJ	A	_	17	advcl	_	_
+14	cô	cô	NOUN	N	_	17	nsubj	_	_
+15	ấy	ấy	PROPN	P	_	14	det	_	_
+16	sẽ	sẽ	X	R	_	17	advmod	_	_
+17	bù đắp	bù đắp	VERB	V	_	6	parataxis	_	_
+18	tiền	tiền	NOUN	N	_	17	obj	_	_
+19	cho	cho	ADP	E	_	20	case	_	_
+20	lan	lan	NOUN	Np	_	17	obl	_	_
+21	khôi phục	khôi phục	VERB	V	_	20	xcomp	_	_
+22	cuộc sống	cuộc sống	NOUN	N	_	21	obj	_	SpaceAfter=No
+23	...	...	PUNCT	...	_	6	punct	_	_
+
+# sent_id = train-s61
+# text = Hai lão nông - một cánh tay còn nguyên vẹn - đã dựng lên hai gia đình gương mẫu.
+1	Hai	Hai	NUM	M	NumType=Card	2	nummod	_	_
+2	lão nông	lão nông	NOUN	N	_	10	nsubj	_	_
+3	-	-	PUNCT	-	_	5	punct	_	_
+4	một	một	NUM	M	NumType=Card	5	nummod	_	_
+5	cánh tay	cánh tay	NOUN	N	_	2	conj	_	_
+6	còn	còn	X	R	_	7	advmod	_	_
+7	nguyên vẹn	nguyên vẹn	ADJ	A	_	5	amod	_	_
+8	-	-	PUNCT	-	_	10	punct	_	_
+9	đã	đã	X	R	_	10	advmod	_	_
+10	dựng	dựng	VERB	V	_	0	root	_	_
+11	lên	lên	VERB	V	_	10	xcomp	_	_
+12	hai	hai	NUM	M	NumType=Card	13	nummod	_	_
+13	gia đình	gia đình	NOUN	N	_	10	obj	_	_
+14	gương mẫu	gương mẫu	NOUN	N	_	13	compound	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = train-s1079
+# text = theo tiêu chí của các thám tử, như vậy là Nam đang trong sạch.
+1	theo	theo	ADP	E	_	2	case	_	_
+2	tiêu chí	tiêu chí	NOUN	N	_	10	advcl	_	_
+3	của	của	ADP	E	_	5	case	_	_
+4	các	các	DET	L	_	5	det	_	_
+5	thám tử	thám tử	NOUN	N	_	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	10	punct	_	_
+7	như	như	CCONJ	C	_	10	nsubj	_	_
+8	vậy	vậy	PROPN	P	_	7	det	_	_
+9	là	là	AUX	V	_	10	cop	_	_
+10	Nam	Nam	NOUN	Np	_	0	root	_	_
+11	đang	đang	X	R	_	12	advmod	_	_
+12	trong sạch	trong sạch	ADJ	A	_	10	xcomp	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = train-s1275
+# text = người dân cho biết chiếc cẩu cạp này của công ty Xây dựng Bình Dương "núp bóng" khai thác cát dưới danh nghĩa một dự án nạo vét dòng sông.
+1	người	người	NOUN	N	_	3	nsubj	_	_
+2	dân	dân	NOUN	N	_	1	compound	_	_
+3	cho	cho	VERB	V	_	0	root	_	_
+4	biết	biết	VERB	V	_	3	xcomp	_	_
+5	chiếc	chiếc	NOUN	Nc	_	6	compound	_	_
+6	cẩu	cẩu	NOUN	N	_	14	nsubj	_	_
+7	cạp	cạp	NOUN	N	_	6	compound	_	_
+8	này	này	PROPN	P	_	6	det	_	_
+9	của	của	ADP	E	_	10	case	_	_
+10	công ty	công ty	NOUN	Np	_	6	nmod	_	_
+11	Xây dựng	Xây dựng	VERB	V	_	10	xcomp	_	_
+12	Bình Dương	Bình Dương	NOUN	Np	_	10	compound	_	_
+13	"	"	PUNCT	"	_	14	punct	_	SpaceAfter=No
+14	núp bóng	núp bóng	VERB	V	_	3	ccomp	_	SpaceAfter=No
+15	"	"	PUNCT	"	_	14	punct	_	_
+16	khai thác	khai thác	VERB	V	_	14	ccomp	_	_
+17	cát	cát	NOUN	N	_	16	obj	_	_
+18	dưới	dưới	ADP	E	_	19	case	_	_
+19	danh nghĩa	danh nghĩa	NOUN	N	_	17	nmod	_	_
+20	một	một	NUM	M	NumType=Card	19	nummod	_	_
+21	dự án	dự án	NOUN	N	_	19	compound	_	_
+22	nạo vét	nạo vét	VERB	V	_	19	xcomp	_	_
+23	dòng	dòng	NOUN	N	_	19	compound	_	_
+24	sông	sông	NOUN	N	_	23	compound	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = train-s1173
+# text = Thắng giới thiệu là cán bộ ủy ban dân số & kế hoạch hóa gia đình phường đến điều tra dân số, kèm các khuyến cáo nuôi trẻ nhỏ.
+1	Thắng	Thắng	NOUN	Np	_	2	nsubj	_	_
+2	giới thiệu	giới thiệu	VERB	V	_	0	root	_	_
+3	là	là	CCONJ	C	_	2	cc	_	_
+4	cán bộ	cán bộ	NOUN	N	_	2	obj	_	_
+5	ủy ban	ủy ban	NOUN	N	_	4	compound	_	_
+6	dân số	dân số	NOUN	N	_	5	compound	_	_
+7	&	&	NOUN	Ny	_	6	punct	_	_
+8	kế hoạch hóa	kế hoạch hóa	VERB	V	_	6	xcomp	_	_
+9	gia đình	gia đình	NOUN	N	_	6	compound	_	_
+10	phường	phường	NOUN	N	_	5	compound	_	_
+11	đến	đến	VERB	V	_	4	xcomp	_	_
+12	điều tra	điều tra	VERB	V	_	11	xcomp	_	_
+13	dân số	dân số	NOUN	N	_	12	obj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	15	punct	_	_
+15	kèm	kèm	VERB	V	_	11	conj	_	_
+16	các	các	DET	L	_	17	det	_	_
+17	khuyến cáo	khuyến cáo	NOUN	N	_	15	obj	_	_
+18	nuôi	nuôi	VERB	V	_	17	xcomp	_	_
+19	trẻ	trẻ	NOUN	N	_	18	obj	_	_
+20	nhỏ	nhỏ	ADJ	A	_	19	amod	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = train-s712
+# text = cuộc thứ nhất hết 5 phút, gọi trong giờ hành chính và từ số máy có đông người ngồi xung quanh.
+1	cuộc	cuộc	NOUN	N	_	4	nsubj	_	_
+2	thứ	thứ	NOUN	N	_	1	compound	_	_
+3	nhất	nhất	NOUN	N	_	1	compound	_	_
+4	hết	hết	VERB	V	_	0	root	_	_
+5	5	5	NUM	M	NumType=Card	6	nummod	_	_
+6	phút	phút	NOUN	Nu	_	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	8	punct	_	_
+8	gọi	gọi	VERB	V	_	4	conj	_	_
+9	trong	trong	ADP	E	_	10	case	_	_
+10	giờ hành chính	giờ hành chính	NOUN	N	_	8	obl	_	_
+11	và	và	SCONJ	CC	_	13	cc	_	_
+12	từ	từ	ADP	E	_	13	case	_	_
+13	số	số	NOUN	N	_	8	conj	_	_
+14	máy	máy	NOUN	N	_	13	compound	_	_
+15	có	có	VERB	V	_	13	xcomp	_	_
+16	đông	đông	ADJ	A	_	17	amod	_	_
+17	người	người	NOUN	N	_	15	obj	_	_
+18	ngồi	ngồi	VERB	V	_	17	xcomp	_	_
+19	xung quanh	xung quanh	NOUN	N	_	18	obj	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = train-s1177
+# text = con trai: nguyễn văn tường LBKT trùng họ với Nam RBKT 3 tuổi...
+1	con	con	NOUN	N	_	0	root	_	_
+2	trai	trai	NOUN	N	_	1	compound	_	SpaceAfter=No
+3	:	:	PUNCT	:	_	1	punct	_	_
+4	nguyễn văn tường	nguyễn văn tường	NOUN	Np	_	1	parataxis	_	_
+5	LBKT	LBKT	PUNCT	LBKT	_	4	punct	_	_
+6	trùng	trùng	VERB	V	_	4	xcomp	_	_
+7	họ	họ	NOUN	N	_	6	obj	_	_
+8	với	với	ADP	E	_	9	case	_	_
+9	Nam	Nam	NOUN	Np	_	7	nmod	_	_
+10	RBKT	RBKT	PUNCT	RBKT	_	4	punct	_	_
+11	3	3	NUM	M	NumType=Card	12	nummod	_	_
+12	tuổi	tuổi	NOUN	N	_	4	appos	_	SpaceAfter=No
+13	...	...	PUNCT	...	_	1	punct	_	_
+
+# sent_id = train-s556
+# text = bà Liễu vào nhà và sững người khi nhìn thấy Hạnh.
+1	bà	bà	NOUN	Nc	_	2	compound	_	_
+2	Liễu	Liễu	NOUN	Np	_	3	nsubj	_	_
+3	vào	vào	VERB	V	_	0	root	_	_
+4	nhà	nhà	NOUN	N	_	3	obj	_	_
+5	và	và	SCONJ	CC	_	6	cc	_	_
+6	sững	sững	VERB	V	_	3	conj	_	_
+7	người	người	NOUN	N	_	6	obj	_	_
+8	khi	khi	NOUN	N	_	7	nmod	_	_
+9	nhìn	nhìn	VERB	V	_	8	xcomp	_	_
+10	thấy	thấy	VERB	V	_	9	xcomp	_	_
+11	Hạnh	Hạnh	NOUN	Np	_	10	obj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = train-s1243
+# text = "Anh thử gợi ý cho cô ấy nhé?", Thắng hỏi.
+1	"	"	PUNCT	"	_	13	punct	_	SpaceAfter=No
+2	Anh	Anh	NOUN	N	_	3	nsubj	_	_
+3	thử	thử	VERB	V	_	13	ccomp	_	_
+4	gợi ý	gợi ý	VERB	V	_	3	xcomp	_	_
+5	cho	cho	ADP	E	_	6	case	_	_
+6	cô	cô	NOUN	N	_	4	obl	_	_
+7	ấy	ấy	PROPN	P	_	6	det	_	_
+8	nhé	nhé	PART	T	_	4	discourse	_	SpaceAfter=No
+9	?	?	PUNCT	?	_	3	punct	_	SpaceAfter=No
+10	"	"	PUNCT	"	_	13	punct	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	_	_
+12	Thắng	Thắng	NOUN	Np	_	13	nsubj	_	_
+13	hỏi	hỏi	VERB	V	_	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = train-s1122
+# text = cuộc đàm thoại chấm dứt bởi bà già cũng hết sức cảnh giác.
+1	cuộc	cuộc	NOUN	Nc	_	2	compound	_	_
+2	đàm thoại	đàm thoại	NOUN	N	_	3	nsubj	_	_
+3	chấm dứt	chấm dứt	VERB	V	_	0	root	_	_
+4	bởi	bởi	ADP	E	_	9	case	_	_
+5	bà	bà	NOUN	N	_	9	nsubj	_	_
+6	già	già	ADJ	A	_	5	amod	_	_
+7	cũng	cũng	X	R	_	9	advmod	_	_
+8	hết sức	hết sức	X	R	_	9	advmod	_	_
+9	cảnh giác	cảnh giác	VERB	V	_	3	ccomp	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = train-s1051
+# text = kinh nghiệm dạy Nhi: hãy im lặng.
+1	kinh nghiệm	kinh nghiệm	NOUN	N	_	6	nsubj	_	_
+2	dạy	dạy	VERB	V	_	1	xcomp	_	_
+3	Nhi	Nhi	NOUN	Np	_	2	obj	_	SpaceAfter=No
+4	:	:	PUNCT	:	_	6	punct	_	_
+5	hãy	hãy	X	R	_	6	advmod	_	_
+6	im lặng	im lặng	VERB	V	_	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = train-s27
+# text = Nhưng từ năm 1990 bắt đầu có chuyện cho dân vay vốn.
+1	Nhưng	Nhưng	CCONJ	C	_	5	cc	_	_
+2	từ	từ	ADP	E	_	3	case	_	_
+3	năm	năm	NOUN	N	_	5	obl	_	_
+4	1990	1990	NUM	M	NumType=Card	3	nummod	_	_
+5	bắt đầu	bắt đầu	VERB	V	_	0	root	_	_
+6	có	có	VERB	V	_	5	xcomp	_	_
+7	chuyện	chuyện	NOUN	N	_	5	obj	_	_
+8	cho	cho	VERB	V	_	7	xcomp	_	_
+9	dân	dân	NOUN	N	_	8	obj	_	_
+10	vay	vay	VERB	V	_	9	xcomp	_	_
+11	vốn	vốn	NOUN	N	_	10	obj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = train-s1396
+# text = đưa được một người con trở về với gia đình cũng chính là các thám tử đã giúp một cuộc đời non trẻ thoát khỏi một cạm bẫy...
+1	đưa	đưa	VERB	V	_	15	csubj	_	_
+2	được	được	X	R	_	1	aux:pass	_	_
+3	một	một	NUM	M	NumType=Card	4	nummod	_	_
+4	người	người	NOUN	N	_	6	nsubj	_	_
+5	con	con	NOUN	N	_	4	compound	_	_
+6	trở về	trở về	VERB	V	_	1	ccomp	_	_
+7	với	với	ADP	E	_	8	case	_	_
+8	gia đình	gia đình	NOUN	N	_	6	obl	_	_
+9	cũng	cũng	X	R	_	15	advmod	_	_
+10	chính	chính	PART	T	_	15	discourse	_	_
+11	là	là	AUX	V	_	15	cop	_	_
+12	các	các	DET	L	_	13	det	_	_
+13	thám tử	thám tử	NOUN	N	_	15	nsubj	_	_
+14	đã	đã	X	R	_	15	advmod	_	_
+15	giúp	giúp	VERB	V	_	0	root	_	_
+16	một	một	NUM	M	NumType=Card	17	nummod	_	_
+17	cuộc đời	cuộc đời	NOUN	N	_	15	obj	_	_
+18	non trẻ	non trẻ	ADJ	A	_	17	amod	_	_
+19	thoát	thoát	VERB	V	_	17	xcomp	_	_
+20	khỏi	khỏi	VERB	V	_	19	xcomp	_	_
+21	một	một	NUM	M	NumType=Card	22	nummod	_	_
+22	cạm bẫy	cạm bẫy	NOUN	N	_	19	obj	_	SpaceAfter=No
+23	...	...	PUNCT	...	_	15	punct	_	_
+
+# sent_id = train-s1182
+# text = Lan tỏ vẻ rất thân tình với chủ nhà và trưa đó mẹ con cô ăn cơm ở đây.
+1	Lan	Lan	NOUN	Np	_	2	nsubj	_	_
+2	tỏ vẻ	tỏ vẻ	VERB	V	_	0	root	_	_
+3	rất	rất	X	R	_	4	advmod	_	_
+4	thân tình	thân tình	ADJ	A	_	2	xcomp	_	_
+5	với	với	ADP	E	_	6	case	_	_
+6	chủ	chủ	NOUN	N	_	4	nmod	_	_
+7	nhà	nhà	NOUN	N	_	6	compound	_	_
+8	và	và	SCONJ	CC	_	13	cc	_	_
+9	trưa	trưa	NOUN	N	_	13	obl	_	_
+10	đó	đó	PROPN	P	_	9	det	_	_
+11	mẹ con	mẹ con	NOUN	N	_	13	nsubj	_	_
+12	cô	cô	NOUN	N	_	11	compound	_	_
+13	ăn	ăn	VERB	V	_	2	conj	_	_
+14	cơm	cơm	NOUN	N	_	13	obj	_	_
+15	ở	ở	ADP	E	_	16	case	_	_
+16	đây	đây	PROPN	P	_	13	obl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = train-s1333
+# text = Đó là tất cả những gì ông bà biết...
+1	Đó	Đó	PROPN	P	_	3	nsubj	_	_
+2	là	là	AUX	V	_	3	cop	_	_
+3	tất cả	tất cả	PROPN	P	_	0	root	_	_
+4	những	những	DET	L	_	3	det	_	_
+5	gì	gì	PROPN	P	_	3	det	_	_
+6	ông bà	ông bà	NOUN	N	_	7	nsubj	_	_
+7	biết	biết	VERB	V	_	3	ccomp	_	SpaceAfter=No
+8	...	...	PUNCT	...	_	3	punct	_	_
+
+# sent_id = train-s839
+# text = Cứ thế đã gần 20 năm.
+1	Cứ	Cứ	X	R	_	2	advmod	_	_
+2	thế	thế	PROPN	P	_	4	obj	_	_
+3	đã	đã	X	R	_	4	advmod	_	_
+4	gần	gần	ADJ	A	_	0	root	_	_
+5	20	20	NUM	M	NumType=Card	6	nummod	_	_
+6	năm	năm	NOUN	N	_	4	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = train-s856
+# text = Đấy là con của chị đang đợi mẹ về cho ăn, chờ mẹ về cho tắm.
+1	Đấy	Đấy	PROPN	P	_	3	nsubj	_	_
+2	là	là	AUX	V	_	3	cop	_	_
+3	con	con	NOUN	N	_	0	root	_	_
+4	của	của	ADP	E	_	5	case	_	_
+5	chị	chị	NOUN	N	_	3	nmod	_	_
+6	đang	đang	X	R	_	7	advmod	_	_
+7	đợi	đợi	VERB	V	_	3	xcomp	_	_
+8	mẹ	mẹ	NOUN	N	_	7	obj	_	_
+9	về	về	VERB	V	_	8	xcomp	_	_
+10	cho	cho	VERB	V	_	8	xcomp	_	_
+11	ăn	ăn	VERB	V	_	10	xcomp	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	13	punct	_	_
+13	chờ	chờ	VERB	V	_	7	conj	_	_
+14	mẹ	mẹ	NOUN	N	_	13	obj	_	_
+15	về	về	VERB	V	_	14	xcomp	_	_
+16	cho	cho	VERB	V	_	14	xcomp	_	_
+17	tắm	tắm	VERB	V	_	16	xcomp	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = train-s1061
+# text = Tuyết nói: phải lấy được số điện thoại của.
+1	Tuyết	Tuyết	NOUN	Np	_	2	nsubj	_	_
+2	nói	nói	VERB	V	_	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	:	_	2	punct	_	_
+4	phải	phải	VERB	V	_	5	aux	_	_
+5	lấy	lấy	VERB	V	_	2	xcomp	_	_
+6	được	được	X	R	_	5	advmod	_	_
+7	số	số	NOUN	N	_	5	obj	_	_
+8	điện thoại	điện thoại	NOUN	N	_	7	compound	_	_
+9	của	của	ADP	E	_	7	case	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = train-s194
+# text = góp ý dự thảo nghị định hướng dẫn thi hành luật đất đai: hạn chế thái độ "vô cảm" với dân.
+1	góp ý	góp ý	VERB	V	_	0	root	_	_
+2	dự thảo	dự thảo	NOUN	N	_	1	obj	_	_
+3	nghị định	nghị định	NOUN	N	_	2	compound	_	_
+4	hướng dẫn	hướng dẫn	VERB	V	_	3	xcomp	_	_
+5	thi hành	thi hành	VERB	V	_	4	xcomp	_	_
+6	luật	luật	NOUN	N	_	5	obj	_	_
+7	đất đai	đất đai	NOUN	N	_	6	compound	_	SpaceAfter=No
+8	:	:	PUNCT	:	_	1	punct	_	_
+9	hạn chế	hạn chế	VERB	V	_	1	ccomp	_	_
+10	thái độ	thái độ	NOUN	N	_	9	obj	_	_
+11	"	"	PUNCT	"	_	12	punct	_	SpaceAfter=No
+12	vô cảm	vô cảm	ADJ	A	_	10	amod	_	SpaceAfter=No
+13	"	"	PUNCT	"	_	12	punct	_	_
+14	với	với	CCONJ	C	_	12	cc	_	_
+15	dân	dân	NOUN	N	_	12	obj	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = train-s207
+# text = Chưa kể để doanh nghiệp và người dân "nói chuyện" với nhau như vậy, quyền của cơ quan quản lý nhà nước sẽ mất đi.
+1	Chưa	Chưa	X	R	_	2	advmod	_	_
+2	kể	kể	VERB	V	_	22	advcl	_	_
+3	để	để	ADP	E	_	9	case	_	_
+4	doanh nghiệp	doanh nghiệp	NOUN	N	_	9	nsubj	_	_
+5	và	và	SCONJ	CC	_	6	cc	_	_
+6	người	người	NOUN	N	_	4	conj	_	_
+7	dân	dân	NOUN	N	_	6	compound	_	_
+8	"	"	PUNCT	"	_	9	punct	_	SpaceAfter=No
+9	nói chuyện	nói chuyện	VERB	V	_	2	ccomp	_	SpaceAfter=No
+10	"	"	PUNCT	"	_	9	punct	_	_
+11	với	với	ADP	E	_	12	case	_	_
+12	nhau	nhau	PROPN	P	_	9	obl	_	_
+13	như	như	CCONJ	C	_	9	cc	_	_
+14	vậy	vậy	PROPN	P	_	9	obj	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	22	punct	_	_
+16	quyền	quyền	NOUN	N	_	22	nsubj	_	_
+17	của	của	ADP	E	_	18	case	_	_
+18	cơ quan	cơ quan	NOUN	N	_	16	nmod	_	_
+19	quản lý	quản lý	VERB	V	_	18	xcomp	_	_
+20	nhà nước	nhà nước	NOUN	N	_	19	obj	_	_
+21	sẽ	sẽ	X	R	_	22	advmod	_	_
+22	mất	mất	VERB	V	_	0	root	_	_
+23	đi	đi	X	R	_	22	advmod	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	22	punct	_	_
+
+# sent_id = train-s604
+# text = Những người trên chiếc ghe đặc dụng neo gần đó với đầy đủ các loại máy móc cung cấp oxy cho người lặn bên dưới hồi hộp theo dõi.
+1	Những	Những	DET	L	_	2	det	_	_
+2	người	người	NOUN	N	_	22	nsubj	_	_
+3	trên	trên	ADP	E	_	5	case	_	_
+4	chiếc	chiếc	NOUN	Nc	_	5	compound	_	_
+5	ghe	ghe	NOUN	N	_	2	advcl	_	_
+6	đặc dụng	đặc dụng	ADJ	A	_	5	amod	_	_
+7	neo	neo	VERB	V	_	2	xcomp	_	_
+8	gần	gần	ADJ	A	_	7	obj	_	_
+9	đó	đó	PROPN	P	_	8	det	_	_
+10	với	với	ADP	E	_	13	case	_	_
+11	đầy đủ	đầy đủ	ADJ	A	_	13	amod	_	_
+12	các	các	DET	L	_	13	det	_	_
+13	loại	loại	NOUN	N	_	8	nmod	_	_
+14	máy móc	máy móc	NOUN	N	_	13	compound	_	_
+15	cung cấp	cung cấp	VERB	V	_	13	xcomp	_	_
+16	oxy	oxy	NOUN	N	_	15	obj	_	_
+17	cho	cho	ADP	E	_	18	case	_	_
+18	người	người	NOUN	N	_	15	obl	_	_
+19	lặn	lặn	VERB	V	_	18	xcomp	_	_
+20	bên	bên	ADP	E	_	21	case	_	_
+21	dưới	dưới	NOUN	N	_	18	compound	_	_
+22	hồi hộp	hồi hộp	VERB	V	_	0	root	_	_
+23	theo dõi	theo dõi	VERB	V	_	22	xcomp	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	22	punct	_	_
+
+# sent_id = train-s1260
+# text = Còn nhi, để hạnh phúc gia đình "kiên cố" từ bên trong, chị bắt đầu trau dồi kiến thức về các loại rượu bổ và nước hoa...
+1	Còn	Còn	X	R	_	2	advmod	_	_
+2	nhi	nhi	NOUN	Np	_	15	advcl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	15	punct	_	_
+4	để	để	ADP	E	_	8	case	_	_
+5	hạnh phúc	hạnh phúc	NOUN	N	_	8	nsubj	_	_
+6	gia đình	gia đình	NOUN	N	_	5	compound	_	_
+7	"	"	PUNCT	"	_	8	punct	_	SpaceAfter=No
+8	kiên cố	kiên cố	ADJ	A	_	15	xcomp	_	SpaceAfter=No
+9	"	"	PUNCT	"	_	8	punct	_	_
+10	từ	từ	ADP	E	_	11	case	_	_
+11	bên	bên	NOUN	N	_	8	nmod	_	_
+12	trong	trong	NOUN	N	_	11	compound	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	15	punct	_	_
+14	chị	chị	NOUN	N	_	15	nsubj	_	_
+15	bắt đầu	bắt đầu	VERB	V	_	0	root	_	_
+16	trau dồi	trau dồi	VERB	V	_	15	xcomp	_	_
+17	kiến thức	kiến thức	NOUN	N	_	16	obj	_	_
+18	về	về	ADP	E	_	21	case	_	_
+19	các	các	DET	L	_	21	det	_	_
+20	loại	loại	NOUN	Nc	_	21	compound	_	_
+21	rượu	rượu	NOUN	N	_	17	nmod	_	_
+22	bổ	bổ	ADJ	A	_	21	amod	_	_
+23	và	và	SCONJ	CC	_	24	cc	_	_
+24	nước hoa	nước hoa	NOUN	N	_	21	conj	_	SpaceAfter=No
+25	...	...	PUNCT	...	_	15	punct	_	_
+
+# sent_id = train-s650
+# text = truyền thống gia đình bên nội rất hiếu học nên chị em nó cũng noi theo.
+1	truyền thống	truyền thống	NOUN	N	_	7	nsubj	_	_
+2	gia đình	gia đình	NOUN	N	_	1	compound	_	_
+3	bên	bên	NOUN	N	_	1	compound	_	_
+4	nội	nội	ADJ	A	_	3	amod	_	_
+5	rất	rất	X	R	_	7	advmod	_	_
+6	hiếu	hiếu	X	Z	_	7	discourse	_	_
+7	học	học	VERB	V	_	0	root	_	_
+8	nên	nên	CCONJ	C	_	7	cc	_	_
+9	chị em	chị em	NOUN	N	_	12	nsubj	_	_
+10	nó	nó	PROPN	P	_	9	det	_	_
+11	cũng	cũng	X	R	_	12	advmod	_	_
+12	noi	noi	VERB	V	_	7	parataxis	_	_
+13	theo	theo	VERB	V	_	12	xcomp	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = train-s493
+# text = Các tài xế vội vã chạy xuống dúi vào tay anh CSGT mảnh giấy nhỏ.
+1	Các	Các	DET	L	_	2	det	_	_
+2	tài xế	tài xế	NOUN	N	_	3	nsubj	_	_
+3	vội vã	vội vã	ADJ	A	_	0	root	_	_
+4	chạy	chạy	VERB	V	_	3	xcomp	_	_
+5	xuống	xuống	X	R	_	3	advmod	_	_
+6	dúi	dúi	VERB	V	_	3	xcomp	_	_
+7	vào	vào	ADP	E	_	8	case	_	_
+8	tay	tay	NOUN	N	_	6	advcl	_	_
+9	anh	anh	NOUN	N	_	8	compound	_	_
+10	CSGT	CSGT	NOUN	Ny	_	9	compound	_	_
+11	mảnh	mảnh	NOUN	Nc	_	12	compound	_	_
+12	giấy	giấy	NOUN	N	_	6	obj	_	_
+13	nhỏ	nhỏ	ADJ	A	_	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = train-s1144
+# text = người đọc cao giọng ở trên, người nghe sụt sùi ở dưới, nhưng sau đó là một không khí bừng bừng phấn khích.
+1	người	người	NOUN	N	_	3	nsubj	_	_
+2	đọc	đọc	VERB	V	_	1	xcomp	_	_
+3	cao	cao	ADJ	A	_	0	root	_	_
+4	giọng	giọng	NOUN	N	_	3	obj	_	_
+5	ở	ở	ADP	E	_	6	case	_	_
+6	trên	trên	NOUN	N	_	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	3	punct	_	_
+8	người	người	NOUN	N	_	10	nsubj	_	_
+9	nghe	nghe	VERB	V	_	8	xcomp	_	_
+10	sụt sùi	sụt sùi	ADJ	A	_	3	parataxis	_	_
+11	ở	ở	ADP	E	_	12	case	_	_
+12	dưới	dưới	NOUN	N	_	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	3	punct	_	_
+14	nhưng	nhưng	CCONJ	C	_	3	cc	_	_
+15	sau	sau	ADP	E	_	20	nmod	_	_
+16	đó	đó	PROPN	P	_	15	nmod	_	_
+17	là	là	CCONJ	C	_	20	cc	_	_
+18	một	một	NUM	M	NumType=Card	19	nummod	_	_
+19	không khí	không khí	NOUN	N	_	20	nsubj	_	_
+20	bừng bừng	bừng bừng	ADJ	A	_	3	parataxis	_	_
+21	phấn khích	phấn khích	ADJ	A	_	20	amod	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = train-s1271
+# text = từ thị trấn Uyên Hưng, huyện Tân Uyên LBKT Bình Dương RBKT chúng tôi xuôi dòng Đồng Nai, vòng qua cù lao Bạch Đằng.
+1	từ	từ	ADP	E	_	11	advcl	_	_
+2	thị trấn	thị trấn	NOUN	N	_	1	nmod	_	_
+3	Uyên Hưng	Uyên Hưng	NOUN	Np	_	2	compound	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	5	punct	_	_
+5	huyện	huyện	NOUN	N	_	2	conj	_	_
+6	Tân Uyên	Tân Uyên	NOUN	Np	_	5	compound	_	_
+7	LBKT	LBKT	PUNCT	LBKT	_	5	punct	_	_
+8	Bình Dương	Bình Dương	NOUN	Np	_	5	appos	_	_
+9	RBKT	RBKT	PUNCT	RBKT	_	5	punct	_	_
+10	chúng tôi	chúng tôi	PROPN	P	_	11	nsubj	_	_
+11	xuôi	xuôi	VERB	V	_	0	root	_	_
+12	dòng	dòng	NOUN	N	_	11	obj	_	_
+13	Đồng Nai	Đồng Nai	NOUN	Np	_	12	compound	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	15	punct	_	_
+15	vòng	vòng	VERB	V	_	11	conj	_	_
+16	qua	qua	X	R	_	15	advmod	_	_
+17	cù lao	cù lao	NOUN	N	_	15	obj	_	_
+18	Bạch Đằng	Bạch Đằng	NOUN	Np	_	17	compound	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = train-s889
+# text = Tám ngày liền như vậy, hợp đồng của Thư tưởng như chấm dứt thì buổi chiều định mệnh ập đến.
+1	Tám	Tám	NUM	M	NumType=Card	2	nummod	_	_
+2	ngày	ngày	NOUN	N	_	9	obl	_	_
+3	liền	liền	X	R	_	2	advmod	_	_
+4	như vậy	như vậy	X	X	_	2	dep	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	9	punct	_	_
+6	hợp đồng	hợp đồng	NOUN	N	_	9	nsubj	_	_
+7	của	của	ADP	E	_	8	case	_	_
+8	Thư	Thư	NOUN	Np	_	6	nmod	_	_
+9	tưởng	tưởng	VERB	V	_	0	root	_	_
+10	như	như	CCONJ	C	_	11	cc	_	_
+11	chấm dứt	chấm dứt	VERB	V	_	9	conj	_	_
+12	thì	thì	CCONJ	C	_	11	cc	_	_
+13	buổi	buổi	NOUN	N	_	16	nsubj	_	_
+14	chiều	chiều	NOUN	N	_	13	compound	_	_
+15	định mệnh	định mệnh	NOUN	N	_	13	compound	_	_
+16	ập	ập	VERB	V	_	9	parataxis	_	_
+17	đến	đến	VERB	V	_	16	xcomp	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = train-s787
+# text = Như vậy cô con dâu và cô cháu họ sẽ là mục tiêu của các thám tử.
+1	Như vậy	Như vậy	CCONJ	C	_	11	cc	_	_
+2	cô	cô	NOUN	Nc	_	3	compound	_	_
+3	con	con	NOUN	N	_	11	nsubj	_	_
+4	dâu	dâu	NOUN	N	_	3	compound	_	_
+5	và	và	SCONJ	CC	_	7	cc	_	_
+6	cô	cô	NOUN	Nc	_	7	compound	_	_
+7	cháu	cháu	NOUN	N	_	3	conj	_	_
+8	họ	họ	NOUN	N	_	7	compound	_	_
+9	sẽ	sẽ	X	R	_	11	advmod	_	_
+10	là	là	AUX	V	_	11	cop	_	_
+11	mục tiêu	mục tiêu	NOUN	N	_	0	root	_	_
+12	của	của	ADP	E	_	14	case	_	_
+13	các	các	DET	L	_	14	det	_	_
+14	thám tử	thám tử	NOUN	N	_	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = train-s841
+# text = "Tôi có cần đồng quà tấm bánh bao giờ, chỉ lo sau này chúng sẽ sống ra sao...".
+1	"	"	PUNCT	"	_	3	punct	_	SpaceAfter=No
+2	Tôi	Tôi	PROPN	P	_	3	nsubj	_	_
+3	có	có	VERB	V	_	0	root	_	_
+4	cần	cần	VERB	V	_	3	xcomp	_	_
+5	đồng quà tấm bánh	đồng quà tấm bánh	X	X	_	4	dep	_	_
+6	bao giờ	bao giờ	PROPN	P	_	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	chỉ	chỉ	X	R	_	9	advmod	_	_
+9	lo	lo	VERB	V	_	3	conj	_	_
+10	sau này	sau này	X	R	_	13	obl	_	_
+11	chúng	chúng	PROPN	P	_	13	nsubj	_	_
+12	sẽ	sẽ	X	R	_	13	advmod	_	_
+13	sống	sống	VERB	V	_	9	ccomp	_	_
+14	ra sao	ra sao	X	X	_	13	dep	_	SpaceAfter=No
+15	...	...	PUNCT	...	_	3	punct	_	SpaceAfter=No
+16	"	"	PUNCT	"	_	3	punct	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = train-s269
+# text = "Ông hiểu vốn tín dụng ở đây là vốn... gì?", đại diện Viện Kiểm sát hỏi tiếp ông Ngọ.
+1	"	"	PUNCT	"	_	3	punct	_	SpaceAfter=No
+2	Ông	Ông	NOUN	N	_	3	nsubj	_	_
+3	hiểu	hiểu	VERB	V	_	17	parataxis	_	_
+4	vốn	vốn	NOUN	N	_	9	nsubj	_	_
+5	tín dụng	tín dụng	NOUN	N	_	4	compound	_	_
+6	ở	ở	ADP	E	_	7	case	_	_
+7	đây	đây	NOUN	N	_	4	advcl	_	_
+8	là	là	AUX	V	_	9	cop	_	_
+9	vốn	vốn	NOUN	N	_	3	ccomp	_	SpaceAfter=No
+10	...	...	PUNCT	...	_	9	punct	_	_
+11	gì	gì	PROPN	P	_	9	det	_	SpaceAfter=No
+12	?	?	PUNCT	?	_	3	punct	_	SpaceAfter=No
+13	"	"	PUNCT	"	_	3	punct	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	17	punct	_	_
+15	đại diện	đại diện	NOUN	N	_	17	nsubj	_	_
+16	Viện Kiểm sát	Viện Kiểm sát	NOUN	Np	_	15	compound	_	_
+17	hỏi	hỏi	VERB	V	_	0	root	_	_
+18	tiếp	tiếp	X	R	_	17	advmod	_	_
+19	ông	ông	NOUN	Nc	_	20	compound	_	_
+20	Ngọ	Ngọ	NOUN	Np	_	17	obj	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	17	punct	_	_
+
+# sent_id = train-s101
+# text = nhặt ve chai... nuôi chồng đi kiện.
+1	nhặt	nhặt	VERB	V	_	0	root	_	_
+2	ve chai	ve chai	NOUN	N	_	1	obj	_	SpaceAfter=No
+3	...	...	PUNCT	...	_	1	punct	_	_
+4	nuôi	nuôi	VERB	V	_	1	ccomp	_	_
+5	chồng	chồng	NOUN	N	_	4	obj	_	_
+6	đi	đi	VERB	V	_	5	xcomp	_	_
+7	kiện	kiện	VERB	V	_	6	xcomp	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = train-s275
+# text = Dù công ty Tiếp thị được ưu đãi nhưng vốn cấp vẫn thiếu trong từng giai đoạn.
+1	Dù	Dù	CCONJ	C	_	5	cc	_	_
+2	công ty	công ty	NOUN	N	_	5	nsubj	_	_
+3	Tiếp thị	Tiếp thị	NOUN	Np	_	2	compound	_	_
+4	được	được	VERB	V	_	5	aux	_	_
+5	ưu đãi	ưu đãi	VERB	V	_	10	parataxis	_	_
+6	nhưng	nhưng	CCONJ	C	_	10	cc	_	_
+7	vốn	vốn	NOUN	N	_	10	nsubj	_	_
+8	cấp	cấp	VERB	V	_	7	xcomp	_	_
+9	vẫn	vẫn	X	R	_	10	advmod	_	_
+10	thiếu	thiếu	VERB	V	_	0	root	_	_
+11	trong	trong	ADP	E	_	13	case	_	_
+12	từng	từng	X	R	_	13	advmod	_	_
+13	giai đoạn	giai đoạn	NOUN	N	_	10	obl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = train-s8
+# text = "chỗ này xưa là đồn bót nè @
+1	"	"	PUNCT	"	_	6	punct	_	SpaceAfter=No
+2	chỗ	chỗ	NOUN	N	_	6	nsubj	_	_
+3	này	này	PROPN	P	_	2	det	_	_
+4	xưa	xưa	NOUN	N	_	6	nmod	_	_
+5	là	là	AUX	V	_	6	cop	_	_
+6	đồn bót	đồn bót	NOUN	N	_	0	root	_	_
+7	nè	nè	PART	T	_	6	discourse	_	_
+8	@	@	PUNCT	@	_	6	punct	_	_
+
+# sent_id = train-s1321
+# text = cuộc đời dưới vành mũ thám tử.
+1	cuộc đời	cuộc đời	NOUN	N	_	0	root	_	_
+2	dưới	dưới	ADP	E	_	3	case	_	_
+3	vành	vành	NOUN	N	_	1	nmod	_	_
+4	mũ	mũ	NOUN	N	_	3	compound	_	_
+5	thám tử	thám tử	NOUN	N	_	3	compound	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = train-s756
+# text = thứ nhất: giấy khai tử do ubnd phường xác nhận ở phần nguyên nhân chết có ghi: cảm đột ngột.
+1	thứ	thứ	NOUN	N	_	14	nsubj	_	_
+2	nhất	nhất	NUM	M	NumType=Card	1	nummod	_	SpaceAfter=No
+3	:	:	PUNCT	:	_	14	punct	_	_
+4	giấy	giấy	NOUN	N	_	14	nsubj	_	_
+5	khai tử	khai tử	VERB	V	_	4	xcomp	_	_
+6	do	do	ADP	E	_	9	case	_	_
+7	ubnd	ubnd	NOUN	Ny	_	9	nsubj	_	_
+8	phường	phường	NOUN	N	_	7	compound	_	_
+9	xác nhận	xác nhận	VERB	V	_	4	xcomp	_	_
+10	ở	ở	ADP	E	_	11	case	_	_
+11	phần	phần	NOUN	N	_	9	obl	_	_
+12	nguyên nhân	nguyên nhân	NOUN	N	_	11	compound	_	_
+13	chết	chết	VERB	V	_	11	xcomp	_	_
+14	có	có	VERB	V	_	0	root	_	_
+15	ghi	ghi	VERB	V	_	14	xcomp	_	SpaceAfter=No
+16	:	:	PUNCT	:	_	15	punct	_	_
+17	cảm	cảm	VERB	V	_	15	ccomp	_	_
+18	đột ngột	đột ngột	ADJ	A	_	17	xcomp	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = train-s641
+# text = sau hai lần vá, "vòi rồng" đã lành lặn trở lại.
+1	sau	sau	ADP	E	_	3	case	_	_
+2	hai	hai	NUM	M	NumType=Card	3	nummod	_	_
+3	lần	lần	NOUN	N	_	10	nmod	_	_
+4	vá	vá	VERB	V	_	3	xcomp	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	10	punct	_	_
+6	"	"	PUNCT	"	_	7	punct	_	SpaceAfter=No
+7	vòi rồng	vòi rồng	NOUN	N	_	10	nsubj	_	SpaceAfter=No
+8	"	"	PUNCT	"	_	7	punct	_	_
+9	đã	đã	X	R	_	10	advmod	_	_
+10	lành lặn	lành lặn	ADJ	A	_	0	root	_	_
+11	trở lại	trở lại	VERB	V	_	10	xcomp	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = train-s897
+# text = đánh xe chạy thẳng vào nhà nghỉ một cách thành thạo và họ dẫn nhau lên cầu thang.
+1	đánh	đánh	VERB	V	_	0	root	_	_
+2	xe	xe	NOUN	N	_	1	obj	_	_
+3	chạy	chạy	VERB	V	_	1	ccomp	_	_
+4	thẳng	thẳng	ADJ	A	_	3	xcomp	_	_
+5	vào	vào	ADP	E	_	6	case	_	_
+6	nhà nghỉ	nhà nghỉ	NOUN	N	_	3	obl	_	_
+7	một cách	một cách	NOUN	N	_	3	obj	_	_
+8	thành thạo	thành thạo	ADJ	A	_	7	amod	_	_
+9	và	và	SCONJ	CC	_	11	cc	_	_
+10	họ	họ	PROPN	P	_	11	obj	_	_
+11	dẫn	dẫn	VERB	V	_	1	conj	_	_
+12	nhau	nhau	NOUN	N	_	11	obj	_	_
+13	lên	lên	VERB	V	_	11	ccomp	_	_
+14	cầu thang	cầu thang	NOUN	N	_	13	obj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = train-s1111
+# text = Hai ngày phục kích, Thắng mới thấy cô gái trẻ dắt xe đi ra.
+1	Hai	Hai	NUM	M	NumType=Card	2	nummod	_	_
+2	ngày	ngày	NOUN	N	_	7	obl	_	_
+3	phục kích	phục kích	VERB	V	_	2	xcomp	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	7	punct	_	_
+5	Thắng	Thắng	NOUN	Np	_	7	nsubj	_	_
+6	mới	mới	X	R	_	7	advmod	_	_
+7	thấy	thấy	VERB	V	_	0	root	_	_
+8	cô	cô	NOUN	Nc	_	9	compound	_	_
+9	gái	gái	NOUN	N	_	11	nsubj	_	_
+10	trẻ	trẻ	ADJ	A	_	9	amod	_	_
+11	dắt	dắt	VERB	V	_	7	ccomp	_	_
+12	xe	xe	NOUN	N	_	11	obj	_	_
+13	đi	đi	VERB	V	_	11	ccomp	_	_
+14	ra	ra	VERB	V	_	13	xcomp	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = train-s415
+# text = thời gian xây dựng cảng chỉ mất một năm.
+1	thời gian	thời gian	NOUN	N	_	5	nsubj	_	_
+2	xây dựng	xây dựng	VERB	V	_	1	xcomp	_	_
+3	cảng	cảng	NOUN	N	_	2	obj	_	_
+4	chỉ	chỉ	X	R	_	5	advmod	_	_
+5	mất	mất	VERB	V	_	0	root	_	_
+6	một	một	NUM	M	NumType=Card	7	nummod	_	_
+7	năm	năm	NOUN	N	_	5	obj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = train-s116
+# text = trong các trường học đã phát hiện 652 học sinh và 229 giáo viên nghiện ma túy.
+1	trong	trong	ADP	E	_	5	advcl	_	_
+2	các	các	DET	L	_	3	det	_	_
+3	trường học	trường học	NOUN	N	_	1	nmod	_	_
+4	đã	đã	X	R	_	5	advmod	_	_
+5	phát hiện	phát hiện	VERB	V	_	0	root	_	_
+6	652	652	NUM	M	NumType=Card	7	nummod	_	_
+7	học sinh	học sinh	NOUN	N	_	11	nsubj	_	_
+8	và	và	SCONJ	CC	_	10	cc	_	_
+9	229	229	NUM	M	NumType=Card	10	nummod	_	_
+10	giáo viên	giáo viên	NOUN	N	_	7	conj	_	_
+11	nghiện	nghiện	VERB	V	_	5	ccomp	_	_
+12	ma túy	ma túy	NOUN	N	_	11	obj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = train-s1137
+# text = Chúng tôi cứ dựa vào đó để dấy lên phong trào.
+1	Chúng tôi	Chúng tôi	PROPN	P	_	3	nsubj	_	_
+2	cứ	cứ	X	R	_	3	advmod	_	_
+3	dựa	dựa	VERB	V	_	0	root	_	_
+4	vào	vào	ADP	E	_	5	case	_	_
+5	đó	đó	PROPN	P	_	3	obl	_	_
+6	để	để	ADP	E	_	3	case	_	_
+7	dấy	dấy	VERB	V	_	6	mark	_	_
+8	lên	lên	X	R	_	7	advmod	_	_
+9	phong trào	phong trào	NOUN	N	_	7	obj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = train-s166
+# text = Tôi mong mỏi sự công bằng được thực hiện và trả lại cho họ.
+1	Tôi	Tôi	PROPN	P	_	2	nsubj	_	_
+2	mong mỏi	mong mỏi	VERB	V	_	0	root	_	_
+3	sự	sự	NOUN	Nc	_	6	nsubj	_	_
+4	công bằng	công bằng	ADJ	A	_	3	amod	_	_
+5	được	được	VERB	V	_	6	aux:pass	_	_
+6	thực hiện	thực hiện	VERB	V	_	2	ccomp	_	_
+7	và	và	SCONJ	CC	_	8	cc	_	_
+8	trả	trả	VERB	V	_	6	conj	_	_
+9	lại	lại	X	R	_	8	advmod	_	_
+10	cho	cho	ADP	E	_	11	case	_	_
+11	họ	họ	PROPN	P	_	6	obj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = train-s1195
+# text = Đang đượm men tình thì giờ chia tay vội đến.
+1	Đang	Đang	X	R	_	2	advmod	_	_
+2	đượm	đượm	VERB	V	_	0	root	_	_
+3	men	men	NOUN	N	_	2	obj	_	_
+4	tình	tình	NOUN	N	_	3	compound	_	_
+5	thì	thì	CCONJ	C	_	8	cc	_	_
+6	giờ	giờ	NOUN	N	_	8	nsubj	_	_
+7	chia tay	chia tay	VERB	V	_	6	xcomp	_	_
+8	vội	vội	ADJ	A	_	2	conj	_	_
+9	đến	đến	VERB	V	_	8	xcomp	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = train-s1253
+# text = Chị chấp nhận chúng ta thương lượng với nhau".
+1	Chị	Chị	NOUN	N	_	2	nsubj	_	_
+2	chấp nhận	chấp nhận	VERB	V	_	0	root	_	_
+3	chúng ta	chúng ta	PROPN	P	_	4	nsubj	_	_
+4	thương lượng	thương lượng	VERB	V	_	2	ccomp	_	_
+5	với	với	ADP	E	_	6	case	_	_
+6	nhau	nhau	NOUN	N	_	4	obl	_	SpaceAfter=No
+7	"	"	PUNCT	"	_	2	punct	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = train-s1351
+# text = mũi thứ hai đến gần khu nhà Tuấn.
+1	mũi	mũi	NOUN	N	_	4	nsubj	_	_
+2	thứ	thứ	NOUN	N	_	1	compound	_	_
+3	hai	hai	NUM	M	NumType=Card	1	nummod	_	_
+4	đến	đến	VERB	V	_	0	root	_	_
+5	gần	gần	ADJ	A	_	4	xcomp	_	_
+6	khu	khu	NOUN	N	_	5	obj	_	_
+7	nhà	nhà	NOUN	N	_	6	compound	_	_
+8	Tuấn	Tuấn	NOUN	Np	_	6	compound	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = train-s200
+# text = văn phòng đăng ký quyền sử dụng đất: nên mấy loại?
+1	văn phòng	văn phòng	NOUN	N	_	7	obj	_	_
+2	đăng ký	đăng ký	VERB	V	_	1	xcomp	_	_
+3	quyền	quyền	NOUN	N	_	2	obj	_	_
+4	sử dụng	sử dụng	VERB	V	_	3	xcomp	_	_
+5	đất	đất	NOUN	N	_	4	obj	_	SpaceAfter=No
+6	:	:	PUNCT	:	_	7	punct	_	_
+7	nên	nên	VERB	V	_	0	root	_	_
+8	mấy	mấy	NUM	M	NumType=Card	9	nummod	_	_
+9	loại	loại	NOUN	N	_	7	obj	_	SpaceAfter=No
+10	?	?	PUNCT	?	_	7	punct	_	_
+
+# sent_id = train-s352
+# text = Nếu đơn vị đầu tư không cân nhắc, lựa chọn phương án an toàn tuyệt đối, để xảy ra hậu quả thì phải chịu trách nhiệm.
+1	Nếu	Nếu	CCONJ	C	_	5	cc	_	_
+2	đơn vị	đơn vị	NOUN	N	_	5	nsubj	_	_
+3	đầu tư	đầu tư	VERB	V	_	2	xcomp	_	_
+4	không	không	X	R	Polarity=Neg	5	advmod	_	_
+5	cân nhắc	cân nhắc	VERB	V	_	18	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	7	punct	_	_
+7	lựa chọn	lựa chọn	VERB	V	_	5	conj	_	_
+8	phương án	phương án	NOUN	N	_	5	obj	_	_
+9	an toàn	an toàn	ADJ	A	_	8	amod	_	_
+10	tuyệt đối	tuyệt đối	ADJ	A	_	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	12	punct	_	_
+12	để	để	VERB	V	_	5	conj	_	_
+13	xảy	xảy	VERB	V	_	12	xcomp	_	_
+14	ra	ra	X	R	_	13	advmod	_	_
+15	hậu quả	hậu quả	NOUN	N	_	13	obj	_	_
+16	thì	thì	CCONJ	C	_	18	cc	_	_
+17	phải	phải	VERB	V	_	18	aux	_	_
+18	chịu	chịu	VERB	V	_	0	root	_	_
+19	trách nhiệm	trách nhiệm	NOUN	N	_	18	obj	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	18	punct	_	_
+
+# sent_id = train-s1117
+# text = "tôi, Hùng đây".
+1	"	"	PUNCT	"	_	2	punct	_	SpaceAfter=No
+2	tôi	tôi	PROPN	P	_	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	Hùng	Hùng	NOUN	Np	_	2	appos	_	_
+5	đây	đây	PROPN	P	_	2	det	_	SpaceAfter=No
+6	"	"	PUNCT	"	_	2	punct	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = train-s1005
+# text = 10 ngày nữa họ sẽ tổ chức lễ thành hôn.
+1	10	10	NUM	M	NumType=Card	2	nummod	_	_
+2	ngày	ngày	NOUN	N	_	6	obl	_	_
+3	nữa	nữa	X	R	_	2	advmod	_	_
+4	họ	họ	PROPN	P	_	6	nsubj	_	_
+5	sẽ	sẽ	X	R	_	6	advmod	_	_
+6	tổ chức	tổ chức	VERB	V	_	0	root	_	_
+7	lễ	lễ	NOUN	N	_	6	obj	_	_
+8	thành hôn	thành hôn	VERB	V	_	7	xcomp	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = train-s891
+# text = Nhu đi cùng đoàn tiếp khách.
+1	Nhu	Nhu	NOUN	Np	_	2	nsubj	_	_
+2	đi	đi	VERB	V	_	0	root	_	_
+3	cùng	cùng	ADP	E	_	4	case	_	_
+4	đoàn	đoàn	NOUN	N	_	2	obl	_	_
+5	tiếp	tiếp	VERB	V	_	2	ccomp	_	_
+6	khách	khách	NOUN	N	_	5	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = train-s78
+# text = có người đã là cô giáo dạy THCS.
+1	có	có	VERB	V	_	0	root	_	_
+2	người	người	NOUN	N	_	5	nsubj	_	_
+3	đã	đã	X	R	_	5	advmod	_	_
+4	là	là	AUX	V	_	5	cop	_	_
+5	cô giáo	cô giáo	NOUN	N	_	1	ccomp	_	_
+6	dạy	dạy	VERB	V	_	5	xcomp	_	_
+7	THCS	THCS	NOUN	Ny	_	6	obj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = train-s995
+# text = tờ giấy được trình bày rất ấn tượng.
+1	tờ	tờ	NOUN	Nc	_	2	compound	_	_
+2	giấy	giấy	NOUN	N	_	4	nsubj	_	_
+3	được	được	X	R	_	4	advmod	_	_
+4	trình bày	trình bày	VERB	V	_	0	root	_	_
+5	rất	rất	X	R	_	6	advmod	_	_
+6	ấn tượng	ấn tượng	ADJ	A	_	4	xcomp	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = train-s526
+# text = ông Phong đã có lần gọi điện cho bà Nhu LBKT thực tế việc này có thật RBKT bằng "số điện thoại nhà Hạnh".
+1	ông	ông	NOUN	Nc	_	2	compound	_	_
+2	Phong	Phong	NOUN	Np	_	4	nsubj	_	_
+3	đã	đã	X	R	_	4	advmod	_	_
+4	có	có	VERB	V	_	0	root	_	_
+5	lần	lần	NOUN	N	_	4	obj	_	_
+6	gọi	gọi	VERB	V	_	5	xcomp	_	_
+7	điện	điện	NOUN	N	_	6	obj	_	_
+8	cho	cho	ADP	E	_	10	case	_	_
+9	bà	bà	NOUN	Nc	_	10	compound	_	_
+10	Nhu	Nhu	NOUN	Np	_	6	obl	_	_
+11	LBKT	LBKT	PUNCT	LBKT	_	10	punct	_	_
+12	thực tế	thực tế	NOUN	N	_	15	advcl	_	_
+13	việc	việc	NOUN	N	_	15	nsubj	_	_
+14	này	này	PROPN	P	_	13	det	_	_
+15	có	có	VERB	V	_	10	appos	_	_
+16	thật	thật	ADJ	A	_	15	xcomp	_	_
+17	RBKT	RBKT	PUNCT	RBKT	_	10	punct	_	_
+18	bằng	bằng	ADP	E	_	19	case	_	_
+19	"	"	PUNCT	"	_	6	punct	_	SpaceAfter=No
+20	số	số	NOUN	N	_	19	nmod	_	_
+21	điện thoại	điện thoại	NOUN	N	_	20	compound	_	_
+22	nhà	nhà	NOUN	N	_	20	compound	_	_
+23	Hạnh	Hạnh	NOUN	Np	_	22	compound	_	SpaceAfter=No
+24	"	"	PUNCT	"	_	19	punct	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = train-s291
+# text = johor ngày thứ nhất.
+1	johor	johor	NOUN	Np	_	0	root	_	_
+2	ngày	ngày	NOUN	N	_	1	compound	_	_
+3	thứ	thứ	NOUN	N	_	2	compound	_	_
+4	nhất	nhất	NUM	M	NumType=Card	3	nummod	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = train-s581
+# text = ông Phong lập tức quay lại xưởng vẽ gặp người tình cũ căn vặn đủ đường.
+1	ông	ông	NOUN	Nc	_	2	compound	_	_
+2	Phong	Phong	NOUN	Np	_	4	nsubj	_	_
+3	lập tức	lập tức	X	R	_	4	advmod	_	_
+4	quay	quay	VERB	V	_	0	root	_	_
+5	lại	lại	X	R	_	4	advmod	_	_
+6	xưởng	xưởng	NOUN	N	_	4	obj	_	_
+7	vẽ	vẽ	VERB	V	_	6	xcomp	_	_
+8	gặp	gặp	VERB	V	_	4	ccomp	_	_
+9	người tình	người tình	NOUN	N	_	8	obj	_	_
+10	cũ	cũ	ADJ	A	_	9	amod	_	_
+11	căn vặn	căn vặn	VERB	V	_	8	ccomp	_	_
+12	đủ	đủ	ADJ	A	_	11	xcomp	_	_
+13	đường	đường	NOUN	N	_	12	obj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = train-s980
+# text = độc kế Hoạn Thư.
+1	độc kế	độc kế	NOUN	N	_	0	root	_	_
+2	Hoạn Thư	Hoạn Thư	NOUN	Np	_	1	compound	_	SpaceAfter=No
+3	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = train-s397
+# text = xin cảm ơn ông.
+1	xin	xin	VERB	V	_	0	root	_	_
+2	cảm ơn	cảm ơn	VERB	V	_	1	xcomp	_	_
+3	ông	ông	NOUN	N	_	2	obj	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = train-s430
+# text = Hôm nay, hội nghị tiếp tục làm việc.
+1	Hôm nay	Hôm nay	NOUN	N	_	4	obl	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	hội nghị	hội nghị	NOUN	N	_	4	nsubj	_	_
+4	tiếp tục	tiếp tục	VERB	V	_	0	root	_	_
+5	làm việc	làm việc	VERB	V	_	4	xcomp	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	4	punct	_	_
+

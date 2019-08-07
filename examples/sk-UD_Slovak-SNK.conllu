@@ -1,0 +1,1427 @@
+# sent_id = train-s3817
+# text = Zároveň bude vláda zdôrazňovať a vytvárať podmienky na zvyšovanie vedomia zodpovednosti občanov za vlastnú a všeobecnú bezpečnosť.
+# orig_file_sentence 039#17
+1	Zároveň	zároveň	ADV	Dx	Degree=Pos	4	advmod	4:advmod|6:advmod	_
+2	bude	byť	AUX	VBesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	4	aux	4:aux|6:aux	_
+3	vláda	vláda	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	4:nsubj|6:nsubj	_
+4	zdôrazňovať	zdôrazňovať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	0	root	0:root	_
+5	a	a	CCONJ	O	_	6	cc	6:cc	_
+6	vytvárať	vytvárať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	4	conj	0:root|4:conj	_
+7	podmienky	podmienka	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	4	obj	4:obj|6:obj	_
+8	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	9	case	9:case	_
+9	zvyšovanie	zvyšovanie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	7	nmod	7:nmod	_
+10	vedomia	vedomie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	9	nmod	9:nmod	_
+11	zodpovednosti	zodpovednosť	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	10	nmod	10:nmod	_
+12	občanov	občan	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	11	nmod	11:nmod	_
+13	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	17	case	17:case	_
+14	vlastnú	vlastný	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	17	amod	17:amod	_
+15	a	a	CCONJ	O	_	16	cc	16:cc	_
+16	všeobecnú	všeobecný	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	14	conj	14:conj|17:amod	_
+17	bezpečnosť	bezpečnosť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	11	nmod	11:nmod	SpaceAfter=No
+18	.	.	PUNCT	Z	_	4	punct	4:punct	_
+
+# sent_id = train-s3527
+# text = V roku 1977 kvôli zdravotným ťažkostiam odchádza do dôchodku po náročnej a požehnanej práci na vinici Pánovej.
+# orig_file_sentence 036#27
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	2:case	_
+2	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	7:obl	_
+3	1977	1977	NUM	0	NumForm=Digit	2	nummod	2:nummod	_
+4	kvôli	kvôli	ADP	Eu3	AdpType=Prep|Case=Dat	6	case	6:case	_
+5	zdravotným	zdravotný	ADJ	AAfp3x	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	6	amod	6:amod	_
+6	ťažkostiam	ťažkosť	NOUN	SSfp3	Case=Dat|Gender=Fem|Number=Plur	7	obl	7:obl	_
+7	odchádza	odchádzať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+8	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	9	case	9:case	_
+9	dôchodku	dôchodok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	obl	7:obl	_
+10	po	po	ADP	Eu6	AdpType=Prep|Case=Loc	14	case	14:case	_
+11	náročnej	náročný	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	14:amod	_
+12	a	a	CCONJ	O	_	13	cc	13:cc	_
+13	požehnanej	požehnaný	ADJ	Gtfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	11	conj	11:conj|14:amod	_
+14	práci	práca	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	7	obl	7:obl	_
+15	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	16	case	16:case	_
+16	vinici	vinica	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	14	nmod	14:nmod	_
+17	Pánovej	pánov	ADJ	AFfs6x:r	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	16:amod	SpaceAfter=No
+18	.	.	PUNCT	Z	_	7	punct	7:punct	_
+
+# sent_id = train-s6684
+# text = Nemal som dôvod zapierať.
+# orig_file_sentence 067#84
+1	Nemal	mať	VERB	VLesam-	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	0	root	0:root	_
+2	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	aux	1:aux	_
+3	dôvod	dôvod	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	1:obj	_
+4	zapierať	zapierať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	3	acl	3:acl	SpaceAfter=No
+5	.	.	PUNCT	Z	_	1	punct	1:punct	_
+
+# sent_id = train-s2895
+# text = Nejestvuje.
+# orig_file_sentence 029#95
+1	Nejestvuje	jestvovať	VERB	VKesc-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	0:root	SpaceAfter=No
+2	.	.	PUNCT	ZIP	_	1	punct	1:punct	_
+
+# sent_id = train-s5469
+# text = S akýmsi údivom mi povedala, že som bohatý.
+# orig_file_sentence 055#69
+1	S	s	ADP	Eu7	AdpType=Prep|Case=Ins	3	case	3:case	_
+2	akýmsi	akýsi	DET	PAis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing|PronType=Ind	3	det	3:det	_
+3	údivom	údiv	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	obl	5:obl	_
+4	mi	ja	PRON	PPhs3	Case=Dat|Number=Sing|Person=1|PronType=Prs	5	iobj	5:iobj	_
+5	povedala	povedať	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	0:root	SpaceAfter=No
+6	,	,	PUNCT	Z	_	9	punct	9:punct	_
+7	že	že	SCONJ	O	_	9	mark	9:mark	_
+8	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	9	cop	9:cop	_
+9	bohatý	bohatý	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	ccomp	5:ccomp	SpaceAfter=No
+10	.	.	PUNCT	Z	_	5	punct	5:punct	_
+
+# sent_id = train-s850
+# text = Amy Wyseová.
+# orig_file_sentence 009#50
+1	Amy	amy	PROPN	SUfs1:r	Case=Nom|Gender=Fem|Number=Sing	2	nmod	2:nmod	_
+2	Wyseová	wyseová	PROPN	SAfs1:r	Case=Nom|Gender=Fem|Number=Sing	0	root	0:root	SpaceAfter=No
+3	.	.	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = train-s3745
+# text = Zmeny budú navrhnuté v súlade s európskou legislatívou tak, aby tieto zákony neboli prekážkou zvyšovania zamestnanosti a ekonomického rastu a zvýšili flexibilitu trhu práce.
+# orig_file_sentence 038#45
+1	Zmeny	zmena	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	3	nsubj:pass	3:nsubj:pass	_
+2	budú	byť	AUX	VBepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	3	aux:pass	3:aux:pass	_
+3	navrhnuté	navrhnutý	ADJ	Gtfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	0:root	_
+4	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	8	case	8:case	_
+5	súlade	súlad	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	fixed	4:fixed	_
+6	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	4	fixed	4:fixed	_
+7	európskou	európsky	ADJ	AAfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	8	amod	8:amod	_
+8	legislatívou	legislatíva	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	3	obl	3:obl	_
+9	tak	tak	ADV	PD	PronType=Dem	3	advmod	3:advmod	SpaceAfter=No
+10	,	,	PUNCT	Z	_	15	punct	15:punct	_
+11	aby	aby	SCONJ	OY	Mood=Cnd	15	mark	15:mark	_
+12	tieto	tento	DET	PFip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	13	det	13:det	_
+13	zákony	zákon	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	15	nsubj	15:nsubj	_
+14	neboli	byť	AUX	VLepci-	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Neg|Tense=Past|VerbForm=Part	15	cop	15:cop	_
+15	prekážkou	prekážka	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	3	advcl	3:advcl	_
+16	zvyšovania	zvyšovanie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	15	nmod	15:nmod	_
+17	zamestnanosti	zamestnanosť	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	16	nmod	16:nmod	_
+18	a	a	CCONJ	O	_	20	cc	20:cc	_
+19	ekonomického	ekonomický	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	20	amod	20:amod	_
+20	rastu	rast	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	conj	16:nmod|17:conj	_
+21	a	a	CCONJ	O	_	22	cc	22:cc	_
+22	zvýšili	zvýšiť	VERB	VLdpci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	15	conj	3:advcl|15:conj	_
+23	flexibilitu	flexibilita	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	22	obj	22:obj	_
+24	trhu	trh	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	nmod	23:nmod	_
+25	práce	práca	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	24	nmod	24:nmod	SpaceAfter=No
+26	.	.	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = train-s3866
+# text = Vláda Slovenskej republiky prizýva spoluobčanov k spolupráci.
+# orig_file_sentence 039#66
+1	Vláda	vláda	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	4:nsubj	_
+2	Slovenskej	slovenský	ADJ	AAfs2x:r	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	3:amod	_
+3	republiky	republika	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	1	nmod	1:nmod	_
+4	prizýva	prizývať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+5	spoluobčanov	spoluobčan	NOUN	SSmp4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	4	obj	4:obj	_
+6	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	7	case	7:case	_
+7	spolupráci	spolupráca	NOUN	SSfs3	Case=Dat|Gender=Fem|Number=Sing	4	obl	4:obl	SpaceAfter=No
+8	.	.	PUNCT	Z	_	4	punct	4:punct	_
+
+# sent_id = train-s1592
+# text = Nedokázala som urobiť jedinú slušnú obrátku.
+# orig_file_sentence 016#92
+1	Nedokázala	dokázať	VERB	VLdsaf-	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	0	root	0:root	_
+2	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	aux	1:aux	_
+3	urobiť	urobiť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	1	xcomp	1:xcomp	_
+4	jedinú	jediný	ADJ	NAfs4	Case=Acc|Gender=Fem|Number=Sing|NumType=Mult	6	amod	6:amod	_
+5	slušnú	slušný	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	6:amod	_
+6	obrátku	obrátka	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	3	obj	3:obj	SpaceAfter=No
+7	.	.	PUNCT	Z	_	1	punct	1:punct	_
+
+# sent_id = train-s246
+# text = Mimoriadne ľahké a tenulinké.
+# orig_file_sentence 003#46
+1	Mimoriadne	mimoriadne	ADV	Dx	Degree=Pos	2	advmod	2:advmod|4:advmod	_
+2	ľahké	ľahký	ADJ	AAfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	0	root	0:root	_
+3	a	a	CCONJ	O	_	4	cc	4:cc	_
+4	tenulinké	tenulinký	ADJ	AAfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	2	conj	0:root|2:conj	SpaceAfter=No
+5	.	.	PUNCT	ZIP	_	2	punct	2:punct	_
+
+# sent_id = train-s578
+# text = Bolo významným strediskom na ceste do rostovsko ‐ suzdaľskej oblasti.
+# orig_file_sentence 006#78
+1	Bolo	byť	AUX	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	cop	3:cop	_
+2	významným	významný	ADJ	AAns7x	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	3	amod	3:amod	_
+3	strediskom	stredisko	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	0	root	0:root	_
+4	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	5	case	5:case	_
+5	ceste	cesta	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	3	nmod	3:nmod	_
+6	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	10	case	10:case	_
+7	rostovsko	rostovsko	X	Q	Hyph=Yes	10	nmod	10:nmod	_
+8	‐	‐	PUNCT	Z	_	9	punct	9:punct	_
+9	suzdaľskej	suzdaľský	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	conj	7:conj|10:nmod	_
+10	oblasti	oblasť	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	5	nmod	5:nmod	SpaceAfter=No
+11	.	.	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = train-s8293
+# text = Kiež by som mala menší zobák.“
+# orig_file_sentence 083#93
+1	Kiež	kiež	PART	T	_	4	advmod	4:advmod	_
+2	by	by	AUX	Y	Mood=Cnd	4	aux	4:aux	_
+3	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
+4	mala	mať	VERB	VLesaf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	0:root	_
+5	menší	malý	ADJ	AAis4y	Animacy=Inan|Case=Acc|Degree=Cmp|Gender=Masc|Number=Sing	6	amod	6:amod	_
+6	zobák	zobák	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	4:obj	SpaceAfter=No
+7	.	.	PUNCT	Z	_	4	punct	4:punct	SpaceAfter=No
+8	“	“	PUNCT	Z	_	4	punct	4:punct	_
+
+# sent_id = train-s7306
+# text = Medzitým zavládol v úli pokoj.
+# orig_file_sentence 074#6
+1	Medzitým	medzitým	ADV	Dx	Degree=Pos	2	advmod	2:advmod	_
+2	zavládol	zavládnuť	VERB	VLdsci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	0:root	_
+3	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	4	case	4:case	_
+4	úli	úľ	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	2:obl	_
+5	pokoj	pokoj	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	2:nsubj	SpaceAfter=No
+6	.	.	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = train-s3810
+# text = Cieľom rekodifikácie trestného práva bude prísnejší postih páchateľov násilných trestných činov a moderný trestný proces, ktorý bude rýchly a efektívny.
+# orig_file_sentence 039#10
+1	Cieľom	cieľ	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	0	root	0:root	_
+2	rekodifikácie	rekodifikácia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	1	nmod	1:nmod	_
+3	trestného	trestný	ADJ	AAns2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	4	amod	4:amod	_
+4	práva	právo	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	2	nmod	2:nmod	_
+5	bude	byť	AUX	VBesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	1	cop	1:cop	_
+6	prísnejší	prísny	ADJ	AAis1y	Animacy=Inan|Case=Nom|Degree=Cmp|Gender=Masc|Number=Sing	7	amod	7:amod	_
+7	postih	postih	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	nsubj	1:nsubj	_
+8	páchateľov	páchateľ	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	7	nmod	7:nmod	_
+9	násilných	násilný	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	11	amod	11:amod	_
+10	trestných	trestný	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	11	amod	11:amod	_
+11	činov	čin	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	8:nmod	_
+12	a	a	CCONJ	O	_	15	cc	15:cc	_
+13	moderný	moderný	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	15	amod	15:amod	_
+14	trestný	trestný	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	15	amod	15:amod	_
+15	proces	proces	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	conj	1:nsubj|7:conj	SpaceAfter=No
+16	,	,	PUNCT	Z	_	19	punct	19:punct	_
+17	ktorý	ktorý	DET	PAis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	19	nsubj	19:nsubj	_
+18	bude	byť	AUX	VBesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	19	cop	19:cop	_
+19	rýchly	rýchly	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	15	acl	15:acl	_
+20	a	a	CCONJ	O	_	21	cc	21:cc	_
+21	efektívny	efektívny	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	19	conj	15:acl|19:conj	SpaceAfter=No
+22	.	.	PUNCT	Z	_	1	punct	1:punct	_
+
+# sent_id = train-s4659
+# text = Priateľky a príbuzní ju ponechali svojmu osudu.
+# orig_file_sentence 047#59
+1	Priateľky	priateľka	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	5	nsubj	5:nsubj	_
+2	a	a	CCONJ	O	_	3	cc	3:cc	_
+3	príbuzní	príbuzný	NOUN	SAmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	1	conj	1:conj|5:nsubj	_
+4	ju	ona	PRON	PFfs4	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obj	5:obj	_
+5	ponechali	ponechať	VERB	VLdpco+	Aspect=Perf|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	0:root	_
+6	svojmu	svoj	DET	PFis3	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	7	det	7:det	_
+7	osudu	osud	NOUN	SSis3	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	5	iobj	5:iobj	SpaceAfter=No
+8	.	.	PUNCT	Z	_	5	punct	5:punct	_
+
+# sent_id = train-s6850
+# text = Keď ho vypije, majú ho zabiť.
+# orig_file_sentence 069#50
+1	Keď	keď	SCONJ	O	_	3	mark	3:mark	_
+2	ho	on	PRON	PFis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	3:obj	_
+3	vypije	vypiť	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	advcl	5:advcl	SpaceAfter=No
+4	,	,	PUNCT	Z	_	3	punct	3:punct	_
+5	majú	mať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+6	ho	on	PRON	PFms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obj	7:obj	_
+7	zabiť	zabiť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	5	xcomp	5:xcomp	SpaceAfter=No
+8	.	.	PUNCT	Z	_	5	punct	5:punct	_
+
+# sent_id = train-s795
+# text = Prečo sa potom letopisec zaoberá ešte akýmsi medveďom?
+# orig_file_sentence 008#95
+1	Prečo	prečo	ADV	PD	PronType=Int,Rel	5	advmod	5:advmod	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	5	expl:pv	5:expl:pv	_
+3	potom	potom	ADV	Dx	Degree=Pos	5	advmod	5:advmod	_
+4	letopisec	letopisec	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	5:nsubj	_
+5	zaoberá	zaoberať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+6	ešte	ešte	PART	T	_	8	advmod:emph	8:advmod:emph	_
+7	akýmsi	akýsi	DET	PAms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing|PronType=Ind	8	det	8:det	_
+8	medveďom	medveď	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	5	obj	5:obj	SpaceAfter=No
+9	?	?	PUNCT	Z	_	5	punct	5:punct	_
+
+# sent_id = train-s1067
+# text = Zmeravela som, keď na druhý deň Chris meškal celých desať minút na hodinu astronómie.
+# orig_file_sentence 011#67
+1	Zmeravela	zmeravieť	VERB	VLdsaf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	0:root	_
+2	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	aux	1:aux	SpaceAfter=No
+3	,	,	PUNCT	Z	_	9	punct	9:punct	_
+4	keď	keď	SCONJ	O	_	9	mark	9:mark	_
+5	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	7	case	7:case	_
+6	druhý	druhý	ADJ	NAis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|NumType=Ord	7	amod	7:amod	_
+7	deň	deň	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obl	9:obl	_
+8	Chris	chris	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	9:nsubj	_
+9	meškal	meškať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	1	advcl	1:advcl	_
+10	celých	celý	ADJ	AAns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	11	amod	11:amod	_
+11	desať	desať	NUM	NUns4	Case=Acc|Gender=Neut|Number=Sing	9	obl	9:obl	_
+12	minút	minúta	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	11	nmod	11:nmod	_
+13	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	14	case	14:case	_
+14	hodinu	hodina	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	9	obl	9:obl	_
+15	astronómie	astronómia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	14	nmod	14:nmod	SpaceAfter=No
+16	.	.	PUNCT	Z	_	1	punct	1:punct	_
+
+# sent_id = train-s4577
+# text = Jediná nádej, že ju uvidím, bola virtuálna, závisela od toho, či sa rozhodne trápiť ma vo sne.
+# orig_file_sentence 046#77
+1	Jediná	jediný	ADJ	NAfs1	Case=Nom|Gender=Fem|Number=Sing|NumType=Mult	2	amod	2:amod	_
+2	nádej	nádej	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	9:nsubj|11:nsubj	SpaceAfter=No
+3	,	,	PUNCT	Z	_	6	punct	6:punct	_
+4	že	že	SCONJ	O	_	6	mark	6:mark	_
+5	ju	ona	PRON	PFfs4	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	obj	6:obj	_
+6	uvidím	uvidieť	VERB	VKdsa+	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	acl	2:acl	SpaceAfter=No
+7	,	,	PUNCT	Z	_	6	punct	6:punct	_
+8	bola	byť	AUX	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	9	cop	9:cop	_
+9	virtuálna	virtuálny	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	0:root	SpaceAfter=No
+10	,	,	PUNCT	Z	_	11	punct	11:punct	_
+11	závisela	závisieť	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	9	conj	0:root|9:conj	_
+12	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	13	case	13:case	_
+13	toho	to	DET	PFns2	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	11	obl:arg	11:obl:arg	SpaceAfter=No
+14	,	,	PUNCT	Z	_	17	punct	17:punct	_
+15	či	či	CCONJ	O	_	17	mark	17:mark	_
+16	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	17	expl:pv	17:expl:pv	_
+17	rozhodne	rozhodnúť	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	13	acl	13:acl	_
+18	trápiť	trápiť	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	17	xcomp	17:xcomp	_
+19	ma	ja	PRON	PPhs4	Case=Acc|Number=Sing|Person=1|PronType=Prs	18	obj	18:obj	_
+20	vo	v	ADP	Ev6	AdpType=Voc|Case=Loc	21	case	21:case	_
+21	sne	sen	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	18	obl	18:obl	SpaceAfter=No
+22	.	.	PUNCT	Z	_	9	punct	9:punct	_
+
+# sent_id = train-s7840
+# text = Maja si zatiaľ hladkala boľavé plece.
+# orig_file_sentence 079#40
+1	Maja	maja	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	4:nsubj	_
+2	si	si	PRON	R	PronType=Prs|Reflex=Yes	4	iobj	4:iobj	_
+3	zatiaľ	zatiaľ	ADV	PD	PronType=Dem	4	advmod	4:advmod	_
+4	hladkala	hladkať	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	0:root	_
+5	boľavé	boľavý	ADJ	AAns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	6	amod	6:amod	_
+6	plece	plece	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	4	obj	4:obj	SpaceAfter=No
+7	.	.	PUNCT	Z	_	4	punct	4:punct	_
+
+# sent_id = train-s4702
+# text = Vtedy mohol klopať ktokoľvek, my sme neotvárali.
+# orig_file_sentence 048#2
+1	Vtedy	vtedy	ADV	PD	PronType=Dem	2	advmod	2:advmod	_
+2	mohol	môcť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	0:root	_
+3	klopať	klopať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	2	xcomp	2:xcomp	_
+4	ktokoľvek	ktokoľvek	PRON	PFms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	2	nsubj	2:nsubj	SpaceAfter=No
+5	,	,	PUNCT	Z	_	8	punct	8:punct	_
+6	my	my	PRON	PPhp1	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	8:nsubj	_
+7	sme	byť	AUX	VKepa+	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	aux	8:aux	_
+8	neotvárali	otvárať	VERB	VLepah-	Aspect=Imp|Number=Plur|Polarity=Neg|Tense=Past|VerbForm=Part	2	conj	0:root|2:conj	SpaceAfter=No
+9	.	.	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = train-s6081
+# text = Špinavý, ale slobodný.
+# orig_file_sentence 061#81
+1	Špinavý	špinavý	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	0:root	SpaceAfter=No
+2	,	,	PUNCT	Z	_	4	punct	4:punct	_
+3	ale	ale	CCONJ	O	_	4	cc	4:cc	_
+4	slobodný	slobodný	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	conj	0:root|1:conj	SpaceAfter=No
+5	.	.	PUNCT	Z	_	1	punct	1:punct	_
+
+# sent_id = train-s8248
+# text = V tráve vyhrávala letná muzika.
+# orig_file_sentence 083#48
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	2:case	_
+2	tráve	tráva	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	3	obl	3:obl	_
+3	vyhrávala	vyhrávať	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	0:root	_
+4	letná	letný	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	5:amod	_
+5	muzika	muzika	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	3:nsubj	SpaceAfter=No
+6	.	.	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = train-s5765
+# text = “ Maj sa, princ Ali Abubu!“ kričal za ním Džafar.
+# orig_file_sentence 058#65
+1	“	“	PUNCT	Z	_	2	punct	2:punct	_
+2	Maj	mať	VERB	VMesb+	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|Polarity=Pos|VerbForm=Fin	10	ccomp	10:ccomp	_
+3	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	2	expl:pv	2:expl:pv	SpaceAfter=No
+4	,	,	PUNCT	Z	_	2	punct	2:punct	_
+5	princ	princ	NOUN	SSms5	Animacy=Anim|Case=Voc|Gender=Masc|Number=Sing	7	nmod	7:nmod	_
+6	Ali	ali	PROPN	SFms5:r	Animacy=Anim|Case=Voc|Gender=Masc|Number=Sing	7	nmod	7:nmod	_
+7	Abubu	abubu	PROPN	SSms5:r	Animacy=Anim|Case=Voc|Gender=Masc|Number=Sing	2	vocative	2:vocative	SpaceAfter=No
+8	!	!	PUNCT	Z	_	2	punct	2:punct	SpaceAfter=No
+9	“	“	PUNCT	Z	_	2	punct	2:punct	_
+10	kričal	kričať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	0:root	_
+11	za	za	ADP	Eu7	AdpType=Prep|Case=Ins	12	case	12:case	_
+12	ním	on	PRON	PFms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obl:arg	10:obl:arg	_
+13	Džafar	džafar	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	10:nsubj	SpaceAfter=No
+14	.	.	PUNCT	Z	_	10	punct	10:punct	_
+
+# sent_id = train-s6284
+# text = Jazmína sa vyštverala na vysokánsky štíhly kmeň jednej z najvyšších datľových paliem v kráľovskej záhrade.
+# orig_file_sentence 063#84
+1	Jazmína	Jazmína	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	3:nsubj	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	3	expl:pv	3:expl:pv	_
+3	vyštverala	vyštverať	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	0:root	_
+4	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	7	case	7:case	_
+5	vysokánsky	vysokánsky	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	7:amod	_
+6	štíhly	štíhly	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	7:amod	_
+7	kmeň	kmeň	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obl	3:obl	_
+8	jednej	jeden	NUM	NFfs2	Case=Gen|Gender=Fem|Number=Sing	7	nummod	7:nummod	_
+9	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	12	case	12:case	_
+10	najvyšších	vysoký	ADJ	AAfp2z	Case=Gen|Degree=Sup|Gender=Fem|Number=Plur	12	amod	12:amod	_
+11	datľových	datľový	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	12	amod	12:amod	_
+12	paliem	palma	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	8	nmod	8:nmod	_
+13	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	15	case	15:case	_
+14	kráľovskej	kráľovský	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	15:amod	_
+15	záhrade	záhrada	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	12	nmod	12:nmod	SpaceAfter=No
+16	.	.	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = train-s381
+# text = Poľsko bude reprezentovať Wojciech J. Has, Českú republiku Jan Švankmajer a Slovensko Štefan Uher.
+# orig_file_sentence 004#81
+1	Poľsko	poľsko	PROPN	SSns4:r	Case=Acc|Gender=Neut|Number=Sing	3	obj	3:obj	_
+2	bude	byť	AUX	VBesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	3	aux	3:aux	_
+3	reprezentovať	reprezentovať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	0	root	0:root	_
+4	Wojciech	wojciech	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nmod	7:nmod	_
+5	J	j	PROPN	W	Abbr=Yes	7	nmod	7:nmod	SpaceAfter=No
+6	.	.	PUNCT	Z	_	5	punct	5:punct	_
+7	Has	has	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	3:nsubj	SpaceAfter=No
+8	,	,	PUNCT	Z	_	10	punct	10:punct	_
+9	Českú	český	ADJ	AAfs4x:r	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	10:amod	_
+10	republiku	republika	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	3	conj	0:root|3:conj	_
+11	Jan	jan	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	nmod	12:nmod	_
+12	Švankmajer	švankmajer	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	orphan	10:orphan	_
+13	a	a	CCONJ	O	_	10	cc	10:cc	_
+14	Slovensko	slovensko	PROPN	SSns4:r	Case=Acc|Gender=Neut|Number=Sing	10	orphan	10:orphan	_
+15	Štefan	štefan	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	16	nmod	16:nmod	_
+16	Uher	uher	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	orphan	10:orphan	SpaceAfter=No
+17	.	.	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = train-s4458
+# text = Príčiny svojich neúspechov musí človek hľadať vo vlastnom vnútri a ja som tak robil.
+# orig_file_sentence 045#58
+1	Príčiny	príčina	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	6	obj	6:obj	_
+2	svojich	svoj	DET	PFip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	3	det	3:det	_
+3	neúspechov	neúspech	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	1:nmod	_
+4	musí	musieť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+5	človek	človek	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	4:nsubj	_
+6	hľadať	hľadať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	4	xcomp	4:xcomp	_
+7	vo	v	ADP	Ev6	AdpType=Voc|Case=Loc	9	case	9:case	_
+8	vlastnom	vlastný	ADJ	AAns6x	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	9	amod	9:amod	_
+9	vnútri	vnútro	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	6	obl	6:obl	_
+10	a	a	CCONJ	O	_	14	cc	14:cc	_
+11	ja	ja	PRON	PPhs1	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	14:nsubj	_
+12	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	14	aux	14:aux	_
+13	tak	tak	ADV	PD	PronType=Dem	14	advmod	14:advmod	_
+14	robil	robiť	VERB	VLesam+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	4	conj	0:root|4:conj	SpaceAfter=No
+15	.	.	PUNCT	Z	_	4	punct	4:punct	_
+
+# sent_id = train-s7691
+# text = Otočila sa a odletela.
+# orig_file_sentence 077#91
+1	Otočila	otočiť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	0:root	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	1	expl:pv	1:expl:pv	_
+3	a	a	CCONJ	O	_	4	cc	4:cc	_
+4	odletela	odletieť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	1	conj	0:root|1:conj	SpaceAfter=No
+5	.	.	PUNCT	Z	_	1	punct	1:punct	_
+
+# sent_id = train-s6025
+# text = Tigríča jej nešikovne skočilo do náručia a princezná zacítila mäkulinkú teplú guľku s hodvábnou srsťou.
+# orig_file_sentence 061#25
+1	Tigríča	tigríča	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	4:nsubj	_
+2	jej	on	PRON	PFfs3	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obj	4:obj	_
+3	nešikovne	šikovne	ADV	Dx	Degree=Pos	4	advmod	4:advmod	_
+4	skočilo	skočiť	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	0:root	_
+5	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	6	case	6:case	_
+6	náručia	náručie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	4	obl	4:obl	_
+7	a	a	CCONJ	O	_	9	cc	9:cc	_
+8	princezná	princezná	NOUN	SFfs1	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	9:nsubj	_
+9	zacítila	zacítiť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	4	conj	0:root|4:conj	_
+10	mäkulinkú	mäkulinkú	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	12:amod	_
+11	teplú	teplý	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	12:amod	_
+12	guľku	guľka	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	9	obj	9:obj	_
+13	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	15	case	15:case	_
+14	hodvábnou	hodvábny	ADJ	AAfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	15	amod	15:amod	_
+15	srsťou	srsť	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	12	nmod	12:nmod	SpaceAfter=No
+16	.	.	PUNCT	Z	_	4	punct	4:punct	_
+
+# sent_id = train-s3764
+# text = Vláda bude presadzovať zrušenie systému maximálnych cien a zmenu kategorizácie úhrady liekov tak, aby obsahom solidárneho balíka bola v každej anatomicko - terapeutickej skupine aspoň jedna účinná látka.
+# orig_file_sentence 038#64
+1	Vláda	vláda	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	3:nsubj	_
+2	bude	byť	AUX	VBesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	3	aux	3:aux	_
+3	presadzovať	presadzovať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	0	root	0:root	_
+4	zrušenie	zrušenie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	3	obj	3:obj	_
+5	systému	systém	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	4:nmod	_
+6	maximálnych	maximálny	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	7	amod	7:amod	_
+7	cien	cena	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	5	nmod	5:nmod	_
+8	a	a	CCONJ	O	_	9	cc	9:cc	_
+9	zmenu	zmena	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	4	conj	3:obj|4:conj	_
+10	kategorizácie	kategorizácia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	9	nmod	9:nmod	_
+11	úhrady	úhrada	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	10	nmod	10:nmod	_
+12	liekov	liek	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	11:nmod	_
+13	tak	tak	ADV	PD	PronType=Dem	3	advmod	3:advmod	SpaceAfter=No
+14	,	,	PUNCT	Z	_	16	punct	16:punct	_
+15	aby	aby	SCONJ	OY	Mood=Cnd	16	mark	16:mark	_
+16	obsahom	obsah	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	advcl	3:advcl	_
+17	solidárneho	solidárny	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	18	amod	18:amod	_
+18	balíka	balík	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	16:nmod	_
+19	bola	byť	AUX	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	16	cop	16:cop	_
+20	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	25	case	25:case	_
+21	každej	každý	DET	PAfs6	Case=Loc|Gender=Fem|Number=Sing|PronType=Tot	25	det	25:det	_
+22	anatomicko	anatomicko	X	Q	Hyph=Yes	25	nmod	25:nmod	_
+23	-	-	PUNCT	Z	_	24	punct	24:punct	_
+24	terapeutickej	terapeutický	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	22	conj	22:conj|25:nmod	_
+25	skupine	skupina	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	16	obl	16:obl	_
+26	aspoň	aspoň	PART	T	_	27	advmod:emph	27:advmod:emph	_
+27	jedna	jeden	NUM	NFfs1	Case=Nom|Gender=Fem|Number=Sing	29	nummod	29:nummod	_
+28	účinná	účinný	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	29	amod	29:amod	_
+29	látka	látka	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	16	nsubj	16:nsubj	SpaceAfter=No
+30	.	.	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = train-s156
+# text = Tentoraz na televízne obrazovky v podobe 13 - dielneho seriálu.
+# orig_file_sentence 002#56
+1	Tentoraz	tentoraz	ADV	Dx	Degree=Pos	0	root	0:root	_
+2	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	4	case	4:case	_
+3	televízne	televízny	ADJ	AAfp4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	4	amod	4:amod	_
+4	obrazovky	obrazovka	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	1	dep	1:dep	_
+5	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	6	case	6:case	_
+6	podobe	podoba	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	1	dep	1:dep	_
+7	13	13	NUM	0	NumForm=Digit	9	nummod	9:nummod	_
+8	-	-	PUNCT	ZIP	_	7	punct	7:punct	_
+9	dielneho	dielneho	X	Q	Hyph=Yes	10	nmod	10:nmod	_
+10	seriálu	seriál	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	6:nmod	SpaceAfter=No
+11	.	.	PUNCT	ZIP	_	1	punct	1:punct	_
+
+# sent_id = train-s8448
+# text = MIKULÁŠ JESENSKÝ
+# orig_file_sentence 085#48
+1	MIKULÁŠ	mikuláš	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nmod	2:nmod	_
+2	JESENSKÝ	jesenský	PROPN	SAms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	0:root	_
+
+# sent_id = train-s475
+# text = Jedného dňa povysávala všetky kancelárie s vypnutým vysávačom.
+# orig_file_sentence 005#75
+1	Jedného	jeden	NUM	NFis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nummod	2:nummod	_
+2	dňa	deň	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	obl	3:obl	_
+3	povysávala	povysávať	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	0:root	_
+4	všetky	všetok	DET	PFfp4	Case=Acc|Gender=Fem|Number=Plur|PronType=Tot	5	det	5:det	_
+5	kancelárie	kancelária	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	3	obj	3:obj	_
+6	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	8	case	8:case	_
+7	vypnutým	vypnutý	ADJ	Gtis7x	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	8	amod	8:amod	_
+8	vysávačom	vysávač	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	obl	3:obl	SpaceAfter=No
+9	.	.	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = train-s1423
+# text = Dobre som vedela, čoho sa tá dôvera týka.
+# orig_file_sentence 015#23
+1	Dobre	dobre	ADV	Dx	Degree=Pos	3	advmod	3:advmod	_
+2	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	aux	3:aux	_
+3	vedela	vedieť	VERB	VLesaf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	0:root	SpaceAfter=No
+4	,	,	PUNCT	Z	_	9	punct	9:punct	_
+5	čoho	čo	PRON	PFns2	Case=Gen|Gender=Neut|Number=Sing|PronType=Int,Rel	9	obj	9:obj	_
+6	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	9	expl:pv	9:expl:pv	_
+7	tá	tá	DET	PFfs1	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	8	det	8:det	_
+8	dôvera	dôvera	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	9:nsubj	_
+9	týka	týkať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	ccomp	3:ccomp	SpaceAfter=No
+10	.	.	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = train-s6512
+# text = “ Veru je,“ povedal Aladin.
+# orig_file_sentence 066#12
+1	“	“	PUNCT	Z	_	3	punct	3:punct	_
+2	Veru	veru	PART	T	_	3	advmod	3:advmod	_
+3	je	byť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	ccomp	6:ccomp	SpaceAfter=No
+4	,	,	PUNCT	Z	_	3	punct	3:punct	SpaceAfter=No
+5	“	“	PUNCT	Z	_	3	punct	3:punct	_
+6	povedal	povedať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	0:root	_
+7	Aladin	Aladin	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	6:nsubj	SpaceAfter=No
+8	.	.	PUNCT	Z	_	6	punct	6:punct	_
+
+# sent_id = train-s8005
+# text = Zabudla však, že včelia kráľovná má oddaných a dobre vycvičených vojakov, ktorí zakrátko votrelca zlikvidovali.
+# orig_file_sentence 081#5
+1	Zabudla	zabudnúť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	0:root	_
+2	však	však	CCONJ	O	_	1	cc	1:cc	SpaceAfter=No
+3	,	,	PUNCT	Z	_	7	punct	7:punct	_
+4	že	že	SCONJ	O	_	7	mark	7:mark	_
+5	včelia	včelí	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	6:amod	_
+6	kráľovná	kráľovná	NOUN	SFfs1	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	7:nsubj	_
+7	má	mať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	ccomp	1:ccomp	_
+8	oddaných	oddaný	ADJ	Gtmp4x	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	12	amod	12:amod	_
+9	a	a	CCONJ	O	_	11	cc	11:cc	_
+10	dobre	dobre	ADV	Dx	Degree=Pos	11	advmod	11:advmod	_
+11	vycvičených	vycvičený	ADJ	Gtmp4x	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	8	conj	8:conj|12:amod	_
+12	vojakov	vojak	NOUN	SSmp4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	7	obj	7:obj	SpaceAfter=No
+13	,	,	PUNCT	Z	_	17	punct	17:punct	_
+14	ktorí	ktorý	DET	PAmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Int,Rel	17	nsubj	17:nsubj	_
+15	zakrátko	zakrátko	ADV	Dx	Degree=Pos	17	advmod	17:advmod	_
+16	votrelca	votrelec	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	17	obj	17:obj	_
+17	zlikvidovali	zlikvidovať	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	12	acl	12:acl	SpaceAfter=No
+18	.	.	PUNCT	Z	_	1	punct	1:punct	_
+
+# sent_id = train-s7104
+# text = “ To mi ver,“ odvetil a postrapatil Mauglímu vlasy.
+# orig_file_sentence 072#4
+1	“	“	PUNCT	Z	_	4	punct	4:punct	_
+2	To	ten	DET	PFns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	4	obj	4:obj	_
+3	mi	ja	PRON	PPhs3	Case=Dat|Number=Sing|Person=1|PronType=Prs	4	iobj	4:iobj	_
+4	ver	veriť	VERB	VMesb+	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|Polarity=Pos|VerbForm=Fin	7	ccomp	7:ccomp	SpaceAfter=No
+5	,	,	PUNCT	Z	_	4	punct	4:punct	SpaceAfter=No
+6	“	“	PUNCT	Z	_	4	punct	4:punct	_
+7	odvetil	odvetiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	0:root	_
+8	a	a	CCONJ	O	_	9	cc	9:cc	_
+9	postrapatil	postrapatiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	7	conj	0:root|7:conj	_
+10	Mauglímu	Mauglímu	PROPN	SFms3:r	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	9	iobj	9:iobj	_
+11	vlasy	vlas	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	9	obj	9:obj	SpaceAfter=No
+12	.	.	PUNCT	Z	_	7	punct	7:punct	_
+
+# sent_id = train-s1303
+# text = Potom sa vrhol do vody a rozpleštil sa na člne, až ma od smiechu rozbolelo brucho.
+# orig_file_sentence 014#3
+1	Potom	potom	ADV	Dx	Degree=Pos	3	advmod	3:advmod	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	3	expl:pv	3:expl:pv	_
+3	vrhol	vrhnúť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	0:root	_
+4	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	5	case	5:case	_
+5	vody	voda	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	3	obl	3:obl	_
+6	a	a	CCONJ	O	_	7	cc	7:cc	_
+7	rozpleštil	rozpleštiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	conj	0:root|3:conj	_
+8	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	7	expl:pv	7:expl:pv	_
+9	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	10	case	10:case	_
+10	člne	čln	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	7:obl	SpaceAfter=No
+11	,	,	PUNCT	Z	_	16	punct	16:punct	_
+12	až	až	SCONJ	O	_	16	mark	16:mark	_
+13	ma	ja	PRON	PPhs4	Case=Acc|Number=Sing|Person=1|PronType=Prs	16	obj	16:obj	_
+14	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	15	case	15:case	_
+15	smiechu	smiech	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	obl	16:obl	_
+16	rozbolelo	rozbolieť	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	7	advcl	7:advcl	_
+17	brucho	brucho	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	16	nsubj	16:nsubj	SpaceAfter=No
+18	.	.	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = train-s4229
+# text = Aby Irma bola na letisku včas, odišla s dostatočným predstihom.
+# orig_file_sentence 043#29
+1	Aby	aby	SCONJ	OY	Mood=Cnd	3	mark	3:mark	_
+2	Irma	irma	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	3:nsubj	_
+3	bola	byť	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	8	advcl	8:advcl	_
+4	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	5	case	5:case	_
+5	letisku	letisko	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	3	obl	3:obl	_
+6	včas	včas	ADV	Dx	Degree=Pos	3	advmod	3:advmod	SpaceAfter=No
+7	,	,	PUNCT	Z	_	3	punct	3:punct	_
+8	odišla	odísť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	0:root	_
+9	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	11	case	11:case	_
+10	dostatočným	dostatočný	ADJ	AAis7x	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	11	amod	11:amod	_
+11	predstihom	predstih	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	8	obl	8:obl	SpaceAfter=No
+12	.	.	PUNCT	Z	_	8	punct	8:punct	_
+
+# sent_id = train-s330
+# text = Hanbila sa tak, že chcela na mieste umrieť.
+# orig_file_sentence 004#30
+1	Hanbila	hanbiť	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	0:root	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	1	expl:pv	1:expl:pv	_
+3	tak	tak	ADV	PD	PronType=Dem	1	advmod	1:advmod	SpaceAfter=No
+4	,	,	PUNCT	ZIP	_	6	punct	6:punct	_
+5	že	že	SCONJ	O	_	6	mark	6:mark	_
+6	chcela	chcieť	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	1	advcl	1:advcl	_
+7	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	8	case	8:case	_
+8	mieste	miesto	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	9	obl	9:obl	_
+9	umrieť	umrieť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	6	xcomp	6:xcomp	SpaceAfter=No
+10	.	.	PUNCT	ZIP	_	1	punct	1:punct	_
+
+# sent_id = train-s5405
+# text = Pripomínala mi nejakú literárnu hrdinku.
+# orig_file_sentence 055#5
+1	Pripomínala	pripomínať	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	0:root	_
+2	mi	ja	PRON	PPhs3	Case=Dat|Number=Sing|Person=1|PronType=Prs	1	iobj	1:iobj	_
+3	nejakú	nejaký	DET	PAfs4	Case=Acc|Gender=Fem|Number=Sing|PronType=Ind	5	det	5:det	_
+4	literárnu	literárny	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	5:amod	_
+5	hrdinku	hrdinka	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	1	obj	1:obj	SpaceAfter=No
+6	.	.	PUNCT	Z	_	1	punct	1:punct	_
+
+# sent_id = train-s2787
+# text = Z ich tiel nikdy nijaké dieťa nepovstane.
+# orig_file_sentence 028#87
+1	Z	z	ADP	Eu2	AdpType=Prep|Case=Gen	3	case	3:case	_
+2	ich	ich	DET	PUnp2	Case=Gen|Gender=Neut|Number=Plur|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	3	det	3:det	_
+3	tiel	telo	NOUN	SSnp2	Case=Gen|Gender=Neut|Number=Plur	7	obl	7:obl	_
+4	nikdy	nikdy	ADV	PD	PronType=Neg	7	advmod	7:advmod	_
+5	nijaké	nijaký	DET	PAns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Neg	6	det	6:det	_
+6	dieťa	dieťa	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	7:nsubj	_
+7	nepovstane	povstať	VERB	VKdsc-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	0:root	SpaceAfter=No
+8	.	.	PUNCT	ZIP	_	7	punct	7:punct	_
+
+# sent_id = train-s3011
+# text = Winstonovi sa zovrel žalúdok.
+# orig_file_sentence 031#11
+1	Winstonovi	winston	PROPN	SSms3:r	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	3	obj	3:obj	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	3	expl:pass	3:expl:pass	_
+3	zovrel	zovrieť	VERB	VLdsci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	0:root	_
+4	žalúdok	žalúdok	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj:pass	3:nsubj:pass	SpaceAfter=No
+5	.	.	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = train-s135
+# text = MADONNA REŽISÉRKOU
+# orig_file_sentence 002#35
+1	MADONNA	madonna	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	0	root	0:root	_
+2	REŽISÉRKOU	režisérka	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	1	dep	1:dep	_
+
+# sent_id = train-s3184
+# text = PREČ S VEĽKÝM BRATOM!
+# orig_file_sentence 032#84
+1	PREČ	preč	ADV	Dx	Degree=Pos	0	root	0:root	_
+2	S	s	ADP	Eu7	AdpType=Prep|Case=Ins	4	case	4:case	_
+3	VEĽKÝM	veľký	ADJ	AAms7x	Animacy=Anim|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	4	amod	4:amod	_
+4	BRATOM	brat	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	1	dep	1:dep	SpaceAfter=No
+5	!	!	PUNCT	Z	_	1	punct	1:punct	_
+
+# sent_id = train-s2221
+# text = Raz dokonca dostal balíček cigariet.
+# orig_file_sentence 023#21
+1	Raz	raz	ADV	NSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|NumType=Mult	3	obl	3:obl	_
+2	dokonca	dokonca	PART	T	_	3	advmod:emph	3:advmod:emph	_
+3	dostal	dostať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	0:root	_
+4	balíček	balíček	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	3:obj	_
+5	cigariet	cigareta	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	4	nmod	4:nmod	SpaceAfter=No
+6	.	.	PUNCT	ZIP	_	3	punct	3:punct	_
+
+# sent_id = train-s6036
+# text = Teší ma.
+# orig_file_sentence 061#36
+1	Teší	tešiť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+2	ma	ja	PRON	PPhs4	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	obj	1:obj	SpaceAfter=No
+3	.	.	PUNCT	Z	_	1	punct	1:punct	_
+
+# sent_id = train-s5863
+# text = Čas uteká!
+# orig_file_sentence 059#63
+1	Čas	čas	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	2:nsubj	_
+2	uteká	utekať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	0:root	SpaceAfter=No
+3	!	!	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = train-s1960
+# text = V ďalšom potom budeme identifikovať odraz tejto jeho pozície v sledovaných právnych normách.
+# orig_file_sentence 020#60
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	2:case	_
+2	ďalšom	ďalší	ADJ	AAis6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	5	dep	5:dep	_
+3	potom	potom	ADV	Dx	Degree=Pos	5	advmod	5:advmod	_
+4	budeme	byť	AUX	VBepa+	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Fut|VerbForm=Fin	5	aux	5:aux	_
+5	identifikovať	identifikovať	VERB	VIj+	Aspect=Imp,Perf|Polarity=Pos|VerbForm=Inf	0	root	0:root	_
+6	odraz	odraz	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	5:obj	_
+7	tejto	táto	DET	PFfs2	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	9	det	9:det	_
+8	jeho	jeho	DET	PUfs2	Case=Gen|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	9	det	9:det	_
+9	pozície	pozícia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	6	nmod	6:nmod	_
+10	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	13	case	13:case	_
+11	sledovaných	sledovaný	ADJ	Gtfp6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	13	amod	13:amod	_
+12	právnych	právny	ADJ	AAfp6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	13	amod	13:amod	_
+13	normách	norma	NOUN	SSfp6	Case=Loc|Gender=Fem|Number=Plur	6	nmod	6:nmod	SpaceAfter=No
+14	.	.	PUNCT	Z	_	5	punct	5:punct	_
+
+# sent_id = train-s2352
+# text = Máme pre vás slávnu správu.
+# orig_file_sentence 024#52
+1	Máme	mať	VERB	VKepa+	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+2	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	3	case	3:case	_
+3	vás	vy	PRON	PPhp4	Case=Acc|Number=Plur|Person=2|PronType=Prs	1	obl:arg	1:obl:arg	_
+4	slávnu	slávny	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	5:amod	_
+5	správu	správa	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	1	obj	1:obj	SpaceAfter=No
+6	.	.	PUNCT	ZIP	_	1	punct	1:punct	_
+
+# sent_id = train-s4227
+# text = Irme sa to nepáčilo.
+# orig_file_sentence 043#27
+1	Irme	irma	PROPN	SSfs3:r	Case=Dat|Gender=Fem|Number=Sing	4	obj	4:obj	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	4	expl:pv	4:expl:pv	_
+3	to	to	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	4:nsubj	_
+4	nepáčilo	páčiť	VERB	VLescn-	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	0	root	0:root	SpaceAfter=No
+5	.	.	PUNCT	Z	_	4	punct	4:punct	_
+
+# sent_id = train-s6200
+# text = “ Si ten najstatočnejší a najbystrejší mladý muž, akého poznám,“ povedal vďačne.
+# orig_file_sentence 062#100
+1	“	“	PUNCT	Z	_	8	punct	8:punct	_
+2	Si	byť	AUX	VKesb+	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	cop	8:cop	_
+3	ten	ten	DET	PFms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	8	det	8:det	_
+4	najstatočnejší	statočný	ADJ	AAms1z	Animacy=Anim|Case=Nom|Degree=Sup|Gender=Masc|Number=Sing	8	amod	8:amod	_
+5	a	a	CCONJ	O	_	6	cc	6:cc	_
+6	najbystrejší	bystrý	ADJ	AAms1z	Animacy=Anim|Case=Nom|Degree=Sup|Gender=Masc|Number=Sing	4	conj	4:conj|8:amod	_
+7	mladý	mladý	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	8:amod	_
+8	muž	muž	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	ccomp	14:ccomp	SpaceAfter=No
+9	,	,	PUNCT	Z	_	11	punct	11:punct	_
+10	akého	aký	DET	PAms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|PronType=Int,Rel	11	obj	11:obj	_
+11	poznám	poznať	VERB	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	acl	8:acl	SpaceAfter=No
+12	,	,	PUNCT	Z	_	8	punct	8:punct	SpaceAfter=No
+13	“	“	PUNCT	Z	_	8	punct	8:punct	_
+14	povedal	povedať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	0:root	_
+15	vďačne	vďačne	ADV	Dx	Degree=Pos	14	advmod	14:advmod	SpaceAfter=No
+16	.	.	PUNCT	Z	_	14	punct	14:punct	_
+
+# sent_id = train-s1218
+# text = Pochybovačne zdvihla obočie, pozrela na mňa a ďalej vykladala nákup.
+# orig_file_sentence 013#18
+1	Pochybovačne	pochybovačne	ADV	Dx	Degree=Pos	2	advmod	2:advmod	_
+2	zdvihla	zdvihnúť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	0:root	_
+3	obočie	obočie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	2	obj	2:obj	SpaceAfter=No
+4	,	,	PUNCT	Z	_	5	punct	5:punct	_
+5	pozrela	pozrieť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	2	conj	0:root|2:conj	_
+6	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	7	case	7:case	_
+7	mňa	ja	PRON	PPhs4	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	obl:arg	5:obl:arg	_
+8	a	a	CCONJ	O	_	10	cc	10:cc	_
+9	ďalej	ďalej	ADV	Dx	Degree=Pos	10	advmod	10:advmod	_
+10	vykladala	vykladať	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	2	conj	0:root|2:conj	_
+11	nákup	nákup	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obj	10:obj	SpaceAfter=No
+12	.	.	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = train-s2594
+# text = Rovnako prekvapujúco dobre vedela rozprávať bez pohybovania perami.
+# orig_file_sentence 026#94
+1	Rovnako	rovnako	ADV	Dx	Degree=Pos	2	advmod	2:advmod	_
+2	prekvapujúco	prekvapujúco	ADV	Dx	Degree=Pos	3	advmod	3:advmod	_
+3	dobre	dobre	ADV	Dx	Degree=Pos	4	advmod	4:advmod	_
+4	vedela	vedieť	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	0:root	_
+5	rozprávať	rozprávať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	4	xcomp	4:xcomp	_
+6	bez	bez	ADP	Eu2	AdpType=Prep|Case=Gen	7	case	7:case	_
+7	pohybovania	pohybovanie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	5	obl	5:obl	_
+8	perami	pera	NOUN	SSfp7	Case=Ins|Gender=Fem|Number=Plur	7	nmod	7:nmod	SpaceAfter=No
+9	.	.	PUNCT	ZIP	_	4	punct	4:punct	_
+
+# sent_id = train-s6108
+# text = Zmĺkol uprostred vety.
+# orig_file_sentence 062#8
+1	Zmĺkol	zmĺknuť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	0:root	_
+2	uprostred	uprostred	ADP	Eu2	AdpType=Prep|Case=Gen	3	case	3:case	_
+3	vety	veta	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	1	obl	1:obl	SpaceAfter=No
+4	.	.	PUNCT	Z	_	1	punct	1:punct	_
+
+# sent_id = train-s8315
+# text = Šaty, ktoré šila Flóra, sa nevydarili.
+# orig_file_sentence 084#15
+1	Šaty	šaty	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	8	nsubj	8:nsubj	SpaceAfter=No
+2	,	,	PUNCT	Z	_	4	punct	4:punct	_
+3	ktoré	ktorý	DET	PAfp4	Case=Acc|Gender=Fem|Number=Plur|PronType=Int,Rel	4	obj	4:obj	_
+4	šila	šiť	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	1	acl	1:acl	_
+5	Flóra	flóra	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	4:nsubj	SpaceAfter=No
+6	,	,	PUNCT	Z	_	4	punct	4:punct	_
+7	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	8	expl:pv	8:expl:pv	_
+8	nevydarili	vydariť	VERB	VLdpcf-	Aspect=Perf|Gender=Fem|Number=Plur|Polarity=Neg|Tense=Past|VerbForm=Part	0	root	0:root	SpaceAfter=No
+9	.	.	PUNCT	Z	_	8	punct	8:punct	_
+
+# sent_id = train-s3843
+# text = Vláda bude presadzovať zásady efektívneho a civilného riadenia ozbrojených síl.
+# orig_file_sentence 039#43
+1	Vláda	vláda	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	3:nsubj	_
+2	bude	byť	AUX	VBesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	3	aux	3:aux	_
+3	presadzovať	presadzovať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	0	root	0:root	_
+4	zásady	zásada	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	3	obj	3:obj	_
+5	efektívneho	efektívny	ADJ	AAns2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	8	amod	8:amod	_
+6	a	a	CCONJ	O	_	7	cc	7:cc	_
+7	civilného	civilný	ADJ	AAns2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	5	conj	5:conj|8:amod	_
+8	riadenia	riadenie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	4	nmod	4:nmod	_
+9	ozbrojených	ozbrojený	ADJ	Gtfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	10	amod	10:amod	_
+10	síl	sila	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	8	nmod	8:nmod	SpaceAfter=No
+11	.	.	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = train-s6821
+# text = A utiekla.
+# orig_file_sentence 069#21
+1	A	a	PART	T	_	2	cc	2:cc	_
+2	utiekla	utiecť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	0:root	SpaceAfter=No
+3	.	.	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = train-s3197
+# text = Keď ju vyvreskúvali stovky hrdiel za dupania pochodujúcich nôh, zmocňovala sa človeka hrôza.
+# orig_file_sentence 032#97
+1	Keď	keď	SCONJ	O	_	3	mark	3:mark	_
+2	ju	ona	PRON	PFfs4	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obj	3:obj	_
+3	vyvreskúvali	vyvreskúvať	VERB	VLepcf+	Aspect=Imp|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	11	advcl	11:advcl	_
+4	stovky	stovka	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	3:nsubj	_
+5	hrdiel	hrdlo	NOUN	SSnp2	Case=Gen|Gender=Neut|Number=Plur	4	nmod	4:nmod	_
+6	za	za	ADP	Eu2	AdpType=Prep|Case=Gen	7	case	7:case	_
+7	dupania	dupanie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	3	obl	3:obl	_
+8	pochodujúcich	pochodujúci	ADJ	Gkfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Act	9	amod	9:amod	_
+9	nôh	noha	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	7	nmod	7:nmod	SpaceAfter=No
+10	,	,	PUNCT	Z	_	3	punct	3:punct	_
+11	zmocňovala	zmocňovať	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	0:root	_
+12	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	11	expl:pv	11:expl:pv	_
+13	človeka	človek	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	11	obj	11:obj	_
+14	hrôza	hrôza	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	11:nsubj	SpaceAfter=No
+15	.	.	PUNCT	Z	_	11	punct	11:punct	_
+
+# sent_id = train-s593
+# text = O prítomnosti Novgorodcov v tejto oblasti svedčia ich typické kosoštvorcové náušnice / kosoštvorec bol symbolom zeme /.
+# orig_file_sentence 006#93
+1	O	o	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	2:case	_
+2	prítomnosti	prítomnosť	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	7	obl:arg	7:obl:arg	_
+3	Novgorodcov	novgorodec	PROPN	SSmp2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	2:nmod	_
+4	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	6	case	6:case	_
+5	tejto	táto	DET	PFfs6	Case=Loc|Gender=Fem|Number=Sing|PronType=Dem	6	det	6:det	_
+6	oblasti	oblasť	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	2	nmod	2:nmod	_
+7	svedčia	svedčiť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+8	ich	ich	DET	PUfp1	Case=Nom|Gender=Fem|Number=Plur|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	11	det	11:det	_
+9	typické	typický	ADJ	AAfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	11	amod	11:amod	_
+10	kosoštvorcové	kosoštvorcový	ADJ	AAfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	11	amod	11:amod	_
+11	náušnice	náušnica	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	7	nsubj	7:nsubj	_
+12	/	/	PUNCT	Z	_	15	punct	15:punct	_
+13	kosoštvorec	kosoštvorec	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	15:nsubj	_
+14	bol	byť	AUX	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	15	cop	15:cop	_
+15	symbolom	symbol	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	7	parataxis	7:parataxis	_
+16	zeme	zem	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	15	nmod	15:nmod	_
+17	/	/	PUNCT	Z	_	15	punct	15:punct	SpaceAfter=No
+18	.	.	PUNCT	Z	_	7	punct	7:punct	_
+
+# sent_id = train-s2547
+# text = Než si ju vzal, vedel podľa vône, že je to veľmi netypická čokoláda.
+# orig_file_sentence 026#47
+1	Než	než	SCONJ	O	_	4	mark	4:mark	_
+2	si	si	PRON	R	PronType=Prs|Reflex=Yes	4	expl:pass	4:expl:pass	_
+3	ju	ona	PRON	PFfs4	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obj	4:obj	_
+4	vzal	vziať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	6	advcl	6:advcl	SpaceAfter=No
+5	,	,	PUNCT	ZIP	_	4	punct	4:punct	_
+6	vedel	vedieť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	0:root	_
+7	podľa	podľa	ADP	Eu2	AdpType=Prep|Case=Gen	8	case	8:case	_
+8	vône	vôňa	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	6	obl	6:obl	SpaceAfter=No
+9	,	,	PUNCT	ZIP	_	15	punct	15:punct	_
+10	že	že	SCONJ	O	_	15	mark	15:mark	_
+11	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	15	cop	15:cop	_
+12	to	to	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	15	nsubj	15:nsubj	_
+13	veľmi	veľmi	ADV	Dx	Degree=Pos	14	advmod	14:advmod	_
+14	netypická	netypický	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	15	amod	15:amod	_
+15	čokoláda	čokoláda	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	6	ccomp	6:ccomp	SpaceAfter=No
+16	.	.	PUNCT	ZIP	_	6	punct	6:punct	_
+
+# sent_id = train-s7045
+# text = Zobuď sa!“ kričal Mauglí.
+# orig_file_sentence 071#45
+1	Zobuď	zobudiť	VERB	VMdsb+	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|Polarity=Pos|VerbForm=Fin	5	ccomp	5:ccomp	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	1	expl:pv	1:expl:pv	SpaceAfter=No
+3	!	!	PUNCT	Z	_	1	punct	1:punct	SpaceAfter=No
+4	“	“	PUNCT	Z	_	1	punct	1:punct	_
+5	kričal	kričať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	0:root	_
+6	Mauglí	Mauglí	PROPN	SFms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	5:nsubj	SpaceAfter=No
+7	.	.	PUNCT	Z	_	5	punct	5:punct	_
+
+# sent_id = train-s1565
+# text = “ Viem, si o tom presvedčená,“ povedala mama.
+# orig_file_sentence 016#65
+1	“	“	PUNCT	Z	_	2	punct	2:punct	_
+2	Viem	vedieť	VERB	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	ccomp	10:ccomp	SpaceAfter=No
+3	,	,	PUNCT	Z	_	7	punct	7:punct	_
+4	si	byť	AUX	VKesb+	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	cop	7:cop	_
+5	o	o	ADP	Eu6	AdpType=Prep|Case=Loc	6	case	6:case	_
+6	tom	to	DET	PFns6	Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	7	obl:arg	7:obl:arg	_
+7	presvedčená	presvedčený	ADJ	Gtfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	2	conj	2:conj|10:ccomp	SpaceAfter=No
+8	,	,	PUNCT	Z	_	2	punct	2:punct	SpaceAfter=No
+9	“	“	PUNCT	Z	_	2	punct	2:punct	_
+10	povedala	povedať	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	0:root	_
+11	mama	mama	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	10:nsubj	SpaceAfter=No
+12	.	.	PUNCT	Z	_	10	punct	10:punct	_
+
+# sent_id = train-s6763
+# text = A Trúbeľko sa zasa radoval, že sa Ferdovi nič zlé nestalo.
+# orig_file_sentence 068#63
+1	A	a	PART	T	_	5	cc	5:cc	_
+2	Trúbeľko	trúbeľko	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	5:nsubj	_
+3	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	5	expl:pv	5:expl:pv	_
+4	zasa	zasa	ADV	Dx	Degree=Pos	5	advmod	5:advmod	_
+5	radoval	radovať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	0:root	SpaceAfter=No
+6	,	,	PUNCT	Z	_	12	punct	12:punct	_
+7	že	že	SCONJ	O	_	12	mark	12:mark	_
+8	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	12	expl:pv	12:expl:pv	_
+9	Ferdovi	ferdo	PROPN	SSms3:r	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	12	obj	12:obj	_
+10	nič	nič	PRON	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Neg	12	nsubj	12:nsubj	_
+11	zlé	zlý	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	10	amod	10:amod	_
+12	nestalo	stať	VERB	VLdscn-	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	5	advcl	5:advcl	SpaceAfter=No
+13	.	.	PUNCT	Z	_	5	punct	5:punct	_
+
+# sent_id = train-s810
+# text = Jan prichádza do kraja po zvestiach o zabití žien volchvami.
+# orig_file_sentence 009#10
+1	Jan	jan	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	2:nsubj	_
+2	prichádza	prichádzať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+3	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	4	case	4:case	_
+4	kraja	kraj	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	obl	2:obl	_
+5	po	po	ADP	Eu6	AdpType=Prep|Case=Loc	6	case	6:case	_
+6	zvestiach	zvesť	NOUN	SSfp6	Case=Loc|Gender=Fem|Number=Plur	2	obl	2:obl	_
+7	o	o	ADP	Eu6	AdpType=Prep|Case=Loc	8	case	8:case	_
+8	zabití	zabitie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	6	nmod	6:nmod	_
+9	žien	žena	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	8	nmod	8:nmod	_
+10	volchvami	volchv	NOUN	SSmp7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	8	nmod	8:nmod	SpaceAfter=No
+11	.	.	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = train-s7956
+# text = To bol dôvod, prečo ešte nemal ženu.
+# orig_file_sentence 080#56
+1	To	to	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	3:nsubj	_
+2	bol	byť	AUX	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	cop	3:cop	_
+3	dôvod	dôvod	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	0:root	SpaceAfter=No
+4	,	,	PUNCT	Z	_	7	punct	7:punct	_
+5	prečo	prečo	ADV	PD	PronType=Int,Rel	7	advmod	7:advmod	_
+6	ešte	ešte	PART	T	_	7	advmod	7:advmod	_
+7	nemal	mať	VERB	VLescm-	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	3	acl	3:acl	_
+8	ženu	žena	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	7	obj	7:obj	SpaceAfter=No
+9	.	.	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = train-s6772
+# text = Ale ako?
+# orig_file_sentence 068#72
+1	Ale	ale	PART	T	_	0	root	0:root	_
+2	ako	ako	ADV	PD	PronType=Int,Rel	1	dep	1:dep	SpaceAfter=No
+3	?	?	PUNCT	Z	_	1	punct	1:punct	_
+
+# sent_id = train-s7185
+# text = Skĺzol nižšie a vystrčil hlavu.
+# orig_file_sentence 072#85
+1	Skĺzol	skĺznuť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	0:root	_
+2	nižšie	nízko	ADV	Dy	Degree=Cmp	1	advmod	1:advmod	_
+3	a	a	CCONJ	O	_	4	cc	4:cc	_
+4	vystrčil	vystrčiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	1	conj	0:root|1:conj	_
+5	hlavu	hlava	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	4	obj	4:obj	SpaceAfter=No
+6	.	.	PUNCT	Z	_	1	punct	1:punct	_
+
+# sent_id = train-s4835
+# text = Je plná fasciklov a väčšina z nich je očíslovaná.
+# orig_file_sentence 049#35
+1	Je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	cop	2:cop	_
+2	plná	plný	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	0:root	_
+3	fasciklov	fascikel	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	obj	2:obj	_
+4	a	a	CCONJ	O	_	9	cc	9:cc	_
+5	väčšina	väčšina	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	9:nsubj	_
+6	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	7	case	7:case	_
+7	nich	on	PRON	PFip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	5	nmod	5:nmod	_
+8	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	9	cop	9:cop	_
+9	očíslovaná	očíslovaný	ADJ	Gtfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	2	conj	0:root|2:conj	SpaceAfter=No
+10	.	.	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = train-s7122
+# text = “ Napadli ma,“ rozčúlene vysvetľoval Balú.
+# orig_file_sentence 072#22
+1	“	“	PUNCT	Z	_	2	punct	2:punct	_
+2	Napadli	napadnúť	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	7	ccomp	7:ccomp	_
+3	ma	ja	PRON	PPhs4	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obj	2:obj	SpaceAfter=No
+4	,	,	PUNCT	Z	_	2	punct	2:punct	SpaceAfter=No
+5	“	“	PUNCT	Z	_	2	punct	2:punct	_
+6	rozčúlene	rozčúlene	ADV	Dx	Degree=Pos	7	advmod	7:advmod	_
+7	vysvetľoval	vysvetľovať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	0:root	_
+8	Balú	Balú	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	7:nsubj	SpaceAfter=No
+9	.	.	PUNCT	Z	_	7	punct	7:punct	_
+
+# sent_id = train-s3976
+# text = Trápila sa pre ne.
+# orig_file_sentence 040#76
+1	Trápila	trápiť	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	0:root	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	1	expl:pv	1:expl:pv	_
+3	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	4	case	4:case	_
+4	ne	on	PRON	PFip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	1	obl	1:obl	SpaceAfter=No
+5	.	.	PUNCT	Z	_	1	punct	1:punct	_
+
+# sent_id = train-s1473
+# text = 10. kapitola
+# orig_file_sentence 015#73
+1	10	10	NUM	0	NumForm=Digit	3	nummod	3:nummod	SpaceAfter=No
+2	.	.	PUNCT	Z	_	1	punct	1:punct	_
+3	kapitola	kapitola	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	0	root	0:root	_
+
+# sent_id = train-s6080
+# text = Žiaľ, bol priťažký, lebo maškrtil kandizované datle.
+# orig_file_sentence 061#80
+1	Žiaľ	žiaľ	PART	T	_	4	advmod	4:advmod	SpaceAfter=No
+2	,	,	PUNCT	Z	_	1	punct	1:punct	_
+3	bol	byť	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	4	cop	4:cop	_
+4	priťažký	priťažký	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	0:root	SpaceAfter=No
+5	,	,	PUNCT	Z	_	7	punct	7:punct	_
+6	lebo	lebo	CCONJ	O	_	7	mark	7:mark	_
+7	maškrtil	maškrtiť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	4	advcl	4:advcl	_
+8	kandizované	kandizovaný	ADJ	Gtfp4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	9	amod	9:amod	_
+9	datle	datľa	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	7	obj	7:obj	SpaceAfter=No
+10	.	.	PUNCT	Z	_	4	punct	4:punct	_
+
+# sent_id = train-s2512
+# text = Ja ta pôjdem inokade.
+# orig_file_sentence 026#12
+1	Ja	ja	PRON	PPhs1	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	3:nsubj	_
+2	ta	ta	DET	PD	PronType=Dem	3	obl	3:obl	_
+3	pôjdem	ísť	VERB	VBesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Fut|VerbForm=Fin	0	root	0:root	_
+4	inokade	inokade	ADV	PD	PronType=Ind	3	advmod	3:advmod	SpaceAfter=No
+5	.	.	PUNCT	ZIP	_	3	punct	3:punct	_
+
+# sent_id = train-s8232
+# text = Veruže neostala.
+# orig_file_sentence 083#32
+1	Veruže	veruže	PART	T	_	2	advmod	2:advmod	_
+2	neostala	ostať	VERB	VLdscf-	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	0	root	0:root	SpaceAfter=No
+3	.	.	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = train-s6435
+# text = Našiel prastarý turban a knihu.
+# orig_file_sentence 065#35
+1	Našiel	nájsť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	0:root	_
+2	prastarý	prastarý	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	3:amod	_
+3	turban	turban	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	1:obj	_
+4	a	a	CCONJ	O	_	5	cc	5:cc	_
+5	knihu	kniha	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	3	conj	1:obj|3:conj	SpaceAfter=No
+6	.	.	PUNCT	Z	_	1	punct	1:punct	_
+
+# sent_id = train-s1884
+# text = Dolnolotrinská reforma sa viaže predovšetkým k pôsobeniu Gerharda.
+# orig_file_sentence 019#84
+1	Dolnolotrinská	dolnolotrinský	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	2:amod	_
+2	reforma	reforma	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	4:nsubj	_
+3	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	4	expl:pv	4:expl:pv	_
+4	viaže	viazať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+5	predovšetkým	predovšetkým	PART	T	_	7	advmod:emph	7:advmod:emph	_
+6	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	7	case	7:case	_
+7	pôsobeniu	pôsobenie	NOUN	SSns3	Case=Dat|Gender=Neut|Number=Sing	4	obl:arg	4:obl:arg	_
+8	Gerharda	gerhard	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	nmod	7:nmod	SpaceAfter=No
+9	.	.	PUNCT	Z	_	4	punct	4:punct	_
+
+# sent_id = train-s7542
+# text = Našťastie, komár letel po chvíli preč.
+# orig_file_sentence 076#42
+1	Našťastie	našťastie	PART	T	_	4	advmod	4:advmod	SpaceAfter=No
+2	,	,	PUNCT	Z	_	1	punct	1:punct	_
+3	komár	komár	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	4:nsubj	_
+4	letel	letieť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	0:root	_
+5	po	po	ADP	Eu6	AdpType=Prep|Case=Loc	6	case	6:case	_
+6	chvíli	chvíľa	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	4	obl	4:obl	_
+7	preč	preč	ADV	Dx	Degree=Pos	4	advmod	4:advmod	SpaceAfter=No
+8	.	.	PUNCT	Z	_	4	punct	4:punct	_
+
+# sent_id = train-s1633
+# text = “ Ja som inteligentná osoba,“ povedala mama.
+# orig_file_sentence 017#33
+1	“	“	PUNCT	Z	_	5	punct	5:punct	_
+2	Ja	ja	PRON	PPhs1	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	5:nsubj	_
+3	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_
+4	inteligentná	inteligentný	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	5:amod	_
+5	osoba	osoba	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	8	ccomp	8:ccomp	SpaceAfter=No
+6	,	,	PUNCT	Z	_	5	punct	5:punct	SpaceAfter=No
+7	“	“	PUNCT	Z	_	5	punct	5:punct	_
+8	povedala	povedať	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	0:root	_
+9	mama	mama	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	8:nsubj	SpaceAfter=No
+10	.	.	PUNCT	Z	_	8	punct	8:punct	_
+
+# sent_id = train-s5288
+# text = Boli stále so mnou, boli vo mne.
+# orig_file_sentence 053#88
+1	Boli	byť	VERB	VLepci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	0:root	_
+2	stále	stále	ADV	Dx	Degree=Pos	1	advmod	1:advmod	_
+3	so	s	ADP	Ev7	AdpType=Voc|Case=Ins	4	case	4:case	_
+4	mnou	ja	PRON	PPhs7	Case=Ins|Number=Sing|Person=1|PronType=Prs	1	obl	1:obl	SpaceAfter=No
+5	,	,	PUNCT	Z	_	6	punct	6:punct	_
+6	boli	byť	VERB	VLepci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	1	conj	0:root|1:conj	_
+7	vo	v	ADP	Ev6	AdpType=Voc|Case=Loc	8	case	8:case	_
+8	mne	ja	PRON	PPhs6	Case=Loc|Number=Sing|Person=1|PronType=Prs	6	obl	6:obl	SpaceAfter=No
+9	.	.	PUNCT	Z	_	1	punct	1:punct	_
+
+# sent_id = train-s2976
+# text = Vedel dôvod. Šírila okolo seba atmosféru hokejového ihriska, studených kúpeľov, spoločného stopovania a akejsi všeobecnej čistoty mysle.
+# orig_file_sentence 030#76
+1	Vedel	vedieť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	0:root	_
+2	dôvod	dôvod	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	1:obj	SpaceAfter=No
+3	.	.	PUNCT	Z	_	1	punct	1:punct	_
+4	Šírila	šíriť	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	1	parataxis	1:parataxis	_
+5	okolo	okolo	ADP	Eu2	AdpType=Prep|Case=Gen	6	case	6:case	_
+6	seba	seba	PRON	PPhs2	Case=Gen|Number=Sing|PronType=Prs|Reflex=Yes	4	obl	4:obl	_
+7	atmosféru	atmosféra	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	4	obj	4:obj	_
+8	hokejového	hokejový	ADJ	AAns2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	9	amod	9:amod	_
+9	ihriska	ihrisko	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	7	nmod	7:nmod	SpaceAfter=No
+10	,	,	PUNCT	Z	_	12	punct	12:punct	_
+11	studených	studený	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	12	amod	12:amod	_
+12	kúpeľov	kúpeľ	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	conj	7:nmod|9:conj	SpaceAfter=No
+13	,	,	PUNCT	Z	_	15	punct	15:punct	_
+14	spoločného	spoločný	ADJ	AAns2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	15	amod	15:amod	_
+15	stopovania	stopovanie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	9	conj	7:nmod|9:conj	_
+16	a	a	CCONJ	O	_	19	cc	19:cc	_
+17	akejsi	akýsi	DET	PAfs2	Case=Gen|Gender=Fem|Number=Sing|PronType=Ind	19	det	19:det	_
+18	všeobecnej	všeobecný	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	19	amod	19:amod	_
+19	čistoty	čistota	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	9	conj	7:nmod|9:conj	_
+20	mysle	myseľ	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	19	nmod	19:nmod	SpaceAfter=No
+21	.	.	PUNCT	Z	_	1	punct	1:punct	_
+
+# sent_id = train-s1052
+# text = “ Neuveriteľné!“ zvolala Blythe.
+# orig_file_sentence 011#52
+1	“	“	PUNCT	Z	_	5	punct	5:punct	_
+2	Neuveriteľné	neuveriteľný	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	5	dep	5:dep	SpaceAfter=No
+3	!	!	PUNCT	Z	_	5	punct	5:punct	SpaceAfter=No
+4	“	“	PUNCT	Z	_	5	punct	5:punct	_
+5	zvolala	zvolať	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	0:root	_
+6	Blythe	blythe	PROPN	SUfs1:r	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	5:nsubj	SpaceAfter=No
+7	.	.	PUNCT	Z	_	5	punct	5:punct	_
+
+# sent_id = train-s1572
+# text = Pravdu povediac, nemala som to v úmysle.
+# orig_file_sentence 016#72
+1	Pravdu	pravda	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	2	obj	2:obj	_
+2	povediac	povedať	VERB	VHd+	Aspect=Perf|Polarity=Pos|VerbForm=Conv	4	advcl	4:advcl	SpaceAfter=No
+3	,	,	PUNCT	Z	_	2	punct	2:punct	_
+4	nemala	mať	VERB	VLesaf-	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	0	root	0:root	_
+5	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
+6	to	to	DET	PFns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	4	obj	4:obj	_
+7	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	8	case	8:case	_
+8	úmysle	úmysel	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	4:obl	SpaceAfter=No
+9	.	.	PUNCT	Z	_	4	punct	4:punct	_
+
+# sent_id = train-s2182
+# text = Keď ich spustil na zem, zazrel na vzdialenom konci miestnosti trojstranné zrkadlo.
+# orig_file_sentence 022#82
+1	Keď	keď	SCONJ	O	_	3	mark	3:mark	_
+2	ich	ona	PRON	PFfp4	Case=Acc|Gender=Fem|Number=Plur|Person=3|PronType=Prs	3	obj	3:obj	_
+3	spustil	spustiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	7	advcl	7:advcl	_
+4	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	5	case	5:case	_
+5	zem	zem	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	3	obl	3:obl	SpaceAfter=No
+6	,	,	PUNCT	ZIP	_	3	punct	3:punct	_
+7	zazrel	zazrieť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	0:root	_
+8	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	10	case	10:case	_
+9	vzdialenom	vzdialený	ADJ	Gtis6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	10	amod	10:amod	_
+10	konci	koniec	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	7:obl	_
+11	miestnosti	miestnosť	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	10	nmod	10:nmod	_
+12	trojstranné	trojstranný	ADJ	AAns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	13	amod	13:amod	_
+13	zrkadlo	zrkadlo	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	7	obj	7:obj	SpaceAfter=No
+14	.	.	PUNCT	ZIP	_	7	punct	7:punct	_
+
+# sent_id = train-s5429
+# text = Zostal som pri telefóne so zatajeným dychom.
+# orig_file_sentence 055#29
+1	Zostal	zostať	VERB	VLdsam+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	0:root	_
+2	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	aux	1:aux	_
+3	pri	pri	ADP	Eu6	AdpType=Prep|Case=Loc	4	case	4:case	_
+4	telefóne	telefón	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	obl	1:obl	_
+5	so	s	ADP	Ev7	AdpType=Voc|Case=Ins	7	case	7:case	_
+6	zatajeným	zatajený	ADJ	Gtis7x	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	7	amod	7:amod	_
+7	dychom	dych	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	1	obl	1:obl	SpaceAfter=No
+8	.	.	PUNCT	Z	_	1	punct	1:punct	_
+
+# sent_id = train-s8343
+# text = Leopard Sabor sa chystal zaútočiť.
+# orig_file_sentence 084#43
+1	Leopard	leopard	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nmod	2:nmod	_
+2	Sabor	sabor	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	4:nsubj	_
+3	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	4	expl:pv	4:expl:pv	_
+4	chystal	chystať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	0:root	_
+5	zaútočiť	zaútočiť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	4	xcomp	4:xcomp	SpaceAfter=No
+6	.	.	PUNCT	Z	_	4	punct	4:punct	_
+
+# sent_id = train-s723
+# text = Duchovní v tejto funkcii sa netešia veľkej úcte, sú ohováraní svojimi nevoľníkmi, mučení a zabíjaní.
+# orig_file_sentence 008#23
+1	Duchovní	duchovný	NOUN	SAmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	6:nsubj|11:nsubj|15:nsubj|17:nsubj	_
+2	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	4	case	4:case	_
+3	tejto	táto	DET	PFfs6	Case=Loc|Gender=Fem|Number=Sing|PronType=Dem	4	det	4:det	_
+4	funkcii	funkcia	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	1	nmod	1:nmod	_
+5	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	6	expl:pv	6:expl:pv	_
+6	netešia	tešiť	VERB	VKepc-	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+7	veľkej	veľký	ADJ	AAfs3x	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	8	amod	8:amod	_
+8	úcte	úcta	NOUN	SSfs3	Case=Dat|Gender=Fem|Number=Sing	6	obj	6:obj	SpaceAfter=No
+9	,	,	PUNCT	Z	_	11	punct	11:punct	_
+10	sú	byť	AUX	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	11	aux	11:aux|15:aux|17:aux	_
+11	ohováraní	ohováraný	ADJ	Gtmp1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	6	conj	0:root|6:conj	_
+12	svojimi	svoj	DET	PFmp7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	13	det	13:det	_
+13	nevoľníkmi	nevoľník	NOUN	SSmp7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	11	obj	11:obj	SpaceAfter=No
+14	,	,	PUNCT	Z	_	15	punct	15:punct	_
+15	mučení	mučený	ADJ	Gtmp1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	11	conj	0:root|11:conj	_
+16	a	a	CCONJ	O	_	17	cc	17:cc	_
+17	zabíjaní	zabíjaný	ADJ	Gtmp1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	11	conj	0:root|11:conj	SpaceAfter=No
+18	.	.	PUNCT	Z	_	6	punct	6:punct	_
+
+# sent_id = train-s6645
+# text = “ Nevydeli ste tu nejakého koňa?“ vypytoval som sa chrobákov.
+# orig_file_sentence 067#45
+1	“	“	PUNCT	Z	_	2	punct	2:punct	_
+2	Nevydeli	vidieť	VERB	VLepbh-:q	Aspect=Imp|Number=Plur|Polarity=Neg|Tense=Past|Typo=Yes|VerbForm=Part	9	ccomp	9:ccomp	_
+3	ste	byť	AUX	VKepb+	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	aux	2:aux	_
+4	tu	tu	ADV	PD	PronType=Dem	2	advmod	2:advmod	_
+5	nejakého	nejaký	DET	PAms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	6	det	6:det	_
+6	koňa	kôň	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	2	obj	2:obj	SpaceAfter=No
+7	?	?	PUNCT	Z	_	2	punct	2:punct	SpaceAfter=No
+8	“	“	PUNCT	Z	_	2	punct	2:punct	_
+9	vypytoval	vypytovať	VERB	VLesam+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	0:root	_
+10	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	9	aux	9:aux	_
+11	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	9	expl:pv	9:expl:pv	_
+12	chrobákov	chrobák	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	iobj	9:iobj	SpaceAfter=No
+13	.	.	PUNCT	Z	_	9	punct	9:punct	_
+
+# sent_id = train-s38
+# text = Ľubomír Ďurovič
+# orig_file_sentence 001#38
+1	Ľubomír	ľubomír	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nmod	2:nmod	_
+2	Ďurovič	ďurovič	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	0:root	_
+
+# sent_id = train-s6009
+# text = Nemôžeš spať?“
+# orig_file_sentence 061#9
+1	Nemôžeš	môcť	VERB	VKesb-	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+2	spať	spať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	1	xcomp	1:xcomp	SpaceAfter=No
+3	?	?	PUNCT	Z	_	1	punct	1:punct	SpaceAfter=No
+4	“	“	PUNCT	Z	_	1	punct	1:punct	_
+
+# sent_id = train-s758
+# text = Vnútorný zmysel kresťanstva zostal väčšine ľudí predmongolskej Rusi cudzí.
+# orig_file_sentence 008#58
+1	Vnútorný	vnútorný	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	2:amod	_
+2	zmysel	zmysel	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	4:nsubj	_
+3	kresťanstva	kresťanstvo	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	2	nmod	2:nmod	_
+4	zostal	zostať	VERB	VLdsci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	0:root	_
+5	väčšine	väčšina	NOUN	SSfs3	Case=Dat|Gender=Fem|Number=Sing	4	obj	4:obj	_
+6	ľudí	človek	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	5	nmod	5:nmod	_
+7	predmongolskej	predmongolský	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	8:amod	_
+8	Rusi	rus	PROPN	SSfs2:r	Case=Gen|Gender=Fem|Number=Sing	6	nmod	6:nmod	_
+9	cudzí	cudzí	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	obj	4:obj	SpaceAfter=No
+10	.	.	PUNCT	Z	_	4	punct	4:punct	_
+
+# sent_id = train-s271
+# text = V ponuke je veľmi veľa druhov.
+# orig_file_sentence 003#71
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	2:case	_
+2	ponuke	ponuka	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	3	obl	3:obl	_
+3	je	byť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+4	veľmi	veľmi	ADV	Dx	Degree=Pos	5	advmod	5:advmod	_
+5	veľa	veľa	NUM	NUns1	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	3:nsubj	_
+6	druhov	druh	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	5:nmod	SpaceAfter=No
+7	.	.	PUNCT	ZIP	_	3	punct	3:punct	_
+
+# sent_id = train-s256
+# text = Nôž by mal minimálne obsahovať: veľkú a malú čepeľ, otvárač na fľaše a konzervy, rydlo, výhodné je, ak obsahuje dierovač, pílku na drevo, vývrtku, pinzetu.
+# orig_file_sentence 003#56
+1	Nôž	nôž	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	3:nsubj	_
+2	by	by	AUX	Y	Mood=Cnd	3	aux	3:aux	_
+3	mal	mať	VERB	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	0:root	_
+4	minimálne	minimálne	ADV	Dx	Degree=Pos	5	advmod	5:advmod	_
+5	obsahovať	obsahovať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	3	xcomp	3:xcomp	SpaceAfter=No
+6	:	:	PUNCT	ZIP	_	10	punct	10:punct	_
+7	veľkú	veľký	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	10:amod	_
+8	a	a	CCONJ	O	_	9	cc	9:cc	_
+9	malú	malý	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	conj	7:conj|10:amod	_
+10	čepeľ	čepeľ	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	5	obj	5:obj	SpaceAfter=No
+11	,	,	PUNCT	ZIP	_	12	punct	12:punct	_
+12	otvárač	otvárač	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	conj	5:obj|10:conj	_
+13	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	14	case	14:case	_
+14	fľaše	fľaša	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	12	nmod	12:nmod	_
+15	a	a	CCONJ	O	_	16	cc	16:cc	_
+16	konzervy	konzerva	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	14	conj	12:nmod|14:conj	SpaceAfter=No
+17	,	,	PUNCT	ZIP	_	18	punct	18:punct	_
+18	rydlo	rydlo	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	10	conj	5:obj|10:conj	SpaceAfter=No
+19	,	,	PUNCT	ZIP	_	20	punct	20:punct	_
+20	výhodné	výhodný	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	conj	0:root|3:conj	_
+21	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	20	cop	20:cop	SpaceAfter=No
+22	,	,	PUNCT	ZIP	_	24	punct	24:punct	_
+23	ak	ak	SCONJ	O	_	24	mark	24:mark	_
+24	obsahuje	obsahovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	20	csubj	20:csubj	_
+25	dierovač	dierovač	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	24	obj	24:obj	SpaceAfter=No
+26	,	,	PUNCT	ZIP	_	27	punct	27:punct	_
+27	pílku	pílka	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	25	conj	24:obj|25:conj	_
+28	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	29	case	29:case	_
+29	drevo	drevo	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	27	nmod	27:nmod	SpaceAfter=No
+30	,	,	PUNCT	ZIP	_	31	punct	31:punct	_
+31	vývrtku	vývrtka	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	25	conj	24:obj|25:conj	SpaceAfter=No
+32	,	,	PUNCT	ZIP	_	33	punct	33:punct	_
+33	pinzetu	pinzeta	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	25	conj	24:obj|25:conj	SpaceAfter=No
+34	.	.	PUNCT	ZIP	_	3	punct	3:punct	_
+
+# sent_id = train-s6930
+# text = Meg totiž verila, že iba Fil môže odvrátiť Herkulovu porážku.
+# orig_file_sentence 070#30
+1	Meg	meg	PROPN	SUfs1:r	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	3:nsubj	_
+2	totiž	totiž	PART	T	_	3	advmod	3:advmod	_
+3	verila	veriť	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	0:root	SpaceAfter=No
+4	,	,	PUNCT	Z	_	8	punct	8:punct	_
+5	že	že	SCONJ	O	_	8	mark	8:mark	_
+6	iba	iba	PART	T	_	7	advmod:emph	7:advmod:emph	_
+7	Fil	fil	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	8:nsubj	_
+8	môže	môcť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	ccomp	3:ccomp	_
+9	odvrátiť	odvrátiť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	8	xcomp	8:xcomp	_
+10	Herkulovu	herkulov	ADJ	AFfs4x:r	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	11:amod	_
+11	porážku	porážka	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	9	obj	9:obj	SpaceAfter=No
+12	.	.	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = train-s4730
+# text = V ten deň, keď som sa prebudila chorá, som sledovala z obloka návrat osadenstva vily.
+# orig_file_sentence 048#30
+1	V	v	ADP	Eu4	AdpType=Prep|Case=Acc	3	case	3:case	_
+2	ten	ten	DET	PFis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	3	det	3:det	_
+3	deň	deň	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obl	12:obl	SpaceAfter=No
+4	,	,	PUNCT	Z	_	8	punct	8:punct	_
+5	keď	keď	SCONJ	O	_	8	mark	8:mark	_
+6	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	aux	8:aux	_
+7	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	8	expl:pv	8:expl:pv	_
+8	prebudila	prebudiť	VERB	VLdsaf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	acl	3:acl	_
+9	chorá	chorý	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	xcomp	8:xcomp	SpaceAfter=No
+10	,	,	PUNCT	Z	_	8	punct	8:punct	_
+11	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	12	aux	12:aux	_
+12	sledovala	sledovať	VERB	VLesaf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	0:root	_
+13	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	14	case	14:case	_
+14	obloka	oblok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	obl	12:obl	_
+15	návrat	návrat	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obj	12:obj	_
+16	osadenstva	osadenstvo	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	15	nmod	15:nmod	_
+17	vily	vila	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	16	nmod	16:nmod	SpaceAfter=No
+18	.	.	PUNCT	Z	_	12	punct	12:punct	_
+
+# sent_id = train-s3446
+# text = Súčasné ľudské poznanie je na veľmi vysokej úrovni, stojí na prahu klonovania nového života.
+# orig_file_sentence 035#46
+1	Súčasné	súčasný	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	3:amod	_
+2	ľudské	ľudský	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	3:amod	_
+3	poznanie	poznanie	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	4:nsubj|10:nsubj	_
+4	je	byť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+5	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	8	case	8:case	_
+6	veľmi	veľmi	ADV	Dx	Degree=Pos	7	advmod	7:advmod	_
+7	vysokej	vysoký	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	8:amod	_
+8	úrovni	úroveň	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	4	obl	4:obl	SpaceAfter=No
+9	,	,	PUNCT	Z	_	10	punct	10:punct	_
+10	stojí	stáť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	conj	0:root|4:conj	_
+11	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	12	case	12:case	_
+12	prahu	prah	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	obl	10:obl	_
+13	klonovania	klonovanie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	12	nmod	12:nmod	_
+14	nového	nový	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	15	amod	15:amod	_
+15	života	život	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	13:nmod	SpaceAfter=No
+16	.	.	PUNCT	Z	_	4	punct	4:punct	_
+
+# sent_id = train-s4316
+# text = Spočiatku som sa úspešne tváril, že ma zaujíma výlučne predstavenie.
+# orig_file_sentence 044#16
+1	Spočiatku	spočiatku	ADV	Dx	Degree=Pos	5	advmod	5:advmod	_
+2	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	aux	5:aux	_
+3	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	5	expl:pv	5:expl:pv	_
+4	úspešne	úspešne	ADV	Dx	Degree=Pos	5	advmod	5:advmod	_
+5	tváril	tváriť	VERB	VLesam+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	0:root	SpaceAfter=No
+6	,	,	PUNCT	Z	_	9	punct	9:punct	_
+7	že	že	SCONJ	O	_	9	mark	9:mark	_
+8	ma	ja	PRON	PPhs4	Case=Acc|Number=Sing|Person=1|PronType=Prs	9	obj	9:obj	_
+9	zaujíma	zaujímať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	advcl	5:advcl	_
+10	výlučne	výlučne	PART	T	_	11	advmod:emph	11:advmod:emph	_
+11	predstavenie	predstavenie	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	9	nsubj	9:nsubj	SpaceAfter=No
+12	.	.	PUNCT	Z	_	5	punct	5:punct	_
+
+# sent_id = train-s7947
+# text = Jeho pani bola na počudovanie osa a mala veľmi útly driek.
+# orig_file_sentence 080#47
+1	Jeho	jeho	DET	PUfs1	Case=Nom|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	2	det	2:det	_
+2	pani	pani	NOUN	SUfs1	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	6:nsubj	_
+3	bola	byť	AUX	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	6	cop	6:cop	_
+4	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	5	case	5:case	_
+5	počudovanie	počudovanie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	6	obl	6:obl	_
+6	osa	osa	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	0	root	0:root	_
+7	a	a	CCONJ	O	_	8	cc	8:cc	_
+8	mala	mať	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	6	conj	0:root|6:conj	_
+9	veľmi	veľmi	ADV	Dx	Degree=Pos	10	advmod	10:advmod	_
+10	útly	útly	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	nmod	11:nmod	_
+11	driek	driek	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	8:obj	SpaceAfter=No
+12	.	.	PUNCT	Z	_	6	punct	6:punct	_
+
+# sent_id = train-s7793
+# text = Keď mravenisku hrozilo nebezpečenstvo, statočne ho bránili.
+# orig_file_sentence 078#93
+1	Keď	keď	SCONJ	O	_	3	mark	3:mark	_
+2	mravenisku	mravenisko	NOUN	SSns3	Case=Dat|Gender=Neut|Number=Sing	3	obj	3:obj	_
+3	hrozilo	hroziť	VERB	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	8	advcl	8:advcl	_
+4	nebezpečenstvo	nebezpečenstvo	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	3:nsubj	SpaceAfter=No
+5	,	,	PUNCT	Z	_	3	punct	3:punct	_
+6	statočne	statočne	ADV	Dx	Degree=Pos	8	advmod	8:advmod	_
+7	ho	ono	PRON	PFns4	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	obj	8:obj	_
+8	bránili	brániť	VERB	VLepcm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	0:root	SpaceAfter=No
+9	.	.	PUNCT	Z	_	8	punct	8:punct	_
+
+# sent_id = train-s6997
+# text = “ Ľudské mláďa nemôže ostať so svorkou.“
+# orig_file_sentence 070#97
+1	“	“	PUNCT	Z	_	4	punct	4:punct	_
+2	Ľudské	ľudský	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	3:amod	_
+3	mláďa	mláďa	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	4:nsubj	_
+4	nemôže	môcť	VERB	VKesc-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+5	ostať	ostať	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	4	xcomp	4:xcomp	_
+6	so	s	ADP	Ev7	AdpType=Voc|Case=Ins	7	case	7:case	_
+7	svorkou	svorka	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	5	obl:arg	5:obl:arg	SpaceAfter=No
+8	.	.	PUNCT	Z	_	4	punct	4:punct	SpaceAfter=No
+9	“	“	PUNCT	Z	_	4	punct	4:punct	_
+

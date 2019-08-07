@@ -1,0 +1,2190 @@
+# sent_id = hdt-s38740
+# text = Davon kämen mittlerweile eine halbe Million aus dem Ausland .
+1	Davon	Davon	ADV	PROAV	_	2	advmod	_	_
+2	kämen	kommen	VERB	VVFIN	Mood=Sub|Number=Plur|Person=3|Tense=Pres	0	root	_	_
+3	mittlerweile	mittlerweile	ADV	ADV	_	2	advmod	_	_
+4	eine	eine	DET	ART	Case=Nom|Gender=Fem|Number=Sing	6	det	_	_
+5	halbe	halb	ADJ	ADJA	Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	Million	Million	NOUN	NN	Gender=Fem|Number=Sing|Person=3	2	nsubj	_	_
+7	aus	aus	ADP	APPR	Case=Dat	9	case	_	_
+8	dem	dem	DET	ART	Case=Dat|Gender=Neut|Number=Sing	9	det	_	_
+9	Ausland	Ausland	NOUN	NN	Gender=Neut|Number=Sing|Person=3	2	obl	_	_
+10	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = hdt-s43514
+# text = Die Musterfertigung läuft seit Dezember vergangenen Jahres .
+1	Die	Die	DET	ART	Case=Nom|Gender=Fem|Number=Sing	2	det	_	_
+2	Musterfertigung	Fertigung	NOUN	NN	Gender=Fem|Number=Sing|Person=3	3	nsubj	_	_
+3	läuft	laufen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
+4	seit	seit	ADP	APPR	Case=Dat	5	case	_	_
+5	Dezember	Dezember	NOUN	NN	Gender=Masc|Number=Sing|Person=3	3	obl	_	_
+6	vergangenen	vergehen	ADJ	ADJA	Case=Gen|Degree=Pos|Number=Sing	7	amod	_	_
+7	Jahres	Jahr	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing|Person=3	5	nmod:poss	_	_
+8	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = hdt-s58367
+# text = " Vor allem wird unsere Leserschaft aktueller und besser über Ereignisse und Produkte in dieser schnellebigen Branche informiert sein . "
+1	"	"	PUNCT	$(	_	18	punct	_	_
+2	Vor	Vor	ADP	APPR	Case=Dat	3	case	_	_
+3	allem	all	PRON	PIS	Case=Dat|Gender=Neut|Number=Sing|Person=3	18	obl	_	_
+4	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres	18	aux	_	_
+5	unsere	unser	PRON	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Person=1	6	det:poss	_	_
+6	Leserschaft	Leserschaft	NOUN	NN	Gender=Fem|Number=Sing|Person=3	18	nsubj:pass	_	_
+7	aktueller	aktuell	ADJ	ADJD	Degree=Cmp	18	advmod	_	_
+8	und	und	CCONJ	KON	_	9	cc	_	_
+9	besser	gut	ADJ	ADJD	Degree=Cmp	7	conj	_	_
+10	über	über	ADP	APPR	Case=Dat	11	case	_	_
+11	Ereignisse	Ereignis	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing|Person=3	18	obl	_	_
+12	und	und	CCONJ	KON	_	13	cc	_	_
+13	Produkte	Produkt	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing|Person=3	11	conj	_	_
+14	in	in	ADP	APPR	Case=Dat	17	case	_	_
+15	dieser	dies	DET	PDAT	Case=Dat|Gender=Fem|Number=Sing	17	det	_	_
+16	schnellebigen	schnellebig	ADJ	ADJA	Degree=Pos|Number=Sing	17	amod	_	_
+17	Branche	Branche	NOUN	NN	Gender=Fem|Number=Sing|Person=3	11	nmod	_	_
+18	informiert	informieren	VERB	VVPP	_	0	root	_	_
+19	sein	sein	AUX	VAINF	_	18	aux:pass	_	_
+20	.	.	PUNCT	$.	_	18	punct	_	_
+21	"	"	PUNCT	$(	_	18	punct	_	_
+
+# sent_id = hdt-s22897
+# text = Dies liege vor allem daran , dass die Anzahl der Seiten immer größer wird , sodass einerseits die Suchmaschinen nicht mehr nachkommen , es aber andererseits bei einer Suche mittlerweile so viele Treffer gibt , dass niemand in der Lage ist , diese auszuwerten .
+1	Dies	Dies	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|Person=3	2	nsubj	_	_
+2	liege	liegen	VERB	VVFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres	0	root	_	_
+3	vor	vor	ADP	APPR	Case=Dat	4	case	_	_
+4	allem	all	PRON	PIS	Case=Dat|Gender=Neut|Number=Sing|Person=3	2	obl	_	_
+5	daran	daran	ADV	PROAV	_	2	advmod	_	_
+6	,	,	PUNCT	$,	_	14	punct	_	_
+7	dass	dass	SCONJ	KOUS	_	14	mark	_	_
+8	die	die	DET	ART	Case=Nom|Gender=Fem|Number=Sing	9	det	_	_
+9	Anzahl	Anzahl	NOUN	NN	Gender=Fem|Number=Sing|Person=3	14	nsubj	_	_
+10	der	der	DET	ART	Case=Gen|Number=Plur	11	det:poss	_	_
+11	Seiten	Seite	NOUN	NN	Gender=Fem|Number=Plur|Person=3	9	nmod:poss	_	_
+12	immer	immer	ADV	ADV	_	13	advmod	_	_
+13	größer	groß	ADJ	ADJD	Degree=Cmp	14	xcomp	_	_
+14	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres	2	ccomp	_	_
+15	,	,	PUNCT	$,	_	22	punct	_	_
+16	sodass	sodass	SCONJ	KOUS	_	22	mark	_	_
+17	einerseits	einerseits	ADV	ADV	_	22	advmod	_	_
+18	die	die	DET	ART	Case=Nom|Number=Plur	19	det	_	_
+19	Suchmaschinen	Suchmaschine	NOUN	NN	Gender=Fem|Number=Plur|Person=3	22	nsubj	_	_
+20	nicht	nicht	PART	PTKNEG	_	22	advmod	_	_
+21	mehr	mehr	ADV	ADV	_	20	advmod	_	_
+22	nachkommen	nachkommen	VERB	VVFIN	Mood=Sub|Number=Plur|Person=3|Tense=Pres	14	ccomp	_	_
+23	,	,	PUNCT	$,	_	34	punct	_	_
+24	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3	34	nsubj	_	_
+25	aber	aber	ADV	ADV	_	34	advmod	_	_
+26	andererseits	andererseits	ADV	ADV	_	34	advmod	_	_
+27	bei	bei	ADP	APPR	Case=Dat	29	case	_	_
+28	einer	einer	DET	ART	Case=Dat|Gender=Fem|Number=Sing	29	det	_	_
+29	Suche	Suche	NOUN	NN	Gender=Fem|Number=Sing|Person=3	34	obl	_	_
+30	mittlerweile	mittlerweile	ADV	ADV	_	34	advmod	_	_
+31	so	so	ADV	ADV	Degree=Pos	32	advmod	_	_
+32	viele	viel	ADJ	PIDAT	Case=Acc|Number=Plur|Person=3	33	amod	_	_
+33	Treffer	Treffer	NOUN	NN	Gender=Masc|Number=Plur|Person=3	34	obj	_	_
+34	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres	22	conj	_	_
+35	,	,	PUNCT	$,	_	40	punct	_	_
+36	dass	dass	SCONJ	KOUS	_	40	mark	_	_
+37	niemand	niemand	PRON	PIS	Case=Nom|Number=Sing|Person=3	40	nsubj	_	_
+38	in	in	ADP	APPR	Case=Dat	40	case	_	_
+39	der	der	DET	ART	Case=Dat|Gender=Fem|Number=Sing	40	det	_	_
+40	Lage	Lage	NOUN	NN	Gender=Fem|Number=Sing|Person=3	34	advcl	_	_
+41	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres	40	cop	_	_
+42	,	,	PUNCT	$,	_	44	punct	_	_
+43	diese	diese	PRON	PDS	Case=Acc|Gender=Fem|Number=Sing|Person=3	44	obj	_	_
+44	auszuwerten	auswerten	VERB	VVIZU	_	40	xcomp	_	_
+45	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = hdt-s84971
+# text = Coca Cola locker abgehängt
+1	Coca	Coca	PROPN	NE	Person=3	4	nsubj	_	_
+2	Cola	Cola	PROPN	NE	Number=Sing|Person=3	1	flat:name	_	_
+3	locker	locker	ADJ	ADJD	Degree=Pos	4	advmod	_	_
+4	abgehängt	abhängen	VERB	VVPP	_	0	root	_	_
+
+# sent_id = hdt-s23528
+# text = Zusätzlich soll er an Sonys Playstation 2 anschließbar sein .
+1	Zusätzlich	Zusätzlich	ADJ	ADJD	Degree=Pos	8	advmod	_	_
+2	soll	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres	8	aux	_	_
+3	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3	8	nsubj	_	_
+4	an	an	ADP	APPR	Case=Dat	6	case	_	_
+5	Sonys	Sonys	PROPN	NE	Case=Gen|Number=Sing|Person=3	6	nmod:poss	_	_
+6	Playstation	Playstation	PROPN	NE	Number=Sing|Person=3	8	obl	_	_
+7	2	2	NUM	CARD	Number=Plur|Person=3	6	flat	_	_
+8	anschließbar	anschließbar	ADJ	ADJD	Degree=Pos	0	root	_	_
+9	sein	sein	AUX	VAINF	_	8	cop	_	_
+10	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = hdt-s61840
+# text = Die Deutsche Telekom AG droht nach Einschätzung des " Wall Street Journal Europe " nach schweren Rückschlägen bei internationalen Fusionsvorhaben von einem " Jäger " zu einer " Beute " im weltweiten Konzentrationsprozess zu werden .
+1	Die	Die	DET	ART	Case=Nom|Gender=Fem|Number=Sing	3	det	_	_
+2	Deutsche	deutsch	ADJ	ADJA	Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	Telekom	Telekom	PROPN	NE	Gender=Fem|Number=Sing|Person=3	5	nsubj	_	_
+4	AG	AG	NOUN	NN	Gender=Fem|Number=Sing|Person=3	3	appos	_	_
+5	droht	drohen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
+6	nach	nach	ADP	APPR	Case=Dat	7	case	_	_
+7	Einschätzung	Einschätzung	NOUN	NN	Gender=Fem|Number=Sing|Person=3	35	nmod	_	_
+8	des	des	DET	ART	Case=Gen|Gender=Masc|Number=Sing	10	det:poss	_	_
+9	"	"	PUNCT	$(	_	10	punct	_	_
+10	Wall	Wall	PROPN	NE	Person=3	7	nmod:poss	_	_
+11	Street	Street	PROPN	NE	Person=3	10	flat:name	_	_
+12	Journal	Journal	NOUN	NN	Gender=Neut|Number=Sing|Person=3	10	appos	_	_
+13	Europe	Europe	PROPN	NE	Number=Sing|Person=3	12	flat:name	_	_
+14	"	"	PUNCT	$(	_	10	punct	_	_
+15	nach	nach	ADP	APPR	Case=Dat	17	case	_	_
+16	schweren	schwer	ADJ	ADJA	Case=Dat|Degree=Pos|Number=Plur	17	amod	_	_
+17	Rückschlägen	Rückschlag	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur|Person=3	35	nmod	_	_
+18	bei	bei	ADP	APPR	Case=Dat	20	case	_	_
+19	internationalen	international	ADJ	ADJA	Case=Dat|Degree=Pos|Number=Plur	20	amod	_	_
+20	Fusionsvorhaben	Vorhaben	NOUN	NN	Gender=Neut|Number=Plur|Person=3	17	nmod	_	_
+21	von	von	ADP	APPR	Case=Dat	24	case	_	_
+22	einem	einem	DET	ART	Case=Dat|Gender=Masc|Number=Sing	24	det	_	_
+23	"	"	PUNCT	$(	_	24	punct	_	_
+24	Jäger	Jäger	NOUN	NN	Gender=Masc|Number=Sing|Person=3	35	nmod	_	_
+25	"	"	PUNCT	$(	_	24	punct	_	_
+26	zu	zu	ADP	APPR	Case=Dat	29	case	_	_
+27	einer	einer	DET	ART	Case=Dat|Gender=Fem|Number=Sing	29	det	_	_
+28	"	"	PUNCT	$(	_	29	punct	_	_
+29	Beute	Beute	NOUN	NN	Gender=Fem|Number=Sing|Person=3	35	obl	_	_
+30	"	"	PUNCT	$(	_	29	punct	_	_
+31	im	im	ADP	APPRART	Case=Dat	33	case	_	_
+32	weltweiten	weltweit	ADJ	ADJA	Degree=Pos|Number=Sing	33	amod	_	_
+33	Konzentrationsprozess	Prozeß	NOUN	NN	Gender=Masc|Number=Sing|Person=3	29	nmod	_	_
+34	zu	zu	PART	PTKZU	_	35	mark	_	_
+35	werden	werden	AUX	VAINF	_	5	xcomp	_	_
+36	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = hdt-s65085
+# text = Zu dieser Einschätzung kommt der Erziehungswissenschaftler der Universität Erlangen-Nürnberg , Werner Sacher , in einem Gespräch mit der Nachrichtenagentur dpa .
+1	Zu	Zu	ADP	APPR	Case=Dat	3	case	_	_
+2	dieser	dies	DET	PDAT	Case=Dat|Gender=Fem|Number=Sing	3	det	_	_
+3	Einschätzung	Einschätzung	NOUN	NN	Gender=Fem|Number=Sing|Person=3	4	obl	_	_
+4	kommt	kommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
+5	der	der	DET	ART	Case=Nom|Gender=Masc|Number=Sing	6	det	_	_
+6	Erziehungswissenschaftler	Wissenschaftler	NOUN	NN	Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+7	der	der	DET	ART	Case=Gen|Gender=Fem|Number=Sing	8	det:poss	_	_
+8	Universität	Universität	NOUN	NN	Gender=Fem|Number=Sing|Person=3	6	nmod:poss	_	_
+9	Erlangen-Nürnberg	Erlangen-Nürnberg	PROPN	NE	Number=Sing|Person=3	8	flat:name	_	_
+10	,	,	PUNCT	$,	_	11	punct	_	_
+11	Werner	Werner	PROPN	NE	Gender=Masc|Number=Sing|Person=3	6	appos	_	_
+12	Sacher	Sacher	PROPN	NE	Person=3	11	flat:name	_	_
+13	,	,	PUNCT	$,	_	16	punct	_	_
+14	in	in	ADP	APPR	Case=Dat	16	case	_	_
+15	einem	einem	DET	ART	Case=Dat|Gender=Neut|Number=Sing	16	det	_	_
+16	Gespräch	Gespräch	NOUN	NN	Gender=Neut|Number=Sing|Person=3	4	obl	_	_
+17	mit	mit	ADP	APPR	Case=Dat	19	case	_	_
+18	der	der	DET	ART	Case=Dat|Gender=Fem|Number=Sing	19	det	_	_
+19	Nachrichtenagentur	Agentur	NOUN	NN	Gender=Fem|Number=Sing|Person=3	16	nmod	_	_
+20	dpa	dpa	PROPN	NE	Gender=Fem|Number=Sing|Person=3	19	flat:name	_	_
+21	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = hdt-s76066
+# text = Verfügt der Empfänger über ein SMS-fähiges Festnetztelefon , erscheint beim Eintreffen einer Kurznachricht ähnlich wie bei einem Handy ein Symbol auf dem Telefondisplay ; der Empfänger kann sich den SMS-Text dann wie auf einem Handy anzeigen lassen .
+1	Verfügt	verfügen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres	9	xcomp	_	_
+2	der	der	DET	ART	Case=Nom|Gender=Masc|Number=Sing	3	det	_	_
+3	Empfänger	Empfänger	NOUN	NN	Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+4	über	über	ADP	APPR	Case=Acc	7	case	_	_
+5	ein	ein	DET	ART	Case=Acc|Gender=Neut|Number=Sing	7	det	_	_
+6	SMS-fähiges	SMS-fähiges	ADJ	ADJA	Gender=Neut|Number=Sing	7	amod	_	_
+7	Festnetztelefon	Telefon	NOUN	NN	Gender=Neut|Number=Sing|Person=3	3	nmod	_	_
+8	,	,	PUNCT	$,	_	1	punct	_	_
+9	erscheint	erscheinen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
+10	beim	beim	ADP	APPRART	Case=Dat	11	case	_	_
+11	Eintreffen	Eintreffen	NOUN	NN	Gender=Neut|Number=Sing|Person=3	9	obl	_	_
+12	einer	einer	DET	ART	Case=Gen|Gender=Fem|Number=Sing	13	det:poss	_	_
+13	Kurznachricht	Kurznachricht	NOUN	NN	Gender=Fem|Number=Sing|Person=3	11	nmod:poss	_	_
+14	ähnlich	ähnlich	ADJ	ADJD	Degree=Pos	9	advmod	_	_
+15	wie	wie	ADP	KOKOM	_	18	case	_	_
+16	bei	bei	ADP	APPR	Case=Dat	18	case	_	_
+17	einem	einem	DET	ART	Case=Dat|Gender=Neut|Number=Sing	18	det	_	_
+18	Handy	Handy	NOUN	NN	Gender=Neut|Number=Sing|Person=3	14	obl	_	_
+19	ein	ein	DET	ART	Case=Nom|Gender=Neut|Number=Sing	20	det	_	_
+20	Symbol	Symbol	NOUN	NN	Gender=Neut|Number=Sing|Person=3	9	nsubj	_	_
+21	auf	auf	ADP	APPR	Case=Dat	23	case	_	_
+22	dem	dem	DET	ART	Case=Dat|Gender=Neut|Number=Sing	23	det	_	_
+23	Telefondisplay	Display	NOUN	NN	Gender=Neut|Number=Sing|Person=3	9	obl	_	_
+24	;	;	PUNCT	$.	_	9	punct	_	_
+25	der	der	DET	ART	Case=Nom|Gender=Masc|Number=Sing	26	det	_	_
+26	Empfänger	Empfänger	NOUN	NN	Gender=Masc|Number=Sing|Person=3	37	nsubj	_	_
+27	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres	37	aux	_	_
+28	sich	sich	PRON	PRF	Case=Dat|Person=3	36	iobj	_	_
+29	den	den	DET	ART	Case=Acc|Gender=Masc|Number=Sing	30	det	_	_
+30	SMS-Text	Text	NOUN	NN	Gender=Masc|Number=Sing|Person=3	36	obj	_	_
+31	dann	dann	ADV	ADV	_	36	advmod	_	_
+32	wie	wie	ADP	KOKOM	_	35	case	_	_
+33	auf	auf	ADP	APPR	Case=Dat	35	case	_	_
+34	einem	einem	DET	ART	Case=Dat|Gender=Neut|Number=Sing	35	det	_	_
+35	Handy	Handy	NOUN	NN	Gender=Neut|Number=Sing|Person=3	36	obl	_	_
+36	anzeigen	anzeigen	VERB	VVINF	_	37	xcomp	_	_
+37	lassen	lassen	VERB	VVINF	_	9	parataxis	_	_
+38	.	.	PUNCT	$.	_	9	punct	_	_
+
+# sent_id = hdt-s57587
+# text = Der Vorsitzende der Rundfunkkommission , Ministerpräsident Kurt Beck , hatte die öffentlich-rechtlichen Rundfunkanstalten im November aufgefordert , ihre gegenwärtigen und zukünftigen Aktivitäten im Bereich der Online-Dienste darzustellen .
+1	Der	Der	DET	ART	Case=Nom|Gender=Masc|Number=Sing	2	det	_	_
+2	Vorsitzende	Vorsitzend	NOUN	NN	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Person=3	16	nsubj	_	_
+3	der	der	DET	ART	Case=Gen|Gender=Fem|Number=Sing	4	det:poss	_	_
+4	Rundfunkkommission	Kommission	NOUN	NN	Gender=Fem|Number=Sing|Person=3	2	nmod:poss	_	_
+5	,	,	PUNCT	$,	_	6	punct	_	_
+6	Ministerpräsident	Ministerpräsident	NOUN	NN	Gender=Masc|Number=Sing|Person=3	2	appos	_	_
+7	Kurt	Kurt	PROPN	NE	Gender=Masc|Number=Sing|Person=3	6	flat:name	_	_
+8	Beck	Beck	PROPN	NE	Number=Sing|Person=3	6	flat:name	_	_
+9	,	,	PUNCT	$,	_	6	punct	_	_
+10	hatte	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past	16	aux	_	_
+11	die	die	DET	ART	Case=Acc|Number=Plur	13	det	_	_
+12	öffentlich-rechtlichen	rechtlich	ADJ	ADJA	Degree=Pos|Number=Plur	13	amod	_	_
+13	Rundfunkanstalten	Anstalt	NOUN	NN	Gender=Fem|Number=Plur|Person=3	16	obj	_	_
+14	im	im	ADP	APPRART	Case=Dat	15	case	_	_
+15	November	November	NOUN	NN	Gender=Masc|Number=Sing|Person=3	16	obl	_	_
+16	aufgefordert	auffordern	VERB	VVPP	_	0	root	_	_
+17	,	,	PUNCT	$,	_	27	punct	_	_
+18	ihre	sein	PRON	PPOSAT	Case=Acc|Number=Plur|Person=3	22	det:poss	_	_
+19	gegenwärtigen	gegenwärtig	ADJ	ADJA	Degree=Pos|Number=Plur	22	amod	_	_
+20	und	und	CCONJ	KON	_	21	cc	_	_
+21	zukünftigen	zukünftig	ADJ	ADJA	Degree=Pos|Number=Plur	19	conj	_	_
+22	Aktivitäten	Aktivität	NOUN	NN	Gender=Fem|Number=Plur|Person=3	27	obj	_	_
+23	im	im	ADP	APPRART	Case=Dat	24	case	_	_
+24	Bereich	Bereich	NOUN	NN	Gender=Masc|Number=Sing|Person=3	22	nmod	_	_
+25	der	der	DET	ART	Case=Gen|Number=Plur	26	det:poss	_	_
+26	Online-Dienste	Dienst	NOUN	NN	Gender=Masc|Number=Plur|Person=3	24	nmod:poss	_	_
+27	darzustellen	darstellen	VERB	VVIZU	_	16	xcomp	_	_
+28	.	.	PUNCT	$.	_	16	punct	_	_
+
+# sent_id = hdt-s21778
+# text = Die Telekom wollte sich bislang nicht dazu äußern , da sie laut Sprecher Frank Domagala den genauen Wortlaut der einstweiligen Verfügung noch nicht kennt .
+1	Die	Die	DET	ART	Case=Nom|Gender=Fem|Number=Sing	2	det	_	_
+2	Telekom	Telekom	PROPN	NE	Gender=Fem|Number=Sing|Person=3	8	nsubj	_	_
+3	wollte	wollen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres	8	aux	_	_
+4	sich	sich	PRON	PRF	Case=Acc|Person=3	8	obj	_	_
+5	bislang	bislang	ADV	ADV	_	8	advmod	_	_
+6	nicht	nicht	PART	PTKNEG	_	8	advmod	_	_
+7	dazu	dazu	ADV	PROAV	_	8	advmod	_	_
+8	äußern	äußern	VERB	VVINF	_	0	root	_	_
+9	,	,	PUNCT	$,	_	24	punct	_	_
+10	da	da	SCONJ	KOUS	_	24	mark	_	_
+11	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3	24	nsubj	_	_
+12	laut	laut	ADP	APPR	Case=Dat	13	case	_	_
+13	Sprecher	Sprecher	NOUN	NN	Gender=Masc|Number=Sing|Person=3	24	obl	_	_
+14	Frank	Frank	PROPN	NE	Number=Sing|Person=3	13	flat:name	_	_
+15	Domagala	Domagala	PROPN	NE	Number=Sing|Person=3	13	flat:name	_	_
+16	den	den	DET	ART	Case=Acc|Gender=Masc|Number=Sing	18	det	_	_
+17	genauen	genau	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	Wortlaut	Wortlaut	NOUN	NN	Gender=Masc|Number=Sing|Person=3	24	obj	_	_
+19	der	der	DET	ART	Case=Gen|Gender=Fem|Number=Sing	21	det:poss	_	_
+20	einstweiligen	einstweilig	ADJ	ADJA	Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+21	Verfügung	Verfügung	NOUN	NN	Gender=Fem|Number=Sing|Person=3	18	nmod:poss	_	_
+22	noch	noch	ADV	ADV	_	24	advmod	_	_
+23	nicht	nicht	PART	PTKNEG	_	24	advmod	_	_
+24	kennt	kennen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres	8	advcl	_	_
+25	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = hdt-s79593
+# text = Die Preise für die Geräte liegen dann voraussichtlich - je nach Ausstattung und Zusatzgeräten - zwischen 2.500 und 5.000 Mark .
+1	Die	Die	DET	ART	Case=Nom|Number=Plur	2	det	_	_
+2	Preise	Preis	NOUN	NN	Gender=Masc|Number=Plur|Person=3	6	nsubj	_	_
+3	für	für	ADP	APPR	Case=Acc	5	case	_	_
+4	die	die	DET	ART	Case=Acc|Number=Plur	5	det	_	_
+5	Geräte	Gerät	NOUN	NN	Gender=Neut|Number=Plur|Person=3	2	nmod	_	_
+6	liegen	liegen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	_
+7	dann	dann	ADV	ADV	_	6	advmod	_	_
+8	voraussichtlich	voraussichtlich	ADJ	ADJD	Degree=Pos	6	advmod	_	_
+9	-	-	PUNCT	$(	_	12	punct	_	_
+10	je	je	ADV	ADV	_	12	advmod	_	_
+11	nach	nach	ADP	APPR	Case=Dat	12	case	_	_
+12	Ausstattung	Ausstattung	NOUN	NN	Gender=Fem|Number=Sing|Person=3	6	obl	_	_
+13	und	und	CCONJ	KON	_	14	cc	_	_
+14	Zusatzgeräten	Gerät	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur|Person=3	12	conj	_	_
+15	-	-	PUNCT	$(	_	17	punct	_	_
+16	zwischen	zwischen	ADP	APPR	Case=Dat	17	case	_	_
+17	2.500	2.500	NUM	CARD	Number=Plur|Person=3	6	obl	_	_
+18	und	und	CCONJ	KON	_	20	cc	_	_
+19	5.000	5.000	NUM	CARD	Number=Plur|Person=3	20	nummod	_	_
+20	Mark	Mark	NOUN	NN	Gender=Fem|Number=Plur|Person=3	17	conj	_	_
+21	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = hdt-s101215
+# text = Aufgrund der daraufhin entstandenen Proteste habe man die umstrittensten Maßnahmen aus dem Dokument wieder entfernt und in geheimen Ausführungsvorschriften versteckt ( dazu s. a. das Special Enfopol in Telepolis ) .
+1	Aufgrund	Aufgrund	ADP	APPR	Case=Gen	5	case	_	_
+2	der	der	DET	ART	Case=Gen|Number=Plur	5	det	_	_
+3	daraufhin	daraufhin	ADV	PROAV	_	4	advmod	_	_
+4	entstandenen	entstehen	ADJ	ADJA	Degree=Pos|Number=Plur	5	amod	_	_
+5	Proteste	Protest	NOUN	NN	Gender=Masc|Number=Plur|Person=3	15	obl	_	_
+6	habe	haben	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres	15	aux	_	_
+7	man	man	PRON	PIS	Case=Nom|Number=Sing|Person=3	15	nsubj	_	_
+8	die	die	DET	ART	Case=Acc|Number=Plur	10	det	_	_
+9	umstrittensten	umstritten	ADJ	ADJA	Degree=Sup|Number=Plur	10	amod	_	_
+10	Maßnahmen	Maßnahme	NOUN	NN	Gender=Fem|Number=Plur|Person=3	15	obj	_	_
+11	aus	aus	ADP	APPR	Case=Dat	13	case	_	_
+12	dem	dem	DET	ART	Case=Dat|Gender=Neut|Number=Sing	13	det	_	_
+13	Dokument	Dokument	NOUN	NN	Gender=Neut|Number=Sing|Person=3	10	nmod	_	_
+14	wieder	wieder	ADV	ADV	_	15	advmod	_	_
+15	entfernt	entfernen	VERB	VVPP	_	0	root	_	_
+16	und	und	CCONJ	KON	_	20	cc	_	_
+17	in	in	ADP	APPR	Case=Dat	19	case	_	_
+18	geheimen	geheim	ADJ	ADJA	Case=Dat|Degree=Pos|Number=Plur	19	amod	_	_
+19	Ausführungsvorschriften	Vorschrift	NOUN	NN	Gender=Fem|Number=Plur|Person=3	20	obl	_	_
+20	versteckt	verstecken	VERB	VVPP	_	15	conj	_	_
+21	(	(	PUNCT	$(	_	23	punct	_	_
+22	dazu	dazu	ADV	PROAV	_	23	advmod	_	_
+23	s.	sehen	VERB	VVIMP	Mood=Ind|Number=Sing|Person=2	15	parataxis	_	_
+24	a.	a.	ADV	ADV	_	23	advmod	_	_
+25	das	das	DET	ART	Case=Acc|Gender=Neut|Number=Sing	26	det	_	_
+26	Special	Special	PROPN	NE	Person=3	23	obj	_	_
+27	Enfopol	Enfopol	PROPN	NE	Person=3	26	flat:name	_	_
+28	in	in	ADP	APPR	Case=Dat	29	case	_	_
+29	Telepolis	Telepolis	PROPN	NE	Person=3	26	nmod	_	_
+30	)	)	PUNCT	$(	_	23	punct	_	_
+31	.	.	PUNCT	$.	_	15	punct	_	_
+
+# sent_id = hdt-s27325
+# text = Dazu reicht es , in zwei Methoden eigenen Code einzugeben , um etwa den Turm , die Radaraugen oder das ganze Vehikel zu bewegen - und natürlich zu schießen , sobald " der Feind " ( also jeder ) in den Abtastwinkel des Radars kommt .
+1	Dazu	Dazu	ADV	PROAV	_	2	advmod	_	_
+2	reicht	reichen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3	2	expl	_	_
+4	,	,	PUNCT	$,	_	10	punct	_	_
+5	in	in	ADP	APPR	Case=Acc	7	case	_	_
+6	zwei	zwei	NUM	CARD	Number=Plur|Person=3	7	nummod	_	_
+7	Methoden	Methode	NOUN	NN	Gender=Fem|Number=Plur|Person=3	10	obl	_	_
+8	eigenen	eigen	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	Code	Code	NOUN	NN	Gender=Masc|Number=Sing|Person=3	10	obj	_	_
+10	einzugeben	eingeben	VERB	VVIZU	_	2	csubj	_	_
+11	,	,	PUNCT	$,	_	24	punct	_	_
+12	um	um	SCONJ	KOUI	_	24	mark	_	_
+13	etwa	etwa	ADV	ADV	_	24	advmod	_	_
+14	den	den	DET	ART	Case=Acc|Gender=Masc|Number=Sing	15	det	_	_
+15	Turm	Turm	NOUN	NN	Gender=Masc|Number=Sing|Person=3	24	obj	_	_
+16	,	,	PUNCT	$,	_	18	punct	_	_
+17	die	die	DET	ART	Case=Acc|Number=Plur	18	det	_	_
+18	Radaraugen	Auge	NOUN	NN	Gender=Neut|Number=Plur|Person=3	15	conj	_	_
+19	oder	oder	CCONJ	KON	_	22	cc	_	_
+20	das	das	DET	ART	Case=Acc|Gender=Neut|Number=Sing	22	det	_	_
+21	ganze	ganz	ADJ	ADJA	Degree=Pos|Gender=Neut|Number=Sing	22	amod	_	_
+22	Vehikel	Vehikel	NOUN	NN	Gender=Neut|Number=Sing|Person=3	15	conj	_	_
+23	zu	zu	PART	PTKZU	_	24	mark	_	_
+24	bewegen	bewegen	VERB	VVINF	_	2	ccomp	_	_
+25	-	-	PUNCT	$(	_	29	punct	_	_
+26	und	und	CCONJ	KON	_	29	cc	_	_
+27	natürlich	natürlich	ADJ	ADJD	Degree=Pos	29	advmod	_	_
+28	zu	zu	PART	PTKZU	_	29	mark	_	_
+29	schießen	schießen	VERB	VVINF	_	24	conj	_	_
+30	,	,	PUNCT	$,	_	45	punct	_	_
+31	sobald	sobald	SCONJ	KOUS	_	45	mark	_	_
+32	"	"	PUNCT	$(	_	34	punct	_	_
+33	der	der	DET	ART	Case=Nom|Gender=Masc|Number=Sing	34	det	_	_
+34	Feind	Feind	NOUN	NN	Gender=Masc|Number=Sing|Person=3	45	nsubj	_	_
+35	"	"	PUNCT	$(	_	34	punct	_	_
+36	(	(	PUNCT	$(	_	38	punct	_	_
+37	also	also	ADV	ADV	_	38	advmod	_	_
+38	jeder	jeder	PRON	PIS	Case=Nom|Gender=Masc|Number=Sing|Person=3	34	appos	_	_
+39	)	)	PUNCT	$(	_	38	punct	_	_
+40	in	in	ADP	APPR	Case=Acc	42	case	_	_
+41	den	den	DET	ART	Case=Acc|Gender=Masc|Number=Sing	42	det	_	_
+42	Abtastwinkel	Winkel	NOUN	NN	Gender=Masc|Number=Sing|Person=3	45	obl	_	_
+43	des	des	DET	ART	Case=Gen|Gender=Masc|Number=Sing	44	det:poss	_	_
+44	Radars	Radar	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing|Person=3	42	nmod:poss	_	_
+45	kommt	kommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres	29	ccomp	_	_
+46	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = hdt-s22200
+# text = Weil viele der Mail-Empfänger seitdem immer wieder vergebliche Einwahlversuche über diese Nummer unternehmen , prüft der Provider nun rechtliche Schritte gegen MMTC .
+1	Weil	Weil	SCONJ	KOUS	_	13	mark	_	_
+2	viele	viel	PRON	PIS	Case=Nom|Number=Plur|Person=3	13	nsubj	_	_
+3	der	der	DET	ART	Case=Gen|Number=Plur	4	det:poss	_	_
+4	Mail-Empfänger	Empfänger	NOUN	NN	Gender=Masc|Number=Plur|Person=3	2	nmod:poss	_	_
+5	seitdem	seitdem	ADV	PROAV	_	13	advmod	_	_
+6	immer	immer	ADV	ADV	_	7	advmod	_	_
+7	wieder	wieder	ADV	ADV	_	13	advmod	_	_
+8	vergebliche	vergeblich	ADJ	ADJA	Degree=Pos|Gender=Masc|Number=Plur	9	amod	_	_
+9	Einwahlversuche	Versuch	NOUN	NN	Gender=Masc|Number=Plur|Person=3	13	obj	_	_
+10	über	über	ADP	APPR	Case=Acc	12	case	_	_
+11	diese	diese	DET	PDAT	Case=Acc|Gender=Fem|Number=Sing	12	det	_	_
+12	Nummer	Nummer	NOUN	NN	Gender=Fem|Number=Sing|Person=3	9	nmod	_	_
+13	unternehmen	unternehmen	VERB	VVFIN	Mood=Sub|Number=Plur|Person=3|Tense=Pres	15	advcl	_	_
+14	,	,	PUNCT	$,	_	13	punct	_	_
+15	prüft	prüfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
+16	der	der	DET	ART	Case=Nom|Gender=Masc|Number=Sing	17	det	_	_
+17	Provider	Provider	NOUN	NN	Gender=Masc|Number=Sing|Person=3	15	nsubj	_	_
+18	nun	nun	ADV	ADV	_	15	advmod	_	_
+19	rechtliche	rechtlich	ADJ	ADJA	Degree=Pos|Gender=Masc|Number=Plur	20	amod	_	_
+20	Schritte	Schritt	NOUN	NN	Gender=Masc|Number=Plur|Person=3	15	obj	_	_
+21	gegen	gegen	ADP	APPR	Case=Acc	22	case	_	_
+22	MMTC	MMTC	PROPN	NE	Person=3	20	nmod	_	_
+23	.	.	PUNCT	$.	_	15	punct	_	_
+
+# sent_id = hdt-s100641
+# text = Gegenüber den möglichen technischen Zertifizierungsverfahren soll der Rechtsrahmen aber " neutral " bleiben , um Innovationen nicht zu verhindern .
+1	Gegenüber	Gegenüber	ADP	APPR	Case=Dat	5	case	_	_
+2	den	den	DET	ART	Case=Dat|Number=Plur	5	det	_	_
+3	möglichen	möglich	ADJ	ADJA	Degree=Pos|Number=Plur	5	amod	_	_
+4	technischen	technisch	ADJ	ADJA	Degree=Pos|Number=Plur	5	amod	_	_
+5	Zertifizierungsverfahren	Verfahren	NOUN	NN	Gender=Neut|Number=Plur|Person=3	13	obl	_	_
+6	soll	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres	13	aux	_	_
+7	der	der	DET	ART	Case=Nom|Gender=Masc|Number=Sing	8	det	_	_
+8	Rechtsrahmen	Rahmen	NOUN	NN	Gender=Masc|Number=Sing|Person=3	13	nsubj	_	_
+9	aber	aber	ADV	ADV	_	13	advmod	_	_
+10	"	"	PUNCT	$(	_	11	punct	_	_
+11	neutral	neutral	ADJ	ADJD	Degree=Pos	13	advmod	_	_
+12	"	"	PUNCT	$(	_	11	punct	_	_
+13	bleiben	bleiben	VERB	VVINF	_	0	root	_	_
+14	,	,	PUNCT	$,	_	19	punct	_	_
+15	um	um	SCONJ	KOUI	_	19	mark	_	_
+16	Innovationen	Innovation	NOUN	NN	Gender=Fem|Number=Plur|Person=3	19	obj	_	_
+17	nicht	nicht	PART	PTKNEG	_	19	advmod	_	_
+18	zu	zu	PART	PTKZU	_	19	mark	_	_
+19	verhindern	verhindern	VERB	VVINF	_	13	advcl	_	_
+20	.	.	PUNCT	$.	_	13	punct	_	_
+
+# sent_id = hdt-s74944
+# text = Künftig sollen auf den Telefonrechnungen der Telekom die Beträge für andere Telefongesellschaften nur noch ausgewiesen werden .
+1	Künftig	künftig	ADJ	ADJD	Degree=Pos	15	advmod	_	_
+2	sollen	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres	15	aux	_	_
+3	auf	auf	ADP	APPR	Case=Dat	5	case	_	_
+4	den	den	DET	ART	Case=Dat|Number=Plur	5	det	_	_
+5	Telefonrechnungen	Rechnung	NOUN	NN	Gender=Fem|Number=Plur|Person=3	15	obl	_	_
+6	der	der	DET	ART	Case=Gen|Gender=Fem|Number=Sing	7	det:poss	_	_
+7	Telekom	Telekom	PROPN	NE	Gender=Fem|Number=Sing|Person=3	5	nmod:poss	_	_
+8	die	die	DET	ART	Case=Nom|Number=Plur	9	det	_	_
+9	Beträge	Betrag	NOUN	NN	Gender=Masc|Number=Plur|Person=3	15	nsubj:pass	_	_
+10	für	für	ADP	APPR	Case=Acc	12	case	_	_
+11	andere	ander	ADJ	ADJA	Degree=Pos|Number=Plur	12	amod	_	_
+12	Telefongesellschaften	Gesellschaft	NOUN	NN	Gender=Fem|Number=Plur|Person=3	9	nmod	_	_
+13	nur	nur	ADV	ADV	_	15	advmod	_	_
+14	noch	noch	ADV	ADV	_	15	advmod	_	_
+15	ausgewiesen	ausweisen	VERB	VVPP	_	0	root	_	_
+16	werden	werden	AUX	VAINF	_	15	aux:pass	_	_
+17	.	.	PUNCT	$.	_	15	punct	_	_
+
+# sent_id = hdt-s25543
+# text = Deswegen setzt LSI Logic gleich auf die nächste PCI-Generation und stattet den Chip mit einem PCI-X-Interface aus , das bei 133 MHz bis zu 1066 MByte/s übertragen kann .
+1	Deswegen	Deswegen	ADV	PROAV	_	2	advmod	_	_
+2	setzt	setzen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
+3	LSI	LSI	PROPN	NE	Person=3	2	nsubj	_	_
+4	Logic	Logic	X	FM	Person=3	3	flat	_	_
+5	gleich	gleich	ADJ	ADJD	Degree=Pos	2	advmod	_	_
+6	auf	auf	ADP	APPR	Case=Acc	9	case	_	_
+7	die	die	DET	ART	Case=Acc|Gender=Fem|Number=Sing	9	det	_	_
+8	nächste	NULL	ADJ	ADJA	Degree=Sup|Gender=Fem|Number=Sing	9	amod	_	_
+9	PCI-Generation	Generation	NOUN	NN	Gender=Fem|Number=Sing|Person=3	2	obl:arg	_	_
+10	und	und	CCONJ	KON	_	11	cc	_	_
+11	stattet	statten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres	2	conj	_	_
+12	den	den	DET	ART	Case=Acc|Gender=Masc|Number=Sing	13	det	_	_
+13	Chip	Chip	NOUN	NN	Gender=Masc|Number=Sing|Person=3	11	obj	_	_
+14	mit	mit	ADP	APPR	Case=Dat	16	case	_	_
+15	einem	einem	DET	ART	Case=Dat|Gender=Neut|Number=Sing	16	det	_	_
+16	PCI-X-Interface	unknown	NOUN	NN	Person=3	11	obl	_	_
+17	aus	aus	ADP	PTKVZ	_	11	compound:prt	_	_
+18	,	,	PUNCT	$,	_	27	punct	_	_
+19	das	das	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|Person=3	27	nsubj	_	_
+20	bei	bei	ADP	APPR	Case=Dat	22	case	_	_
+21	133	133	NUM	CARD	Number=Plur|Person=3	22	nummod	_	_
+22	MHz	MHz	NOUN	NN	Gender=Neut|Number=Plur|Person=3	27	obl	_	_
+23	bis	bis	ADP	APPR	_	24	case	_	_
+24	zu	zu	ADP	APPR	Case=Dat	25	nmod	_	_
+25	1066	1066	NUM	CARD	Number=Plur|Person=3	26	nummod	_	_
+26	MByte/s	MByte/s	NOUN	NN	Gender=Neut|Number=Plur|Person=3	27	obj	_	_
+27	übertragen	übertragen	VERB	VVINF	_	16	acl	_	_
+28	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres	27	aux	_	_
+29	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = hdt-s39220
+# text = BSI-Sprecher Michael Dickopf sagte zu c't , das Amt habe Microsoft in einem Vertragsentwurf Modalitäten der Prüfung des Defragmentierungstools vorgeschlagen .
+1	BSI-Sprecher	Sprecher	NOUN	NN	Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+2	Michael	Michael	PROPN	NE	Number=Sing|Person=3	1	flat:name	_	_
+3	Dickopf	Dickopf	PROPN	NE	Person=3	1	flat:name	_	_
+4	sagte	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
+5	zu	zu	ADP	APPR	Case=Dat	6	case	_	_
+6	c't	c't	PROPN	NE	Gender=Fem|Number=Sing|Person=3	4	obl	_	_
+7	,	,	PUNCT	$,	_	20	punct	_	_
+8	das	das	DET	ART	Case=Nom|Gender=Neut|Number=Sing	9	det	_	_
+9	Amt	Amt	NOUN	NN	Gender=Neut|Number=Sing|Person=3	20	nsubj	_	_
+10	habe	haben	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres	20	aux	_	_
+11	Microsoft	Microsoft	PROPN	NE	Case=Dat|Number=Sing|Person=3	20	iobj	_	_
+12	in	in	ADP	APPR	Case=Dat	14	case	_	_
+13	einem	einem	DET	ART	Case=Dat|Gender=Masc|Number=Sing	14	det	_	_
+14	Vertragsentwurf	Entwurf	NOUN	NN	Gender=Masc|Number=Sing|Person=3	20	obl	_	_
+15	Modalitäten	Modalität	NOUN	NN	Gender=Fem|Number=Plur|Person=3	20	obj	_	_
+16	der	der	DET	ART	Case=Gen|Gender=Fem|Number=Sing	17	det:poss	_	_
+17	Prüfung	Prüfung	NOUN	NN	Gender=Fem|Number=Sing|Person=3	15	nmod:poss	_	_
+18	des	des	DET	ART	Case=Gen|Gender=Neut|Number=Sing	19	det:poss	_	_
+19	Defragmentierungstools	Tool	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing|Person=3	17	nmod:poss	_	_
+20	vorgeschlagen	vorschlagen	VERB	VVPP	_	4	ccomp	_	_
+21	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = hdt-s89431
+# text = Zündels Web-Seiten seien ihrem Inhalt nach geeignet , Kinder und Jugendliche " sozialethisch zu desorientieren " .
+1	Zündels	Zündels	PROPN	NE	Case=Gen|Person=3	2	nmod:poss	_	_
+2	Web-Seiten	Seite	NOUN	NN	Gender=Fem|Number=Plur|Person=3	7	nsubj:pass	_	_
+3	seien	sein	AUX	VAFIN	Mood=Sub|Number=Plur|Person=3|Tense=Pres	7	aux:pass	_	_
+4	ihrem	sein	PRON	PPOSAT	Case=Dat|Gender=Masc|Number=Sing|Person=3	5	det:poss	_	_
+5	Inhalt	Inhalt	NOUN	NN	Gender=Masc|Number=Sing|Person=3	7	obl	_	_
+6	nach	nach	ADP	APPO	Case=Dat	5	case	_	_
+7	geeignet	eignen	VERB	VVPP	_	0	root	_	_
+8	,	,	PUNCT	$,	_	15	punct	_	_
+9	Kinder	Kind	NOUN	NN	Gender=Neut|Number=Plur|Person=3	15	obj	_	_
+10	und	und	CCONJ	KON	_	11	cc	_	_
+11	Jugendliche	Jugendlich	NOUN	NN	Degree=Pos|Gender=Neut|Number=Sing|Person=3	9	conj	_	_
+12	"	"	PUNCT	$(	_	15	punct	_	_
+13	sozialethisch	sozialethisch	ADJ	ADJD	Degree=Pos	15	advmod	_	_
+14	zu	zu	PART	PTKZU	_	15	mark	_	_
+15	desorientieren	desorientieren	VERB	VVINF	_	7	xcomp	_	_
+16	"	"	PUNCT	$(	_	15	punct	_	_
+17	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = hdt-s42251
+# text = Nur die aktuellen Preise aus der ersten Spalte sind von Intel autorisiert .
+1	Nur	Nur	ADV	ADV	_	4	advmod	_	_
+2	die	die	DET	ART	Case=Nom|Number=Plur	4	det	_	_
+3	aktuellen	aktuell	ADJ	ADJA	Degree=Pos|Number=Plur	4	amod	_	_
+4	Preise	Preis	NOUN	NN	Gender=Masc|Number=Plur|Person=3	12	nsubj:pass	_	_
+5	aus	aus	ADP	APPR	Case=Dat	8	case	_	_
+6	der	der	DET	ART	Case=Dat|Gender=Fem|Number=Sing	8	det	_	_
+7	ersten	erste	ADJ	ADJA	Degree=Pos|Number=Sing	8	amod	_	_
+8	Spalte	Spalte	NOUN	NN	Gender=Fem|Number=Sing|Person=3	4	nmod	_	_
+9	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres	12	aux:pass	_	_
+10	von	von	ADP	APPR	Case=Dat	11	case	_	_
+11	Intel	Intel	PROPN	NE	Case=Dat|Number=Sing|Person=3	12	obl	_	_
+12	autorisiert	autorisieren	VERB	VVPP	_	0	root	_	_
+13	.	.	PUNCT	$.	_	12	punct	_	_
+
+# sent_id = hdt-s33136
+# text = Umbau des Verkehrsleitsystems " move "
+1	Umbau	Umbau	NOUN	NN	Gender=Masc|Number=Sing|Person=3	0	root	_	_
+2	des	des	DET	ART	Case=Gen|Gender=Neut|Number=Sing	3	det:poss	_	_
+3	Verkehrsleitsystems	System	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing|Person=3	1	nmod:poss	_	_
+4	"	"	PUNCT	$(	_	5	punct	_	_
+5	move	move	PROPN	NE	Person=3	3	appos	_	_
+6	"	"	PUNCT	$(	_	5	punct	_	_
+
+# sent_id = hdt-s62473
+# text = Unternehmen der Informationstechnologie bekämen dadurch immer mehr Macht .
+1	Unternehmen	Unternehmen	NOUN	NN	Gender=Neut|Number=Plur|Person=3	4	nsubj	_	_
+2	der	der	DET	ART	Case=Gen|Gender=Fem|Number=Sing	3	det:poss	_	_
+3	Informationstechnologie	Technologie	NOUN	NN	Gender=Fem|Number=Sing|Person=3	1	nmod:poss	_	_
+4	bekämen	bekommen	VERB	VVFIN	Mood=Sub|Number=Plur|Person=3|Tense=Pres	0	root	_	_
+5	dadurch	dadurch	ADV	PROAV	_	4	advmod	_	_
+6	immer	immer	ADV	ADV	_	7	advmod	_	_
+7	mehr	mehr	DET	PIAT	Degree=Cmp|Person=3	8	det	_	_
+8	Macht	Macht	NOUN	NN	Gender=Fem|Number=Sing|Person=3	4	obj	_	_
+9	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = hdt-s24904
+# text = Einen Liefertermin geben sie noch nicht bekannt , bei Solopoint heißt es nur lapidar , dass Dritthersteller die Lifestyle Appliance direkt bei Solopoint und BeIA bei Be lizenzieren können .
+1	Einen	Einen	DET	ART	Case=Acc|Gender=Masc|Number=Sing	2	det	_	_
+2	Liefertermin	Termin	NOUN	NN	Gender=Masc|Number=Sing|Person=3	3	obj	_	_
+3	geben	geben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	_
+4	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3	3	nsubj	_	_
+5	noch	noch	ADV	ADV	_	7	advmod	_	_
+6	nicht	nicht	PART	PTKNEG	_	7	advmod	_	_
+7	bekannt	bekannt	ADP	PTKVZ	_	3	compound:prt	_	_
+8	,	,	PUNCT	$,	_	11	punct	_	_
+9	bei	bei	ADP	APPR	Case=Dat	10	case	_	_
+10	Solopoint	Solopoint	PROPN	NE	Case=Dat|Number=Sing|Person=3	11	obl	_	_
+11	heißt	heißen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres	3	conj	_	_
+12	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3	11	nsubj	_	_
+13	nur	nur	ADV	ADV	_	14	advmod	_	_
+14	lapidar	lapidar	ADJ	ADJD	Degree=Pos	11	advmod	_	_
+15	,	,	PUNCT	$,	_	28	punct	_	_
+16	dass	dass	SCONJ	KOUS	_	28	mark	_	_
+17	Dritthersteller	Hersteller	NOUN	NN	Gender=Masc|Number=Plur|Person=3	28	nsubj	_	_
+18	die	die	DET	ART	Case=Acc|Gender=Fem|Number=Sing	19	det	_	_
+19	Lifestyle	Lifestyle	X	FM	Person=3	28	obj	_	_
+20	Appliance	Appliance	X	FM	Person=3	19	flat	_	_
+21	direkt	direkt	ADJ	ADJD	Degree=Pos	23	advmod	_	_
+22	bei	bei	ADP	APPR	Case=Dat	23	case	_	_
+23	Solopoint	Solopoint	PROPN	NE	Case=Dat|Number=Sing|Person=3	28	obl	_	_
+24	und	und	CCONJ	KON	_	27	cc	_	_
+25	BeIA	BeIA	PROPN	NE	Case=Acc|Number=Sing|Person=3	27	nsubj	_	_
+26	bei	bei	ADP	APPR	Case=Dat	27	case	_	_
+27	Be	Be	PROPN	NE	Case=Dat|Number=Sing|Person=3	23	conj	_	_
+28	lizenzieren	lizenzieren	VERB	VVINF	_	11	ccomp	_	_
+29	können	können	AUX	VMFIN	Mood=Sub|Number=Plur|Person=3|Tense=Pres	28	aux	_	_
+30	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = hdt-s81018
+# text = Besonders betroffen seien auch Berlin und die neuen Bundesländer .
+1	Besonders	Besonders	ADV	ADV	_	2	advmod	_	_
+2	betroffen	betreffen	VERB	VVPP	_	0	root	_	_
+3	seien	sein	AUX	VAFIN	Mood=Sub|Number=Plur|Person=3|Tense=Pres	2	aux:pass	_	_
+4	auch	auch	ADV	ADV	_	5	advmod	_	_
+5	Berlin	Berlin	PROPN	NE	Number=Sing|Person=3	2	nsubj:pass	_	_
+6	und	und	CCONJ	KON	_	9	cc	_	_
+7	die	die	DET	ART	Case=Nom|Number=Plur	9	det	_	_
+8	neuen	neu	ADJ	ADJA	Degree=Pos|Number=Plur	9	amod	_	_
+9	Bundesländer	Bundesland	NOUN	NN	Gender=Neut|Number=Plur|Person=3	5	conj	_	_
+10	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = hdt-s87783
+# text = " Die Gerichtsentscheidung , dass Microsoft sein Monopol missbraucht , hilft unseren Fällen sehr " , sagte Anwalt Stanley Chesley dem Wall Street Journal .
+1	"	"	PUNCT	$(	_	11	punct	_	_
+2	Die	Die	DET	ART	Case=Nom|Gender=Fem|Number=Sing	3	det	_	_
+3	Gerichtsentscheidung	Entscheidung	NOUN	NN	Gender=Fem|Number=Sing|Person=3	11	nsubj	_	_
+4	,	,	PUNCT	$,	_	9	punct	_	_
+5	dass	dass	SCONJ	KOUS	_	9	mark	_	_
+6	Microsoft	Microsoft	PROPN	NE	Case=Nom|Number=Sing|Person=3	9	nsubj	_	_
+7	sein	sein	PRON	PPOSAT	Case=Acc|Gender=Neut|Number=Sing|Person=3	8	det:poss	_	_
+8	Monopol	Monopol	NOUN	NN	Gender=Neut|Number=Sing|Person=3	9	obj	_	_
+9	missbraucht	missbrauchen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres	3	ccomp	_	_
+10	,	,	PUNCT	$,	_	9	punct	_	_
+11	hilft	helfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
+12	unseren	unser	PRON	PPOSAT	Case=Dat|Number=Plur|Person=1	13	det:poss	_	_
+13	Fällen	Fall	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur|Person=3	11	obj	_	_
+14	sehr	sehr	ADV	ADV	Degree=Pos	11	advmod	_	_
+15	"	"	PUNCT	$(	_	11	punct	_	_
+16	,	,	PUNCT	$,	_	17	punct	_	_
+17	sagte	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past	11	parataxis	_	_
+18	Anwalt	Anwalt	NOUN	NN	Gender=Masc|Number=Sing|Person=3	17	nsubj	_	_
+19	Stanley	Stanley	PROPN	NE	Gender=Masc|Number=Sing|Person=3	18	flat:name	_	_
+20	Chesley	Chesley	PROPN	NE	Person=3	18	flat:name	_	_
+21	dem	dem	DET	ART	Case=Dat|Gender=Masc|Number=Sing	22	det	_	_
+22	Wall	Wall	PROPN	NE	Person=3	17	obj	_	_
+23	Street	Street	PROPN	NE	Person=3	22	flat:name	_	_
+24	Journal	Journal	NOUN	NN	Gender=Neut|Number=Sing|Person=3	22	appos	_	_
+25	.	.	PUNCT	$.	_	11	punct	_	_
+
+# sent_id = hdt-s66182
+# text = Dieser musste Ende August beim Amtsgericht Bielefeld einen Antrag auf Eröffnung des Insolvenzverfahrens stellen - betroffen waren davon 80 Mitarbeiter .
+1	Dieser	Dieser	PRON	PDS	Case=Nom|Gender=Masc|Number=Sing|Person=3	14	nsubj	_	_
+2	musste	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past	14	aux	_	_
+3	Ende	Ende	NOUN	NN	Gender=Neut|Number=Sing|Person=3	14	obl	_	_
+4	August	August	NOUN	NN	Gender=Masc|Number=Sing|Person=3	3	appos	_	_
+5	beim	beim	ADP	APPRART	Case=Dat	6	case	_	_
+6	Amtsgericht	Amtsgericht	NOUN	NN	Gender=Neut|Number=Sing|Person=3	14	obl	_	_
+7	Bielefeld	Bielefeld	PROPN	NE	Number=Sing|Person=3	6	flat:name	_	_
+8	einen	einen	DET	ART	Case=Acc|Gender=Masc|Number=Sing	9	det	_	_
+9	Antrag	Antrag	NOUN	NN	Gender=Masc|Number=Sing|Person=3	14	obj	_	_
+10	auf	auf	ADP	APPR	Case=Dat	11	case	_	_
+11	Eröffnung	Eröffnung	NOUN	NN	Gender=Fem|Number=Sing|Person=3	9	nmod	_	_
+12	des	des	DET	ART	Case=Gen|Gender=Neut|Number=Sing	13	det:poss	_	_
+13	Insolvenzverfahrens	Verfahren	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing|Person=3	11	nmod:poss	_	_
+14	stellen	stellen	VERB	VVINF	_	0	root	_	_
+15	-	-	PUNCT	$(	_	16	punct	_	_
+16	betroffen	betreffen	VERB	VVPP	_	14	parataxis	_	_
+17	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past	16	aux:pass	_	_
+18	davon	davon	ADV	PROAV	_	16	advmod	_	_
+19	80	80	NUM	CARD	Number=Plur|Person=3	20	nummod	_	_
+20	Mitarbeiter	Mitarbeiter	NOUN	NN	Gender=Masc|Number=Plur|Person=3	16	nsubj:pass	_	_
+21	.	.	PUNCT	$.	_	14	punct	_	_
+
+# sent_id = hdt-s53117
+# text = Um möglichst schnell einen eigenen PC entwickeln zu können , mussten die IBM-Techniker viele Komponenten von außen zukaufen .
+1	Um	Um	SCONJ	KOUI	_	7	mark	_	_
+2	möglichst	möglichst	ADV	ADV	Degree=Sup	3	advmod	_	_
+3	schnell	schnell	ADJ	ADJD	Degree=Pos	7	advmod	_	_
+4	einen	einen	DET	ART	Case=Acc|Gender=Masc|Number=Sing	6	det	_	_
+5	eigenen	eigen	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	PC	PC	NOUN	NN	Gender=Masc|Number=Sing|Person=3	7	obj	_	_
+7	entwickeln	entwickeln	VERB	VVINF	_	18	advcl	_	_
+8	zu	zu	PART	PTKZU	_	7	mark	_	_
+9	können	können	AUX	VMINF	_	7	aux	_	_
+10	,	,	PUNCT	$,	_	7	punct	_	_
+11	mussten	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past	18	aux	_	_
+12	die	die	DET	ART	Case=Nom|Number=Plur	13	det	_	_
+13	IBM-Techniker	Techniker	NOUN	NN	Gender=Masc|Number=Plur|Person=3	18	nsubj	_	_
+14	viele	viel	ADJ	PIDAT	Case=Acc|Number=Plur|Person=3	15	amod	_	_
+15	Komponenten	Komponente	NOUN	NN	Gender=Fem|Number=Plur|Person=3	18	obj	_	_
+16	von	von	ADP	APPR	Case=Dat	17	case	_	_
+17	außen	außen	ADJ	ADJD	Degree=Pos	18	obl	_	_
+18	zukaufen	zukaufen	VERB	VVINF	_	0	root	_	_
+19	.	.	PUNCT	$.	_	18	punct	_	_
+
+# sent_id = hdt-s90325
+# text = Handlungsbedarf sah die Staatsanwaltschaft München I , als ein Münchner Automatenaufsteller an verschiedenen Geräten anbot , Visitenkarten und andere Schriftstücke auf Wunsch mit einem Hitlerkonterfei zu versehen .
+1	Handlungsbedarf	Handlungsbedarf	NOUN	NN	Gender=Masc|Number=Sing|Person=3	2	obj	_	_
+2	sah	sehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
+3	die	die	DET	ART	Case=Nom|Gender=Fem|Number=Sing	4	det	_	_
+4	Staatsanwaltschaft	Staatsanwaltschaft	NOUN	NN	Gender=Fem|Number=Sing|Person=3	2	nsubj	_	_
+5	München	München	PROPN	NE	Number=Sing|Person=3	4	flat:name	_	_
+6	I	I	NUM	CARD	Number=Plur|Person=3	4	flat	_	_
+7	,	,	PUNCT	$,	_	15	punct	_	_
+8	als	als	SCONJ	KOUS	_	15	mark	_	_
+9	ein	ein	DET	ART	Case=Nom|Gender=Masc|Number=Sing	11	det	_	_
+10	Münchner	Münchner	ADJ	ADJA	Degree=Pos	11	amod	_	_
+11	Automatenaufsteller	Teller	NOUN	NN	Gender=Masc|Number=Sing|Person=3	15	nsubj	_	_
+12	an	an	ADP	APPR	Case=Dat	14	case	_	_
+13	verschiedenen	verscheiden	ADJ	ADJA	Case=Dat|Degree=Pos|Number=Plur	14	amod	_	_
+14	Geräten	Gerät	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur|Person=3	15	obl	_	_
+15	anbot	anbieten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past	2	advcl	_	_
+16	,	,	PUNCT	$,	_	27	punct	_	_
+17	Visitenkarten	Karte	NOUN	NN	Gender=Fem|Number=Plur|Person=3	27	obj	_	_
+18	und	und	CCONJ	KON	_	20	cc	_	_
+19	andere	ander	ADJ	ADJA	Degree=Pos|Number=Plur	20	amod	_	_
+20	Schriftstücke	Schriftstück	NOUN	NN	Gender=Neut|Number=Plur|Person=3	17	conj	_	_
+21	auf	auf	ADP	APPR	Case=Acc	22	case	_	_
+22	Wunsch	Wunsch	NOUN	NN	Gender=Masc|Number=Sing|Person=3	27	obl	_	_
+23	mit	mit	ADP	APPR	Case=Dat	25	case	_	_
+24	einem	einem	DET	ART	Case=Dat|Gender=Neut|Number=Sing	25	det	_	_
+25	Hitlerkonterfei	Konterfei	NOUN	NN	Gender=Neut|Number=Sing|Person=3	27	obl	_	_
+26	zu	zu	PART	PTKZU	_	27	mark	_	_
+27	versehen	versehen	VERB	VVINF	_	15	xcomp	_	_
+28	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = hdt-s75733
+# text = SHDSL ist eine erst kürzlich verabschiedete Spezifikation für die Datenübertragung über herkömmliche Telefonleitungen , die symmetrische Geschwindigkeiten zwischen 64 KBit/s und 2,3 MBit/s liefert .
+1	SHDSL	SHDSL	PROPN	NE	Person=3	7	nsubj	_	_
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres	7	cop	_	_
+3	eine	eine	DET	ART	Case=Nom|Gender=Fem|Number=Sing	7	det	_	_
+4	erst	erst	ADV	ADV	_	5	advmod	_	_
+5	kürzlich	kürzlich	ADV	ADV	_	6	advmod	_	_
+6	verabschiedete	verabschieden	ADJ	ADJA	Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	Spezifikation	Spezifikation	NOUN	NN	Gender=Fem|Number=Sing|Person=3	0	root	_	_
+8	für	für	ADP	APPR	Case=Acc	10	case	_	_
+9	die	die	DET	ART	Case=Acc|Gender=Fem|Number=Sing	10	det	_	_
+10	Datenübertragung	Übertragung	NOUN	NN	Gender=Fem|Number=Sing|Person=3	7	nmod	_	_
+11	über	über	ADP	APPR	Case=Acc	13	case	_	_
+12	herkömmliche	herkömmlich	ADJ	ADJA	Degree=Pos|Number=Plur	13	amod	_	_
+13	Telefonleitungen	Leitung	NOUN	NN	Gender=Fem|Number=Plur|Person=3	10	nmod	_	_
+14	,	,	PUNCT	$,	_	24	punct	_	_
+15	die	die	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|Person=3	24	nsubj	_	_
+16	symmetrische	symmetrisch	ADJ	ADJA	Degree=Pos|Number=Plur	17	amod	_	_
+17	Geschwindigkeiten	Geschwindigkeit	NOUN	NN	Gender=Fem|Number=Plur|Person=3	24	obj	_	_
+18	zwischen	zwischen	ADP	APPR	Case=Acc	20	case	_	_
+19	64	64	NUM	CARD	Number=Plur|Person=3	20	nummod	_	_
+20	KBit/s	s	NOUN	NN	Gender=Neut|Number=Plur|Person=3	17	nmod	_	_
+21	und	und	CCONJ	KON	_	23	cc	_	_
+22	2,3	2,3	NUM	CARD	Number=Plur|Person=3	23	nummod	_	_
+23	MBit/s	s	NOUN	NN	Gender=Neut|Number=Plur|Person=3	20	conj	_	_
+24	liefert	liefern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres	7	acl	_	_
+25	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = hdt-s96252
+# text = Insgesamt wären es allerdings 22 Prozent , die die technische Möglichkeit eines Internet-Zugangs hätten , diesen nur noch nicht benutzten .
+1	Insgesamt	Insgesamt	ADV	ADV	_	6	advmod	_	_
+2	wären	sein	AUX	VAFIN	Mood=Sub|Number=Plur|Person=3|Tense=Pres	6	cop	_	_
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3	6	nsubj	_	_
+4	allerdings	allerdings	ADV	ADV	_	5	advmod	_	_
+5	22	22	NUM	CARD	Number=Plur|Person=3	6	nummod	_	_
+6	Prozent	Prozent	NOUN	NN	Gender=Neut|Number=Plur|Person=3	0	root	_	_
+7	,	,	PUNCT	$,	_	14	punct	_	_
+8	die	die	PRON	PRELS	Case=Nom|Number=Plur|Person=3	14	nsubj	_	_
+9	die	die	DET	ART	Case=Acc|Gender=Fem|Number=Sing	11	det	_	_
+10	technische	technisch	ADJ	ADJA	Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	Möglichkeit	Möglichkeit	NOUN	NN	Gender=Fem|Number=Sing|Person=3	14	obj	_	_
+12	eines	eines	DET	ART	Case=Gen|Gender=Masc|Number=Sing	13	det:poss	_	_
+13	Internet-Zugangs	Zugang	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing|Person=3	11	nmod:poss	_	_
+14	hätten	haben	AUX	VAFIN	Mood=Sub|Number=Plur|Person=3|Tense=Pres	6	acl	_	_
+15	,	,	PUNCT	$,	_	20	punct	_	_
+16	diesen	diesen	PRON	PDS	Case=Acc|Gender=Masc|Number=Sing|Person=3	20	obj	_	_
+17	nur	nur	ADV	ADV	_	20	advmod	_	_
+18	noch	noch	ADV	ADV	_	20	advmod	_	_
+19	nicht	nicht	PART	PTKNEG	_	20	advmod	_	_
+20	benutzten	benutzen	VERB	VVFIN	Mood=Sub|Number=Plur|Person=3|Tense=Pres	14	conj	_	_
+21	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = hdt-s91034
+# text = Durch die Zusammenschaltung der Netze könnten die Otelo-Kunden in Zukunft alle Dienste nutzen , die über Arcor angeboten würden .
+1	Durch	Durch	ADP	APPR	Case=Acc	3	case	_	_
+2	die	die	DET	ART	Case=Acc|Gender=Fem|Number=Sing	3	det	_	_
+3	Zusammenschaltung	Schaltung	NOUN	NN	Gender=Fem|Number=Sing|Person=3	13	obl	_	_
+4	der	der	DET	ART	Case=Gen|Number=Plur	5	det:poss	_	_
+5	Netze	Netz	NOUN	NN	Gender=Neut|Number=Plur|Person=3	3	nmod:poss	_	_
+6	könnten	können	AUX	VMFIN	Mood=Sub|Number=Plur|Person=3|Tense=Pres	13	aux	_	_
+7	die	die	DET	ART	Case=Nom|Number=Plur	8	det	_	_
+8	Otelo-Kunden	Kunde	NOUN	NN	Number=Plur|Person=3	13	nsubj	_	_
+9	in	in	ADP	APPR	Case=Dat	10	case	_	_
+10	Zukunft	Zukunft	NOUN	NN	Gender=Fem|Number=Sing|Person=3	13	obl	_	_
+11	alle	all	DET	PIDAT	Case=Acc|Number=Plur|Person=3	12	det	_	_
+12	Dienste	Dienst	NOUN	NN	Gender=Masc|Number=Plur|Person=3	13	obj	_	_
+13	nutzen	nutzen	VERB	VVINF	_	0	root	_	_
+14	,	,	PUNCT	$,	_	18	punct	_	_
+15	die	die	PRON	PRELS	Case=Nom|Number=Plur|Person=3	18	nsubj:pass	_	_
+16	über	über	ADP	APPR	Case=Dat	17	case	_	_
+17	Arcor	Arcor	PROPN	NE	Case=Dat|Number=Sing|Person=3	18	obl	_	_
+18	angeboten	anbieten	VERB	VVPP	_	12	acl	_	_
+19	würden	werden	AUX	VAFIN	Mood=Sub|Number=Plur|Person=3|Tense=Pres	18	aux:pass	_	_
+20	.	.	PUNCT	$.	_	13	punct	_	_
+
+# sent_id = hdt-s53447
+# text = Dies gaben die Firmen am Montag bekannt .
+1	Dies	Dies	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|Person=3	2	obj	_	_
+2	gaben	geben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	_
+3	die	die	DET	ART	Case=Nom|Number=Plur	4	det	_	_
+4	Firmen	Firma	NOUN	NN	Gender=Fem|Number=Plur|Person=3	2	nsubj	_	_
+5	am	am	ADP	APPRART	Case=Dat	6	case	_	_
+6	Montag	Montag	NOUN	NN	Gender=Masc|Number=Sing|Person=3	2	obl	_	_
+7	bekannt	bekannt	ADP	PTKVZ	_	2	compound:prt	_	_
+8	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = hdt-s50197
+# text = Stoiber forderte aber , den Funktionsauftrag des öffentlich-rechtlichen Rundfunks über die Begriffe Information , Bildung , Kultur und Unterhaltung hinaus konkret festzulegen .
+1	Stoiber	Stoiber	PROPN	NE	Person=3	2	nsubj	_	_
+2	forderte	fordern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
+3	aber	aber	ADV	ADV	_	2	advmod	_	_
+4	,	,	PUNCT	$,	_	22	punct	_	_
+5	den	den	DET	ART	Case=Acc|Gender=Masc|Number=Sing	6	det	_	_
+6	Funktionsauftrag	Auftrag	NOUN	NN	Gender=Masc|Number=Sing|Person=3	22	obj	_	_
+7	des	des	DET	ART	Case=Gen|Gender=Masc|Number=Sing	9	det:poss	_	_
+8	öffentlich-rechtlichen	rechtlich	ADJ	ADJA	Degree=Pos|Number=Sing	9	amod	_	_
+9	Rundfunks	Rundfunk	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing|Person=3	6	nmod:poss	_	_
+10	über	über	ADP	APPR	Case=Acc	12	case	_	_
+11	die	die	DET	ART	Case=Acc|Number=Plur	12	det	_	_
+12	Begriffe	Begriff	NOUN	NN	Gender=Masc|Number=Plur|Person=3	22	obl	_	_
+13	Information	Information	NOUN	NN	Gender=Fem|Number=Sing|Person=3	12	appos	_	_
+14	,	,	PUNCT	$,	_	15	punct	_	_
+15	Bildung	Bildung	NOUN	NN	Gender=Fem|Number=Sing|Person=3	12	conj	_	_
+16	,	,	PUNCT	$,	_	17	punct	_	_
+17	Kultur	Kultur	NOUN	NN	Gender=Fem|Number=Sing|Person=3	12	conj	_	_
+18	und	und	CCONJ	KON	_	19	cc	_	_
+19	Unterhaltung	Unterhaltung	NOUN	NN	Gender=Fem|Number=Sing|Person=3	12	conj	_	_
+20	hinaus	hinaus	ADP	APZR	_	12	case	_	_
+21	konkret	konkret	ADJ	ADJD	Degree=Pos	22	advmod	_	_
+22	festzulegen	festlegen	VERB	VVIZU	_	2	xcomp	_	_
+23	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = hdt-s29942
+# text = Das Mutterunternehmen TelDaFax geriet bereits im November 2000 in die Verlustzone .
+1	Das	Das	DET	ART	Case=Nom|Gender=Neut|Number=Sing	2	det	_	_
+2	Mutterunternehmen	Runternehmen	NOUN	NN	Gender=Neut|Number=Sing|Person=3	4	nsubj	_	_
+3	TelDaFax	TelDaFax	PROPN	NE	Gender=Fem|Number=Sing|Person=3	2	flat:name	_	_
+4	geriet	geraten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
+5	bereits	bereits	ADV	ADV	_	4	advmod	_	_
+6	im	im	ADP	APPRART	Case=Dat	7	case	_	_
+7	November	November	NOUN	NN	Gender=Masc|Number=Sing|Person=3	4	obl	_	_
+8	2000	2000	NUM	CARD	Number=Plur|Person=3	7	nmod	_	_
+9	in	in	ADP	APPR	Case=Acc	11	case	_	_
+10	die	die	DET	ART	Case=Acc|Gender=Fem|Number=Sing	11	det	_	_
+11	Verlustzone	Zone	NOUN	NN	Gender=Fem|Number=Sing|Person=3	4	obl:arg	_	_
+12	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = hdt-s23047
+# text = Die jeweiligen Rechnungsinformationen werden auf der Telefonrechnung ab Juli um die entsprechende Hotline-Nummer des Call-by-Call-Anbieters ergänzt .
+1	Die	Die	DET	ART	Case=Nom|Number=Plur	3	det	_	_
+2	jeweiligen	jeweilig	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	_
+3	Rechnungsinformationen	Information	NOUN	NN	Gender=Fem|Number=Plur|Person=3	16	nsubj:pass	_	_
+4	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres	16	aux:pass	_	_
+5	auf	auf	ADP	APPR	Case=Dat	7	case	_	_
+6	der	der	DET	ART	Case=Dat|Gender=Fem|Number=Sing	7	det	_	_
+7	Telefonrechnung	Rechnung	NOUN	NN	Gender=Fem|Number=Sing|Person=3	16	obl	_	_
+8	ab	ab	ADP	APPR	_	9	case	_	_
+9	Juli	Juli	NOUN	NN	Gender=Masc|Number=Sing|Person=3	16	obl	_	_
+10	um	um	ADP	APPR	_	13	case	_	_
+11	die	die	DET	ART	Case=Acc|Gender=Fem|Number=Sing	13	det	_	_
+12	entsprechende	entsprechende	ADJ	ADJA	Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	Hotline-Nummer	Nummer	NOUN	NN	Gender=Fem|Number=Sing|Person=3	16	obl	_	_
+14	des	des	DET	ART	Case=Gen|Gender=Masc|Number=Sing	15	det:poss	_	_
+15	Call-by-Call-Anbieters	Anbieter	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing|Person=3	13	nmod:poss	_	_
+16	ergänzt	ergänzen	VERB	VVPP	_	0	root	_	_
+17	.	.	PUNCT	$.	_	16	punct	_	_
+
+# sent_id = hdt-s65371
+# text = Nach dem Mord sind die Täter in Richtung Rue Francois-Dussaud weitergefahren .
+1	Nach	Nach	ADP	APPR	Case=Dat	3	case	_	_
+2	dem	dem	DET	ART	Case=Dat|Gender=Masc|Number=Sing	3	det	_	_
+3	Mord	Mord	NOUN	NN	Gender=Masc|Number=Sing|Person=3	11	obl	_	_
+4	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres	11	aux:pass	_	_
+5	die	die	DET	ART	Case=Nom|Number=Plur	6	det	_	_
+6	Täter	Täter	NOUN	NN	Gender=Masc|Number=Plur|Person=3	11	nsubj:pass	_	_
+7	in	in	ADP	APPR	Case=Acc	8	case	_	_
+8	Richtung	Richtung	NOUN	NN	Gender=Fem|Number=Sing|Person=3	11	obl	_	_
+9	Rue	Rue	X	FM	Person=3	8	appos	_	_
+10	Francois-Dussaud	Francois-Dussaud	PROPN	NE	Person=3	9	flat:name	_	_
+11	weitergefahren	weiterfahren	VERB	VVPP	_	0	root	_	_
+12	.	.	PUNCT	$.	_	11	punct	_	_
+
+# sent_id = hdt-s25423
+# text = Damit ermöglicht Nacamar nicht nur den entlegensten Winkeln Deutschlands die preiswerte Einwahl ins Internet , sondern der Zugang wird auch ortsunabhängig , was Vielreiser schätzen dürften .
+1	Damit	Damit	ADV	PROAV	_	2	advmod	_	_
+2	ermöglicht	ermöglichen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
+3	Nacamar	Nacamar	PROPN	NE	Person=3	2	nsubj	_	_
+4	nicht	nicht	PART	PTKNEG	_	2	advmod	_	_
+5	nur	nur	ADV	ADV	_	8	advmod	_	_
+6	den	den	DET	ART	Case=Dat|Number=Plur	8	det	_	_
+7	entlegensten	entlegen	ADJ	ADJA	Degree=Sup|Number=Plur	8	amod	_	_
+8	Winkeln	Winkel	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur|Person=3	2	iobj	_	_
+9	Deutschlands	Deutschlands	PROPN	NE	Case=Gen|Number=Sing|Person=3	8	nmod:poss	_	_
+10	die	die	DET	ART	Case=Acc|Gender=Fem|Number=Sing	12	det	_	_
+11	preiswerte	preiswert	ADJ	ADJA	Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	Einwahl	Wahl	NOUN	NN	Gender=Fem|Number=Sing|Person=3	2	obj	_	_
+13	ins	ins	ADP	APPRART	Case=Acc|Gender=Neut	14	case	_	_
+14	Internet	Internet	NOUN	NN	Gender=Neut|Number=Sing|Person=3	12	nmod	_	_
+15	,	,	PUNCT	$,	_	19	punct	_	_
+16	sondern	sondern	CCONJ	KON	_	19	cc	_	_
+17	der	der	DET	ART	Case=Nom|Gender=Masc|Number=Sing	18	det	_	_
+18	Zugang	Zugang	NOUN	NN	Gender=Masc|Number=Sing|Person=3	19	nsubj	_	_
+19	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres	2	conj	_	_
+20	auch	auch	ADV	ADV	_	21	advmod	_	_
+21	ortsunabhängig	ortsunabhängig	ADJ	ADJD	Degree=Pos	19	xcomp	_	_
+22	,	,	PUNCT	$,	_	25	punct	_	_
+23	was	was	PRON	PRELS	Case=Acc|Gender=Neut|Number=Sing|Person=3	25	obj	_	_
+24	Vielreiser	unknown	NOUN	NN	Person=3	25	nsubj	_	_
+25	schätzen	schätzen	VERB	VVINF	_	19	acl	_	_
+26	dürften	dürfen	AUX	VMFIN	Mood=Sub|Number=Plur|Person=3|Tense=Pres	25	aux	_	_
+27	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = hdt-s96316
+# text = Mehr in Telepolis und das Interview mit John Arquilla :
+1	Mehr	Mehr	PRON	PIS	Degree=Cmp|Gender=Neut|Number=Sing|Person=3	0	root	_	_
+2	in	in	ADP	APPR	Case=Acc	3	case	_	_
+3	Telepolis	Telepolis	PROPN	NE	Person=3	1	nmod	_	_
+4	und	und	CCONJ	KON	_	6	cc	_	_
+5	das	das	DET	ART	Case=Acc|Gender=Neut|Number=Sing	6	det	_	_
+6	Interview	Interview	NOUN	NN	Gender=Neut|Number=Sing|Person=3	1	conj	_	_
+7	mit	mit	ADP	APPR	Case=Dat	8	case	_	_
+8	John	John	PROPN	NE	Gender=Masc|Number=Sing|Person=3	6	nmod	_	_
+9	Arquilla	Arquilla	PROPN	NE	Person=3	8	flat:name	_	_
+10	:	:	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = hdt-s72090
+# text = Die Liste der potentiellen Bieter führt die Deutsche Telekom an , der Fusionsgespräche mit Telefonica nachgesagt werden , gefolgt von der France Telecom , die sich von KPN das deutsche Mobilfunkunternehmen E-Plus wegschnappen lassen musste .
+1	Die	Die	DET	ART	Case=Acc|Gender=Fem|Number=Sing	2	det	_	_
+2	Liste	Liste	NOUN	NN	Gender=Fem|Number=Sing|Person=3	6	obj	_	_
+3	der	der	DET	ART	Case=Gen|Number=Plur	5	det:poss	_	_
+4	potentiellen	potentiell	ADJ	ADJA	Degree=Pos|Number=Plur	5	amod	_	_
+5	Bieter	Bieter	NOUN	NN	Gender=Masc|Number=Plur|Person=3	2	nmod:poss	_	_
+6	führt	führen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
+7	die	die	DET	ART	Case=Nom|Gender=Fem|Number=Sing	9	det	_	_
+8	Deutsche	deutsch	ADJ	ADJA	Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	Telekom	Telekom	PROPN	NE	Gender=Fem|Number=Sing|Person=3	6	nsubj	_	_
+10	an	an	ADP	PTKVZ	_	6	compound:prt	_	_
+11	,	,	PUNCT	$,	_	16	punct	_	_
+12	der	der	PRON	PRELS	Case=Dat|Gender=Fem|Number=Sing|Person=3	16	obj	_	_
+13	Fusionsgespräche	Gespräch	NOUN	NN	Gender=Neut|Number=Plur|Person=3	16	nsubj:pass	_	_
+14	mit	mit	ADP	APPR	Case=Dat	15	case	_	_
+15	Telefonica	Telefonica	PROPN	NE	Gender=Fem|Number=Sing|Person=3	13	nmod	_	_
+16	nachgesagt	nachsagen	VERB	VVPP	_	9	acl	_	_
+17	werden	werden	AUX	VAFIN	Mood=Sub|Number=Plur|Person=3|Tense=Pres	16	aux:pass	_	_
+18	,	,	PUNCT	$,	_	19	punct	_	_
+19	gefolgt	folgen	VERB	VVPP	_	6	advcl	_	_
+20	von	von	ADP	APPR	Case=Dat	22	case	_	_
+21	der	der	DET	ART	Case=Dat|Gender=Fem|Number=Sing	22	det	_	_
+22	France	France	PROPN	NE	Gender=Fem|Number=Sing|Person=3	19	obl	_	_
+23	Telecom	Telecom	PROPN	NE	Gender=Fem|Number=Sing|Person=3	22	flat:name	_	_
+24	,	,	PUNCT	$,	_	34	punct	_	_
+25	die	die	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|Person=3	34	nsubj	_	_
+26	sich	sich	PRON	PRF	Case=Dat|Person=3	33	iobj	_	_
+27	von	von	ADP	APPR	Case=Dat	28	case	_	_
+28	KPN	KPN	PROPN	NE	Case=Dat|Number=Sing|Person=3	33	obl	_	_
+29	das	das	DET	ART	Case=Acc|Gender=Neut|Number=Sing	31	det	_	_
+30	deutsche	deutsch	ADJ	ADJA	Degree=Pos|Gender=Neut|Number=Sing	31	amod	_	_
+31	Mobilfunkunternehmen	Unternehmen	NOUN	NN	Gender=Neut|Number=Sing|Person=3	33	obj	_	_
+32	E-Plus	E-Plus	PROPN	NE	Number=Sing|Person=3	31	flat:name	_	_
+33	wegschnappen	wegschnappen	VERB	VVINF	_	34	xcomp	_	_
+34	lassen	lassen	VERB	VVINF	_	22	acl	_	_
+35	musste	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past	34	aux	_	_
+36	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = hdt-s26800
+# text = Um gut anzukommen , muss Microsofts Xbox trendy und cool sein , meint der Softwarekonzern .
+1	Um	Um	SCONJ	KOUI	_	3	mark	_	_
+2	gut	gut	ADJ	ADJD	Degree=Pos	3	advmod	_	_
+3	anzukommen	ankommen	VERB	VVIZU	_	11	advcl	_	_
+4	,	,	PUNCT	$,	_	3	punct	_	_
+5	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres	11	aux	_	_
+6	Microsofts	Microsofts	PROPN	NE	Case=Gen|Number=Sing|Person=3	7	nmod:poss	_	_
+7	Xbox	Xbox	PROPN	NE	Person=3	11	nsubj	_	_
+8	trendy	trendy	ADJ	ADJD	Degree=Pos	11	advmod	_	_
+9	und	und	CCONJ	KON	_	10	cc	_	_
+10	cool	cool	ADJ	ADJD	Degree=Pos	8	conj	_	_
+11	sein	sein	AUX	VAINF	_	0	root	_	_
+12	,	,	PUNCT	$,	_	13	punct	_	_
+13	meint	meinen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres	11	parataxis	_	_
+14	der	der	DET	ART	Case=Nom|Gender=Masc|Number=Sing	15	det	_	_
+15	Softwarekonzern	Konzern	NOUN	NN	Gender=Masc|Number=Sing|Person=3	13	nsubj	_	_
+16	.	.	PUNCT	$.	_	11	punct	_	_
+
+# sent_id = hdt-s94794
+# text = Der Ausschuss des Europäischen Parlaments hatte erst letzte Woche den endgültigen Bericht über das US-Lauschsystem Echelon gebilligt .
+1	Der	Der	DET	ART	Case=Nom|Gender=Masc|Number=Sing	2	det	_	_
+2	Ausschuss	Ausschuß	NOUN	NN	Gender=Masc|Number=Sing|Person=3	17	nsubj	_	_
+3	des	des	DET	ART	Case=Gen|Gender=Neut|Number=Sing	5	det:poss	_	_
+4	Europäischen	europäisch	ADJ	ADJA	Degree=Pos|Number=Sing	5	amod	_	_
+5	Parlaments	Parlament	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing|Person=3	2	nmod:poss	_	_
+6	hatte	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past	17	aux	_	_
+7	erst	erst	ADV	ADV	_	9	advmod	_	_
+8	letzte	NULL	ADJ	ADJA	Degree=Sup|Gender=Fem|Number=Sing	9	amod	_	_
+9	Woche	Woche	NOUN	NN	Gender=Fem|Number=Sing|Person=3	17	obl	_	_
+10	den	den	DET	ART	Case=Acc|Gender=Masc|Number=Sing	12	det	_	_
+11	endgültigen	endgültig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	Bericht	Bericht	NOUN	NN	Gender=Masc|Number=Sing|Person=3	17	obj	_	_
+13	über	über	ADP	APPR	Case=Acc	15	case	_	_
+14	das	das	DET	ART	Case=Acc|Gender=Neut|Number=Sing	15	det	_	_
+15	US-Lauschsystem	System	NOUN	NN	Gender=Neut|Number=Sing|Person=3	12	nmod	_	_
+16	Echelon	Echelon	PROPN	NE	Person=3	15	flat:name	_	_
+17	gebilligt	billigen	VERB	VVPP	_	0	root	_	_
+18	.	.	PUNCT	$.	_	17	punct	_	_
+
+# sent_id = hdt-s21142
+# text = Im Zuge der Ankündigung der neuen Tarife hatte AOL-Chef Uwe Heddendorp große Töne von sich gegeben :
+1	Im	Im	ADP	APPRART	Case=Dat	2	case	_	_
+2	Zuge	Zug	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing|Person=3	16	obl	_	_
+3	der	der	DET	ART	Case=Gen|Gender=Fem|Number=Sing	4	det:poss	_	_
+4	Ankündigung	Ankündigung	NOUN	NN	Gender=Fem|Number=Sing|Person=3	2	nmod:poss	_	_
+5	der	der	DET	ART	Case=Gen|Number=Plur	7	det:poss	_	_
+6	neuen	neu	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	7	amod	_	_
+7	Tarife	Tarif	NOUN	NN	Gender=Masc|Number=Plur|Person=3	4	nmod:poss	_	_
+8	hatte	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past	16	aux	_	_
+9	AOL-Chef	Chef	NOUN	NN	Gender=Masc|Number=Sing|Person=3	16	nsubj	_	_
+10	Uwe	Uwe	PROPN	NE	Number=Sing|Person=3	9	flat:name	_	_
+11	Heddendorp	Heddendorp	PROPN	NE	Person=3	9	flat:name	_	_
+12	große	groß	ADJ	ADJA	Degree=Pos|Gender=Masc|Number=Plur	13	amod	_	_
+13	Töne	Ton	NOUN	NN	Gender=Masc|Number=Plur|Person=3	16	obj	_	_
+14	von	von	ADP	APPR	Case=Dat	15	case	_	_
+15	sich	sich	PRON	PRF	Case=Dat|Person=3	16	obl	_	_
+16	gegeben	geben	VERB	VVPP	_	0	root	_	_
+17	:	:	PUNCT	$.	_	16	punct	_	_
+
+# sent_id = hdt-s43126
+# text = Nach inoffiziellen Angaben könnte Rambus in dem US-Prozess gegen Infineon eine empfindliche Schlappe erwarten .
+1	Nach	Nach	ADP	APPR	Case=Dat	3	case	_	_
+2	inoffiziellen	inoffiziell	ADJ	ADJA	Case=Dat|Degree=Pos|Number=Plur	3	amod	_	_
+3	Angaben	Angabe	NOUN	NN	Gender=Fem|Number=Plur|Person=3	14	obl	_	_
+4	könnte	können	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres	14	aux	_	_
+5	Rambus	Rambus	PROPN	NE	Case=Nom|Number=Sing|Person=3	14	nsubj	_	_
+6	in	in	ADP	APPR	Case=Dat	8	case	_	_
+7	dem	dem	DET	ART	Case=Dat|Gender=Masc|Number=Sing	8	det	_	_
+8	US-Prozess	Prozeß	NOUN	NN	Gender=Masc|Number=Sing|Person=3	14	obl	_	_
+9	gegen	gegen	ADP	APPR	Case=Acc	10	case	_	_
+10	Infineon	Infineon	PROPN	NE	Case=Acc|Number=Sing|Person=3	8	nmod	_	_
+11	eine	eine	DET	ART	Case=Acc|Gender=Fem|Number=Sing	13	det	_	_
+12	empfindliche	empfindlich	ADJ	ADJA	Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	Schlappe	Schlappe	NOUN	NN	Gender=Fem|Number=Sing|Person=3	14	obj	_	_
+14	erwarten	erwarten	VERB	VVINF	_	0	root	_	_
+15	.	.	PUNCT	$.	_	14	punct	_	_
+
+# sent_id = hdt-s78666
+# text = Das Unternehmen kündigte gestern an , die Preise für ausgewählte PC-Modelle um bis zu 21% herabzusetzen .
+1	Das	Das	DET	ART	Case=Nom|Gender=Neut|Number=Sing	2	det	_	_
+2	Unternehmen	Unternehmen	NOUN	NN	Gender=Neut|Number=Sing|Person=3	3	nsubj	_	_
+3	kündigte	kündigen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
+4	gestern	gestern	ADV	ADV	_	3	advmod	_	_
+5	an	an	ADP	PTKVZ	_	3	compound:prt	_	_
+6	,	,	PUNCT	$,	_	16	punct	_	_
+7	die	die	DET	ART	Case=Acc|Number=Plur	8	det	_	_
+8	Preise	Preis	NOUN	NN	Gender=Masc|Number=Plur|Person=3	16	obj	_	_
+9	für	für	ADP	APPR	Case=Acc	11	case	_	_
+10	ausgewählte	auswählen	ADJ	ADJA	Degree=Pos|Number=Plur	11	amod	_	_
+11	PC-Modelle	Modell	NOUN	NN	Gender=Neut|Number=Plur|Person=3	8	nmod	_	_
+12	um	um	ADP	APPR	Case=Acc	15	case	_	_
+13	bis	bis	ADP	APPR	_	14	case	_	_
+14	zu	zu	ADP	APPR	Case=Dat	15	nmod	_	_
+15	21%	21%	NUM	CARD	Number=Plur|Person=3	16	obl	_	_
+16	herabzusetzen	herabsetzen	VERB	VVIZU	_	3	xcomp	_	_
+17	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = hdt-s58245
+# text = Detaillierte Tarifinformationen sind im Internet einzusehen .
+1	Detaillierte	detaillieren	ADJ	ADJA	Degree=Pos|Number=Plur	2	amod	_	_
+2	Tarifinformationen	Information	NOUN	NN	Gender=Fem|Number=Plur|Person=3	6	nsubj	_	_
+3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres	6	aux	_	_
+4	im	im	ADP	APPRART	Case=Dat	5	case	_	_
+5	Internet	Internet	NOUN	NN	Gender=Neut|Number=Sing|Person=3	6	obl	_	_
+6	einzusehen	einsehen	VERB	VVIZU	_	0	root	_	_
+7	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = hdt-s75360
+# text = Das System besteht aus zwei ISA-Steckkarten , einer 90-cm-Sende- und Empfangsantenne sowie einer CD-ROM mit benötigten Windows-Treibern und soll rund 3000 Mark kosten .
+1	Das	Das	DET	ART	Case=Nom|Gender=Neut|Number=Sing	2	det	_	_
+2	System	System	NOUN	NN	Gender=Neut|Number=Sing|Person=3	3	nsubj	_	_
+3	besteht	bestehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
+4	aus	aus	ADP	APPR	Case=Dat	6	case	_	_
+5	zwei	zwei	NUM	CARD	Number=Plur|Person=3	6	nummod	_	_
+6	ISA-Steckkarten	Karte	NOUN	NN	Gender=Fem|Number=Plur|Person=3	3	obl:arg	_	_
+7	,	,	PUNCT	$,	_	9	punct	_	_
+8	einer	einer	DET	ART	Case=Dat|Gender=Fem|Number=Sing	9	det	_	_
+9	90-cm-Sende-	90-cm-Sende-	NOUN	TRUNC	_	6	conj	_	_
+10	und	und	CCONJ	KON	_	11	cc	_	_
+11	Empfangsantenne	Antenne	NOUN	NN	Gender=Fem|Number=Sing|Person=3	6	conj	_	_
+12	sowie	sowie	CCONJ	KON	_	14	cc	_	_
+13	einer	einer	DET	ART	Case=Dat|Gender=Fem|Number=Sing	14	det	_	_
+14	CD-ROM	CD-ROM	NOUN	NN	Gender=Fem|Number=Sing|Person=3	11	conj	_	_
+15	mit	mit	ADP	APPR	Case=Dat	17	case	_	_
+16	benötigten	benötigen	ADJ	ADJA	Case=Dat|Degree=Pos|Number=Plur	17	amod	_	_
+17	Windows-Treibern	Treiber	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur|Person=3	14	nmod	_	_
+18	und	und	CCONJ	KON	_	23	cc	_	_
+19	soll	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres	23	aux	_	_
+20	rund	rund	ADV	ADV	_	21	advmod	_	_
+21	3000	3000	NUM	CARD	Number=Plur|Person=3	22	nummod	_	_
+22	Mark	Mark	NOUN	NN	Gender=Fem|Number=Plur|Person=3	23	obj	_	_
+23	kosten	kosten	VERB	VVINF	_	3	conj	_	_
+24	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = hdt-s78587
+# text = Der Radeon verfügt über eine leistungsfähige T&L-Engine für Geometriebeschleunigung und übertrifft sogar den GeForce 2 GTS von Nvidia in einigen Disziplinen .
+1	Der	Der	DET	ART	Case=Nom|Gender=Masc|Number=Sing	2	det	_	_
+2	Radeon	Radeon	PROPN	NE	Person=3	3	nsubj	_	_
+3	verfügt	verfügen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
+4	über	über	ADP	APPR	Case=Acc	7	case	_	_
+5	eine	eine	DET	ART	Case=Acc|Gender=Fem|Number=Sing	7	det	_	_
+6	leistungsfähige	leistungsfähig	ADJ	ADJA	Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	T&L-Engine	unknown	NOUN	NN	Person=3	3	obl:arg	_	_
+8	für	für	ADP	APPR	Case=Acc	9	case	_	_
+9	Geometriebeschleunigung	Beschleunigung	NOUN	NN	Gender=Fem|Number=Sing|Person=3	7	nmod	_	_
+10	und	und	CCONJ	KON	_	11	cc	_	_
+11	übertrifft	übertreffen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres	3	conj	_	_
+12	sogar	sogar	ADV	ADV	_	11	advmod	_	_
+13	den	den	DET	ART	Case=Acc|Gender=Masc|Number=Sing	14	det	_	_
+14	GeForce	GeForce	PROPN	NE	Person=3	11	obj	_	_
+15	2	2	NUM	CARD	Number=Plur|Person=3	14	flat	_	_
+16	GTS	unknown	NOUN	NN	Person=3	14	appos	_	_
+17	von	von	ADP	APPR	Case=Dat	18	case	_	_
+18	Nvidia	Nvidia	PROPN	NE	Case=Dat|Number=Sing|Person=3	16	nmod	_	_
+19	in	in	ADP	APPR	Case=Dat	21	case	_	_
+20	einigen	einig	DET	PIAT	Case=Dat|Number=Plur|Person=3	21	det	_	_
+21	Disziplinen	Disziplin	NOUN	NN	Gender=Fem|Number=Plur|Person=3	11	obl	_	_
+22	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = hdt-s33152
+# text = Nicht AOL , sondern einer seiner Konkurrenten müsste als erstes einen Internet-Zugang über das Kabelnetz anbieten .
+1	Nicht	Nicht	PART	PTKNEG	_	2	advmod	_	_
+2	AOL	AOL	PROPN	NE	Case=Nom|Number=Sing|Person=3	16	nsubj	_	_
+3	,	,	PUNCT	$,	_	5	punct	_	_
+4	sondern	sondern	CCONJ	KON	_	5	cc	_	_
+5	einer	ein	PRON	PIS	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	conj	_	_
+6	seiner	seiner	PRON	PPOSAT	Case=Gen|Number=Plur|Person=3	7	det:poss	_	_
+7	Konkurrenten	Konkurrent	NOUN	NN	Gender=Masc|Number=Plur|Person=3	5	nmod:poss	_	_
+8	müsste	müssen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres	16	aux	_	_
+9	als	als	ADP	KOKOM	_	10	mark	_	_
+10	erstes	erste	ADJ	ADJA	Degree=Pos|Gender=Neut|Number=Sing	16	advcl	_	_
+11	einen	einen	DET	ART	Case=Acc|Gender=Masc|Number=Sing	12	det	_	_
+12	Internet-Zugang	Zugang	NOUN	NN	Gender=Masc|Number=Sing|Person=3	16	obj	_	_
+13	über	über	ADP	APPR	Case=Acc	15	case	_	_
+14	das	das	DET	ART	Case=Acc|Gender=Neut|Number=Sing	15	det	_	_
+15	Kabelnetz	Kabelnetz	NOUN	NN	Gender=Neut|Number=Sing|Person=3	16	obl	_	_
+16	anbieten	anbieten	VERB	VVINF	_	0	root	_	_
+17	.	.	PUNCT	$.	_	16	punct	_	_
+
+# sent_id = hdt-s56885
+# text = MS Office für Linux erwartet
+1	MS	MS	PROPN	NE	Person=3	5	nsubj	_	_
+2	Office	Office	NOUN	NN	Gender=Neut|Number=Sing|Person=3	1	appos	_	_
+3	für	für	ADP	APPR	Case=Acc	4	case	_	_
+4	Linux	Linux	PROPN	NE	Number=Sing|Person=3	1	nmod	_	_
+5	erwartet	erwarten	VERB	VVPP	_	0	root	_	_
+
+# sent_id = hdt-s44625
+# text = Dual-Mainboards für Athlon und Foster
+1	Dual-Mainboards	Mainboard	NOUN	NN	Gender=Neut|Number=Plur|Person=3	0	root	_	_
+2	für	für	ADP	APPR	Case=Acc	3	case	_	_
+3	Athlon	Athlon	PROPN	NE	Number=Sing|Person=3	1	nmod	_	_
+4	und	und	CCONJ	KON	_	5	cc	_	_
+5	Foster	Foster	PROPN	NE	Gender=Masc|Number=Sing|Person=3	3	conj	_	_
+
+# sent_id = hdt-s99804
+# text = Das Bundesinnenministerium setzt im Kampf gegen Extremisten und Päderasten auf ein neues " Internet-Ermittlungstool " ( INTERMiT ) , das das Web automatisch auf strafbare Inhalte hin scannen soll .
+1	Das	Das	DET	ART	Case=Nom|Gender=Neut|Number=Sing	2	det	_	_
+2	Bundesinnenministerium	Innenministerium	NOUN	NN	Gender=Neut|Number=Sing|Person=3	3	nsubj	_	_
+3	setzt	setzen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
+4	im	im	ADP	APPRART	Case=Dat	5	case	_	_
+5	Kampf	Kampf	NOUN	NN	Gender=Masc|Number=Sing|Person=3	3	obl	_	_
+6	gegen	gegen	ADP	APPR	Case=Acc	7	case	_	_
+7	Extremisten	Extremist	NOUN	NN	Gender=Masc|Number=Sing|Person=3	5	nmod	_	_
+8	und	und	CCONJ	KON	_	9	cc	_	_
+9	Päderasten	Rasten	NOUN	NN	Gender=Neut|Number=Sing|Person=3	7	conj	_	_
+10	auf	auf	ADP	APPR	Case=Acc	14	case	_	_
+11	ein	ein	DET	ART	Case=Acc|Gender=Neut|Number=Sing	14	det	_	_
+12	neues	neu	ADJ	ADJA	Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+13	"	"	PUNCT	$(	_	14	punct	_	_
+14	Internet-Ermittlungstool	Tool	NOUN	NN	Gender=Neut|Number=Sing|Person=3	3	obl:arg	_	_
+15	"	"	PUNCT	$(	_	14	punct	_	_
+16	(	(	PUNCT	$(	_	17	punct	_	_
+17	INTERMiT	INTERMiT	PROPN	NE	Person=3	14	appos	_	_
+18	)	)	PUNCT	$(	_	17	punct	_	_
+19	,	,	PUNCT	$,	_	28	punct	_	_
+20	das	das	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|Person=3	28	nsubj	_	_
+21	das	das	DET	ART	Case=Acc|Gender=Neut|Number=Sing	22	det	_	_
+22	Web	Web	NOUN	NN	Gender=Neut|Number=Sing|Person=3	28	obj	_	_
+23	automatisch	automatisch	ADJ	ADJD	Degree=Pos	28	advmod	_	_
+24	auf	auf	ADP	APPR	Case=Acc	26	case	_	_
+25	strafbare	strafbar	ADJ	ADJA	Degree=Pos|Number=Plur	26	amod	_	_
+26	Inhalte	Inhalt	NOUN	NN	Gender=Masc|Number=Plur|Person=3	28	obl	_	_
+27	hin	hin	ADP	APZR	_	26	case	_	_
+28	scannen	scannen	VERB	VVINF	_	17	acl	_	_
+29	soll	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres	28	aux	_	_
+30	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = hdt-s59592
+# text = Mit mehr MIPS seien auch die Bandbreitenprobleme zu lösen .
+1	Mit	Mit	ADP	APPR	Case=Dat	3	case	_	_
+2	mehr	mehr	DET	PIAT	Degree=Cmp|Person=3	3	det	_	_
+3	MIPS	MIPS	NOUN	NN	Gender=Neut|Number=Plur|Person=3	9	obl	_	_
+4	seien	sein	AUX	VAFIN	Mood=Sub|Number=Plur|Person=3|Tense=Pres	9	aux	_	_
+5	auch	auch	ADV	ADV	_	7	advmod	_	_
+6	die	die	DET	ART	Case=Nom|Number=Plur	7	det	_	_
+7	Bandbreitenprobleme	Problem	NOUN	NN	Gender=Neut|Number=Plur|Person=3	9	nsubj	_	_
+8	zu	zu	PART	PTKZU	_	9	mark	_	_
+9	lösen	lösen	VERB	VVINF	_	0	root	_	_
+10	.	.	PUNCT	$.	_	9	punct	_	_
+
+# sent_id = hdt-s72368
+# text = Es war kein Blitzschlag , sondern Sabotage .
+1	Es	Es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3	4	nsubj	_	_
+2	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past	4	cop	_	_
+3	kein	kein	DET	PIAT	Case=Nom|Gender=Masc|Number=Sing|Person=3	4	det	_	_
+4	Blitzschlag	Blitzschlag	NOUN	NN	Gender=Masc|Number=Sing|Person=3	0	root	_	_
+5	,	,	PUNCT	$,	_	7	punct	_	_
+6	sondern	sondern	CCONJ	KON	_	7	cc	_	_
+7	Sabotage	Sabotage	NOUN	NN	Gender=Fem|Number=Sing|Person=3	4	conj	_	_
+8	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = hdt-s67970
+# text = Das geht aus einem von der Konzernleitung veröffentlichten Bericht hervor .
+1	Das	Das	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|Person=3	2	nsubj	_	_
+2	geht	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
+3	aus	aus	ADP	APPR	Case=Dat	9	case	_	_
+4	einem	einem	DET	ART	Case=Dat|Gender=Masc|Number=Sing	9	det	_	_
+5	von	von	ADP	APPR	Case=Dat	7	case	_	_
+6	der	der	DET	ART	Case=Dat|Gender=Fem|Number=Sing	7	det	_	_
+7	Konzernleitung	Leitung	NOUN	NN	Gender=Fem|Number=Sing|Person=3	8	obl	_	_
+8	veröffentlichten	veröffentlichen	ADJ	ADJA	Degree=Pos|Number=Sing	9	amod	_	_
+9	Bericht	Bericht	NOUN	NN	Gender=Masc|Number=Sing|Person=3	2	obl	_	_
+10	hervor	hervor	ADP	PTKVZ	_	2	compound:prt	_	_
+11	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = hdt-s61542
+# text = Bei dem möglichen Zusammenschluss geht es um eine " Fusion Gleicher " , die einen neuen Weltmarktführer schaffen würde .
+1	Bei	Bei	ADP	APPR	Case=Dat	4	case	_	_
+2	dem	dem	DET	ART	Case=Dat|Gender=Masc|Number=Sing	4	det	_	_
+3	möglichen	möglich	ADJ	ADJA	Degree=Pos|Number=Sing	4	amod	_	_
+4	Zusammenschluss	Zusammenschluß	NOUN	NN	Gender=Masc|Number=Sing|Person=3	5	obl	_	_
+5	geht	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
+6	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3	5	nsubj	_	_
+7	um	um	ADP	APPR	Case=Acc	10	case	_	_
+8	eine	eine	DET	ART	Case=Acc|Gender=Fem|Number=Sing	10	det	_	_
+9	"	"	PUNCT	$(	_	10	punct	_	_
+10	Fusion	Fusion	NOUN	NN	Gender=Fem|Number=Sing|Person=3	5	obl	_	_
+11	Gleicher	Gleich	NOUN	NN	Case=Gen|Degree=Pos|Number=Plur|Person=3	10	nmod:poss	_	_
+12	"	"	PUNCT	$(	_	10	punct	_	_
+13	,	,	PUNCT	$,	_	18	punct	_	_
+14	die	die	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|Person=3	18	nsubj	_	_
+15	einen	einen	DET	ART	Case=Acc|Gender=Masc|Number=Sing	17	det	_	_
+16	neuen	neu	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	Weltmarktführer	Führer	NOUN	NN	Gender=Masc|Number=Sing|Person=3	18	obj	_	_
+18	schaffen	schaffen	VERB	VVINF	_	10	acl	_	_
+19	würde	werden	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres	18	aux	_	_
+20	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = hdt-s82085
+# text = In Deutschland wurden rund 5.000 Exemplare ausgeliefert .
+1	In	In	ADP	APPR	Case=Dat	2	case	_	_
+2	Deutschland	Deutschland	PROPN	NE	Number=Sing|Person=3	7	obl	_	_
+3	wurden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past	7	aux:pass	_	_
+4	rund	rund	ADV	ADV	_	5	advmod	_	_
+5	5.000	5.000	NUM	CARD	Number=Plur|Person=3	6	nummod	_	_
+6	Exemplare	Exemplar	NOUN	NN	Gender=Neut|Number=Plur|Person=3	7	nsubj:pass	_	_
+7	ausgeliefert	ausliefern	VERB	VVPP	_	0	root	_	_
+8	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = hdt-s77214
+# text = Der britische Mobilfunkbetreiber Orange will nach Informationen des Sunday Telegraph möglicherweise den deutschen Mobilnetzbetreiber E-Plus übernehmen .
+1	Der	Der	DET	ART	Case=Nom|Gender=Masc|Number=Sing	3	det	_	_
+2	britische	britisch	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	Mobilfunkbetreiber	Betreiber	NOUN	NN	Gender=Masc|Number=Sing|Person=3	16	nsubj	_	_
+4	Orange	Orange	PROPN	NE	Case=Nom|Number=Sing|Person=3	3	flat:name	_	_
+5	will	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres	16	aux	_	_
+6	nach	nach	ADP	APPR	Case=Dat	7	case	_	_
+7	Informationen	Information	NOUN	NN	Gender=Fem|Number=Plur|Person=3	16	obl	_	_
+8	des	des	DET	ART	Case=Gen|Gender=Neut|Number=Sing	9	det:poss	_	_
+9	Sunday	Sunday	X	FM	Person=3	7	nmod:poss	_	_
+10	Telegraph	Telegraph	X	FM	Person=3	9	flat	_	_
+11	möglicherweise	möglicherweise	ADV	ADV	_	16	advmod	_	_
+12	den	den	DET	ART	Case=Acc|Gender=Masc|Number=Sing	14	det	_	_
+13	deutschen	deutsch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	Mobilnetzbetreiber	Betreiber	NOUN	NN	Gender=Masc|Number=Sing|Person=3	16	obj	_	_
+15	E-Plus	E-Plus	PROPN	NE	Number=Sing|Person=3	14	flat:name	_	_
+16	übernehmen	übernehmen	VERB	VVINF	_	0	root	_	_
+17	.	.	PUNCT	$.	_	16	punct	_	_
+
+# sent_id = hdt-s27329
+# text = Dann sollen auch die ersten virtuellen Deathmatches abgehalten werden .
+1	Dann	Dann	ADV	ADV	_	8	advmod	_	_
+2	sollen	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres	8	aux	_	_
+3	auch	auch	ADV	ADV	_	7	advmod	_	_
+4	die	die	DET	ART	Case=Nom|Number=Plur	7	det	_	_
+5	ersten	erste	ADJ	ADJA	Case=Nom|Degree=Pos|Number=Plur	7	amod	_	_
+6	virtuellen	virtuell	ADJ	ADJA	Case=Nom|Degree=Pos|Number=Plur	7	amod	_	_
+7	Deathmatches	Deathmatches	NOUN	NN	Person=3	8	nsubj:pass	_	_
+8	abgehalten	abhalten	VERB	VVPP	_	0	root	_	_
+9	werden	werden	AUX	VAINF	_	8	aux:pass	_	_
+10	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = hdt-s63829
+# text = Die Millionen von der Regierung würden eher dazu beitragen , die Umstellung zu beschleunigen .
+1	Die	Die	DET	ART	Case=Nom|Number=Plur	2	det	_	_
+2	Millionen	Million	NOUN	NN	Gender=Fem|Number=Plur|Person=3	9	nsubj	_	_
+3	von	von	ADP	APPR	Case=Dat	5	case	_	_
+4	der	der	DET	ART	Case=Dat|Gender=Fem|Number=Sing	5	det	_	_
+5	Regierung	Regierung	NOUN	NN	Gender=Fem|Number=Sing|Person=3	2	nmod	_	_
+6	würden	werden	AUX	VAFIN	Mood=Sub|Number=Plur|Person=3|Tense=Pres	9	aux	_	_
+7	eher	eher	ADV	ADV	Degree=Cmp	9	advmod	_	_
+8	dazu	dazu	ADV	PROAV	_	9	obl:arg	_	_
+9	beitragen	beitragen	VERB	VVINF	_	0	root	_	_
+10	,	,	PUNCT	$,	_	14	punct	_	_
+11	die	die	DET	ART	Case=Acc|Gender=Fem|Number=Sing	12	det	_	_
+12	Umstellung	Umstellung	NOUN	NN	Gender=Fem|Number=Sing|Person=3	14	obj	_	_
+13	zu	zu	PART	PTKZU	_	14	mark	_	_
+14	beschleunigen	beschleunigen	VERB	VVINF	_	9	xcomp	_	_
+15	.	.	PUNCT	$.	_	9	punct	_	_
+
+# sent_id = hdt-s31307
+# text = Die Zeichnungsfrist wird im Juni liegen , die Aufnahme des Handels mit den neuen Aktien an den Börsen ist für den 19. Juni vorgesehen .
+1	Die	Die	DET	ART	Case=Nom|Gender=Fem|Number=Sing	2	det	_	_
+2	Zeichnungsfrist	Frist	NOUN	NN	Gender=Fem|Number=Sing|Person=3	6	nsubj	_	_
+3	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres	6	aux	_	_
+4	im	im	ADP	APPRART	Case=Dat	5	case	_	_
+5	Juni	Juni	NOUN	NN	Gender=Masc|Number=Sing|Person=3	6	obl	_	_
+6	liegen	liegen	VERB	VVINF	_	0	root	_	_
+7	,	,	PUNCT	$,	_	24	punct	_	_
+8	die	die	DET	ART	Case=Nom|Gender=Fem|Number=Sing	9	det	_	_
+9	Aufnahme	Aufnahme	NOUN	NN	Gender=Fem|Number=Sing|Person=3	24	nsubj:pass	_	_
+10	des	des	DET	ART	Case=Gen|Gender=Masc|Number=Sing	11	det:poss	_	_
+11	Handels	Handel	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing|Person=3	9	nmod:poss	_	_
+12	mit	mit	ADP	APPR	Case=Dat	15	case	_	_
+13	den	den	DET	ART	Case=Dat|Number=Plur	15	det	_	_
+14	neuen	neu	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	15	amod	_	_
+15	Aktien	Aktie	NOUN	NN	Gender=Fem|Number=Plur|Person=3	11	nmod	_	_
+16	an	an	ADP	APPR	Case=Dat	18	case	_	_
+17	den	den	DET	ART	Case=Dat|Number=Plur	18	det	_	_
+18	Börsen	Börse	NOUN	NN	Gender=Fem|Number=Plur|Person=3	11	nmod	_	_
+19	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres	24	aux:pass	_	_
+20	für	für	ADP	APPR	_	23	case	_	_
+21	den	den	DET	ART	Case=Acc|Gender=Masc|Number=Sing	23	det	_	_
+22	19.	19.	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing|Person=3	23	amod	_	_
+23	Juni	Juni	NOUN	NN	Gender=Masc|Number=Sing|Person=3	24	obl	_	_
+24	vorgesehen	vorsehen	VERB	VVPP	_	6	conj	_	_
+25	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = hdt-s88122
+# text = Auslandsgespräche wurden um ein gutes Fünftel günstiger .
+1	Auslandsgespräche	Gespräch	NOUN	NN	Gender=Neut|Number=Plur|Person=3	2	nsubj	_	_
+2	wurden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	_
+3	um	um	ADP	APPR	Case=Acc	6	case	_	_
+4	ein	ein	DET	ART	Case=Acc|Gender=Neut|Number=Sing	6	det	_	_
+5	gutes	gut	ADJ	ADJA	Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+6	Fünftel	Fünftel	NOUN	NN	Gender=Neut|Number=Sing|Person=3	7	obl	_	_
+7	günstiger	günstig	ADJ	ADJD	Degree=Cmp	2	xcomp	_	_
+8	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = hdt-s24469
+# text = Star-trek-Fans können sich freuen , denn Paramount will am Anfang außer den aktuellen Produktionen auch solche Publikumslieblinge auf DVD-Video bringen , um den Verkauf anzukurbeln .
+1	Star-trek-Fans	Fan	NOUN	NN	Gender=Masc|Number=Plur|Person=3	4	nsubj	_	_
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres	4	aux	_	_
+3	sich	sich	PRON	PRF	Case=Acc|Person=3	4	expl:pv	_	_
+4	freuen	freuen	VERB	VVINF	_	0	root	_	_
+5	,	,	PUNCT	$,	_	20	punct	_	_
+6	denn	denn	CCONJ	KON	_	20	cc	_	_
+7	Paramount	Paramount	NOUN	NN	Person=3	20	nsubj	_	_
+8	will	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres	20	aux	_	_
+9	am	am	ADP	APPRART	Case=Dat	10	case	_	_
+10	Anfang	Anfang	NOUN	NN	Gender=Masc|Number=Sing|Person=3	20	obl	_	_
+11	außer	außer	ADP	APPR	Case=Dat	14	case	_	_
+12	den	den	DET	ART	Case=Dat|Number=Plur	14	det	_	_
+13	aktuellen	aktuell	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	14	amod	_	_
+14	Produktionen	Produktion	NOUN	NN	Gender=Fem|Number=Plur|Person=3	20	obl	_	_
+15	auch	auch	ADV	ADV	_	17	advmod	_	_
+16	solche	solch	DET	PIDAT	Case=Acc|Number=Plur|Person=3	17	det	_	_
+17	Publikumslieblinge	Liebling	NOUN	NN	Gender=Masc|Number=Plur|Person=3	20	obj	_	_
+18	auf	auf	ADP	APPR	Case=Dat	19	case	_	_
+19	DVD-Video	Video	NOUN	NN	Gender=Neut|Number=Sing|Person=3	20	obl	_	_
+20	bringen	bringen	VERB	VVINF	_	4	conj	_	_
+21	,	,	PUNCT	$,	_	25	punct	_	_
+22	um	um	SCONJ	KOUI	_	25	mark	_	_
+23	den	den	DET	ART	Case=Acc|Gender=Masc|Number=Sing	24	det	_	_
+24	Verkauf	Verkauf	NOUN	NN	Gender=Masc|Number=Sing|Person=3	25	obj	_	_
+25	anzukurbeln	ankurbeln	VERB	VVIZU	_	20	advcl	_	_
+26	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = hdt-s58291
+# text = 79.821 Positionen für technische Fach- und Führungskräfte wurden in 1998 ausgeschrieben .
+1	79.821	79.821	NUM	CARD	Number=Plur|Person=3	2	nummod	_	_
+2	Positionen	Position	NOUN	NN	Gender=Fem|Number=Plur|Person=3	11	nsubj:pass	_	_
+3	für	für	ADP	APPR	Case=Acc	5	case	_	_
+4	technische	technisch	ADJ	ADJA	Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	Fach-	Fach-	NOUN	TRUNC	_	2	nmod	_	_
+6	und	und	CCONJ	KON	_	7	cc	_	_
+7	Führungskräfte	Führungskraft	NOUN	NN	Gender=Fem|Number=Plur|Person=3	5	conj	_	_
+8	wurden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past	11	aux:pass	_	_
+9	in	in	ADP	APPR	Case=Dat	10	case	_	_
+10	1998	1998	NUM	CARD	Number=Plur|Person=3	11	obl	_	_
+11	ausgeschrieben	ausschreiben	VERB	VVPP	_	0	root	_	_
+12	.	.	PUNCT	$.	_	11	punct	_	_
+
+# sent_id = hdt-s33917
+# text = Den 330 Regelschulen standen zu Jahresbeginn etwa 4500 Computer mit unterschiedlicher Leistungsfähigkeit zur Verfügung .
+1	Den	Den	DET	ART	Case=Dat|Number=Plur	3	det	_	_
+2	330	330	NUM	CARD	Number=Plur|Person=3	3	nummod	_	_
+3	Regelschulen	Schule	NOUN	NN	Gender=Fem|Number=Plur|Person=3	4	obj	_	_
+4	standen	stehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	_
+5	zu	zu	ADP	APPR	Case=Dat	6	case	_	_
+6	Jahresbeginn	Jahresbeginn	NOUN	NN	Gender=Masc|Number=Sing|Person=3	4	obl	_	_
+7	etwa	etwa	ADV	ADV	_	8	advmod	_	_
+8	4500	4500	NUM	CARD	Number=Plur|Person=3	9	nummod	_	_
+9	Computer	Computer	NOUN	NN	Gender=Masc|Number=Plur|Person=3	4	nsubj	_	_
+10	mit	mit	ADP	APPR	Case=Dat	12	case	_	_
+11	unterschiedlicher	unterschiedlich	ADJ	ADJA	Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	Leistungsfähigkeit	Leistungsfähigkeit	NOUN	NN	Gender=Fem|Number=Sing|Person=3	9	nmod	_	_
+13	zur	zur	ADP	APPRART	Case=Dat|Gender=Fem	14	case	_	_
+14	Verfügung	Verfügung	NOUN	NN	Gender=Fem|Number=Sing|Person=3	4	obl	_	_
+15	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = hdt-s84927
+# text = Man werde mit zusätzlichen Maßnahmen den Angriff abwehren und die Verfügbarkeit der Homepage sowie die Kundendaten sichern , teilte das Unternehmen heute der Deutschen Presse Agentur mit .
+1	Man	Man	PRON	PIS	Case=Nom|Number=Sing|Person=3	8	nsubj	_	_
+2	werde	werden	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres	8	aux	_	_
+3	mit	mit	ADP	APPR	Case=Dat	5	case	_	_
+4	zusätzlichen	zusätzlich	ADJ	ADJA	Case=Dat|Degree=Pos|Number=Plur	5	amod	_	_
+5	Maßnahmen	Maßnahme	NOUN	NN	Gender=Fem|Number=Plur|Person=3	8	obl	_	_
+6	den	den	DET	ART	Case=Acc|Gender=Masc|Number=Sing	7	det	_	_
+7	Angriff	Angriff	NOUN	NN	Gender=Masc|Number=Sing|Person=3	8	obj	_	_
+8	abwehren	abwehren	VERB	VVINF	_	0	root	_	_
+9	und	und	CCONJ	KON	_	17	cc	_	_
+10	die	die	DET	ART	Case=Acc|Gender=Fem|Number=Sing	11	det	_	_
+11	Verfügbarkeit	Verfügbarkeit	NOUN	NN	Gender=Fem|Number=Sing|Person=3	17	obj	_	_
+12	der	der	DET	ART	Case=Gen|Gender=Fem|Number=Sing	13	det:poss	_	_
+13	Homepage	Homepage	NOUN	NN	Gender=Fem|Number=Sing|Person=3	11	nmod:poss	_	_
+14	sowie	sowie	CCONJ	KON	_	16	cc	_	_
+15	die	die	DET	ART	Case=Acc|Number=Plur	16	det	_	_
+16	Kundendaten	Datum	NOUN	NN	Gender=Neut|Number=Plur|Person=3	11	conj	_	_
+17	sichern	sichern	VERB	VVINF	_	8	conj	_	_
+18	,	,	PUNCT	$,	_	19	punct	_	_
+19	teilte	teilen	VERB	VVFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres	8	parataxis	_	_
+20	das	das	DET	ART	Case=Nom|Gender=Neut|Number=Sing	21	det	_	_
+21	Unternehmen	Unternehmen	NOUN	NN	Gender=Neut|Number=Sing|Person=3	19	nsubj	_	_
+22	heute	heute	ADV	ADV	_	19	advmod	_	_
+23	der	der	DET	ART	Case=Dat|Gender=Fem|Number=Sing	25	det	_	_
+24	Deutschen	deutsch	ADJ	ADJA	Degree=Pos|Number=Sing	25	amod	_	_
+25	Presse	Presse	NOUN	NN	Gender=Fem|Number=Sing|Person=3	19	obj	_	_
+26	Agentur	Agentur	NOUN	NN	Gender=Fem|Number=Sing|Person=3	25	appos	_	_
+27	mit	mit	ADP	PTKVZ	_	19	compound:prt	_	_
+28	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = hdt-s96012
+# text = Mehr dazu in Telepolis :
+1	Mehr	Mehr	PRON	PIS	Degree=Cmp|Gender=Neut|Number=Sing|Person=3	0	root	_	_
+2	dazu	dazu	ADV	PROAV	_	1	advmod	_	_
+3	in	in	ADP	APPR	Case=Acc	4	case	_	_
+4	Telepolis	Telepolis	PROPN	NE	Person=3	1	nmod	_	_
+5	:	:	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = hdt-s41869
+# text = Der neue Kurs hat zu einem personellen Umbau an der Unternehmensspitze geführt :
+1	Der	Der	DET	ART	Case=Nom|Gender=Masc|Number=Sing	3	det	_	_
+2	neue	neu	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	Kurs	Kurs	NOUN	NN	Gender=Masc|Number=Sing|Person=3	12	nsubj	_	_
+4	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres	12	aux	_	_
+5	zu	zu	ADP	APPR	Case=Dat	8	case	_	_
+6	einem	einem	DET	ART	Case=Dat|Gender=Masc|Number=Sing	8	det	_	_
+7	personellen	personell	ADJ	ADJA	Degree=Pos|Number=Sing	8	amod	_	_
+8	Umbau	Umbau	NOUN	NN	Gender=Masc|Number=Sing|Person=3	12	obl:arg	_	_
+9	an	an	ADP	APPR	Case=Dat	11	case	_	_
+10	der	der	DET	ART	Case=Dat|Gender=Fem|Number=Sing	11	det	_	_
+11	Unternehmensspitze	Spitze	NOUN	NN	Gender=Fem|Number=Sing|Person=3	8	nmod	_	_
+12	geführt	führen	VERB	VVPP	_	0	root	_	_
+13	:	:	PUNCT	$.	_	12	punct	_	_
+
+# sent_id = hdt-s44630
+# text = Zwei Wermutstropfen sind der hohe Preis , der über 1500 DM liegen dürfte , sowie das erforderliche Netzteil :
+1	Zwei	Zwei	NUM	CARD	Number=Plur|Person=3	2	nummod	_	_
+2	Wermutstropfen	Tropfen	NOUN	NN	Gender=Masc|Number=Plur|Person=3	0	root	_	_
+3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres	2	cop	_	_
+4	der	der	DET	ART	Case=Nom|Gender=Masc|Number=Sing	6	det	_	_
+5	hohe	hoch	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	Preis	Preis	NOUN	NN	Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+7	,	,	PUNCT	$,	_	12	punct	_	_
+8	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|Person=3	12	nsubj	_	_
+9	über	über	ADP	APPR	Case=Dat	11	case	_	_
+10	1500	1500	NUM	CARD	Number=Plur|Person=3	11	nummod	_	_
+11	DM	DM	NOUN	NN	Gender=Fem|Number=Plur|Person=3	12	obl	_	_
+12	liegen	liegen	VERB	VVINF	_	6	acl	_	_
+13	dürfte	dürfen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres	12	aux	_	_
+14	,	,	PUNCT	$,	_	18	punct	_	_
+15	sowie	sowie	CCONJ	KON	_	18	cc	_	_
+16	das	das	DET	ART	Case=Nom|Gender=Neut|Number=Sing	18	det	_	_
+17	erforderliche	erforderlich	ADJ	ADJA	Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	_
+18	Netzteil	Netzteil	NOUN	NN	Gender=Neut|Number=Sing|Person=3	6	conj	_	_
+19	:	:	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = hdt-s20370
+# text = Laut T-Online-Chef Thomas Holtrop hat das Unternehmen das Portal nach dem schweren Erdbeben am 17. August 1999 im Nordwesten der Türkei eröffnet , um Angehörigen und Betroffenen in Deutschland die Möglichkeit zu bieten , aktuelle Berichte und Reportagen aus dem Katastrophengebiet in ihrer Sprache zu lesen .
+1	Laut	Laut	ADP	APPR	Case=Dat	2	case	_	_
+2	T-Online-Chef	Chef	NOUN	NN	Gender=Masc|Number=Sing|Person=3	22	obl	_	_
+3	Thomas	Thomas	PROPN	NE	Case=Dat|Number=Sing|Person=3	2	flat:name	_	_
+4	Holtrop	Holtrop	PROPN	NE	Person=3	2	flat:name	_	_
+5	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres	22	aux	_	_
+6	das	das	DET	ART	Case=Nom|Gender=Neut|Number=Sing	7	det	_	_
+7	Unternehmen	Unternehmen	NOUN	NN	Gender=Neut|Number=Sing|Person=3	22	nsubj	_	_
+8	das	das	DET	ART	Case=Acc|Gender=Neut|Number=Sing	9	det	_	_
+9	Portal	Portal	NOUN	NN	Gender=Neut|Number=Sing|Person=3	22	obj	_	_
+10	nach	nach	ADP	APPR	Case=Dat	13	case	_	_
+11	dem	dem	DET	ART	Case=Dat|Gender=Neut|Number=Sing	13	det	_	_
+12	schweren	schwer	ADJ	ADJA	Degree=Pos|Number=Sing	13	amod	_	_
+13	Erdbeben	Erdbeben	NOUN	NN	Gender=Neut|Number=Sing|Person=3	9	nmod	_	_
+14	am	am	ADP	APPRART	Case=Dat	16	case	_	_
+15	17.	17.	ADJ	ADJA	Person=3	16	amod	_	_
+16	August	August	NOUN	NN	Gender=Masc|Number=Sing|Person=3	13	nmod	_	_
+17	1999	1999	NUM	CARD	Number=Plur|Person=3	16	nmod	_	_
+18	im	im	ADP	APPRART	Case=Dat	19	case	_	_
+19	Nordwesten	Nordwesten	NOUN	NN	Gender=Masc|Number=Sing|Person=3	13	nmod	_	_
+20	der	der	DET	ART	Case=Gen|Gender=Fem|Number=Sing	21	det:poss	_	_
+21	Türkei	Türkei	PROPN	NE	Gender=Fem|Number=Sing|Person=3	19	nmod:poss	_	_
+22	eröffnet	eröffnen	VERB	VVPP	_	0	root	_	_
+23	,	,	PUNCT	$,	_	33	punct	_	_
+24	um	um	SCONJ	KOUI	_	33	mark	_	_
+25	Angehörigen	Angehörig	NOUN	NN	Case=Dat|Degree=Pos|Number=Plur|Person=3	33	iobj	_	_
+26	und	und	CCONJ	KON	_	27	cc	_	_
+27	Betroffenen	Betroffen	NOUN	NN	Degree=Pos|Number=Plur|Person=3	25	conj	_	_
+28	in	in	ADP	APPR	Case=Dat	29	case	_	_
+29	Deutschland	Deutschland	PROPN	NE	Number=Sing|Person=3	27	nmod	_	_
+30	die	die	DET	ART	Case=Acc|Gender=Fem|Number=Sing	31	det	_	_
+31	Möglichkeit	Möglichkeit	NOUN	NN	Gender=Fem|Number=Sing|Person=3	33	obj	_	_
+32	zu	zu	PART	PTKZU	_	33	mark	_	_
+33	bieten	bieten	VERB	VVINF	_	22	advcl	_	_
+34	,	,	PUNCT	$,	_	46	punct	_	_
+35	aktuelle	aktuell	ADJ	ADJA	Degree=Pos|Number=Plur	36	amod	_	_
+36	Berichte	Bericht	NOUN	NN	Gender=Masc|Number=Plur|Person=3	46	obj	_	_
+37	und	und	CCONJ	KON	_	38	cc	_	_
+38	Reportagen	Reportage	NOUN	NN	Gender=Fem|Number=Plur|Person=3	36	conj	_	_
+39	aus	aus	ADP	APPR	Case=Dat	41	case	_	_
+40	dem	dem	DET	ART	Case=Dat|Gender=Neut|Number=Sing	41	det	_	_
+41	Katastrophengebiet	Gebiet	NOUN	NN	Gender=Neut|Number=Sing|Person=3	38	nmod	_	_
+42	in	in	ADP	APPR	Case=Dat	44	case	_	_
+43	ihrer	sein	PRON	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Person=3	44	det:poss	_	_
+44	Sprache	Sprache	NOUN	NN	Gender=Fem|Number=Sing|Person=3	46	obl	_	_
+45	zu	zu	PART	PTKZU	_	46	mark	_	_
+46	lesen	lesen	VERB	VVINF	_	31	xcomp	_	_
+47	.	.	PUNCT	$.	_	22	punct	_	_
+
+# sent_id = hdt-s33058
+# text = Sie bilden die nächste Stufe der Videoüberwachung , in der der Rechner die öffentliche Ordnung kontrolliert .
+1	Sie	Sie	PRON	PPER	Case=Nom|Number=Plur|Person=3	2	nsubj	_	_
+2	bilden	bilden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	_
+3	die	die	DET	ART	Case=Acc|Gender=Fem|Number=Sing	5	det	_	_
+4	nächste	nächste	ADJ	ADJA	Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	Stufe	Stufe	NOUN	NN	Gender=Fem|Number=Sing|Person=3	2	obj	_	_
+6	der	der	DET	ART	Case=Gen|Gender=Fem|Number=Sing	7	det:poss	_	_
+7	Videoüberwachung	Überwachung	NOUN	NN	Gender=Fem|Number=Sing|Person=3	5	nmod:poss	_	_
+8	,	,	PUNCT	$,	_	16	punct	_	_
+9	in	in	ADP	APPR	Case=Dat	10	case	_	_
+10	der	der	PRON	PRELS	Case=Dat|Gender=Fem|Number=Sing|Person=3	16	obl	_	_
+11	der	der	DET	ART	Case=Nom|Gender=Masc|Number=Sing	12	det	_	_
+12	Rechner	Rechner	NOUN	NN	Gender=Masc|Number=Sing|Person=3	16	nsubj	_	_
+13	die	die	DET	ART	Case=Acc|Gender=Fem|Number=Sing	15	det	_	_
+14	öffentliche	öffentlich	ADJ	ADJA	Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	Ordnung	Ordnung	NOUN	NN	Gender=Fem|Number=Sing|Person=3	16	obj	_	_
+16	kontrolliert	kontrollieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres	7	acl	_	_
+17	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = hdt-s92473
+# text = SORM 2 ( Sistema Operativno-Rozysknykh Meropriyatii ) , das neben dem Abhören von Telefongesprächen auch die Überwachung des Internet ermöglicht , war Ende Juli in Kraft getreten .
+1	SORM	SORM	PROPN	NE	Person=3	27	nsubj:pass	_	_
+2	2	2	NUM	CARD	Number=Plur|Person=3	4	nummod	_	_
+3	(	(	PUNCT	$(	_	4	punct	_	_
+4	Sistema	Sistema	X	FM	Person=3	1	appos	_	_
+5	Operativno-Rozysknykh	Operativno-Rozysknykh	X	FM	Person=3	4	flat	_	_
+6	Meropriyatii	Meropriyatii	X	FM	Person=3	4	flat	_	_
+7	)	)	PUNCT	$(	_	4	punct	_	_
+8	,	,	PUNCT	$,	_	20	punct	_	_
+9	das	das	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|Person=3	20	nsubj	_	_
+10	neben	neben	ADP	APPR	Case=Dat	12	case	_	_
+11	dem	dem	DET	ART	Case=Dat|Gender=Neut|Number=Sing	12	det	_	_
+12	Abhören	Abhören	NOUN	NN	Gender=Neut|Number=Sing|Person=3	20	obl	_	_
+13	von	von	ADP	APPR	Case=Dat	14	case	_	_
+14	Telefongesprächen	Gespräch	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur|Person=3	12	nmod	_	_
+15	auch	auch	ADV	ADV	_	17	advmod	_	_
+16	die	die	DET	ART	Case=Acc|Gender=Fem|Number=Sing	17	det	_	_
+17	Überwachung	Überwachung	NOUN	NN	Gender=Fem|Number=Sing|Person=3	20	obj	_	_
+18	des	des	DET	ART	Case=Gen|Gender=Neut|Number=Sing	19	det:poss	_	_
+19	Internet	Internet	NOUN	NN	Gender=Neut|Number=Sing|Person=3	17	nmod:poss	_	_
+20	ermöglicht	ermöglichen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres	4	acl	_	_
+21	,	,	PUNCT	$,	_	20	punct	_	_
+22	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past	27	aux:pass	_	_
+23	Ende	Ende	NOUN	NN	Gender=Neut|Number=Sing|Person=3	27	obl	_	_
+24	Juli	Juli	NOUN	NN	Gender=Masc|Number=Sing|Person=3	23	appos	_	_
+25	in	in	ADP	APPR	Case=Acc	26	case	_	_
+26	Kraft	Kraft	NOUN	NN	Gender=Fem|Number=Sing|Person=3	27	obl:arg	_	_
+27	getreten	treten	VERB	VVPP	_	0	root	_	_
+28	.	.	PUNCT	$.	_	27	punct	_	_
+
+# sent_id = hdt-s66134
+# text = Mit den roten Zahlen liegt die Lucent-Tochter noch ein Vielfaches über dem Verlust aus dem gleichen Vorjahreszeitraum :
+1	Mit	Mit	ADP	APPR	Case=Dat	4	case	_	_
+2	den	den	DET	ART	Case=Dat|Number=Plur	4	det	_	_
+3	roten	rot	ADJ	ADJA	Degree=Pos|Number=Plur	4	amod	_	_
+4	Zahlen	Zahl	NOUN	NN	Gender=Fem|Number=Plur|Person=3	5	obl	_	_
+5	liegt	liegen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
+6	die	die	DET	ART	Case=Nom|Gender=Fem|Number=Sing	7	det	_	_
+7	Lucent-Tochter	Tochter	NOUN	NN	Gender=Fem|Number=Sing|Person=3	5	nsubj	_	_
+8	noch	noch	ADV	ADV	_	5	advmod	_	_
+9	ein	ein	DET	ART	Case=Acc|Gender=Neut|Number=Sing	10	det	_	_
+10	Vielfaches	unknown	NOUN	NN	Person=3	13	obl	_	_
+11	über	über	ADP	APPR	Case=Dat	13	case	_	_
+12	dem	dem	DET	ART	Case=Dat|Gender=Masc|Number=Sing	13	det	_	_
+13	Verlust	Verlust	NOUN	NN	Gender=Masc|Number=Sing|Person=3	5	obl	_	_
+14	aus	aus	ADP	APPR	Case=Dat	17	case	_	_
+15	dem	dem	DET	ART	Case=Dat|Gender=Masc|Number=Sing	17	det	_	_
+16	gleichen	gleich	ADJ	ADJA	Degree=Pos|Number=Sing	17	amod	_	_
+17	Vorjahreszeitraum	Zeitraum	NOUN	NN	Gender=Masc|Number=Sing|Person=3	13	nmod	_	_
+18	:	:	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = hdt-s79550
+# text = Baca wollte auf sein Talent als Schauspieler aufmerksam machen .
+1	Baca	Baca	PROPN	NE	Person=3	9	nsubj	_	_
+2	wollte	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past	9	aux	_	_
+3	auf	auf	ADP	APPR	Case=Acc	5	case	_	_
+4	sein	sein	PRON	PPOSAT	Case=Acc|Gender=Neut|Number=Sing|Person=3	5	det:poss	_	_
+5	Talent	Talent	NOUN	NN	Gender=Neut|Number=Sing|Person=3	8	obl	_	_
+6	als	als	ADP	KOKOM	_	7	case	_	_
+7	Schauspieler	Schauspieler	NOUN	NN	Gender=Masc|Number=Sing|Person=3	5	obl	_	_
+8	aufmerksam	aufmerksam	ADJ	ADJD	Degree=Pos	9	xcomp	_	_
+9	machen	machen	VERB	VVINF	_	0	root	_	_
+10	.	.	PUNCT	$.	_	9	punct	_	_
+
+# sent_id = hdt-s39283
+# text = Im Bieterverfahren geht es um einzelne Frequenzpakete .
+1	Im	Im	ADP	APPRART	Case=Dat	2	case	_	_
+2	Bieterverfahren	Verfahren	NOUN	NN	Gender=Neut|Number=Sing|Person=3	3	obl	_	_
+3	geht	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
+4	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3	3	nsubj	_	_
+5	um	um	ADP	APPR	_	7	case	_	_
+6	einzelne	einzeln	ADJ	ADJA	Degree=Pos|Gender=Neut|Number=Plur	7	amod	_	_
+7	Frequenzpakete	Paket	NOUN	NN	Gender=Neut|Number=Plur|Person=3	3	obl	_	_
+8	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = hdt-s20903
+# text = Teilt der Ausgeloste die Ablehnung AOL sofort mit , soll die Flatrate zwar erneut ausgelost werden .
+1	Teilt	teilen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres	15	xcomp	_	_
+2	der	der	DET	ART	Case=Nom|Gender=Masc|Number=Sing	3	det	_	_
+3	Ausgeloste	auslosen	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	nsubj	_	_
+4	die	die	DET	ART	Case=Acc|Gender=Fem|Number=Sing	5	det	_	_
+5	Ablehnung	Ablehnung	NOUN	NN	Gender=Fem|Number=Sing|Person=3	1	obj	_	_
+6	AOL	AOL	PROPN	NE	Case=Dat|Number=Sing|Person=3	1	iobj	_	_
+7	sofort	sofort	ADV	ADV	_	1	advmod	_	_
+8	mit	mit	ADP	PTKVZ	_	1	compound:prt	_	_
+9	,	,	PUNCT	$,	_	1	punct	_	_
+10	soll	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres	15	aux	_	_
+11	die	die	DET	ART	Case=Nom|Gender=Fem|Number=Sing	12	det	_	_
+12	Flatrate	Flatrate	NOUN	NN	Gender=Fem|Number=Sing|Person=3	15	nsubj:pass	_	_
+13	zwar	zwar	ADV	ADV	_	15	advmod	_	_
+14	erneut	erneuen	ADJ	ADJD	Degree=Pos	15	advmod	_	_
+15	ausgelost	auslosen	VERB	VVPP	_	0	root	_	_
+16	werden	werden	AUX	VAINF	_	15	aux:pass	_	_
+17	.	.	PUNCT	$.	_	15	punct	_	_
+
+# sent_id = hdt-s55985
+# text = Mit dem Release 2.0 hatte Lotus gerade all das fertiggestellt , was potenzielle Kunden bereits vom Release 1.0 erwartet hatten , etwa Import/Exportfilter für MS Office und eine Rechtschreibkorrektur .
+1	Mit	Mit	ADP	APPR	Case=Dat	3	case	_	_
+2	dem	dem	DET	ART	Case=Dat|Gender=Masc|Number=Sing	3	det	_	_
+3	Release	unknown	NOUN	NN	Person=3	10	obl	_	_
+4	2.0	2.0	NUM	CARD	Number=Plur|Person=3	3	flat	_	_
+5	hatte	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past	10	aux	_	_
+6	Lotus	Lotus	PROPN	NE	Case=Nom|Number=Sing|Person=3	10	nsubj	_	_
+7	gerade	gerade	ADV	ADV	_	9	advmod	_	_
+8	all	all	DET	PIDAT	_	9	det	_	_
+9	das	das	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|Person=3	10	obj	_	_
+10	fertiggestellt	fertigstellen	VERB	VVPP	_	0	root	_	_
+11	,	,	PUNCT	$,	_	19	punct	_	_
+12	was	was	PRON	PRELS	Case=Acc|Gender=Neut|Number=Sing|Person=3	19	obj	_	_
+13	potenzielle	potenziell	ADJ	ADJA	Degree=Pos|Number=Plur	14	amod	_	_
+14	Kunden	Kunde	NOUN	NN	Number=Plur|Person=3	19	nsubj	_	_
+15	bereits	bereits	ADV	ADV	_	19	advmod	_	_
+16	vom	vom	ADP	APPRART	Case=Dat	17	case	_	_
+17	Release	unknown	NOUN	NN	Person=3	19	obl	_	_
+18	1.0	1.0	NUM	CARD	Number=Plur|Person=3	17	flat	_	_
+19	erwartet	erwarten	VERB	VVPP	_	9	acl	_	_
+20	hatten	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past	19	aux	_	_
+21	,	,	PUNCT	$,	_	23	punct	_	_
+22	etwa	etwa	ADV	ADV	_	23	advmod	_	_
+23	Import/Exportfilter	Filter	NOUN	NN	Gender=Masc|Number=Sing|Person=3	6	appos	_	_
+24	für	für	ADP	APPR	Case=Acc	25	case	_	_
+25	MS	MS	PROPN	NE	Person=3	23	nmod	_	_
+26	Office	Office	NOUN	NN	Gender=Neut|Number=Sing|Person=3	25	appos	_	_
+27	und	und	CCONJ	KON	_	29	cc	_	_
+28	eine	eine	DET	ART	Case=Acc|Gender=Fem|Number=Sing	29	det	_	_
+29	Rechtschreibkorrektur	Korrektur	NOUN	NN	Gender=Fem|Number=Sing|Person=3	25	conj	_	_
+30	.	.	PUNCT	$.	_	10	punct	_	_
+
+# sent_id = hdt-s75686
+# text = Betrieben wird der Computer-Winzling , der mit 32 MByte RAM ausgerüstet ist , mit Microsofts Betriebssystem Pocket-PC , Nachfolger des Windows CE .
+1	Betrieben	betreiben	VERB	VVPP	_	0	root	_	_
+2	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres	1	aux:pass	_	_
+3	der	der	DET	ART	Case=Nom|Gender=Masc|Number=Sing	4	det	_	_
+4	Computer-Winzling	unknown	NOUN	NN	Person=3	1	nsubj:pass	_	_
+5	,	,	PUNCT	$,	_	11	punct	_	_
+6	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|Person=3	11	nsubj:pass	_	_
+7	mit	mit	ADP	APPR	Case=Dat	9	case	_	_
+8	32	32	NUM	CARD	Number=Plur|Person=3	9	nummod	_	_
+9	MByte	MByte	NOUN	NN	Gender=Neut|Number=Plur|Person=3	11	obl	_	_
+10	RAM	RAM	NOUN	NN	Gender=Neut|Number=Sing|Person=3	9	appos	_	_
+11	ausgerüstet	ausrüsten	VERB	VVPP	_	4	acl	_	_
+12	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres	11	aux:pass	_	_
+13	,	,	PUNCT	$,	_	16	punct	_	_
+14	mit	mit	ADP	APPR	Case=Dat	16	case	_	_
+15	Microsofts	Microsofts	PROPN	NE	Case=Gen|Number=Sing|Person=3	16	nmod:poss	_	_
+16	Betriebssystem	System	NOUN	NN	Gender=Neut|Number=Sing|Person=3	1	obl	_	_
+17	Pocket-PC	Pocket-PC	PROPN	NE	Person=3	16	flat:name	_	_
+18	,	,	PUNCT	$,	_	19	punct	_	_
+19	Nachfolger	Nachfolger	NOUN	NN	Gender=Masc|Number=Sing|Person=3	16	appos	_	_
+20	des	des	DET	ART	Case=Gen|Gender=Masc|Number=Sing	21	det:poss	_	_
+21	Windows	Windows	NOUN	NN	Gender=Neut|Number=Sing|Person=3	19	nmod:poss	_	_
+22	CE	CE	PROPN	NE	Case=Nom|Number=Sing|Person=3	21	flat:name	_	_
+23	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = hdt-s92703
+# text = Dazu in Telepolis einen Kommentar .
+1	Dazu	Dazu	ADV	PROAV	_	5	advmod	_	_
+2	in	in	ADP	APPR	Case=Dat	3	case	_	_
+3	Telepolis	Telepolis	PROPN	NE	Person=3	5	nmod	_	_
+4	einen	einen	DET	ART	Case=Acc|Gender=Masc|Number=Sing	5	det	_	_
+5	Kommentar	Kommentar	NOUN	NN	Gender=Masc|Number=Sing|Person=3	0	root	_	_
+6	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = hdt-s97674
+# text = Rechnet man wiederum diese tatsächliche Besucherzahl auf die restliche EXPO-Dauer hoch , landet man bei einer Gesamtzahl von nur 12 Millionen .
+1	Rechnet	rechnen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres	13	xcomp	_	_
+2	man	man	PRON	PIS	Case=Nom|Number=Sing|Person=3	1	nsubj	_	_
+3	wiederum	wiederum	ADV	ADV	_	1	advmod	_	_
+4	diese	dies	DET	PDAT	Case=Acc|Gender=Fem|Number=Sing	6	det	_	_
+5	tatsächliche	tatsächlich	ADJ	ADJA	Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	Besucherzahl	Zahl	NOUN	NN	Gender=Fem|Number=Sing|Person=3	1	obj	_	_
+7	auf	auf	ADP	APPR	Case=Acc	10	case	_	_
+8	die	die	DET	ART	Case=Acc|Gender=Fem|Number=Sing	10	det	_	_
+9	restliche	restlich	ADJ	ADJA	Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	EXPO-Dauer	Dauer	NOUN	NN	Gender=Fem|Number=Sing|Person=3	1	obl	_	_
+11	hoch	hoch	ADP	PTKVZ	_	1	compound:prt	_	_
+12	,	,	PUNCT	$,	_	1	punct	_	_
+13	landet	landen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
+14	man	man	PRON	PIS	Case=Nom|Number=Sing|Person=3	13	nsubj	_	_
+15	bei	bei	ADP	APPR	Case=Dat	17	case	_	_
+16	einer	einer	DET	ART	Case=Dat|Gender=Fem|Number=Sing	17	det	_	_
+17	Gesamtzahl	Zahl	NOUN	NN	Gender=Fem|Number=Sing|Person=3	13	obl	_	_
+18	von	von	ADP	APPR	Case=Dat	21	case	_	_
+19	nur	nur	ADV	ADV	_	20	advmod	_	_
+20	12	12	NUM	CARD	Number=Plur|Person=3	21	nummod	_	_
+21	Millionen	Million	NOUN	NN	Gender=Fem|Number=Plur|Person=3	17	nmod	_	_
+22	.	.	PUNCT	$.	_	13	punct	_	_
+
+# sent_id = hdt-s50670
+# text = Darin liege eine große Chance für die Verlage .
+1	Darin	Darin	ADV	PROAV	_	2	advmod	_	_
+2	liege	liegen	VERB	VVFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres	0	root	_	_
+3	eine	eine	DET	ART	Case=Nom|Gender=Fem|Number=Sing	5	det	_	_
+4	große	groß	ADJ	ADJA	Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	Chance	Chance	NOUN	NN	Gender=Fem|Number=Sing|Person=3	2	nsubj	_	_
+6	für	für	ADP	APPR	Case=Acc	8	case	_	_
+7	die	die	DET	ART	Case=Acc|Number=Plur	8	det	_	_
+8	Verlage	Verlag	NOUN	NN	Gender=Masc|Number=Plur|Person=3	5	nmod	_	_
+9	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = hdt-s56111
+# text = Corel will in einigen Wochen die neuen Programmversionen WordPerfect Office 2000 und CorelDraw 9 herausbringen .
+1	Corel	Corel	PROPN	NE	Case=Nom|Number=Sing|Person=3	15	nsubj	_	_
+2	will	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres	15	aux	_	_
+3	in	in	ADP	APPR	Case=Dat	5	case	_	_
+4	einigen	einig	DET	PIAT	Case=Dat|Number=Plur|Person=3	5	det	_	_
+5	Wochen	Woche	NOUN	NN	Gender=Fem|Number=Plur|Person=3	15	obl	_	_
+6	die	die	DET	ART	Case=Acc|Number=Plur	8	det	_	_
+7	neuen	neu	ADJ	ADJA	Degree=Pos|Number=Plur	8	amod	_	_
+8	Programmversionen	Version	NOUN	NN	Gender=Fem|Number=Plur|Person=3	15	obj	_	_
+9	WordPerfect	WordPerfect	PROPN	NE	Case=Nom|Number=Sing|Person=3	8	flat:name	_	_
+10	Office	Office	NOUN	NN	Gender=Neut|Number=Sing|Person=3	8	appos	_	_
+11	2000	2000	NUM	CARD	Number=Plur|Person=3	10	nmod	_	_
+12	und	und	CCONJ	KON	_	13	cc	_	_
+13	CorelDraw	CorelDraw	PROPN	NE	Case=Acc|Number=Sing|Person=3	11	conj	_	_
+14	9	9	NUM	CARD	Number=Plur|Person=3	13	flat	_	_
+15	herausbringen	herausbringen	VERB	VVINF	_	0	root	_	_
+16	.	.	PUNCT	$.	_	15	punct	_	_
+
+# sent_id = hdt-s86889
+# text = Der deutsche Provider war im Juni 2000 von dem Londoner Anbieter übernommen worden .
+1	Der	Der	DET	ART	Case=Nom|Gender=Masc|Number=Sing	3	det	_	_
+2	deutsche	deutsch	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	Provider	Provider	NOUN	NN	Gender=Masc|Number=Sing|Person=3	12	nsubj:pass	_	_
+4	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past	12	aux	_	_
+5	im	im	ADP	APPRART	Case=Dat	6	case	_	_
+6	Juni	Juni	NOUN	NN	Gender=Masc|Number=Sing|Person=3	12	obl	_	_
+7	2000	2000	NUM	CARD	Number=Plur|Person=3	6	nmod	_	_
+8	von	von	ADP	APPR	Case=Dat	11	case	_	_
+9	dem	dem	DET	ART	Case=Dat|Gender=Masc|Number=Sing	11	det	_	_
+10	Londoner	Londoner	ADJ	ADJA	Degree=Pos	11	amod	_	_
+11	Anbieter	Anbieter	NOUN	NN	Gender=Masc|Number=Sing|Person=3	12	obl	_	_
+12	übernommen	übernehmen	VERB	VVPP	_	0	root	_	_
+13	worden	werden	AUX	VAPP	_	12	aux:pass	_	_
+14	.	.	PUNCT	$.	_	12	punct	_	_
+
+# sent_id = hdt-s36503
+# text = Der Zusammenschluss des britischen Musik-Konzerns EMI und des Plattenlabels des deutschen Medienkonzerns Bertelsmann nimmt nach Informationen der internationalen Wirtschaftspresse langsam Gestalt an .
+1	Der	Der	DET	ART	Case=Nom|Gender=Masc|Number=Sing	2	det	_	_
+2	Zusammenschluss	Zusammenschluß	NOUN	NN	Gender=Masc|Number=Sing|Person=3	14	nsubj	_	_
+3	des	des	DET	ART	Case=Gen|Gender=Masc|Number=Sing	5	det:poss	_	_
+4	britischen	britisch	ADJ	ADJA	Degree=Pos|Number=Sing	5	amod	_	_
+5	Musik-Konzerns	Konzern	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing|Person=3	2	nmod:poss	_	_
+6	EMI	EMI	PROPN	NE	Case=Nom|Number=Sing|Person=3	5	flat:name	_	_
+7	und	und	CCONJ	KON	_	9	cc	_	_
+8	des	des	DET	ART	Case=Gen|Gender=Neut|Number=Sing	9	det	_	_
+9	Plattenlabels	Label	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing|Person=3	5	conj	_	_
+10	des	des	DET	ART	Case=Gen|Gender=Masc|Number=Sing	12	det:poss	_	_
+11	deutschen	deutsch	ADJ	ADJA	Degree=Pos|Number=Sing	12	amod	_	_
+12	Medienkonzerns	Konzern	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing|Person=3	9	nmod:poss	_	_
+13	Bertelsmann	Bertelsmann	PROPN	NE	Gender=Fem|Number=Sing|Person=3	12	flat:name	_	_
+14	nimmt	nehmen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
+15	nach	nach	ADP	APPR	Case=Dat	16	case	_	_
+16	Informationen	Information	NOUN	NN	Gender=Fem|Number=Plur|Person=3	14	obl	_	_
+17	der	der	DET	ART	Case=Gen|Gender=Fem|Number=Sing	19	det:poss	_	_
+18	internationalen	international	ADJ	ADJA	Degree=Pos|Number=Sing	19	amod	_	_
+19	Wirtschaftspresse	Presse	NOUN	NN	Gender=Fem|Number=Sing|Person=3	16	nmod:poss	_	_
+20	langsam	langsam	ADJ	ADJD	Degree=Pos	14	advmod	_	_
+21	Gestalt	Gestalt	NOUN	NN	Gender=Fem|Number=Sing|Person=3	14	obj	_	_
+22	an	an	ADP	PTKVZ	_	14	compound:prt	_	_
+23	.	.	PUNCT	$.	_	14	punct	_	_
+
+# sent_id = hdt-s21596
+# text = Stephen King stellt neuen Roman kapitelweise ins Internet
+1	Stephen	Stephen	PROPN	NE	Number=Sing|Person=3	3	nsubj	_	_
+2	King	King	PROPN	NE	Number=Sing|Person=3	1	flat:name	_	_
+3	stellt	stellen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
+4	neuen	neu	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	Roman	Roman	NOUN	NN	Gender=Masc|Number=Sing|Person=3	3	obj	_	_
+6	kapitelweise	kapitelweise	ADJ	ADJD	Degree=Pos	3	advmod	_	_
+7	ins	ins	ADP	APPRART	Case=Acc|Gender=Neut	8	case	_	_
+8	Internet	Internet	NOUN	NN	Gender=Neut|Number=Sing|Person=3	3	obl	_	_
+
+# sent_id = hdt-s41622
+# text = Der Pavilion 8860 ist mit einem 1-GHz-Athlon , 128 MByte SDRAM , CD-RW- und DVD-Laufwerk sowie einer 60-GByte-Festplatte bestückt .
+1	Der	Der	DET	ART	Case=Nom|Gender=Masc|Number=Sing	2	det	_	_
+2	Pavilion	Pavilion	PROPN	NE	Person=3	19	nsubj:pass	_	_
+3	8860	8860	NUM	CARD	Number=Plur|Person=3	2	flat	_	_
+4	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres	19	aux:pass	_	_
+5	mit	mit	ADP	APPR	Case=Dat	7	case	_	_
+6	einem	einem	DET	ART	Case=Dat|Gender=Masc|Number=Sing	7	det	_	_
+7	1-GHz-Athlon	Athlon	NOUN	NN	Gender=Masc|Number=Sing|Person=3	19	obl	_	_
+8	,	,	PUNCT	$,	_	10	punct	_	_
+9	128	128	NUM	CARD	Number=Plur|Person=3	10	nummod	_	_
+10	MByte	MByte	NOUN	NN	Gender=Neut|Number=Plur|Person=3	7	conj	_	_
+11	SDRAM	SDRAM	PROPN	NE	Person=3	10	flat:name	_	_
+12	,	,	PUNCT	$,	_	13	punct	_	_
+13	CD-RW-	CD-RW-	NOUN	TRUNC	_	7	conj	_	_
+14	und	und	CCONJ	KON	_	15	cc	_	_
+15	DVD-Laufwerk	Laufwerk	NOUN	NN	Gender=Neut|Number=Sing|Person=3	7	conj	_	_
+16	sowie	sowie	CCONJ	KON	_	18	cc	_	_
+17	einer	einer	DET	ART	Case=Dat|Gender=Fem|Number=Sing	18	det	_	_
+18	60-GByte-Festplatte	Festplatte	NOUN	NN	Gender=Fem|Number=Sing|Person=3	15	conj	_	_
+19	bestückt	bestücken	VERB	VVPP	_	0	root	_	_
+20	.	.	PUNCT	$.	_	19	punct	_	_
+
+# sent_id = hdt-s81976
+# text = Die Polizei stellte zudem mehrere tausend Software-Raubkopien sicher .
+1	Die	Die	DET	ART	Case=Nom|Gender=Fem|Number=Sing	2	det	_	_
+2	Polizei	Polizei	NOUN	NN	Gender=Fem|Number=Sing|Person=3	3	nsubj	_	_
+3	stellte	stellen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
+4	zudem	zudem	ADV	PROAV	_	3	advmod	_	_
+5	mehrere	mehrer	DET	PIAT	Case=Acc|Number=Plur|Person=3	7	det	_	_
+6	tausend	tausend	NUM	CARD	Number=Plur|Person=3	7	nummod	_	_
+7	Software-Raubkopien	Raubkopie	NOUN	NN	Gender=Fem|Number=Plur|Person=3	3	obj	_	_
+8	sicher	sicher	ADJ	ADJD	Degree=Pos	3	compound:prt	_	_
+9	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = hdt-s61386
+# text = Für die 450-MHz-Version sind knapp 1300 Mark zu zahlen , der 500-MHz-Chip kostet knapp 1700 Mark .
+1	Für	Für	ADP	APPR	Case=Acc	3	case	_	_
+2	die	die	DET	ART	Case=Acc|Gender=Fem|Number=Sing	3	det	_	_
+3	450-MHz-Version	Version	NOUN	NN	Gender=Fem|Number=Sing|Person=3	9	obl	_	_
+4	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres	9	aux	_	_
+5	knapp	knapp	ADJ	ADJD	Degree=Pos	6	advmod	_	_
+6	1300	1300	NUM	CARD	Number=Plur|Person=3	7	nummod	_	_
+7	Mark	Mark	NOUN	NN	Gender=Fem|Number=Plur|Person=3	9	nsubj	_	_
+8	zu	zu	PART	PTKZU	_	9	mark	_	_
+9	zahlen	zahlen	VERB	VVINF	_	0	root	_	_
+10	,	,	PUNCT	$,	_	13	punct	_	_
+11	der	der	DET	ART	Case=Nom|Gender=Masc|Number=Sing	12	det	_	_
+12	500-MHz-Chip	Chip	NOUN	NN	Gender=Masc|Number=Sing|Person=3	13	nsubj	_	_
+13	kostet	kosten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres	9	conj	_	_
+14	knapp	knapp	ADJ	ADJD	Degree=Pos	15	advmod	_	_
+15	1700	1700	NUM	CARD	Number=Plur|Person=3	16	nummod	_	_
+16	Mark	Mark	NOUN	NN	Gender=Fem|Number=Plur|Person=3	13	obj	_	_
+17	.	.	PUNCT	$.	_	9	punct	_	_
+
+# sent_id = hdt-s37932
+# text = Der Online-Dienst und Bertelsmann sind gleichberechtigte Gesellschafter von AOL Europe .
+1	Der	Der	DET	ART	Case=Nom|Gender=Masc|Number=Sing	2	det	_	_
+2	Online-Dienst	Dienst	NOUN	NN	Gender=Masc|Number=Sing|Person=3	7	nsubj	_	_
+3	und	und	CCONJ	KON	_	4	cc	_	_
+4	Bertelsmann	Bertelsmann	PROPN	NE	Case=Nom|Number=Sing|Person=3	2	conj	_	_
+5	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres	7	cop	_	_
+6	gleichberechtigte	gleichberechtigt	ADJ	ADJA	Degree=Pos|Gender=Masc|Number=Plur	7	amod	_	_
+7	Gesellschafter	Gesellschafter	NOUN	NN	Gender=Masc|Number=Plur|Person=3	0	root	_	_
+8	von	von	ADP	APPR	Case=Dat	9	case	_	_
+9	AOL	AOL	PROPN	NE	Case=Dat|Number=Sing|Person=3	7	nmod	_	_
+10	Europe	Europe	PROPN	NE	Number=Sing|Person=3	9	flat:name	_	_
+11	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = hdt-s41190
+# text = Das System erreichte mit vier 64-Bit-Prozessoren ( PowerPC RS64-II mit 340 MHz Taktfrequenz ) einen Durchsatz von 11774 GET-Zugriffen pro Sekunde .
+1	Das	Das	DET	ART	Case=Nom|Gender=Neut|Number=Sing	2	det	_	_
+2	System	System	NOUN	NN	Gender=Neut|Number=Sing|Person=3	3	nsubj	_	_
+3	erreichte	erreichen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
+4	mit	mit	ADP	APPR	Case=Dat	6	case	_	_
+5	vier	vier	NUM	CARD	Number=Plur|Person=3	6	nummod	_	_
+6	64-Bit-Prozessoren	Prozessor	NOUN	NN	Gender=Masc|Number=Plur|Person=3	3	obl	_	_
+7	(	(	PUNCT	$(	_	8	punct	_	_
+8	PowerPC	PowerPC	PROPN	NE	Case=Nom|Number=Sing|Person=3	6	appos	_	_
+9	RS64-II	RS64-II	NUM	CARD	Number=Plur|Person=3	8	flat	_	_
+10	mit	mit	ADP	APPR	Case=Dat	12	case	_	_
+11	340	340	NUM	CARD	Number=Plur|Person=3	12	nummod	_	_
+12	MHz	MHz	NOUN	NN	Gender=Neut|Number=Plur|Person=3	8	nmod	_	_
+13	Taktfrequenz	Taktfrequenz	NOUN	NN	Gender=Fem|Number=Sing|Person=3	12	appos	_	_
+14	)	)	PUNCT	$(	_	8	punct	_	_
+15	einen	einen	DET	ART	Case=Acc|Gender=Masc|Number=Sing	16	det	_	_
+16	Durchsatz	Durchsatz	NOUN	NN	Gender=Masc|Number=Sing|Person=3	3	obj	_	_
+17	von	von	ADP	APPR	Case=Dat	19	case	_	_
+18	11774	11774	NUM	CARD	Number=Plur|Person=3	19	nummod	_	_
+19	GET-Zugriffen	Zugriff	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur|Person=3	16	nmod	_	_
+20	pro	pro	ADP	APPR	_	21	case	_	_
+21	Sekunde	Sekunde	NOUN	NN	Gender=Fem|Number=Sing|Person=3	19	nmod	_	_
+22	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = hdt-s22334
+# text = Schon heute gehören die Websites der TV-Sender zu den bekanntesten und erfolgreichsten Marken im Internet .
+1	Schon	Schon	ADV	ADV	_	2	advmod	_	_
+2	heute	heute	ADV	ADV	_	3	advmod	_	_
+3	gehören	gehören	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	_
+4	die	die	DET	ART	Case=Nom|Number=Plur	5	det	_	_
+5	Websites	Website	NOUN	NN	Gender=Fem|Number=Plur|Person=3	3	nsubj	_	_
+6	der	der	DET	ART	Case=Gen|Number=Plur	7	det:poss	_	_
+7	TV-Sender	Sender	NOUN	NN	Gender=Masc|Number=Plur|Person=3	5	nmod:poss	_	_
+8	zu	zu	ADP	APPR	Case=Dat	13	case	_	_
+9	den	den	DET	ART	Case=Dat|Number=Plur	13	det	_	_
+10	bekanntesten	bekannt	ADJ	ADJA	Degree=Sup|Number=Plur	13	amod	_	_
+11	und	und	CCONJ	KON	_	12	cc	_	_
+12	erfolgreichsten	erfolgreich	ADJ	ADJA	Degree=Sup|Number=Plur	10	conj	_	_
+13	Marken	Mark	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur|Person=3	3	obl:arg	_	_
+14	im	im	ADP	APPRART	Case=Dat	15	case	_	_
+15	Internet	Internet	NOUN	NN	Gender=Neut|Number=Sing|Person=3	13	nmod	_	_
+16	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = hdt-s45611
+# text = Er war vor seinem Einstieg bei Transmeta unter anderem für die Entwicklung diverser SPARC-Chips verantwortlich .
+1	Er	Er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3	15	nsubj	_	_
+2	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past	15	cop	_	_
+3	vor	vor	ADP	APPR	Case=Dat	5	case	_	_
+4	seinem	sein	PRON	PPOSAT	Case=Dat|Gender=Masc|Number=Sing|Person=3	5	det:poss	_	_
+5	Einstieg	Einstieg	NOUN	NN	Gender=Masc|Number=Sing|Person=3	15	obl	_	_
+6	bei	bei	ADP	APPR	Case=Dat	7	case	_	_
+7	Transmeta	Transmeta	PROPN	NE	Person=3	5	nmod	_	_
+8	unter	unter	ADP	APPR	Case=Dat	9	case	_	_
+9	anderem	ander	PRON	PIS	Case=Dat|Gender=Masc|Number=Sing|Person=3	12	nmod	_	_
+10	für	für	ADP	APPR	Case=Acc	12	case	_	_
+11	die	die	DET	ART	Case=Acc|Gender=Fem|Number=Sing	12	det	_	_
+12	Entwicklung	Entwicklung	NOUN	NN	Gender=Fem|Number=Sing|Person=3	15	obl	_	_
+13	diverser	divers	ADJ	ADJA	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
+14	SPARC-Chips	Chip	NOUN	NN	Gender=Masc|Number=Plur|Person=3	12	nmod:poss	_	_
+15	verantwortlich	verantwortlich	ADJ	ADJD	Degree=Pos	0	root	_	_
+16	.	.	PUNCT	$.	_	15	punct	_	_
+
+# sent_id = hdt-s98363
+# text = Mit dem jüngsten Entwurf der Telekommunikations-Überwachungsverordnung ( TKÜV ) plant die Bundesregierung , die letzten Lücken bei der Überwachung der Telekommunikation zu schließen und auch den E-Mail-Verkehr der umfassenden Kontrolle der Strafverfolger zu unterwerfen .
+1	Mit	Mit	ADP	APPR	Case=Dat	4	case	_	_
+2	dem	dem	DET	ART	Case=Dat|Gender=Masc|Number=Sing	4	det	_	_
+3	jüngsten	jung	ADJ	ADJA	Degree=Sup|Number=Sing	4	amod	_	_
+4	Entwurf	Entwurf	NOUN	NN	Gender=Masc|Number=Sing|Person=3	10	obl	_	_
+5	der	der	DET	ART	Case=Gen|Gender=Fem|Number=Sing	6	det:poss	_	_
+6	Telekommunikations-Überwachungsverordnung	Verordnung	NOUN	NN	Gender=Fem|Number=Sing|Person=3	4	nmod:poss	_	_
+7	(	(	PUNCT	$(	_	8	punct	_	_
+8	TKÜV	TKÜV	PROPN	NE	Gender=Fem|Number=Sing|Person=3	6	appos	_	_
+9	)	)	PUNCT	$(	_	8	punct	_	_
+10	plant	planen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
+11	die	die	DET	ART	Case=Nom|Gender=Fem|Number=Sing	12	det	_	_
+12	Bundesregierung	Regierung	NOUN	NN	Gender=Fem|Number=Sing|Person=3	10	nsubj	_	_
+13	,	,	PUNCT	$,	_	23	punct	_	_
+14	die	die	DET	ART	Case=Acc|Number=Plur	16	det	_	_
+15	letzten	NULL	ADJ	ADJA	Degree=Sup|Number=Plur	16	amod	_	_
+16	Lücken	Lücke	NOUN	NN	Gender=Fem|Number=Plur|Person=3	23	obj	_	_
+17	bei	bei	ADP	APPR	Case=Dat	19	case	_	_
+18	der	der	DET	ART	Case=Dat|Gender=Fem|Number=Sing	19	det	_	_
+19	Überwachung	Überwachung	NOUN	NN	Gender=Fem|Number=Sing|Person=3	16	nmod	_	_
+20	der	der	DET	ART	Case=Gen|Gender=Fem|Number=Sing	21	det:poss	_	_
+21	Telekommunikation	Telekommunikation	NOUN	NN	Gender=Fem|Number=Sing|Person=3	19	nmod:poss	_	_
+22	zu	zu	PART	PTKZU	_	23	mark	_	_
+23	schließen	schließen	VERB	VVINF	_	10	xcomp	_	_
+24	und	und	CCONJ	KON	_	34	cc	_	_
+25	auch	auch	ADV	ADV	_	27	advmod	_	_
+26	den	den	DET	ART	Case=Acc|Gender=Masc|Number=Sing	27	det	_	_
+27	E-Mail-Verkehr	Verkehr	NOUN	NN	Gender=Masc|Number=Sing|Person=3	34	obj	_	_
+28	der	der	DET	ART	Case=Dat|Gender=Fem|Number=Sing	30	det	_	_
+29	umfassenden	umfassen	ADJ	ADJA	Degree=Pos|Number=Sing	30	amod	_	_
+30	Kontrolle	Kontrolle	NOUN	NN	Gender=Fem|Number=Sing|Person=3	34	iobj	_	_
+31	der	der	DET	ART	Case=Gen|Number=Plur	32	det:poss	_	_
+32	Strafverfolger	Verfolger	NOUN	NN	Gender=Masc|Number=Plur|Person=3	30	nmod:poss	_	_
+33	zu	zu	PART	PTKZU	_	34	mark	_	_
+34	unterwerfen	unterwerfen	VERB	VVINF	_	23	conj	_	_
+35	.	.	PUNCT	$.	_	10	punct	_	_
+
+# sent_id = hdt-s94406
+# text = Insgesamt haben alle Beteiligten 654.804 Jahre an Rechenzeit aufgewendet , durchschnittlich stellte jeder Mitarbeiter seinen PC 17 Stunden 36 Minuten und 31 Sekunden zur Verfügung .
+1	Insgesamt	Insgesamt	ADV	ADV	_	9	advmod	_	_
+2	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres	9	aux	_	_
+3	alle	all	DET	PIDAT	Case=Nom|Number=Plur|Person=3	4	det	_	_
+4	Beteiligten	Beteiligt	NOUN	NN	Degree=Pos|Number=Plur|Person=3	9	nsubj	_	_
+5	654.804	654.804	NUM	CARD	Number=Plur|Person=3	6	nummod	_	_
+6	Jahre	Jahr	NOUN	NN	Gender=Neut|Number=Plur|Person=3	9	obj	_	_
+7	an	an	ADP	APPR	Case=Dat	8	case	_	_
+8	Rechenzeit	Zeit	NOUN	NN	Gender=Fem|Number=Sing|Person=3	9	obl	_	_
+9	aufgewendet	aufwenden	VERB	VVPP	_	0	root	_	_
+10	,	,	PUNCT	$,	_	12	punct	_	_
+11	durchschnittlich	durchschnittlich	ADJ	ADJD	Degree=Pos	12	advmod	_	_
+12	stellte	stellen	VERB	VVFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres	9	conj	_	_
+13	jeder	jede	DET	PIDAT	Case=Nom|Gender=Masc|Number=Sing|Person=3	14	det	_	_
+14	Mitarbeiter	Mitarbeiter	NOUN	NN	Gender=Masc|Number=Sing|Person=3	12	nsubj	_	_
+15	seinen	sein	PRON	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Person=3	16	det:poss	_	_
+16	PC	PC	NOUN	NN	Gender=Masc|Number=Sing|Person=3	12	obj	_	_
+17	17	17	NUM	CARD	Number=Plur|Person=3	18	nummod	_	_
+18	Stunden	Stunde	NOUN	NN	Gender=Fem|Number=Plur|Person=3	12	obl	_	_
+19	36	36	NUM	CARD	Number=Plur|Person=3	20	nummod	_	_
+20	Minuten	Minute	NOUN	NN	Gender=Fem|Number=Plur|Person=3	18	appos	_	_
+21	und	und	CCONJ	KON	_	23	cc	_	_
+22	31	31	NUM	CARD	Number=Plur|Person=3	23	nummod	_	_
+23	Sekunden	Sekunde	NOUN	NN	Gender=Fem|Number=Plur|Person=3	18	conj	_	_
+24	zur	zur	ADP	APPRART	Case=Dat|Gender=Fem	25	case	_	_
+25	Verfügung	Verfügung	NOUN	NN	Gender=Fem|Number=Sing|Person=3	12	obl	_	_
+26	.	.	PUNCT	$.	_	9	punct	_	_
+
+# sent_id = hdt-s72896
+# text = Wenn jemand über die Telefonanlage einen privaten Betreiber anwählt , erhält die Telefonanlage keine Impulse von der Vermittlung , so daß die Kosten daher nur auf der Telekom-Rechnung erscheinen und auch nur der Zentralnummer zugeordnet werden , nicht aber dem entsprechenden Einzelanschluß .
+1	Wenn	Wenn	SCONJ	KOUS	_	9	mark	_	_
+2	jemand	jemand	PRON	PIS	Case=Nom|Number=Sing|Person=3	9	nsubj	_	_
+3	über	über	ADP	APPR	Case=Acc	5	case	_	_
+4	die	die	DET	ART	Case=Acc|Gender=Fem|Number=Sing	5	det	_	_
+5	Telefonanlage	Anlage	NOUN	NN	Gender=Fem|Number=Sing|Person=3	2	nmod	_	_
+6	einen	einen	DET	ART	Case=Acc|Gender=Masc|Number=Sing	8	det	_	_
+7	privaten	privat	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	Betreiber	Betreiber	NOUN	NN	Gender=Masc|Number=Sing|Person=3	9	obj	_	_
+9	anwählt	anwählen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres	11	advcl	_	_
+10	,	,	PUNCT	$,	_	9	punct	_	_
+11	erhält	erhalten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
+12	die	die	DET	ART	Case=Nom|Gender=Fem|Number=Sing	13	det	_	_
+13	Telefonanlage	Anlage	NOUN	NN	Gender=Fem|Number=Sing|Person=3	11	nsubj	_	_
+14	keine	kein	DET	PIAT	Case=Acc|Number=Plur|Person=3	15	det	_	_
+15	Impulse	Impuls	NOUN	NN	Gender=Masc|Number=Plur|Person=3	11	obj	_	_
+16	von	von	ADP	APPR	Case=Dat	18	case	_	_
+17	der	der	DET	ART	Case=Dat|Gender=Fem|Number=Sing	18	det	_	_
+18	Vermittlung	Vermittlung	NOUN	NN	Gender=Fem|Number=Sing|Person=3	11	obl	_	_
+19	,	,	PUNCT	$,	_	29	punct	_	_
+20	so	so	ADV	ADV	Degree=Pos	21	advmod	_	_
+21	daß	daß	SCONJ	KOUS	_	29	mark	_	_
+22	die	die	DET	ART	Case=Nom|Number=Plur	23	det	_	_
+23	Kosten	Kosten	NOUN	NN	Gender=Neut|Number=Plur|Person=3	29	nsubj	_	_
+24	daher	daher	ADV	PROAV	_	29	advmod	_	_
+25	nur	nur	ADV	ADV	_	28	advmod	_	_
+26	auf	auf	ADP	APPR	Case=Dat	28	case	_	_
+27	der	der	DET	ART	Case=Dat|Gender=Fem|Number=Sing	28	det	_	_
+28	Telekom-Rechnung	Rechnung	NOUN	NN	Gender=Fem|Number=Sing|Person=3	29	obl	_	_
+29	erscheinen	erscheinen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres	18	ccomp	_	_
+30	und	und	CCONJ	KON	_	35	cc	_	_
+31	auch	auch	ADV	ADV	_	34	advmod	_	_
+32	nur	nur	ADV	ADV	_	34	advmod	_	_
+33	der	der	DET	ART	Case=Dat|Gender=Fem|Number=Sing	34	det	_	_
+34	Zentralnummer	Nummer	NOUN	NN	Gender=Fem|Number=Sing|Person=3	35	obj	_	_
+35	zugeordnet	zuordnen	VERB	VVPP	_	29	conj	_	_
+36	werden	werden	AUX	VAFIN	Mood=Sub|Number=Plur|Person=3|Tense=Pres	35	aux:pass	_	_
+37	,	,	PUNCT	$,	_	42	punct	_	_
+38	nicht	nicht	PART	PTKNEG	_	42	advmod	_	_
+39	aber	aber	ADV	ADV	_	42	advmod	_	_
+40	dem	dem	DET	ART	Case=Dat|Gender=Masc|Number=Sing	42	det	_	_
+41	entsprechenden	entsprechen	ADJ	ADJA	Degree=Pos|Number=Sing	42	amod	_	_
+42	Einzelanschluß	Anschluß	NOUN	NN	Gender=Masc|Number=Sing|Person=3	34	conj	_	_
+43	.	.	PUNCT	$.	_	11	punct	_	_
+
+# sent_id = hdt-s20321
+# text = Die Umweltverbände befürchten eine Steigerung der bestehenden Belastung durch elektromagnetische Strahlung und monierten , dass die Auswirkungen noch nicht genügend erforscht seien .
+1	Die	Die	DET	ART	Case=Nom|Number=Plur	2	det	_	_
+2	Umweltverbände	Verband	NOUN	NN	Gender=Masc|Number=Plur|Person=3	3	nsubj	_	_
+3	befürchten	befürchten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	_
+4	eine	eine	DET	ART	Case=Acc|Gender=Fem|Number=Sing	5	det	_	_
+5	Steigerung	Steigerung	NOUN	NN	Gender=Fem|Number=Sing|Person=3	3	obj	_	_
+6	der	der	DET	ART	Case=Gen|Gender=Fem|Number=Sing	8	det:poss	_	_
+7	bestehenden	bestehenden	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	Belastung	Belastung	NOUN	NN	Gender=Fem|Number=Sing|Person=3	5	nmod:poss	_	_
+9	durch	durch	ADP	APPR	Case=Acc	11	case	_	_
+10	elektromagnetische	elektromagnetische	ADJ	ADJA	Gender=Fem|Number=Sing	11	amod	_	_
+11	Strahlung	Strahlung	NOUN	NN	Gender=Fem|Number=Sing|Person=3	8	nmod	_	_
+12	und	und	CCONJ	KON	_	13	cc	_	_
+13	monierten	monieren	VERB	VVFIN	Mood=Sub|Number=Plur|Person=3|Tense=Pres	3	conj	_	_
+14	,	,	PUNCT	$,	_	21	punct	_	_
+15	dass	dass	SCONJ	KOUS	_	21	mark	_	_
+16	die	die	DET	ART	Case=Nom|Number=Plur	17	det	_	_
+17	Auswirkungen	Auswirkung	NOUN	NN	Gender=Fem|Number=Plur|Person=3	21	nsubj:pass	_	_
+18	noch	noch	ADV	ADV	_	21	advmod	_	_
+19	nicht	nicht	PART	PTKNEG	_	21	advmod	_	_
+20	genügend	genügend	ADJ	ADJD	Degree=Pos	21	advmod	_	_
+21	erforscht	erforschen	VERB	VVPP	_	13	ccomp	_	_
+22	seien	sein	AUX	VAFIN	Mood=Sub|Number=Plur|Person=3|Tense=Pres	21	aux:pass	_	_
+23	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = hdt-s35476
+# text = Swisscom reoganisiert ihr deutsches Telekomgeschäft
+1	Swisscom	Swisscom	PROPN	NE	Gender=Fem|Number=Sing|Person=3	2	nsubj	_	_
+2	reoganisiert	-	VERB	VVFIN	Number=Sing|Person=3	0	root	_	_
+3	ihr	ihr	PRON	PPOSAT	Case=Acc|Gender=Neut|Number=Sing|Person=3	5	det:poss	_	_
+4	deutsches	deutsch	ADJ	ADJA	Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	Telekomgeschäft	Geschäft	NOUN	NN	Gender=Neut|Number=Sing|Person=3	2	obj	_	_
+
+# sent_id = hdt-s34274
+# text = " Wir brauchen eine bessere FCC als in Amerika . "
+1	"	"	PUNCT	$(	_	3	punct	_	_
+2	Wir	Wir	PRON	PPER	Case=Nom|Number=Plur|Person=1	3	nsubj	_	_
+3	brauchen	brauchen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres	0	root	_	_
+4	eine	eine	DET	ART	Case=Acc|Gender=Fem|Number=Sing	6	det	_	_
+5	bessere	gut	ADJ	ADJA	Degree=Cmp|Gender=Fem|Number=Sing	6	amod	_	_
+6	FCC	FCC	PROPN	NE	Number=Sing|Person=3	3	obj	_	_
+7	als	als	ADP	KOKOM	_	9	case	_	_
+8	in	in	ADP	APPR	Case=Dat	9	case	_	_
+9	Amerika	Amerika	PROPN	NE	Number=Sing|Person=3	3	obl	_	_
+10	.	.	PUNCT	$.	_	3	punct	_	_
+11	"	"	PUNCT	$(	_	3	punct	_	_
+
+# sent_id = hdt-s91589
+# text = Er gab der Polizei , die ihn befragte , ein Programm , das er bereits im letzten Jahr auf einer Website veröffentlicht hatte , um den angerichteten Schaden wieder ein Stück gut zu machen .
+1	Er	Er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+2	gab	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
+3	der	der	DET	ART	Case=Dat|Gender=Fem|Number=Sing	4	det	_	_
+4	Polizei	Polizei	NOUN	NN	Gender=Fem|Number=Sing|Person=3	2	iobj	_	_
+5	,	,	PUNCT	$,	_	8	punct	_	_
+6	die	die	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|Person=3	8	nsubj	_	_
+7	ihn	ihn	PRON	PPER	Case=Acc|Gender=Masc|Number=Sing|Person=3	8	obj	_	_
+8	befragte	befragen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past	4	acl	_	_
+9	,	,	PUNCT	$,	_	8	punct	_	_
+10	ein	ein	DET	ART	Case=Acc|Gender=Neut|Number=Sing	11	det	_	_
+11	Programm	Programm	NOUN	NN	Gender=Neut|Number=Sing|Person=3	2	obj	_	_
+12	,	,	PUNCT	$,	_	22	punct	_	_
+13	das	das	PRON	PRELS	Case=Acc|Gender=Neut|Number=Sing|Person=3	22	obj	_	_
+14	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3	22	nsubj	_	_
+15	bereits	bereits	ADV	ADV	_	22	advmod	_	_
+16	im	im	ADP	APPRART	Case=Dat	18	case	_	_
+17	letzten	NULL	ADJ	ADJA	Degree=Sup|Number=Sing	18	amod	_	_
+18	Jahr	Jahr	NOUN	NN	Gender=Neut|Number=Sing|Person=3	22	obl	_	_
+19	auf	auf	ADP	APPR	Case=Dat	21	case	_	_
+20	einer	einer	DET	ART	Case=Dat|Gender=Fem|Number=Sing	21	det	_	_
+21	Website	Website	NOUN	NN	Gender=Fem|Number=Sing|Person=3	22	obl	_	_
+22	veröffentlicht	veröffentlichen	VERB	VVPP	_	11	acl	_	_
+23	hatte	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past	22	aux	_	_
+24	,	,	PUNCT	$,	_	34	punct	_	_
+25	um	um	SCONJ	KOUI	_	34	mark	_	_
+26	den	den	DET	ART	Case=Acc|Gender=Masc|Number=Sing	28	det	_	_
+27	angerichteten	anrichten	ADJ	ADJA	Degree=Pos|Number=Plur	28	amod	_	_
+28	Schaden	Schaden	NOUN	NN	Gender=Masc|Number=Sing|Person=3	34	obj	_	_
+29	wieder	wieder	ADV	ADV	_	34	advmod	_	_
+30	ein	ein	DET	ART	Case=Acc|Gender=Neut|Number=Sing	31	det	_	_
+31	Stück	Stück	NOUN	NN	Gender=Neut|Number=Sing|Person=3	34	advcl	_	_
+32	gut	gut	ADJ	ADJD	Degree=Pos	34	xcomp	_	_
+33	zu	zu	PART	PTKZU	_	34	mark	_	_
+34	machen	machen	VERB	VVINF	_	22	advcl	_	_
+35	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = hdt-s48650
+# text = Es stehe jedoch fest , dass es sich um ein Bombenattentat und nicht etwa um eine Gasexplosion handelte .
+1	Es	Es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3	2	expl	_	_
+2	stehe	stehen	VERB	VVFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres	0	root	_	_
+3	jedoch	jedoch	ADV	ADV	_	2	advmod	_	_
+4	fest	fest	ADP	PTKVZ	_	2	compound:prt	_	_
+5	,	,	PUNCT	$,	_	18	punct	_	_
+6	dass	dass	SCONJ	KOUS	_	18	mark	_	_
+7	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3	18	nsubj	_	_
+8	sich	sich	PRON	PRF	Case=Acc|Person=3	18	obj	_	_
+9	um	um	ADP	APPR	Case=Acc	11	case	_	_
+10	ein	ein	DET	ART	Case=Acc|Gender=Neut|Number=Sing	11	det	_	_
+11	Bombenattentat	Attentat	NOUN	NN	Gender=Neut|Number=Sing|Person=3	18	obl	_	_
+12	und	und	CCONJ	KON	_	17	cc	_	_
+13	nicht	nicht	PART	PTKNEG	_	17	advmod	_	_
+14	etwa	etwa	ADV	ADV	_	17	advmod	_	_
+15	um	um	ADP	APPR	Case=Acc	17	case	_	_
+16	eine	eine	DET	ART	Case=Acc|Gender=Fem|Number=Sing	17	det	_	_
+17	Gasexplosion	Gasexplosion	NOUN	NN	Gender=Fem|Number=Sing|Person=3	11	conj	_	_
+18	handelte	handeln	VERB	VVFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres	2	csubj	_	_
+19	.	.	PUNCT	$.	_	2	punct	_	_
+

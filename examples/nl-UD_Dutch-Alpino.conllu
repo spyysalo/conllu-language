@@ -1,0 +1,1922 @@
+# sent_id = Treebank_qa_clef2005_0173
+# text = Welke stad is het bolwerk van de Tamil Tijgers?
+# source = Treebank/qa/clef2005_0173.xml
+1	Welke	welk	DET	VNW|vb|det|stan|prenom|met-e|rest	_	2	det	2:det	_
+2	stad	stad	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	5	nsubj	5:nsubj	_
+3	is	zijn	AUX	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_
+4	het	het	DET	LID|bep|stan|evon	Definite=Def	5	det	5:det	_
+5	bolwerk	bolwerk	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	0	root	0:root	_
+6	van	van	ADP	VZ|init	_	8	case	8:case	_
+7	de	de	DET	LID|bep|stan|rest	Definite=Def	8	det	8:det	_
+8	Tamil	Tamil	PROPN	SPEC|deeleigen	_	5	nmod	5:nmod:van	_
+9	Tijgers	Tijgers	PROPN	SPEC|deeleigen	_	8	flat	8:flat	SpaceAfter=No
+10	?	?	PUNCT	LET	_	5	punct	5:punct	_
+
+# sent_id = Treebank_eans_02_04_08_04_02_6b
+# text = Zij liep nog op krukken.
+# source = Treebank/eans/02_04_08_04_02_6b.xml
+1	Zij	zij	PRON	VNW|pers|pron|nomin|vol|3v|ev|fem	Case=Nom|Person=3|PronType=Prs	2	nsubj	2:nsubj	_
+2	liep	lopen	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	0	root	0:root	_
+3	nog	nog	ADV	BW	_	2	advmod	2:advmod	_
+4	op	op	ADP	VZ|init	_	5	case	5:case	_
+5	krukken	kruk	NOUN	N|soort|mv|basis	Number=Plur	2	obl	2:obl:op	SpaceAfter=No
+6	.	.	PUNCT	LET	_	2	punct	2:punct	_
+
+# sent_id = Treebank_cdb_3729
+# text = En:
+# source = Treebank/cdb/3729.xml
+1	En	en	CCONJ	VG|neven	_	0	root	0:root	SpaceAfter=No
+2	:	:	PUNCT	LET	_	1	punct	1:punct	_
+
+# sent_id = Treebank_g_suite_882
+# text = Wanneer hij komt valt niet te voorspellen
+# source = Treebank/g_suite/882.xml
+1	Wanneer	wanneer	ADV	BW	_	3	advmod	3:advmod	_
+2	hij	hij	PRON	VNW|pers|pron|nomin|vol|3|ev|masc	Case=Nom|Person=3|PronType=Prs	3	nsubj	3:nsubj	_
+3	komt	komen	VERB	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	7	ccomp	7:ccomp	_
+4	valt	vallen	VERB	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+5	niet	niet	ADV	BW	_	7	advmod	7:advmod	_
+6	te	te	ADP	VZ|init	_	7	mark	7:mark	_
+7	voorspellen	voorspellen	VERB	WW|inf|vrij|zonder	VerbForm=Inf	4	ccomp	4:ccomp	_
+
+# sent_id = Treebank_wpspel_504
+# text = Hoe heten een nakomeling van Franse kolonisten in Louisiana in de Verenigde Staten?
+# source = Treebank/wpspel/504.xml
+1	Hoe	hoe	ADV	BW	_	0	root	0:root	_
+2	heten	heten	AUX	WW|pv|tgw|mv	Number=Plur|Tense=Pres|VerbForm=Fin	1	cop	1:cop	_
+3	een	een	DET	LID|onbep|stan|agr	Definite=Ind	4	det	4:det	_
+4	nakomeling	nakomeling	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	1	nsubj	1:nsubj	_
+5	van	van	ADP	VZ|init	_	7	case	7:case	_
+6	Franse	Frans	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	7	amod	7:amod	_
+7	kolonisten	kolonist	NOUN	N|soort|mv|basis	Number=Plur	4	nmod	4:nmod:van	_
+8	in	in	ADP	VZ|init	_	9	case	9:case	_
+9	Louisiana	Louisiana	PROPN	N|eigen|ev|basis|onz|stan	Gender=Neut|Number=Sing	7	nmod	7:nmod:in	_
+10	in	in	ADP	VZ|init	_	12	case	12:case	_
+11	de	de	DET	LID|bep|stan|rest	Definite=Def	12	det	12:det	_
+12	Verenigde	Verenigde	PROPN	SPEC|deeleigen	_	9	nmod	9:nmod:in	_
+13	Staten	Staten	PROPN	SPEC|deeleigen	_	12	flat	12:flat	SpaceAfter=No
+14	?	?	PUNCT	LET	_	1	punct	1:punct	_
+
+# sent_id = Treebank_cdb_6391
+# text = De stijging van het dodencijfer in 1969 moet worden toegeschreven aan een ongunstige ontwikkeling in het tweede halfjaar.
+# source = Treebank/cdb/6391.xml
+1	De	de	DET	LID|bep|stan|rest	Definite=Def	2	det	2:det	_
+2	stijging	stijging	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	10	nsubj:pass	10:nsubj:pass	_
+3	van	van	ADP	VZ|init	_	5	case	5:case	_
+4	het	het	DET	LID|bep|stan|evon	Definite=Def	5	det	5:det	_
+5	dodencijfer	dodencijfer	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	2	nmod	2:nmod:van	_
+6	in	in	ADP	VZ|init	_	7	case	7:case	_
+7	1969	1969	NUM	TW|hoofd|vrij	_	2	nmod	2:nmod:in	_
+8	moet	moeten	AUX	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	10	aux	10:aux	_
+9	worden	worden	AUX	WW|inf|vrij|zonder	VerbForm=Inf	10	aux:pass	10:aux:pass	_
+10	toegeschreven	toeschrijven	VERB	WW|vd|vrij|zonder	VerbForm=Part	0	root	0:root	_
+11	aan	aan	ADP	VZ|init	_	14	case	14:case	_
+12	een	een	DET	LID|onbep|stan|agr	Definite=Ind	14	det	14:det	_
+13	ongunstige	ongunstig	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	14	amod	14:amod	_
+14	ontwikkeling	ontwikkeling	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	10	obl	10:obl:aan	_
+15	in	in	ADP	VZ|init	_	18	case	18:case	_
+16	het	het	DET	LID|bep|stan|evon	Definite=Def	18	det	18:det	_
+17	tweede	twee	ADJ	TW|rang|prenom|stan	_	18	amod	18:amod	_
+18	halfjaar	halfjaar	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	14	nmod	14:nmod:in	SpaceAfter=No
+19	.	.	PUNCT	LET	_	10	punct	10:punct	_
+
+# sent_id = Treebank_wpspel_909
+# text = Welke Duitse amateurpiloot landde op 13 mei 1987 met zijn vliegtuigje op het Rode Plein in Moskou?
+# source = Treebank/wpspel/909.xml
+1	Welke	welk	DET	VNW|vb|det|stan|prenom|met-e|rest	_	3	det	3:det	_
+2	Duitse	Duits	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	3	amod	3:amod	_
+3	amateurpiloot	amateurpiloot	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	4	nsubj	4:nsubj	_
+4	landde	landen	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	0	root	0:root	_
+5	op	op	ADP	VZ|init	_	6	case	6:case	_
+6	13	13	NUM	TW|hoofd|prenom|stan	_	4	obl	4:obl:op	_
+7	mei	mei	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	6	flat	6:flat	_
+8	1987	1987	NUM	TW|hoofd|vrij	_	6	flat	6:flat	_
+9	met	met	ADP	VZ|init	_	11	case	11:case	_
+10	zijn	zijn	PRON	VNW|bez|det|stan|vol|3|ev|prenom|zonder|agr	Person=3|PronType=Prs	11	nmod:poss	11:nmod:poss	_
+11	vliegtuigje	vliegtuig	NOUN	N|soort|ev|dim|onz|stan	Gender=Neut|Number=Sing	4	obl	4:obl:met	_
+12	op	op	ADP	VZ|init	_	14	case	14:case	_
+13	het	het	DET	LID|bep|stan|evon	Definite=Def	14	det	14:det	_
+14	Rode	Rode	PROPN	SPEC|deeleigen	_	4	obl	4:obl:op	_
+15	Plein	Plein	PROPN	SPEC|deeleigen	_	14	flat	14:flat	_
+16	in	in	ADP	VZ|init	_	17	case	17:case	_
+17	Moskou	Moskou	PROPN	N|eigen|ev|basis|onz|stan	Gender=Neut|Number=Sing	14	nmod	14:nmod:in	SpaceAfter=No
+18	?	?	PUNCT	LET	_	4	punct	4:punct	_
+
+# sent_id = Treebank_cdb_3581
+# text = Brito, Oliveira, alsmede de 30-jarige Portugees en nog twee Verdianen:
+# source = Treebank/cdb/3581.xml
+1	Brito	Brito	PROPN	N|eigen|ev|basis|genus|stan	Gender=Com,Neut|Number=Sing	0	root	0:root	SpaceAfter=No
+2	,	,	PUNCT	LET	_	3	punct	3:punct	_
+3	Oliveira	Oliveira	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	1	conj	1:conj:alsmede	SpaceAfter=No
+4	,	,	PUNCT	LET	_	8	punct	8:punct	_
+5	alsmede	alsmede	CCONJ	VG|neven	_	8	cc	8:cc	_
+6	de	de	DET	LID|bep|stan|rest	Definite=Def	8	det	8:det	_
+7	30-jarige	30-jarig	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	8	amod	8:amod	_
+8	Portugees	Portugees	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	1	conj	1:conj:alsmede	_
+9	en	en	CCONJ	VG|neven	_	12	cc	12:cc	_
+10	nog	nog	ADV	BW	_	12	amod	12:amod	_
+11	twee	twee	NUM	TW|hoofd|prenom|stan	_	12	nummod	12:nummod	_
+12	Verdianen	verdiaan	NOUN	N|soort|mv|basis	Number=Plur	1	conj	1:conj:alsmede	SpaceAfter=No
+13	:	:	PUNCT	LET	_	1	punct	1:punct	_
+
+# sent_id = Treebank_cdb_812
+# text = De Amsterdamse Brabander, die in de raad de Katholieke Volkspartij vertegenwoordigde, was een van de weinige stadsbestuurders die losjes en gemakkelijk kon improviseren in zijn speeches.
+# source = Treebank/cdb/812.xml
+1	De	de	DET	LID|bep|stan|rest	Definite=Def	3	det	3:det	_
+2	Amsterdamse	Amsterdams	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	3	amod	3:amod	_
+3	Brabander	Brabander	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	15	nsubj	12:nsubj:relsubj|15:nsubj	SpaceAfter=No
+4	,	,	PUNCT	LET	_	12	punct	12:punct	_
+5	die	die	PRON	VNW|betr|pron|stan|vol|persoon|getal	PronType=Rel	12	nsubj	3:ref	_
+6	in	in	ADP	VZ|init	_	8	case	8:case	_
+7	de	de	DET	LID|bep|stan|rest	Definite=Def	8	det	8:det	_
+8	raad	raad	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	12	obl	12:obl:in	_
+9	de	de	DET	LID|bep|stan|rest	Definite=Def	10	det	10:det	_
+10	Katholieke	katholiek	PROPN	SPEC|deeleigen	_	12	obj	12:obj	_
+11	Volkspartij	Volkspartij	PROPN	SPEC|deeleigen	_	10	flat	10:flat	_
+12	vertegenwoordigde	vertegenwoordigen	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	3	acl:relcl	3:acl:relcl	SpaceAfter=No
+13	,	,	PUNCT	LET	_	3	punct	3:punct	_
+14	was	zijn	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	15	cop	15:cop	_
+15	een	een	NUM	TW|hoofd|vrij	_	0	root	0:root|25:nsubj:relsubj	_
+16	van	van	ADP	VZ|init	_	19	case	19:case	_
+17	de	de	DET	LID|bep|stan|rest	Definite=Def	19	det	19:det	_
+18	weinige	weinig	ADV	VNW|onbep|grad|stan|prenom|met-e|agr|basis	_	19	amod	19:amod	_
+19	stadsbestuurders	stadsbestuurder	NOUN	N|soort|mv|basis	Number=Plur	15	nmod	15:nmod:van	_
+20	die	die	PRON	VNW|betr|pron|stan|vol|persoon|getal	PronType=Rel	25	nsubj	15:ref	_
+21	losjes	los	ADJ	ADJ|vrij|dim|zonder	Degree=Pos	25	obl	25:obl	_
+22	en	en	CCONJ	VG|neven	_	23	cc	23:cc	_
+23	gemakkelijk	gemakkelijk	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	21	conj	21:conj:en|25:obl	_
+24	kon	kunnen	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	25	aux	25:aux	_
+25	improviseren	improviseren	VERB	WW|inf|vrij|zonder	VerbForm=Inf	15	acl:relcl	15:acl:relcl	_
+26	in	in	ADP	VZ|init	_	28	case	28:case	_
+27	zijn	zijn	PRON	VNW|bez|det|stan|vol|3|ev|prenom|zonder|agr	Person=3|PronType=Prs	28	nmod:poss	28:nmod:poss	_
+28	speeches	speech	NOUN	N|soort|mv|basis	Number=Plur	25	obl	25:obl:in	SpaceAfter=No
+29	.	.	PUNCT	LET	_	15	punct	15:punct	_
+
+# sent_id = Treebank_wpspel_279
+# text = Wie speelde hoofdrol van franciscaanse monnik in de film ` In de naam van de roos '?
+# source = Treebank/wpspel/279.xml
+1	Wie	wie	PRON	VNW|vb|pron|stan|vol|3p|getal	Person=3|PronType=Int	2	nsubj	2:nsubj	_
+2	speelde	spelen	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	0	root	0:root	_
+3	hoofdrol	hoofdrol	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	2	obj	2:obj	_
+4	van	van	ADP	VZ|init	_	6	case	6:case	_
+5	franciscaanse	franciscaans	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	6	amod	6:amod	_
+6	monnik	monnik	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	3	nmod	3:nmod:van	_
+7	in	in	ADP	VZ|init	_	9	case	9:case	_
+8	de	de	DET	LID|bep|stan|rest	Definite=Def	9	det	9:det	_
+9	film	film	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	2	obl	2:obl:in	_
+10	`	`	PUNCT	LET	_	11	punct	11:punct	_
+11	In	in	ADP	VZ|init	_	9	appos	9:appos	_
+12	de	de	DET	LID|bep|stan|rest	Definite=Def	11	fixed	11:fixed	_
+13	naam	naam	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	11	fixed	11:fixed	_
+14	van	van	ADP	VZ|init	_	11	fixed	11:fixed	_
+15	de	de	DET	LID|bep|stan|rest	Definite=Def	11	fixed	11:fixed	_
+16	roos	roos	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	11	fixed	11:fixed	_
+17	'	'	PUNCT	LET	_	2	punct	2:punct	SpaceAfter=No
+18	?	?	PUNCT	LET	_	2	punct	2:punct	_
+
+# sent_id = Treebank_cdb_7039
+# text = De twee socialisten wijzen erop dat onderwijzers van bijzondere en rijksscholen geen beperkingen zijn opgelegd.
+# source = Treebank/cdb/7039.xml
+1	De	de	DET	LID|bep|stan|rest	Definite=Def	3	det	3:det	_
+2	twee	twee	NUM	TW|hoofd|prenom|stan	_	3	nummod	3:nummod	_
+3	socialisten	socialist	NOUN	N|soort|mv|basis	Number=Plur	4	nsubj	4:nsubj	_
+4	wijzen	wijzen	VERB	WW|pv|tgw|mv	Number=Plur|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+5	erop	erop	ADV	BW	_	15	case	15:case	_
+6	dat	dat	SCONJ	VG|onder	_	15	mark	15:mark	_
+7	onderwijzers	onderwijzer	NOUN	N|soort|mv|basis	Number=Plur	15	iobj	15:iobj	_
+8	van	van	ADP	VZ|init	_	9	case	9:case	_
+9	bijzondere	bijzonder	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	7	nmod	7:nmod:van	_
+10	en	en	CCONJ	VG|neven	_	11	cc	11:cc	_
+11	rijksscholen	rijksschool	NOUN	N|soort|mv|basis	Number=Plur	9	conj	7:nmod:van|9:conj:en	_
+12	geen	geen	DET	VNW|onbep|det|stan|prenom|zonder|agr	_	13	det	13:det	_
+13	beperkingen	beperking	NOUN	N|soort|mv|basis	Number=Plur	15	nsubj:pass	15:nsubj:pass	_
+14	zijn	zijn	AUX	WW|pv|tgw|mv	Number=Plur|Tense=Pres|VerbForm=Fin	15	aux:pass	15:aux:pass	_
+15	opgelegd	opleggen	VERB	WW|vd|vrij|zonder	VerbForm=Part	4	ccomp	4:ccomp	SpaceAfter=No
+16	.	.	PUNCT	LET	_	4	punct	4:punct	_
+
+# sent_id = Treebank_cdb_6700
+# text = Zij vrezen voor ontslag als de maatschappij in andere handen zou overgaan.
+# source = Treebank/cdb/6700.xml
+1	Zij	zij	PRON	VNW|pers|pron|nomin|vol|3p|mv	Case=Nom|Person=3|PronType=Prs	2	nsubj	2:nsubj	_
+2	vrezen	vrezen	VERB	WW|pv|tgw|mv	Number=Plur|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+3	voor	voor	ADP	VZ|init	_	4	case	4:case	_
+4	ontslag	ontslag	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	2	obl	2:obl:voor	_
+5	als	als	SCONJ	VG|onder	_	12	mark	12:mark	_
+6	de	de	DET	LID|bep|stan|rest	Definite=Def	7	det	7:det	_
+7	maatschappij	maatschappij	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	12	nsubj	12:nsubj	_
+8	in	in	ADP	VZ|init	_	10	case	10:case	_
+9	andere	ander	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	10	amod	10:amod	_
+10	handen	hand	NOUN	N|soort|mv|basis	Number=Plur	12	obl	12:obl:in	_
+11	zou	zullen	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	12	aux	12:aux	_
+12	overgaan	overgaan	VERB	WW|inf|vrij|zonder	VerbForm=Inf	2	advcl	2:advcl:als	SpaceAfter=No
+13	.	.	PUNCT	LET	_	2	punct	2:punct	_
+
+# sent_id = Treebank_cgn_exs_378
+# text = je moet dan wel wat regen en zo op de koop toe nemen
+# source = Treebank/cgn_exs/378.xml
+1	je	je	PRON	VNW|pers|pron|nomin|red|2v|ev	Case=Nom|Person=2|PronType=Prs	13	nsubj	13:nsubj	_
+2	moet	moeten	AUX	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	13	aux	13:aux	_
+3	dan	dan	ADV	BW	_	13	advmod	13:advmod	_
+4	wel	wel	ADV	BW	_	13	advmod	13:advmod	_
+5	wat	wat	DET	VNW|onbep|pron|stan|vol|3o|ev	_	6	det	6:det	_
+6	regen	regen	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	13	obj	13:obj	_
+7	en	en	CCONJ	VG|neven	_	8	cc	8:cc	_
+8	zo	zo	ADV	BW	_	6	conj	6:conj:en|13:obj	_
+9	op	op	ADP	VZ|init	_	13	compound:prt	13:compound:prt	_
+10	de	de	DET	LID|bep|stan|rest	Definite=Def	9	fixed	9:fixed	_
+11	koop	koop	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	9	fixed	9:fixed	_
+12	toe	toe	ADP	VZ|fin	_	13	compound:prt	13:compound:prt	_
+13	nemen	nemen	VERB	WW|inf|vrij|zonder	VerbForm=Inf	0	root	0:root	_
+
+# sent_id = Treebank_cdb_6320
+# text = Wie denkt dat dit Bijbels Openlucht Museum een vergeten overblijfsel is uit een voorbije periode van het Rijke Roomsche Leeven, vergist zich.
+# source = Treebank/cdb/6320.xml
+1	Wie	wie	PRON	VNW|vb|pron|stan|vol|3p|getal	Person=3|PronType=Int	2	nsubj	2:nsubj	_
+2	denkt	denken	VERB	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	22	nsubj	22:nsubj	_
+3	dat	dat	SCONJ	VG|onder	_	10	mark	10:mark	_
+4	dit	dit	DET	VNW|aanw|det|stan|prenom|zonder|evon	_	5	det	5:det	_
+5	Bijbels	bijbels	ADJ	ADJ|prenom|basis|zonder	Degree=Pos	10	nsubj	10:nsubj	_
+6	Openlucht	Openlucht	PROPN	SPEC|deeleigen	_	5	flat	5:flat	_
+7	Museum	Museum	PROPN	SPEC|deeleigen	_	5	flat	5:flat	_
+8	een	een	DET	LID|onbep|stan|agr	Definite=Ind	10	det	10:det	_
+9	vergeten	vergeten	VERB	WW|vd|prenom|zonder	VerbForm=Part	10	amod	10:amod	_
+10	overblijfsel	overblijfsel	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	2	ccomp	2:ccomp	_
+11	is	zijn	AUX	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	10	cop	10:cop	_
+12	uit	uit	ADP	VZ|init	_	15	case	15:case	_
+13	een	een	DET	LID|onbep|stan|agr	Definite=Ind	15	det	15:det	_
+14	voorbije	voorbij	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	15	amod	15:amod	_
+15	periode	periode	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	10	nmod	10:nmod:uit	_
+16	van	van	ADP	VZ|init	_	18	case	18:case	_
+17	het	het	DET	LID|bep|stan|evon	Definite=Def	18	det	18:det	_
+18	Rijke	rijk	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	15	nmod	15:nmod:van	_
+19	Roomsche	roomsch	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	18	fixed	18:fixed	_
+20	Leeven	leeven	NOUN	N|soort|mv|basis	Number=Plur	18	fixed	18:fixed	SpaceAfter=No
+21	,	,	PUNCT	LET	_	2	punct	2:punct	_
+22	vergist	vergissen	VERB	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+23	zich	zich	PRON	VNW|refl|pron|obl|red|3|getal	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	22	expl:pv	22:expl:pv	SpaceAfter=No
+24	.	.	PUNCT	LET	_	22	punct	22:punct	_
+
+# sent_id = Treebank_wpspel_67
+# text = Wat is de grootste afstand waarop geschoten wordt bij boogschieten?
+# source = Treebank/wpspel/67.xml
+1	Wat	wat	PRON	VNW|vb|pron|stan|vol|3o|ev	Person=3|PronType=Int	0	root	0:root	_
+2	is	zijn	AUX	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	1	cop	1:cop	_
+3	de	de	DET	LID|bep|stan|rest	Definite=Def	5	det	5:det	_
+4	grootste	groot	ADJ	ADJ|prenom|sup|met-e|stan	Degree=Sup	5	amod	5:amod	_
+5	afstand	afstand	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	1	nsubj	1:nsubj	_
+6	waarop	waarop	ADV	BW	_	7	advmod	5:ref	_
+7	geschoten	schieten	VERB	WW|vd|vrij|zonder	VerbForm=Part	5	acl:relcl	5:acl:relcl	_
+8	wordt	worden	AUX	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	7	aux:pass	7:aux:pass	_
+9	bij	bij	ADP	VZ|init	_	10	case	10:case	_
+10	boogschieten	boogschieten	VERB	WW|inf|vrij|zonder	VerbForm=Inf	7	obl	7:obl:bij	SpaceAfter=No
+11	?	?	PUNCT	LET	_	1	punct	1:punct	_
+
+# sent_id = Treebank_cdb_3255
+# text = Het viertal, dat inmiddels voor de officier van justitie in Rotterdam is geleid, had in juli van dit jaar Ridderkerk als werkterrein gekozen.
+# source = Treebank/cdb/3255.xml
+1	Het	het	DET	LID|bep|stan|evon	Definite=Def	2	det	2:det	_
+2	viertal	viertal	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	25	nsubj	14:nsubj:pass:relsubj|25:nsubj	SpaceAfter=No
+3	,	,	PUNCT	LET	_	14	punct	14:punct	_
+4	dat	dat	PRON	VNW|betr|pron|stan|vol|3|ev	Person=3|PronType=Rel	14	nsubj:pass	2:ref	_
+5	inmiddels	inmiddels	ADV	BW	_	14	advmod	14:advmod	_
+6	voor	voor	ADP	VZ|init	_	8	case	8:case	_
+7	de	de	DET	LID|bep|stan|rest	Definite=Def	8	det	8:det	_
+8	officier	officier	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	14	obl	14:obl:voor	_
+9	van	van	ADP	VZ|init	_	10	case	10:case	_
+10	justitie	justitie	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	8	nmod	8:nmod:van	_
+11	in	in	ADP	VZ|init	_	12	case	12:case	_
+12	Rotterdam	Rotterdam	PROPN	N|eigen|ev|basis|onz|stan	Gender=Neut|Number=Sing	8	nmod	8:nmod:in	_
+13	is	zijn	AUX	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	14	aux:pass	14:aux:pass	_
+14	geleid	leiden	VERB	WW|vd|vrij|zonder	VerbForm=Part	2	acl:relcl	2:acl:relcl	SpaceAfter=No
+15	,	,	PUNCT	LET	_	2	punct	2:punct	_
+16	had	hebben	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	25	aux	25:aux	_
+17	in	in	ADP	VZ|init	_	18	case	18:case	_
+18	juli	juli	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	25	obl	25:obl:in	_
+19	van	van	ADP	VZ|init	_	21	case	21:case	_
+20	dit	dit	DET	VNW|aanw|det|stan|prenom|zonder|evon	_	21	det	21:det	_
+21	jaar	jaar	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	18	nmod	18:nmod:van	_
+22	Ridderkerk	Ridderkerk	PROPN	N|eigen|ev|basis|onz|stan	Gender=Neut|Number=Sing	25	obj	25:obj	_
+23	als	als	ADP	VZ|init	_	24	mark	24:mark	_
+24	werkterrein	werkterrein	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	25	xcomp	25:xcomp	_
+25	gekozen	kiezen	VERB	WW|vd|vrij|zonder	VerbForm=Part	0	root	0:root	SpaceAfter=No
+26	.	.	PUNCT	LET	_	25	punct	25:punct	_
+
+# sent_id = Treebank_g_suite_519
+# text = ik stelde hem in staat een boek te lezen
+# source = Treebank/g_suite/519.xml
+1	ik	ik	PRON	VNW|pers|pron|nomin|vol|1|ev	Case=Nom|Person=1|PronType=Prs	2	nsubj	2:nsubj	_
+2	stelde	stellen	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	0	root	0:root	_
+3	hem	hem	PRON	VNW|pers|pron|obl|vol|3|ev|masc	Case=Acc|Person=3|PronType=Prs	2	obj	2:obj	_
+4	in	in	ADP	VZ|init	_	2	xcomp	2:xcomp	_
+5	staat	staat	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	4	fixed	4:fixed	_
+6	een	een	DET	LID|onbep|stan|agr	Definite=Ind	7	det	7:det	_
+7	boek	boek	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	9	obj	9:obj	_
+8	te	te	ADP	VZ|init	_	9	mark	9:mark	_
+9	lezen	lezen	VERB	WW|inf|vrij|zonder	VerbForm=Inf	4	ccomp	4:ccomp	_
+
+# sent_id = Treebank_cdb_5584
+# text = Er komen ook voetgangersoversteekplaatsen, evenals op de kruising Stationsstraat-Ged. Zuiderdiep.
+# source = Treebank/cdb/5584.xml
+1	Er	er	ADV	VNW|aanw|adv-pron|stan|red|3|getal	_	2	advmod	2:advmod	_
+2	komen	komen	VERB	WW|pv|tgw|mv	Number=Plur|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+3	ook	ook	ADV	BW	_	2	advmod	2:advmod	_
+4	voetgangersoversteekplaatsen	voetgangersoversteekplaats	NOUN	N|soort|mv|basis	Number=Plur	2	nsubj	2:nsubj	SpaceAfter=No
+5	,	,	PUNCT	LET	_	9	punct	9:punct	_
+6	evenals	evenals	SCONJ	VG|onder	_	9	mark	9:mark	_
+7	op	op	ADP	VZ|init	_	9	case	9:case	_
+8	de	de	DET	LID|bep|stan|rest	Definite=Def	9	det	9:det	_
+9	kruising	kruising	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	2	advcl	2:advcl:evenals	_
+10	Stationsstraat-Ged.	Stationsstraat-Ged.	PROPN	SPEC|deeleigen	_	9	appos	9:appos	_
+11	Zuiderdiep	Zuiderdiep	PROPN	SPEC|deeleigen	_	10	flat	10:flat	SpaceAfter=No
+12	.	.	PUNCT	LET	_	2	punct	2:punct	_
+
+# sent_id = Treebank_cdb_6044
+# text = Het was dus een Duitse voorstelling.
+# source = Treebank/cdb/6044.xml
+1	Het	het	PRON	VNW|pers|pron|stan|red|3|ev|onz	Person=3|PronType=Prs	6	nsubj	6:nsubj	_
+2	was	zijn	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	6	cop	6:cop	_
+3	dus	dus	ADV	BW	_	6	advmod	6:advmod	_
+4	een	een	DET	LID|onbep|stan|agr	Definite=Ind	6	det	6:det	_
+5	Duitse	Duits	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	6	amod	6:amod	_
+6	voorstelling	voorstelling	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	0	root	0:root	SpaceAfter=No
+7	.	.	PUNCT	LET	_	6	punct	6:punct	_
+
+# sent_id = Treebank_g_suite_905
+# text = Wij doen maar alsof.
+# source = Treebank/g_suite/905.xml
+1	Wij	wij	PRON	VNW|pers|pron|nomin|vol|1|mv	Case=Nom|Person=1|PronType=Prs	2	nsubj	2:nsubj	_
+2	doen	doen	VERB	WW|pv|tgw|mv	Number=Plur|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+3	maar	maar	ADV	BW	_	2	advmod	2:advmod	_
+4	alsof	alsof	SCONJ	VG|onder	_	2	xcomp	2:xcomp	SpaceAfter=No
+5	.	.	PUNCT	LET	_	2	punct	2:punct	_
+
+# sent_id = Treebank_cdb_5614
+# text = In de jurk van de bejaarde vrouw telde de politie niet minder dan 47 messteken.
+# source = Treebank/cdb/5614.xml
+1	In	in	ADP	VZ|init	_	3	case	3:case	_
+2	de	de	DET	LID|bep|stan|rest	Definite=Def	3	det	3:det	_
+3	jurk	jurk	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	8	obl	8:obl:in	_
+4	van	van	ADP	VZ|init	_	7	case	7:case	_
+5	de	de	DET	LID|bep|stan|rest	Definite=Def	7	det	7:det	_
+6	bejaarde	bejaard	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	7	amod	7:amod	_
+7	vrouw	vrouw	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	3	nmod	3:nmod:van	_
+8	telde	tellen	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	0	root	0:root	_
+9	de	de	DET	LID|bep|stan|rest	Definite=Def	10	det	10:det	_
+10	politie	politie	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	8	nsubj	8:nsubj	_
+11	niet	niet	ADV	BW	_	14	amod	14:amod	_
+12	minder	minder	PRON	VNW|onbep|grad|stan|vrij|zonder|comp	PronType=Ind	11	fixed	11:fixed	_
+13	dan	dan	SCONJ	VG|onder	_	11	fixed	11:fixed	_
+14	47	47	SYM	SPEC|symb	_	15	det	15:det	_
+15	messteken	messteek	NOUN	N|soort|mv|basis	Number=Plur	8	obj	8:obj	SpaceAfter=No
+16	.	.	PUNCT	LET	_	8	punct	8:punct	_
+
+# sent_id = Treebank_cdb_4689
+# text = Nu moet gezegd worden, dat Gijsen veel zegt over de situatie van de mens in het leven, dat mijn grote bewondering wekt.
+# source = Treebank/cdb/4689.xml
+1	Nu	nu	ADV	BW	_	3	advmod	3:advmod	_
+2	moet	moeten	AUX	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	3	aux	3:aux	_
+3	gezegd	zeggen	VERB	WW|vd|vrij|zonder	VerbForm=Part	0	root	0:root	_
+4	worden	worden	AUX	WW|inf|vrij|zonder	VerbForm=Inf	3	aux:pass	3:aux:pass	SpaceAfter=No
+5	,	,	PUNCT	LET	_	9	punct	9:punct	_
+6	dat	dat	SCONJ	VG|onder	_	9	mark	9:mark	_
+7	Gijsen	gijsen	NOUN	N|soort|mv|basis	Number=Plur	9	nsubj	9:nsubj	_
+8	veel	veel	PRON	VNW|onbep|grad|stan|vrij|zonder|basis	PronType=Ind	9	obj	9:obj|24:nsubj:relsubj	_
+9	zegt	zeggen	VERB	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	3	ccomp	3:ccomp	_
+10	over	over	ADP	VZ|init	_	12	case	12:case	_
+11	de	de	DET	LID|bep|stan|rest	Definite=Def	12	det	12:det	_
+12	situatie	situatie	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	9	obl	9:obl:over	_
+13	van	van	ADP	VZ|init	_	15	case	15:case	_
+14	de	de	DET	LID|bep|stan|rest	Definite=Def	15	det	15:det	_
+15	mens	mens	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	12	nmod	12:nmod:van	_
+16	in	in	ADP	VZ|init	_	18	case	18:case	_
+17	het	het	DET	LID|bep|stan|evon	Definite=Def	18	det	18:det	_
+18	leven	leven	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	12	nmod	12:nmod:in	SpaceAfter=No
+19	,	,	PUNCT	LET	_	24	punct	24:punct	_
+20	dat	dat	PRON	VNW|betr|pron|stan|vol|3|ev	Person=3|PronType=Rel	24	nsubj	8:ref	_
+21	mijn	mijn	PRON	VNW|bez|det|stan|vol|1|ev|prenom|zonder|agr	Person=1|PronType=Prs	23	nmod:poss	23:nmod:poss	_
+22	grote	groot	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	23	amod	23:amod	_
+23	bewondering	bewondering	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	24	obj	24:obj	_
+24	wekt	wekken	VERB	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	8	acl:relcl	8:acl:relcl	SpaceAfter=No
+25	.	.	PUNCT	LET	_	3	punct	3:punct	_
+
+# sent_id = Treebank_cdb_1441
+# text = Hij was bekend in voetbalkringen als bestuurslid van Feijenoord en in de wielerwereld als oudbestuurslid van de Rennersclub Feijenoord en als grote stimulator van de Ronde van Feijenoord.
+# source = Treebank/cdb/1441.xml
+1	Hij	hij	PRON	VNW|pers|pron|nomin|vol|3|ev|masc	Case=Nom|Person=3|PronType=Prs	3	nsubj	3:nsubj|13.1:nsubj	_
+2	was	zijn	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	3	cop	3:cop	_
+3	bekend	bekend	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	0	root	0:root	_
+4	in	in	ADP	VZ|init	_	5	case	5:case	_
+5	voetbalkringen	voetbalkring	NOUN	N|soort|mv|basis	Number=Plur	3	obl	3:obl:in	_
+6	als	als	ADP	VZ|init	_	7	mark	7:mark	_
+7	bestuurslid	bestuurslid	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	3	advcl	3:advcl:als	_
+8	van	van	ADP	VZ|init	_	9	case	9:case	_
+9	Feijenoord	Feijenoord	PROPN	N|eigen|ev|basis|onz|stan	Gender=Neut|Number=Sing	7	nmod	7:nmod:van	_
+10	en	en	CCONJ	VG|neven	_	15	cc	13.1:cc	_
+10.1	was	zijn	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	_	_	13.1:cop	_
+11	in	in	ADP	VZ|init	_	13	case	13:case	_
+12	de	de	DET	LID|bep|stan|rest	Definite=Def	13	det	13:det	_
+13	wielerwereld	wielerwereld	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	15	orphan	13.1:obl:in	_
+13.1	bekend	bekend	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	_	_	3:conj	_
+14	als	als	ADP	VZ|init	_	15	mark	15:mark	_
+15	oudbestuurslid	oudbestuurslid	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	3	conj	13.1:obl	_
+16	van	van	ADP	VZ|init	_	18	case	18:case	_
+17	de	de	DET	LID|bep|stan|rest	Definite=Def	18	det	18:det	_
+18	Rennersclub	Rennersclub	PROPN	SPEC|deeleigen	_	15	nmod	15:nmod:van	_
+19	Feijenoord	Feijenoord	PROPN	SPEC|deeleigen	_	18	flat	18:flat	_
+20	en	en	CCONJ	VG|neven	_	23	cc	23:cc	_
+21	als	als	SCONJ	VG|onder	_	23	mark	23:mark	_
+22	grote	groot	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	23	amod	23:amod	_
+23	stimulator	stimulator	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	15	conj	15:conj:en	_
+24	van	van	ADP	VZ|init	_	26	case	26:case	_
+25	de	de	DET	LID|bep|stan|rest	Definite=Def	26	det	26:det	_
+26	Ronde	Ronde	PROPN	SPEC|deeleigen	_	23	nmod	23:nmod:van	_
+27	van	van	PROPN	SPEC|deeleigen	_	26	flat	26:flat	_
+28	Feijenoord	Feijenoord	PROPN	SPEC|deeleigen	_	26	flat	26:flat	SpaceAfter=No
+29	.	.	PUNCT	LET	_	3	punct	3:punct	_
+
+# sent_id = Treebank_cdb_6024
+# text = Hij ziet er in vooral een dienende taak.
+# source = Treebank/cdb/6024.xml
+1	Hij	hij	PRON	VNW|pers|pron|nomin|vol|3|ev|masc	Case=Nom|Person=3|PronType=Prs	2	nsubj	2:nsubj	_
+2	ziet	zien	VERB	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+3	er	er	ADV	VNW|aanw|adv-pron|stan|red|3|getal	_	2	obl	2:obl:in	_
+4	in	in	ADP	VZ|fin	_	3	case	3:case	_
+5	vooral	vooral	ADV	BW	_	2	advmod	2:advmod	_
+6	een	een	DET	LID|onbep|stan|agr	Definite=Ind	8	det	8:det	_
+7	dienende	dienen	VERB	WW|od|prenom|met-e	VerbForm=Part	8	amod	8:amod	_
+8	taak	taak	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	2	obj	2:obj	SpaceAfter=No
+9	.	.	PUNCT	LET	_	2	punct	2:punct	_
+
+# sent_id = Treebank_cdb_4287
+# text = Goed, Conan Doyle is met zijn figuren niet uit de lucht komen vallen, hij brengt dat zelf min of meer ironisch in "Een studie in rood" naar voren, maar bij hem komen deze elementen: de vriend en de eigenaardigheden van de speurder, even ongerept als stevig naar voren.
+# source = Treebank/cdb/4287.xml
+1	Goed	goed	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	13	parataxis	13:parataxis	SpaceAfter=No
+2	,	,	PUNCT	LET	_	1	punct	1:punct	_
+3	Conan	Conan	PROPN	SPEC|deeleigen	_	13	nsubj	13:nsubj|14:nsubj:xsubj	_
+4	Doyle	Doyle	PROPN	SPEC|deeleigen	_	3	flat	3:flat	_
+5	is	zijn	AUX	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	13	aux	13:aux	_
+6	met	met	ADP	VZ|init	_	8	case	8:case	_
+7	zijn	zijn	PRON	VNW|bez|det|stan|vol|3|ev|prenom|zonder|agr	Person=3|PronType=Prs	8	nmod:poss	8:nmod:poss	_
+8	figuren	figuur	NOUN	N|soort|mv|basis	Number=Plur	14	obl	14:obl:met	_
+9	niet	niet	ADV	BW	_	14	advmod	14:advmod	_
+10	uit	uit	ADP	VZ|init	_	12	case	12:case	_
+11	de	de	DET	LID|bep|stan|rest	Definite=Def	12	det	12:det	_
+12	lucht	lucht	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	14	obl	14:obl:uit	_
+13	komen	komen	VERB	WW|inf|vrij|zonder	VerbForm=Inf	0	root	0:root	_
+14	vallen	vallen	VERB	WW|inf|vrij|zonder	VerbForm=Inf	13	xcomp	13:xcomp	SpaceAfter=No
+15	,	,	PUNCT	LET	_	17	punct	17:punct	_
+16	hij	hij	PRON	VNW|pers|pron|nomin|vol|3|ev|masc	Case=Nom|Person=3|PronType=Prs	17	nsubj	17:nsubj	_
+17	brengt	brengen	VERB	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	13	conj	13:conj:maar	_
+18	dat	dat	PRON	VNW|aanw|pron|stan|vol|3o|ev	Person=3|PronType=Dem	17	obj	17:obj	_
+19	zelf	zelf	ADV	BW	_	17	advmod	17:advmod	_
+20	min	min	ADV	BW	_	23	obl	23:obl	_
+21	of	of	CCONJ	VG|neven	_	20	fixed	20:fixed	_
+22	meer	veel	PRON	VNW|onbep|grad|stan|vrij|zonder|comp	PronType=Ind	20	fixed	20:fixed	_
+23	ironisch	ironisch	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	17	advcl	17:advcl	_
+24	in	in	ADP	VZ|init	_	26	case	26:case	_
+25	"	"	PUNCT	LET	_	26	punct	26:punct	SpaceAfter=No
+26	Een	een	DET	LID|onbep|stan|agr	Definite=Ind	17	obl	17:obl:in	_
+27	studie	studie	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	26	fixed	26:fixed	_
+28	in	in	ADP	VZ|init	_	26	fixed	26:fixed	_
+29	rood	rood	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	26	fixed	26:fixed	SpaceAfter=No
+30	"	"	PUNCT	LET	_	26	punct	26:punct	_
+31	naar	naar	ADP	VZ|init	_	17	compound:prt	17:compound:prt	_
+32	voren	voren	ADV	BW	_	31	fixed	31:fixed	SpaceAfter=No
+33	,	,	PUNCT	LET	_	37	punct	37:punct	_
+34	maar	maar	CCONJ	VG|neven	_	37	cc	37:cc	_
+35	bij	bij	ADP	VZ|init	_	36	case	36:case	_
+36	hem	hem	PRON	VNW|pers|pron|obl|vol|3|ev|masc	Case=Acc|Person=3|PronType=Prs	37	obl	37:obl:bij	_
+37	komen	komen	VERB	WW|pv|tgw|mv	Number=Plur|Tense=Pres|VerbForm=Fin	13	conj	13:conj:maar	_
+38	deze	deze	DET	VNW|aanw|det|stan|prenom|met-e|rest	_	39	det	39:det	_
+39	elementen	element	NOUN	N|soort|mv|basis	Number=Plur	37	nsubj	37:nsubj	SpaceAfter=No
+40	:	:	PUNCT	LET	_	42	punct	42:punct	_
+41	de	de	DET	LID|bep|stan|rest	Definite=Def	42	det	42:det	_
+42	vriend	vriend	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	39	appos	39:appos	_
+43	en	en	CCONJ	VG|neven	_	45	cc	45:cc	_
+44	de	de	DET	LID|bep|stan|rest	Definite=Def	45	det	45:det	_
+45	eigenaardigheden	eigenaardigheid	NOUN	N|soort|mv|basis	Number=Plur	42	conj	39:appos|42:conj:en	_
+46	van	van	ADP	VZ|init	_	48	case	48:case	_
+47	de	de	DET	LID|bep|stan|rest	Definite=Def	48	det	48:det	_
+48	speurder	speurder	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	45	nmod	45:nmod:van	SpaceAfter=No
+49	,	,	PUNCT	LET	_	51	punct	51:punct	_
+50	even	even	ADV	BW	_	51	advmod	51:advmod	_
+51	ongerept	ongerept	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	37	advmod	37:advmod	_
+52	als	als	SCONJ	VG|onder	_	53	mark	53:mark	_
+53	stevig	stevig	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	50	advcl	50:advcl:als	_
+54	naar	naar	ADP	VZ|init	_	55	case	55:case	_
+55	voren	voren	ADV	BW	_	37	obl	37:obl:naar	SpaceAfter=No
+56	.	.	PUNCT	LET	_	13	punct	13:punct	_
+
+# sent_id = Treebank_cdb_5224
+# text = weinig populair in ons land.
+# source = Treebank/cdb/5224.xml
+1	weinig	weinig	ADV	VNW|onbep|grad|stan|vrij|zonder|basis	_	2	advmod	2:advmod	_
+2	populair	populair	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	0	root	0:root	_
+3	in	in	ADP	VZ|init	_	5	case	5:case	_
+4	ons	ons	PRON	VNW|bez|det|stan|vol|1|mv|prenom|zonder|evon	Person=1|PronType=Prs	5	nmod:poss	5:nmod:poss	_
+5	land	land	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	2	obl	2:obl:in	SpaceAfter=No
+6	.	.	PUNCT	LET	_	2	punct	2:punct	_
+
+# sent_id = Treebank_qa_clef2004_785
+# text = Wie is ontdekker van het aids-virus?
+# source = Treebank/qa/clef2004_785.xml
+1	Wie	wie	PRON	VNW|vb|pron|stan|vol|3p|getal	Person=3|PronType=Int	3	nsubj	3:nsubj	_
+2	is	zijn	AUX	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	3	cop	3:cop	_
+3	ontdekker	ontdekker	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	0	root	0:root	_
+4	van	van	ADP	VZ|init	_	6	case	6:case	_
+5	het	het	DET	LID|bep|stan|evon	Definite=Def	6	det	6:det	_
+6	aids-virus	aids-virus	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	3	nmod	3:nmod:van	SpaceAfter=No
+7	?	?	PUNCT	LET	_	3	punct	3:punct	_
+
+# sent_id = Treebank_qa_clef2005_0137
+# text = Wie is Chun Doo Hwan?
+# source = Treebank/qa/clef2005_0137.xml
+1	Wie	wie	PRON	VNW|vb|pron|stan|vol|3p|getal	Person=3|PronType=Int	0	root	0:root	_
+2	is	zijn	AUX	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	1	cop	1:cop	_
+3	Chun	Chun	PROPN	SPEC|deeleigen	_	1	nsubj	1:nsubj	_
+4	Doo	Doo	PROPN	SPEC|deeleigen	_	3	flat	3:flat	_
+5	Hwan	Hwan	PROPN	SPEC|deeleigen	_	3	flat	3:flat	SpaceAfter=No
+6	?	?	PUNCT	LET	_	1	punct	1:punct	_
+
+# sent_id = Treebank_cdb_2818
+# text = Direct na de titelstrijd in Engeland verving de 58-jarige coach Gavril Kachalin het grootste deel van zijn selectie.
+# source = Treebank/cdb/2818.xml
+1	Direct	direct	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	4	amod	4:amod	_
+2	na	na	ADP	VZ|init	_	4	case	4:case	_
+3	de	de	DET	LID|bep|stan|rest	Definite=Def	4	det	4:det	_
+4	titelstrijd	titelstrijd	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	7	obl	7:obl:na	_
+5	in	in	ADP	VZ|init	_	6	case	6:case	_
+6	Engeland	Engeland	PROPN	N|eigen|ev|basis|onz|stan	Gender=Neut|Number=Sing	4	nmod	4:nmod:in	_
+7	verving	vervangen	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	0	root	0:root	_
+8	de	de	DET	LID|bep|stan|rest	Definite=Def	10	det	10:det	_
+9	58-jarige	58-jarig	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	10	amod	10:amod	_
+10	coach	coach	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	7	nsubj	7:nsubj	_
+11	Gavril	Gavril	PROPN	SPEC|deeleigen	_	10	appos	10:appos	_
+12	Kachalin	Kachalin	PROPN	SPEC|deeleigen	_	11	flat	11:flat	_
+13	het	het	DET	LID|bep|stan|evon	Definite=Def	15	det	15:det	_
+14	grootste	groot	ADJ	ADJ|prenom|sup|met-e|stan	Degree=Sup	15	amod	15:amod	_
+15	deel	deel	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	7	obj	7:obj	_
+16	van	van	ADP	VZ|init	_	18	case	18:case	_
+17	zijn	zijn	PRON	VNW|bez|det|stan|vol|3|ev|prenom|zonder|agr	Person=3|PronType=Prs	18	nmod:poss	18:nmod:poss	_
+18	selectie	selectie	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	15	nmod	15:nmod:van	SpaceAfter=No
+19	.	.	PUNCT	LET	_	7	punct	7:punct	_
+
+# sent_id = Treebank_leuven_yellow_pages_213
+# text = een lekker warm kopje thee
+# source = Treebank/leuven_yellow_pages/213.xml
+1	een	een	DET	LID|onbep|stan|agr	Definite=Ind	4	det	4:det	_
+2	lekker	lekker	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	3	advmod	3:advmod	_
+3	warm	warm	ADJ	ADJ|prenom|basis|zonder	Degree=Pos	4	amod	4:amod	_
+4	kopje	kopje	NOUN	N|soort|ev|dim|onz|stan	Gender=Neut|Number=Sing	0	root	0:root	_
+5	thee	thee	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	4	nmod	4:nmod	_
+
+# sent_id = Treebank_h_suite_121
+# text = In Rotterdam, want daar speelt Feyenoord
+# source = Treebank/h_suite/121.xml
+1	In	in	ADP	VZ|init	_	2	case	2:case	_
+2	Rotterdam	Rotterdam	PROPN	N|eigen|ev|basis|onz|stan	Gender=Neut|Number=Sing	0	root	0:root	SpaceAfter=No
+3	,	,	PUNCT	LET	_	6	punct	6:punct	_
+4	want	want	CCONJ	VG|neven	_	6	cc	6:cc	_
+5	daar	daar	ADV	VNW|aanw|adv-pron|obl|vol|3o|getal	_	6	advmod	6:advmod	_
+6	speelt	spelen	VERB	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	2	conj	2:conj:want	_
+7	Feyenoord	Feyenoord	PROPN	N|eigen|ev|basis|onz|stan	Gender=Neut|Number=Sing	6	nsubj	6:nsubj	_
+
+# sent_id = Treebank_i_suite_475
+# text = de "Monte Carlo" Coupe, die de zevende wagenserie van Chevrolet vormt.
+# source = Treebank/i_suite/475.xml
+1	de	de	DET	LID|bep|stan|rest	Definite=Def	2	det	2:det	_
+2	"	"	PROPN	SPEC|deeleigen	_	0	root	0:root|14:nsubj:relsubj	SpaceAfter=No
+3	Monte	Monte	PROPN	SPEC|deeleigen	_	2	flat	2:flat	_
+4	Carlo	Carlo	PROPN	SPEC|deeleigen	_	2	flat	2:flat	SpaceAfter=No
+5	"	"	PROPN	SPEC|deeleigen	_	2	flat	2:flat	_
+6	Coupe	Coupe	PROPN	SPEC|deeleigen	_	2	flat	2:flat	SpaceAfter=No
+7	,	,	PUNCT	LET	_	14	punct	14:punct	_
+8	die	die	PRON	VNW|betr|pron|stan|vol|persoon|getal	PronType=Rel	14	nsubj	2:ref	_
+9	de	de	DET	LID|bep|stan|rest	Definite=Def	11	det	11:det	_
+10	zevende	zevende	ADJ	TW|rang|prenom|stan	_	11	amod	11:amod	_
+11	wagenserie	wagen_serie	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	14	obj	14:obj	_
+12	van	van	ADP	VZ|init	_	13	case	13:case	_
+13	Chevrolet	Chevrolet	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	11	nmod	11:nmod:van	_
+14	vormt	vormen	VERB	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	2	acl:relcl	2:acl:relcl	SpaceAfter=No
+15	.	.	PUNCT	LET	_	2	punct	2:punct	_
+
+# sent_id = Treebank_qa_clef2004_824
+# text = Wat is Goldman Sachs?
+# source = Treebank/qa/clef2004_824.xml
+1	Wat	wat	PRON	VNW|vb|pron|stan|vol|3o|ev	Person=3|PronType=Int	0	root	0:root	_
+2	is	zijn	AUX	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	1	cop	1:cop	_
+3	Goldman	Goldman	PROPN	SPEC|deeleigen	_	1	nsubj	1:nsubj	_
+4	Sachs	Sachs	PROPN	SPEC|deeleigen	_	3	flat	3:flat	SpaceAfter=No
+5	?	?	PUNCT	LET	_	1	punct	1:punct	_
+
+# sent_id = Treebank_leuven_yellow_pages_37
+# text = Hij heeft het niet gedaan - Toch wel!
+# source = Treebank/leuven_yellow_pages/37.xml
+1	Hij	hij	PRON	VNW|pers|pron|nomin|vol|3|ev|masc	Case=Nom|Person=3|PronType=Prs	5	nsubj	5:nsubj	_
+2	heeft	hebben	AUX	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	5	aux	5:aux	_
+3	het	het	PRON	VNW|pers|pron|stan|red|3|ev|onz	Person=3|PronType=Prs	5	obj	5:obj	_
+4	niet	niet	ADV	BW	_	5	advmod	5:advmod	_
+5	gedaan	doen	VERB	WW|vd|vrij|zonder	VerbForm=Part	0	root	0:root	_
+6	-	-	PUNCT	LET	_	7	punct	7:punct	_
+7	Toch	toch	ADV	BW	_	5	parataxis	5:parataxis	_
+8	wel	wel	ADV	BW	_	7	parataxis	7:parataxis	SpaceAfter=No
+9	!	!	PUNCT	LET	_	5	punct	5:punct	_
+
+# sent_id = Treebank_cdb_3592
+# text = Zo moeten er meer centra komen waar alcoholisten voorlichting en hulp kunnen krijgen.
+# source = Treebank/cdb/3592.xml
+1	Zo	zo	ADV	BW	_	6	advmod	6:advmod	_
+2	moeten	moeten	AUX	WW|pv|tgw|mv	Number=Plur|Tense=Pres|VerbForm=Fin	6	aux	6:aux	_
+3	er	er	ADV	VNW|aanw|adv-pron|stan|red|3|getal	_	6	advmod	6:advmod	_
+4	meer	veel	DET	VNW|onbep|grad|stan|prenom|zonder|agr|comp	_	5	det	5:det	_
+5	centra	centrum	NOUN	N|soort|mv|basis	Number=Plur	6	nsubj	6:nsubj|13:advmod	_
+6	komen	komen	VERB	WW|inf|vrij|zonder	VerbForm=Inf	0	root	0:root	_
+7	waar	waar	ADV	VNW|vb|adv-pron|obl|vol|3o|getal	_	13	advmod	5:ref	_
+8	alcoholisten	alcoholist	NOUN	N|soort|mv|basis	Number=Plur	13	nsubj	13:nsubj	_
+9	voorlichting	voorlichting	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	13	obj	13:obj	_
+10	en	en	CCONJ	VG|neven	_	11	cc	11:cc	_
+11	hulp	hulp	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	9	conj	9:conj:en|13:obj	_
+12	kunnen	kunnen	AUX	WW|pv|tgw|mv	Number=Plur|Tense=Pres|VerbForm=Fin	13	aux	13:aux	_
+13	krijgen	krijgen	VERB	WW|inf|vrij|zonder	VerbForm=Inf	5	acl:relcl	5:acl:relcl	SpaceAfter=No
+14	.	.	PUNCT	LET	_	6	punct	6:punct	_
+
+# sent_id = Treebank_cdb_1978
+# text = maar wij zijn net zo goed machteloos als de regering en de Verenigde Naties ", zei hij.
+# source = Treebank/cdb/1978.xml
+1	maar	maar	CCONJ	VG|neven	_	7	mark	7:mark	_
+2	wij	wij	PRON	VNW|pers|pron|nomin|vol|1|mv	Case=Nom|Person=1|PronType=Prs	7	nsubj	7:nsubj	_
+3	zijn	zijn	AUX	WW|pv|tgw|mv	Number=Plur|Tense=Pres|VerbForm=Fin	7	cop	7:cop	_
+4	net	net	ADV	BW	_	5	advmod	5:advmod	_
+5	zo	zo	ADV	BW	_	6	advmod	6:advmod	_
+6	goed	goed	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	7	advmod	7:advmod	_
+7	machteloos	machteloos	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	0	root	0:root	_
+8	als	als	SCONJ	VG|onder	_	10	mark	10:mark	_
+9	de	de	DET	LID|bep|stan|rest	Definite=Def	10	det	10:det	_
+10	regering	regering	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	5	advcl	5:advcl:als	_
+11	en	en	CCONJ	VG|neven	_	13	cc	13:cc	_
+12	de	de	DET	LID|bep|stan|rest	Definite=Def	13	det	13:det	_
+13	Verenigde	Verenigde	PROPN	SPEC|deeleigen	_	10	conj	5:advcl:als|10:conj:en	_
+14	Naties	Naties	PROPN	SPEC|deeleigen	_	13	flat	13:flat	_
+15	"	"	PUNCT	LET	_	17	punct	17:punct	SpaceAfter=No
+16	,	,	PUNCT	LET	_	17	punct	17:punct	_
+17	zei	zeggen	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	7	parataxis	7:parataxis	_
+18	hij	hij	PRON	VNW|pers|pron|nomin|vol|3|ev|masc	Case=Nom|Person=3|PronType=Prs	17	nsubj	17:nsubj	SpaceAfter=No
+19	.	.	PUNCT	LET	_	7	punct	7:punct	_
+
+# sent_id = Treebank_cdb_3192
+# text = Maar het lijkt ons bedenkelijk, als zij in hun argumentatie het woord "politiek" een min of meer smalende bijklank geven.
+# source = Treebank/cdb/3192.xml
+1	Maar	maar	CCONJ	VG|neven	_	5	mark	5:mark	_
+2	het	het	PRON	VNW|pers|pron|stan|red|3|ev|onz	Person=3|PronType=Prs	5	nsubj	5:nsubj	_
+3	lijkt	lijken	AUX	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_
+4	ons	ons	PRON	VNW|pr|pron|obl|vol|1|mv	Case=Acc|Person=1|PronType=Prs	5	iobj	5:iobj	_
+5	bedenkelijk	bedenkelijk	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	0	root	0:root	SpaceAfter=No
+6	,	,	PUNCT	LET	_	23	punct	23:punct	_
+7	als	als	SCONJ	VG|onder	_	23	mark	23:mark	_
+8	zij	zij	PRON	VNW|pers|pron|nomin|vol|3p|mv	Case=Nom|Person=3|PronType=Prs	23	nsubj	23:nsubj	_
+9	in	in	ADP	VZ|init	_	11	case	11:case	_
+10	hun	hun	PRON	VNW|bez|det|stan|vol|3|mv|prenom|zonder|agr	Person=3|PronType=Prs	11	nmod:poss	11:nmod:poss	_
+11	argumentatie	argumentatie	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	23	obl	23:obl:in	_
+12	het	het	DET	LID|bep|stan|evon	Definite=Def	13	det	13:det	_
+13	woord	woord	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	23	iobj	23:iobj	_
+14	"	"	PUNCT	LET	_	15	punct	15:punct	SpaceAfter=No
+15	politiek	politiek	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	13	nmod	13:nmod	SpaceAfter=No
+16	"	"	PUNCT	LET	_	15	punct	15:punct	_
+17	een	een	DET	LID|onbep|stan|agr	Definite=Ind	22	det	22:det	_
+18	min	min	ADV	BW	_	21	obl	21:obl	_
+19	of	of	CCONJ	VG|neven	_	18	fixed	18:fixed	_
+20	meer	veel	PRON	VNW|onbep|grad|stan|prenom|zonder|agr|comp	PronType=Ind	18	fixed	18:fixed	_
+21	smalende	smalen	VERB	WW|od|prenom|met-e	VerbForm=Part	22	acl	22:acl	_
+22	bijklank	bijklank	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	23	obj	23:obj	_
+23	geven	geven	VERB	WW|pv|tgw|mv	Number=Plur|Tense=Pres|VerbForm=Fin	5	advcl	5:advcl:als	SpaceAfter=No
+24	.	.	PUNCT	LET	_	5	punct	5:punct	_
+
+# sent_id = Treebank_wpspel_34
+# text = Wat is de hoofdstad van Albanië?
+# source = Treebank/wpspel/34.xml
+1	Wat	wat	PRON	VNW|vb|pron|stan|vol|3o|ev	Person=3|PronType=Int	0	root	0:root	_
+2	is	zijn	AUX	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	1	cop	1:cop	_
+3	de	de	DET	LID|bep|stan|rest	Definite=Def	4	det	4:det	_
+4	hoofdstad	hoofdstad	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	1	nsubj	1:nsubj	_
+5	van	van	ADP	VZ|init	_	6	case	6:case	_
+6	Albanië	Albanië	PROPN	N|eigen|ev|basis|onz|stan	Gender=Neut|Number=Sing	4	nmod	4:nmod:van	SpaceAfter=No
+7	?	?	PUNCT	LET	_	1	punct	1:punct	_
+
+# sent_id = Treebank_qa_clef2004_536
+# text = Welk bedrijf wordt beschuldigd van het gebruik van kinderarbeid?
+# source = Treebank/qa/clef2004_536.xml
+1	Welk	welk	DET	VNW|vb|det|stan|prenom|zonder|evon	_	2	det	2:det	_
+2	bedrijf	bedrijf	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	4	nsubj:pass	4:nsubj:pass	_
+3	wordt	worden	AUX	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	4	aux:pass	4:aux:pass	_
+4	beschuldigd	beschuldigen	VERB	WW|vd|vrij|zonder	VerbForm=Part	0	root	0:root	_
+5	van	van	ADP	VZ|init	_	7	case	7:case	_
+6	het	het	DET	LID|bep|stan|evon	Definite=Def	7	det	7:det	_
+7	gebruik	gebruik	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	4	obl	4:obl:van	_
+8	van	van	ADP	VZ|init	_	9	case	9:case	_
+9	kinderarbeid	kinderarbeid	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	7	nmod	7:nmod:van	SpaceAfter=No
+10	?	?	PUNCT	LET	_	4	punct	4:punct	_
+
+# sent_id = Treebank_leuven_yellow_pages_170
+# text = de premier zelf
+# source = Treebank/leuven_yellow_pages/170.xml
+1	de	de	DET	LID|bep|stan|rest	Definite=Def	2	det	2:det	_
+2	premier	premier	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	0	root	0:root	_
+3	zelf	zelf	ADV	BW	_	2	amod	2:amod	_
+
+# sent_id = Treebank_cdb_5286
+# text = De trein wordt in Derby gebouwd.
+# source = Treebank/cdb/5286.xml
+1	De	de	DET	LID|bep|stan|rest	Definite=Def	2	det	2:det	_
+2	trein	trein	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	6	nsubj:pass	6:nsubj:pass	_
+3	wordt	worden	AUX	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	6	aux:pass	6:aux:pass	_
+4	in	in	ADP	VZ|init	_	5	case	5:case	_
+5	Derby	Derby	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	6	obl	6:obl:in	_
+6	gebouwd	bouwen	VERB	WW|vd|vrij|zonder	VerbForm=Part	0	root	0:root	SpaceAfter=No
+7	.	.	PUNCT	LET	_	6	punct	6:punct	_
+
+# sent_id = Treebank_cdb_1489
+# text = In de kamer en dringender nog in de senaat, stellen afgevaardigden die bijzonder slecht zijn ingelicht, ongerust die vraag.
+# source = Treebank/cdb/1489.xml
+1	In	in	ADP	VZ|init	_	3	case	3:case	_
+2	de	de	DET	LID|bep|stan|rest	Definite=Def	3	det	3:det	_
+3	kamer	kamer	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	11	obl	11:obl:in	_
+4	en	en	CCONJ	VG|neven	_	9	cc	9:cc	_
+5	dringender	dringend	ADJ	ADJ|vrij|comp|zonder	Degree=Cmp	9	amod	9:amod	_
+6	nog	nog	ADV	BW	_	5	advmod	5:advmod	_
+7	in	in	ADP	VZ|init	_	9	case	9:case	_
+8	de	de	DET	LID|bep|stan|rest	Definite=Def	9	det	9:det	_
+9	senaat	senaat	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	3	conj	3:conj:en|11:obl:in	SpaceAfter=No
+10	,	,	PUNCT	LET	_	3	punct	3:punct	_
+11	stellen	stellen	VERB	WW|pv|tgw|mv	Number=Plur|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+12	afgevaardigden	afvaardigen	VERB	WW|vd|nom|met-e|mv-n	VerbForm=Part	11	nsubj	11:nsubj|17:nsubj:pass:relsubj	_
+13	die	die	PRON	VNW|betr|pron|stan|vol|persoon|getal	PronType=Rel	17	nsubj:pass	12:ref	_
+14	bijzonder	bijzonder	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	15	advmod	15:advmod	_
+15	slecht	slecht	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	17	advmod	17:advmod	_
+16	zijn	zijn	AUX	WW|pv|tgw|mv	Number=Plur|Tense=Pres|VerbForm=Fin	17	aux:pass	17:aux:pass	_
+17	ingelicht	inlichten	VERB	WW|vd|vrij|zonder	VerbForm=Part	12	acl:relcl	12:acl:relcl	SpaceAfter=No
+18	,	,	PUNCT	LET	_	19	punct	19:punct	_
+19	ongerust	ongerust	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	11	advmod	11:advmod	_
+20	die	die	DET	VNW|aanw|det|stan|prenom|zonder|rest	_	21	det	21:det	_
+21	vraag	vraag	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	11	obj	11:obj	SpaceAfter=No
+22	.	.	PUNCT	LET	_	11	punct	11:punct	_
+
+# sent_id = Treebank_cdb_5608
+# text = Van William Morris' streven het handwerk weer te veredelen was Hahn afkerig - hij geloofde in de toekomst van de machine.
+# source = Treebank/cdb/5608.xml
+1	Van	Van	PROPN	N|eigen|ev|basis|genus|stan	Gender=Com,Neut|Number=Sing	4	obl	4:obl	_
+2	William	William	PROPN	SPEC|deeleigen	_	4	nmod:poss	4:nmod:poss	_
+3	Morris'	Morris'	PROPN	SPEC|deeleigen	_	2	flat	2:flat	_
+4	streven	streven	VERB	WW|inf|nom|zonder|zonder-n	VerbForm=Inf	12	obl	12:obl	_
+5	het	het	DET	LID|bep|stan|evon	Definite=Def	6	det	6:det	_
+6	handwerk	handwerk	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	9	obj	9:obj	_
+7	weer	weer	ADV	BW	_	9	advmod	9:advmod	_
+8	te	te	ADP	VZ|init	_	9	mark	9:mark	_
+9	veredelen	veredelen	VERB	WW|inf|vrij|zonder	VerbForm=Inf	4	acl	4:acl:te	_
+10	was	zijn	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	12	cop	12:cop	_
+11	Hahn	Hahn	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	12	nsubj	12:nsubj	_
+12	afkerig	afkerig	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	0	root	0:root	_
+13	-	-	PUNCT	LET	_	15	punct	15:punct	_
+14	hij	hij	PRON	VNW|pers|pron|nomin|vol|3|ev|masc	Case=Nom|Person=3|PronType=Prs	15	nsubj	15:nsubj	_
+15	geloofde	geloven	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	12	parataxis	12:parataxis	_
+16	in	in	ADP	VZ|init	_	18	case	18:case	_
+17	de	de	DET	LID|bep|stan|rest	Definite=Def	18	det	18:det	_
+18	toekomst	toekomst	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	15	obl	15:obl:in	_
+19	van	van	ADP	VZ|init	_	21	case	21:case	_
+20	de	de	DET	LID|bep|stan|rest	Definite=Def	21	det	21:det	_
+21	machine	machine	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	18	nmod	18:nmod:van	SpaceAfter=No
+22	.	.	PUNCT	LET	_	12	punct	12:punct	_
+
+# sent_id = Treebank_cdb_3050
+# text = Het schip is nu in Cuxhaven.
+# source = Treebank/cdb/3050.xml
+1	Het	het	DET	LID|bep|stan|evon	Definite=Def	2	det	2:det	_
+2	schip	schip	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	3	nsubj	3:nsubj	_
+3	is	zijn	VERB	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+4	nu	nu	ADV	BW	_	3	advmod	3:advmod	_
+5	in	in	ADP	VZ|init	_	6	case	6:case	_
+6	Cuxhaven	Cuxhaven	PROPN	N|eigen|ev|basis|genus|stan	Gender=Com,Neut|Number=Sing	3	obl	3:obl:in	SpaceAfter=No
+7	.	.	PUNCT	LET	_	3	punct	3:punct	_
+
+# sent_id = Treebank_h_suite_294
+# text = Oplossing nummer 2.
+# source = Treebank/h_suite/294.xml
+1	Oplossing	oplossing	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	0	root	0:root	_
+2	nummer	nummer	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	1	appos	1:appos	_
+3	2	2	NUM	TW|hoofd|vrij	_	2	appos	2:appos	SpaceAfter=No
+4	.	.	PUNCT	LET	_	1	punct	1:punct	_
+
+# sent_id = Treebank_g_suite_929
+# text = Lachend: "Het was geen wervende film."
+# source = Treebank/g_suite/929.xml
+1	Lachend	lachen	VERB	WW|od|vrij|zonder	VerbForm=Part	8	parataxis	8:parataxis	SpaceAfter=No
+2	:	:	PUNCT	LET	_	1	punct	1:punct	_
+3	"	"	PUNCT	LET	_	8	punct	8:punct	SpaceAfter=No
+4	Het	het	PRON	VNW|pers|pron|stan|red|3|ev|onz	Person=3|PronType=Prs	8	nsubj	8:nsubj	_
+5	was	zijn	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	8	cop	8:cop	_
+6	geen	geen	DET	VNW|onbep|det|stan|prenom|zonder|agr	_	8	det	8:det	_
+7	wervende	werven	VERB	WW|od|prenom|met-e	VerbForm=Part	8	amod	8:amod	_
+8	film	film	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	0	root	0:root	SpaceAfter=No
+9	.	.	PUNCT	LET	_	8	punct	8:punct	SpaceAfter=No
+10	"	"	PUNCT	LET	_	8	punct	8:punct	_
+
+# sent_id = Treebank_qa_clef2004_1023
+# text = Waar ligt Lesotho?
+# source = Treebank/qa/clef2004_1023.xml
+1	Waar	waar	ADV	VNW|vb|adv-pron|obl|vol|3o|getal	_	2	advmod	2:advmod	_
+2	ligt	liggen	VERB	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+3	Lesotho	Lesotho	PROPN	N|eigen|ev|basis|onz|stan	Gender=Neut|Number=Sing	2	nsubj	2:nsubj	SpaceAfter=No
+4	?	?	PUNCT	LET	_	2	punct	2:punct	_
+
+# sent_id = Treebank_qa_clef2004_875
+# text = Wat roept Saab terug?
+# source = Treebank/qa/clef2004_875.xml
+1	Wat	wat	PRON	VNW|vb|pron|stan|vol|3o|ev	Person=3|PronType=Int	2	obj	2:obj	_
+2	roept	roepen	VERB	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+3	Saab	Saab	PROPN	N|eigen|ev|basis|onz|stan	Gender=Neut|Number=Sing	2	nsubj	2:nsubj	_
+4	terug	terug	ADV	BW	_	2	compound:prt	2:compound:prt	SpaceAfter=No
+5	?	?	PUNCT	LET	_	2	punct	2:punct	_
+
+# sent_id = Treebank_cdb_4013
+# text = Bij de lokale fondsen deden zich geen opvallende koersverschillen voor.
+# source = Treebank/cdb/4013.xml
+1	Bij	bij	ADP	VZ|init	_	4	case	4:case	_
+2	de	de	DET	LID|bep|stan|rest	Definite=Def	4	det	4:det	_
+3	lokale	lokaal	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	4	amod	4:amod	_
+4	fondsen	fonds	NOUN	N|soort|mv|basis	Number=Plur	5	obl	5:obl:bij	_
+5	deden	doen	VERB	WW|pv|verl|mv	Number=Plur|Tense=Past|VerbForm=Fin	0	root	0:root	_
+6	zich	zich	PRON	VNW|refl|pron|obl|red|3|getal	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	5	expl:pv	5:expl:pv	_
+7	geen	geen	DET	VNW|onbep|det|stan|prenom|zonder|agr	_	9	det	9:det	_
+8	opvallende	opvallend	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	9	amod	9:amod	_
+9	koersverschillen	koersverschil	NOUN	N|soort|mv|basis	Number=Plur	5	nsubj	5:nsubj	_
+10	voor	voor	ADP	VZ|fin	_	5	compound:prt	5:compound:prt	SpaceAfter=No
+11	.	.	PUNCT	LET	_	5	punct	5:punct	_
+
+# sent_id = Treebank_qa_clef2003_285
+# text = Hoeveel kilometer kan de Monarch koningsvlinder afleggen?
+# source = Treebank/qa/clef2003_285.xml
+1	Hoeveel	hoeveel	NUM	TW|hoofd|prenom|stan	_	2	nummod	2:nummod	_
+2	kilometer	kilometer	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	7	obj	7:obj	_
+3	kan	kunnen	AUX	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	7	aux	7:aux	_
+4	de	de	DET	LID|bep|stan|rest	Definite=Def	6	det	6:det	_
+5	Monarch	Monarch	PROPN	N|eigen|ev|basis|genus|stan	Gender=Com,Neut|Number=Sing	6	nmod	6:nmod	_
+6	koningsvlinder	koningsvlinder	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	7	nsubj	7:nsubj	_
+7	afleggen	afleggen	VERB	WW|inf|vrij|zonder	VerbForm=Inf	0	root	0:root	SpaceAfter=No
+8	?	?	PUNCT	LET	_	7	punct	7:punct	_
+
+# sent_id = Treebank_cdb_4385
+# text = Het hebben van een opvolger is van groot belang.
+# source = Treebank/cdb/4385.xml
+1	Het	het	DET	LID|bep|stan|evon	Definite=Def	2	det	2:det	_
+2	hebben	hebben	VERB	WW|inf|nom|zonder|zonder-n	VerbForm=Inf	9	nsubj	9:nsubj	_
+3	van	van	ADP	VZ|init	_	5	case	5:case	_
+4	een	een	DET	LID|onbep|stan|agr	Definite=Ind	5	det	5:det	_
+5	opvolger	opvolger	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	2	nmod	2:nmod:van	_
+6	is	zijn	AUX	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	9	cop	9:cop	_
+7	van	van	ADP	VZ|init	_	9	case	9:case	_
+8	groot	groot	ADJ	ADJ|prenom|basis|zonder	Degree=Pos	9	amod	9:amod	_
+9	belang	belang	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	0	root	0:root	SpaceAfter=No
+10	.	.	PUNCT	LET	_	9	punct	9:punct	_
+
+# sent_id = Treebank_cdb_980
+# text = De eerste helft boeide weinig.
+# source = Treebank/cdb/980.xml
+1	De	de	DET	LID|bep|stan|rest	Definite=Def	3	det	3:det	_
+2	eerste	één	ADJ	TW|rang|prenom|stan	_	3	amod	3:amod	_
+3	helft	helft	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	4	nsubj	4:nsubj	_
+4	boeide	boeien	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	0	root	0:root	_
+5	weinig	weinig	ADV	VNW|onbep|grad|stan|vrij|zonder|basis	_	4	advmod	4:advmod	SpaceAfter=No
+6	.	.	PUNCT	LET	_	4	punct	4:punct	_
+
+# sent_id = Treebank_cdb_4808
+# text = De staatssecretaris van volksgezondheid, dr. R. J. H. Kruisinga, heeft de versierselen gisteren te Groningen aan prof. Kolff uitgereikt.
+# source = Treebank/cdb/4808.xml
+1	De	de	DET	LID|bep|stan|rest	Definite=Def	2	det	2:det	_
+2	staatssecretaris	staatssecretaris	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	21	nsubj	21:nsubj	_
+3	van	van	ADP	VZ|init	_	4	case	4:case	_
+4	volksgezondheid	volksgezondheid	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	2	nmod	2:nmod:van	SpaceAfter=No
+5	,	,	PUNCT	LET	_	6	punct	6:punct	_
+6	dr.	dr.	PROPN	SPEC|deeleigen	_	2	appos	2:appos	_
+7	R.	R.	PROPN	SPEC|deeleigen	_	6	flat	6:flat	_
+8	J.	J.	PROPN	SPEC|deeleigen	_	6	flat	6:flat	_
+9	H.	H.	PROPN	SPEC|deeleigen	_	6	flat	6:flat	_
+10	Kruisinga	Kruisinga	PROPN	SPEC|deeleigen	_	6	flat	6:flat	SpaceAfter=No
+11	,	,	PUNCT	LET	_	2	punct	2:punct	_
+12	heeft	hebben	AUX	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	21	aux	21:aux	_
+13	de	de	DET	LID|bep|stan|rest	Definite=Def	14	det	14:det	_
+14	versierselen	versiersel	NOUN	N|soort|mv|basis	Number=Plur	21	obj	21:obj	_
+15	gisteren	gisteren	ADV	BW	_	21	advmod	21:advmod	_
+16	te	te	ADP	VZ|init	_	17	case	17:case	_
+17	Groningen	Groningen	PROPN	N|eigen|ev|basis|onz|stan	Gender=Neut|Number=Sing	21	obl	21:obl:te	_
+18	aan	aan	ADP	VZ|init	_	19	case	19:case	_
+19	prof.	prof.	PROPN	SPEC|deeleigen	_	21	obl	21:obl:aan	_
+20	Kolff	Kolff	PROPN	SPEC|deeleigen	_	19	flat	19:flat	_
+21	uitgereikt	uitreiken	VERB	WW|vd|vrij|zonder	VerbForm=Part	0	root	0:root	SpaceAfter=No
+22	.	.	PUNCT	LET	_	21	punct	21:punct	_
+
+# sent_id = Treebank_cdb_4704
+# text = Daarin staat dat de verantwoordelijke vereniging gestraft dient te worden met twee winstpunten in mindering en handhaving van de stand als eindstand.
+# source = Treebank/cdb/4704.xml
+1	Daarin	daarin	ADV	BW	_	2	advmod	2:advmod	_
+2	staat	staan	VERB	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+3	dat	dat	SCONJ	VG|onder	_	8	mark	8:mark	_
+4	de	de	DET	LID|bep|stan|rest	Definite=Def	6	det	6:det	_
+5	verantwoordelijke	verantwoordelijk	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	6	amod	6:amod	_
+6	vereniging	vereniging	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	8	nsubj	7:nsubj:pass:xsubj|8:nsubj	_
+7	gestraft	straffen	VERB	WW|vd|vrij|zonder	VerbForm=Part	8	xcomp	8:xcomp	_
+8	dient	dienen	VERB	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	2	csubj	2:csubj	_
+9	te	te	ADP	VZ|init	_	7	mark	7:mark	_
+10	worden	worden	AUX	WW|inf|vrij|zonder	VerbForm=Inf	7	aux:pass	7:aux:pass	_
+11	met	met	ADP	VZ|init	_	13	case	13:case	_
+12	twee	twee	NUM	TW|hoofd|prenom|stan	_	13	nummod	13:nummod	_
+13	winstpunten	winstpunt	NOUN	N|soort|mv|basis	Number=Plur	7	obl	7:obl:met	_
+14	in	in	ADP	VZ|init	_	15	case	15:case	_
+15	mindering	mindering	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	13	nmod	13:nmod:in	_
+16	en	en	CCONJ	VG|neven	_	17	cc	17:cc	_
+17	handhaving	handhaving	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	13	conj	7:obl:met|13:conj:en	_
+18	van	van	ADP	VZ|init	_	20	case	20:case	_
+19	de	de	DET	LID|bep|stan|rest	Definite=Def	20	det	20:det	_
+20	stand	stand	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	17	nmod	17:nmod:van	_
+21	als	als	ADP	VZ|init	_	22	mark	22:mark	_
+22	eindstand	eindstand	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	17	nmod	17:nmod	SpaceAfter=No
+23	.	.	PUNCT	LET	_	2	punct	2:punct	_
+
+# sent_id = Treebank_eans_02_04_08_07_01_1b
+# text = Berend is die avond nog laat bij ons langsgekomen.
+# source = Treebank/eans/02_04_08_07_01_1b.xml
+1	Berend	Berend	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	9	nsubj	9:nsubj	_
+2	is	zijn	AUX	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	9	aux	9:aux	_
+3	die	die	DET	VNW|aanw|det|stan|prenom|zonder|rest	_	4	det	4:det	_
+4	avond	avond	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	9	obl	9:obl	_
+5	nog	nog	ADV	BW	_	9	advmod	9:advmod	_
+6	laat	laat	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	9	advmod	9:advmod	_
+7	bij	bij	ADP	VZ|init	_	8	case	8:case	_
+8	ons	ons	PRON	VNW|pr|pron|obl|vol|1|mv	Case=Acc|Person=1|PronType=Prs	9	obl	9:obl:bij	_
+9	langsgekomen	langskomen	VERB	WW|vd|vrij|zonder	VerbForm=Part	0	root	0:root	SpaceAfter=No
+10	.	.	PUNCT	LET	_	9	punct	9:punct	_
+
+# sent_id = Treebank_eans_02_04_08_03_02_3
+# text = Gisteren kom ik in de Kerkstraat Linda tegen. Ik zeg: Wat doe jij hier nou? Ze zegt: Ik kom Peter opzoeken.
+# source = Treebank/eans/02_04_08_03_02_3.xml
+1	Gisteren	gisteren	ADV	BW	_	2	advmod	2:advmod	_
+2	kom	komen	VERB	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+3	ik	ik	PRON	VNW|pers|pron|nomin|vol|1|ev	Case=Nom|Person=1|PronType=Prs	2	nsubj	2:nsubj	_
+4	in	in	ADP	VZ|init	_	6	case	6:case	_
+5	de	de	DET	LID|bep|stan|rest	Definite=Def	6	det	6:det	_
+6	Kerkstraat	Kerkstraat	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	2	obl	2:obl:in	_
+7	Linda	Linda	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	2	obj	2:obj	_
+8	tegen	tegen	ADP	VZ|fin	_	2	compound:prt	2:compound:prt	SpaceAfter=No
+9	.	.	PUNCT	LET	_	2	punct	2:punct	_
+10	Ik	ik	PRON	VNW|pers|pron|nomin|vol|1|ev	Case=Nom|Person=1|PronType=Prs	11	nsubj	11:nsubj	_
+11	zeg	zeggen	VERB	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	14	parataxis	14:parataxis	SpaceAfter=No
+12	:	:	PUNCT	LET	_	11	punct	11:punct	_
+13	Wat	wat	PRON	VNW|vb|pron|stan|vol|3o|ev	Person=3|PronType=Int	14	obj	14:obj	_
+14	doe	doen	VERB	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	2	parataxis	2:parataxis	_
+15	jij	jij	PRON	VNW|pers|pron|nomin|vol|2v|ev	Case=Nom|Person=2|PronType=Prs	14	nsubj	14:nsubj	_
+16	hier	hier	ADV	VNW|aanw|adv-pron|obl|vol|3o|getal	_	14	advmod	14:advmod	_
+17	nou	nou	ADV	BW	_	14	advmod	14:advmod	SpaceAfter=No
+18	?	?	PUNCT	LET	_	2	punct	2:punct	_
+19	Ze	ze	PRON	VNW|pers|pron|stan|red|3|ev|fem	Person=3|PronType=Prs	20	nsubj	20:nsubj	_
+20	zegt	zeggen	VERB	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	23	parataxis	23:parataxis	SpaceAfter=No
+21	:	:	PUNCT	LET	_	20	punct	20:punct	_
+22	Ik	ik	PRON	VNW|pers|pron|nomin|vol|1|ev	Case=Nom|Person=1|PronType=Prs	23	nsubj	23:nsubj|25:nsubj:xsubj	_
+23	kom	komen	VERB	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	2	parataxis	2:parataxis	_
+24	Peter	Peter	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	25	obj	25:obj	_
+25	opzoeken	opzoeken	VERB	WW|inf|vrij|zonder	VerbForm=Inf	23	xcomp	23:xcomp	SpaceAfter=No
+26	.	.	PUNCT	LET	_	2	punct	2:punct	_
+
+# sent_id = Treebank_cdb_4733
+# text = Er kwam zelfs een "alternatief journaal" op het tweede net, tot stand.
+# source = Treebank/cdb/4733.xml
+1	Er	er	ADV	VNW|aanw|adv-pron|stan|red|3|getal	_	2	advmod	2:advmod	_
+2	kwam	komen	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	0	root	0:root	_
+3	zelfs	zelfs	ADV	BW	_	2	advmod	2:advmod	_
+4	een	een	DET	LID|onbep|stan|agr	Definite=Ind	7	det	7:det	_
+5	"	"	PUNCT	LET	_	7	punct	7:punct	SpaceAfter=No
+6	alternatief	alternatief	ADJ	ADJ|prenom|basis|zonder	Degree=Pos	7	amod	7:amod	_
+7	journaal	journaal	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	2	nsubj	2:nsubj	SpaceAfter=No
+8	"	"	PUNCT	LET	_	7	punct	7:punct	_
+9	op	op	ADP	VZ|init	_	12	case	12:case	_
+10	het	het	DET	LID|bep|stan|evon	Definite=Def	12	det	12:det	_
+11	tweede	twee	ADJ	TW|rang|prenom|stan	_	12	amod	12:amod	_
+12	net	net	ADV	BW	_	2	obl	2:obl:op	SpaceAfter=No
+13	,	,	PUNCT	LET	_	14	punct	14:punct	_
+14	tot	tot	ADP	VZ|init	_	2	compound:prt	2:compound:prt	_
+15	stand	stand	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	14	fixed	14:fixed	SpaceAfter=No
+16	.	.	PUNCT	LET	_	2	punct	2:punct	_
+
+# sent_id = Treebank_cdb_113
+# text = Geen wonder trouwens, want beide heren koesteren gans andere opvattingen over de manier, waarop een goed journaal tot stand moet komen.
+# source = Treebank/cdb/113.xml
+1	Geen	geen	DET	VNW|onbep|det|stan|prenom|zonder|agr	_	2	det	2:det	_
+2	wonder	wonder	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	0	root	0:root	_
+3	trouwens	trouwens	ADV	BW	_	2	parataxis	2:parataxis	SpaceAfter=No
+4	,	,	PUNCT	LET	_	8	punct	8:punct	_
+5	want	want	CCONJ	VG|neven	_	8	cc	8:cc	_
+6	beide	beide	DET	VNW|onbep|grad|stan|prenom|met-e|mv|basis	_	7	det	7:det	_
+7	heren	heer	NOUN	N|soort|mv|basis	Number=Plur	8	nsubj	8:nsubj	_
+8	koesteren	koesteren	VERB	WW|pv|tgw|mv	Number=Plur|Tense=Pres|VerbForm=Fin	2	conj	2:conj:want	_
+9	gans	gans	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	10	advmod	10:advmod	_
+10	andere	ander	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	11	amod	11:amod	_
+11	opvattingen	opvatting	NOUN	N|soort|mv|basis	Number=Plur	8	obj	8:obj	_
+12	over	over	ADP	VZ|init	_	14	case	14:case	_
+13	de	de	DET	LID|bep|stan|rest	Definite=Def	14	det	14:det	_
+14	manier	manier	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	11	nmod	11:nmod:over	SpaceAfter=No
+15	,	,	PUNCT	LET	_	23	punct	23:punct	_
+16	waarop	waarop	ADV	BW	_	23	advmod	14:ref	_
+17	een	een	DET	LID|onbep|stan|agr	Definite=Ind	19	det	19:det	_
+18	goed	goed	ADJ	ADJ|prenom|basis|zonder	Degree=Pos	19	amod	19:amod	_
+19	journaal	journaal	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	23	nsubj	23:nsubj	_
+20	tot	tot	ADP	VZ|init	_	23	compound:prt	23:compound:prt	_
+21	stand	stand	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	20	fixed	20:fixed	_
+22	moet	moeten	AUX	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	23	aux	23:aux	_
+23	komen	komen	VERB	WW|inf|vrij|zonder	VerbForm=Inf	14	acl:relcl	14:acl:relcl	SpaceAfter=No
+24	.	.	PUNCT	LET	_	2	punct	2:punct	_
+
+# sent_id = Treebank_cdb_5175
+# text = De groep, die in september vorig jaar werd gevormd en Amstleven, Holsoc, Nedlloyd, Aurora, Noord-Braband en het Nationaal Spaarfonds omvat, boekte een nettowinst van flo 21,3 (v.j. 18,4) miljoen.
+# source = Treebank/cdb/5175.xml
+1	De	de	DET	LID|bep|stan|rest	Definite=Def	2	det	2:det	_
+2	groep	groep	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	27	nsubj	10:nsubj:pass:relsubj|27:nsubj	SpaceAfter=No
+3	,	,	PUNCT	LET	_	10	punct	10:punct	_
+4	die	die	PRON	VNW|betr|pron|stan|vol|persoon|getal	PronType=Rel	10	nsubj:pass	2:ref	_
+5	in	in	ADP	VZ|init	_	6	case	6:case	_
+6	september	september	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	10	obl	10:obl:in	_
+7	vorig	vorig	ADJ	ADJ|prenom|basis|zonder	Degree=Pos	8	amod	8:amod	_
+8	jaar	jaar	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	6	nmod	6:nmod	_
+9	werd	worden	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	10	aux:pass	10:aux:pass	_
+10	gevormd	vormen	VERB	WW|vd|vrij|zonder	VerbForm=Part	2	acl:relcl	2:acl:relcl	_
+11	en	en	CCONJ	VG|neven	_	25	cc	25:cc	_
+12	Amstleven	Amstleven	PROPN	N|eigen|ev|basis|genus|stan	Gender=Com,Neut|Number=Sing	25	obj	25:obj	SpaceAfter=No
+13	,	,	PUNCT	LET	_	14	punct	14:punct	_
+14	Holsoc	Holsoc	PROPN	N|eigen|ev|basis|genus|stan	Gender=Com,Neut|Number=Sing	12	conj	12:conj:en|25:obj	SpaceAfter=No
+15	,	,	PUNCT	LET	_	16	punct	16:punct	_
+16	Nedlloyd	nedlloyd	PROPN	N|eigen|ev|basis|onz|stan	Gender=Neut|Number=Sing	12	conj	12:conj:en|25:obj	SpaceAfter=No
+17	,	,	PUNCT	LET	_	18	punct	18:punct	_
+18	Aurora	Aurora	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	12	conj	12:conj:en|25:obj	SpaceAfter=No
+19	,	,	PUNCT	LET	_	20	punct	20:punct	_
+20	Noord-Braband	Noord-Braband	PROPN	N|eigen|ev|basis|genus|stan	Gender=Com,Neut|Number=Sing	12	conj	12:conj:en|25:obj	_
+21	en	en	CCONJ	VG|neven	_	23	cc	23:cc	_
+22	het	het	DET	LID|bep|stan|evon	Definite=Def	23	det	23:det	_
+23	Nationaal	Nationaal	PROPN	SPEC|deeleigen	_	12	conj	12:conj:en|25:obj	_
+24	Spaarfonds	spaarfonds	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	23	flat	23:flat	_
+25	omvat	omvatten	VERB	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	10	conj	10:conj:en	SpaceAfter=No
+26	,	,	PUNCT	LET	_	2	punct	2:punct	_
+27	boekte	boeken	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	0	root	0:root	_
+28	een	een	DET	LID|onbep|stan|agr	Definite=Ind	29	det	29:det	_
+29	nettowinst	nettowinst	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	27	obj	27:obj	_
+30	van	van	ADP	VZ|init	_	37	case	37:case	_
+31	flo	flo	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	37	det	37:det	_
+32	21,3	21,3	NUM	TW|hoofd|prenom|stan	_	31	fixed	31:fixed	_
+33	(	(	PUNCT	LET	_	34	punct	34:punct	SpaceAfter=No
+34	v.j.	v.j.	X	SPEC|afk	Abbr=Yes	37	acl	37:acl	_
+35	18,4	18,4	NUM	TW|hoofd|vrij	_	34	parataxis	34:parataxis	SpaceAfter=No
+36	)	)	PUNCT	LET	_	34	punct	34:punct	_
+37	miljoen	miljoen	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	29	nmod	29:nmod:van	SpaceAfter=No
+38	.	.	PUNCT	LET	_	27	punct	27:punct	_
+
+# sent_id = Treebank_cdb_6025
+# text = Het afscheid nemen valt hem om die reden zwaar.
+# source = Treebank/cdb/6025.xml
+1	Het	het	DET	LID|bep|stan|evon	Definite=Def	3	det	3:det	_
+2	afscheid	afscheid	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	3	obj	3:obj	_
+3	nemen	nemen	VERB	WW|inf|vrij|zonder	VerbForm=Inf	4	nsubj	4:nsubj	_
+4	valt	vallen	VERB	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+5	hem	hem	PRON	VNW|pers|pron|obl|vol|3|ev|masc	Case=Acc|Person=3|PronType=Prs	4	iobj	4:iobj	_
+6	om	om	ADP	VZ|init	_	8	case	8:case	_
+7	die	die	DET	VNW|aanw|det|stan|prenom|zonder|rest	_	8	det	8:det	_
+8	reden	reden	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	4	obl	4:obl:om	_
+9	zwaar	zwaar	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	4	xcomp	4:xcomp	SpaceAfter=No
+10	.	.	PUNCT	LET	_	4	punct	4:punct	_
+
+# sent_id = Treebank_g_suite_460
+# text = dat hij vertrekt is nog een geheim
+# source = Treebank/g_suite/460.xml
+1	dat	dat	SCONJ	VG|onder	_	3	mark	3:mark	_
+2	hij	hij	PRON	VNW|pers|pron|nomin|vol|3|ev|masc	Case=Nom|Person=3|PronType=Prs	3	nsubj	3:nsubj	_
+3	vertrekt	vertrekken	VERB	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	7	csubj	7:csubj	_
+4	is	zijn	AUX	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	7	cop	7:cop	_
+5	nog	nog	ADV	BW	_	7	advmod	7:advmod	_
+6	een	een	DET	LID|onbep|stan|agr	Definite=Ind	7	det	7:det	_
+7	geheim	geheim	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	0	root	0:root	_
+
+# sent_id = Treebank_wpspel_737
+# text = Uit welke taal komt de naam van het gerecht tjap-tjoy?
+# source = Treebank/wpspel/737.xml
+1	Uit	uit	ADP	VZ|init	_	3	case	3:case	_
+2	welke	welk	DET	VNW|vb|det|stan|prenom|met-e|rest	_	3	det	3:det	_
+3	taal	taal	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	4	nmod	4:nmod:uit	_
+4	komt	komen	VERB	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+5	de	de	DET	LID|bep|stan|rest	Definite=Def	6	det	6:det	_
+6	naam	naam	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	4	nsubj	4:nsubj	_
+7	van	van	ADP	VZ|init	_	9	case	9:case	_
+8	het	het	DET	LID|bep|stan|evon	Definite=Def	9	det	9:det	_
+9	gerecht	gerecht	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	6	nmod	6:nmod:van	_
+10	tjap-tjoy	tjap-tjoy	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	9	appos	9:appos	SpaceAfter=No
+11	?	?	PUNCT	LET	_	4	punct	4:punct	_
+
+# sent_id = Treebank_qa_clef2003_242
+# text = Welk bedrijf is door Nicholas Brady opgericht?
+# source = Treebank/qa/clef2003_242.xml
+1	Welk	welk	DET	VNW|vb|det|stan|prenom|zonder|evon	_	2	det	2:det	_
+2	bedrijf	bedrijf	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	7	nsubj:pass	7:nsubj:pass	_
+3	is	zijn	AUX	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	7	aux:pass	7:aux:pass	_
+4	door	door	ADP	VZ|init	_	5	case	5:case	_
+5	Nicholas	Nicholas	PROPN	SPEC|deeleigen	_	7	obl:agent	7:obl:agent	_
+6	Brady	Brady	PROPN	SPEC|deeleigen	_	5	flat	5:flat	_
+7	opgericht	oprichten	VERB	WW|vd|vrij|zonder	VerbForm=Part	0	root	0:root	SpaceAfter=No
+8	?	?	PUNCT	LET	_	7	punct	7:punct	_
+
+# sent_id = Treebank_cdb_5327
+# text = De desbetreffende passage moest luiden:
+# source = Treebank/cdb/5327.xml
+1	De	de	DET	LID|bep|stan|rest	Definite=Def	3	det	3:det	_
+2	desbetreffende	desbetreffend	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	3	amod	3:amod	_
+3	passage	passage	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	5	nsubj	5:nsubj	_
+4	moest	moeten	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	5	aux	5:aux	_
+5	luiden	luiden	VERB	WW|inf|vrij|zonder	VerbForm=Inf	0	root	0:root	SpaceAfter=No
+6	:	:	PUNCT	LET	_	5	punct	5:punct	_
+
+# sent_id = Treebank_qa_clef2004_859
+# text = Waar werd Marie-Jo Lafontaine geboren?
+# source = Treebank/qa/clef2004_859.xml
+1	Waar	waar	ADV	VNW|vb|adv-pron|obl|vol|3o|getal	_	5	advmod	5:advmod	_
+2	werd	worden	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	5	aux:pass	5:aux:pass	_
+3	Marie-Jo	Marie-Jo	PROPN	SPEC|deeleigen	_	5	nsubj:pass	5:nsubj:pass	_
+4	Lafontaine	Lafontaine	PROPN	SPEC|deeleigen	_	3	flat	3:flat	_
+5	geboren	geboren	VERB	WW|vd|vrij|zonder	VerbForm=Part	0	root	0:root	SpaceAfter=No
+6	?	?	PUNCT	LET	_	5	punct	5:punct	_
+
+# sent_id = Treebank_cdb_2518
+# text = Bijzonder dicht bij de titel kwam The Kickerbockers in de eerste klasse A van de zaterdagcompetitie.
+# source = Treebank/cdb/2518.xml
+1	Bijzonder	bijzonder	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	2	advmod	2:advmod	_
+2	dicht	dicht	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	5	amod	5:amod	_
+3	bij	bij	ADP	VZ|init	_	5	case	5:case	_
+4	de	de	DET	LID|bep|stan|rest	Definite=Def	5	det	5:det	_
+5	titel	titel	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	6	obl	6:obl:bij	_
+6	kwam	komen	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	0	root	0:root	_
+7	The	The	PROPN	SPEC|deeleigen	_	6	nsubj	6:nsubj	_
+8	Kickerbockers	Kickerbockers	PROPN	SPEC|deeleigen	_	7	flat	7:flat	_
+9	in	in	ADP	VZ|init	_	12	case	12:case	_
+10	de	de	DET	LID|bep|stan|rest	Definite=Def	12	det	12:det	_
+11	eerste	één	ADJ	TW|rang|prenom|stan	_	12	amod	12:amod	_
+12	klasse	klasse	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	6	obl	6:obl:in	_
+13	A	A	SYM	SPEC|symb	_	12	appos	12:appos	_
+14	van	van	ADP	VZ|init	_	16	case	16:case	_
+15	de	de	DET	LID|bep|stan|rest	Definite=Def	16	det	16:det	_
+16	zaterdagcompetitie	zaterdagcompetitie	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	12	nmod	12:nmod:van	SpaceAfter=No
+17	.	.	PUNCT	LET	_	6	punct	6:punct	_
+
+# sent_id = Treebank_cdb_3036
+# text = Op het ogenblik doen er nog maar enkele als zodanig dienst.
+# source = Treebank/cdb/3036.xml
+1	Op	op	ADP	VZ|init	_	3	case	3:case	_
+2	het	het	DET	LID|bep|stan|evon	Definite=Def	3	det	3:det	_
+3	ogenblik	ogenblik	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	4	obl	4:obl:op	_
+4	doen	doen	VERB	WW|pv|tgw|mv	Number=Plur|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+5	er	er	ADV	VNW|aanw|adv-pron|stan|red|3|getal	_	4	advmod	4:advmod	_
+6	nog	nog	ADV	BW	_	8	amod	8:amod	_
+7	maar	maar	ADV	BW	_	8	amod	8:amod	_
+8	enkele	enkele	PRON	VNW|onbep|det|stan|nom|met-e|zonder-n	PronType=Ind	4	nsubj	4:nsubj	_
+9	als	als	SCONJ	VG|onder	_	10	mark	10:mark	_
+10	zodanig	zodanig	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	4	xcomp	4:xcomp	_
+11	dienst	dienst	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	4	compound:prt	4:compound:prt	SpaceAfter=No
+12	.	.	PUNCT	LET	_	4	punct	4:punct	_
+
+# sent_id = Treebank_cdb_4439
+# text = Gezegd moet worden dat dit aanbod in een vrijwel lege markt terecht kwam.
+# source = Treebank/cdb/4439.xml
+1	Gezegd	zeggen	VERB	WW|vd|vrij|zonder	VerbForm=Part	0	root	0:root	_
+2	moet	moeten	AUX	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	1	aux	1:aux	_
+3	worden	worden	AUX	WW|inf|vrij|zonder	VerbForm=Inf	1	aux:pass	1:aux:pass	_
+4	dat	dat	SCONJ	VG|onder	_	13	mark	13:mark	_
+5	dit	dit	DET	VNW|aanw|det|stan|prenom|zonder|evon	_	6	det	6:det	_
+6	aanbod	aanbod	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	13	nsubj	13:nsubj	_
+7	in	in	ADP	VZ|init	_	11	case	11:case	_
+8	een	een	DET	LID|onbep|stan|agr	Definite=Ind	11	det	11:det	_
+9	vrijwel	vrijwel	ADV	BW	_	10	advmod	10:advmod	_
+10	lege	leeg	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	11	amod	11:amod	_
+11	markt	markt	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	13	obl	13:obl:in	_
+12	terecht	terecht	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	13	compound:prt	13:compound:prt	_
+13	kwam	komen	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	1	ccomp	1:ccomp	SpaceAfter=No
+14	.	.	PUNCT	LET	_	1	punct	1:punct	_
+
+# sent_id = Treebank_cdb_3002
+# text = De woningbouwcorporaties zijn aan een drievoudige controle onderworpen - gemeenten, provinciale diensten en centrale directie van de Volkshuisvesting - die elkaar soms overlappen en soms tegenstrijdige eisen stellen.
+# source = Treebank/cdb/3002.xml
+1	De	de	DET	LID|bep|stan|rest	Definite=Def	2	det	2:det	_
+2	woningbouwcorporaties	woningbouwcorporatie	NOUN	N|soort|mv|basis	Number=Plur	8	nsubj:pass	8:nsubj:pass	_
+3	zijn	zijn	AUX	WW|pv|tgw|mv	Number=Plur|Tense=Pres|VerbForm=Fin	8	aux:pass	8:aux:pass	_
+4	aan	aan	ADP	VZ|init	_	7	case	7:case	_
+5	een	een	DET	LID|onbep|stan|agr	Definite=Ind	7	det	7:det	_
+6	drievoudige	drievoudig	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	7	amod	7:amod	_
+7	controle	controle	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	8	obl	8:obl:aan|24:nsubj:relsubj	_
+8	onderworpen	onderwerpen	VERB	WW|vd|vrij|zonder	VerbForm=Part	0	root	0:root	_
+9	-	-	PUNCT	LET	_	10	punct	10:punct	_
+10	gemeenten	gemeente	NOUN	N|soort|mv|basis	Number=Plur	7	nmod	7:nmod	SpaceAfter=No
+11	,	,	PUNCT	LET	_	13	punct	13:punct	_
+12	provinciale	provinciaal	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	13	amod	13:amod	_
+13	diensten	dienst	NOUN	N|soort|mv|basis	Number=Plur	10	conj	7:nmod|10:conj:en	_
+14	en	en	CCONJ	VG|neven	_	16	cc	16:cc	_
+15	centrale	centraal	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	16	amod	16:amod	_
+16	directie	directie	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	10	conj	7:nmod|10:conj:en	_
+17	van	van	ADP	VZ|init	_	19	case	19:case	_
+18	de	de	DET	LID|bep|stan|rest	Definite=Def	19	det	19:det	_
+19	Volkshuisvesting	volkshuisvesting	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	16	nmod	16:nmod:van	_
+20	-	-	PUNCT	LET	_	24	punct	24:punct	_
+21	die	die	PRON	VNW|betr|pron|stan|vol|persoon|getal	PronType=Rel	24	nsubj	7:ref	_
+22	elkaar	elkaar	PRON	VNW|recip|pron|obl|vol|persoon|mv	Case=Acc|PronType=Rcp	24	obj	24:obj	_
+23	soms	soms	ADV	BW	_	24	advmod	24:advmod	_
+24	overlappen	overlappen	VERB	WW|pv|tgw|mv	Number=Plur|Tense=Pres|VerbForm=Fin	7	acl:relcl	7:acl:relcl	_
+25	en	en	CCONJ	VG|neven	_	29	cc	29:cc	_
+26	soms	soms	ADV	BW	_	29	advmod	29:advmod	_
+27	tegenstrijdige	tegenstrijdig	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	28	amod	28:amod	_
+28	eisen	eis	NOUN	N|soort|mv|basis	Number=Plur	29	obj	29:obj	_
+29	stellen	stellen	VERB	WW|pv|tgw|mv	Number=Plur|Tense=Pres|VerbForm=Fin	24	conj	24:conj:en	SpaceAfter=No
+30	.	.	PUNCT	LET	_	8	punct	8:punct	_
+
+# sent_id = Treebank_cdb_4760
+# text = Opmerkelijk is dat in Zuid Antrim een onafhankelijke kandidaat met steun van stemmen van gematigden en van de vrijwel geheel achterop geraakte New Ulster Movement 5212 stemmen wist te behalen, aanzienlijk meer dan de Noordierse Labourkandidaat (1773 stemmen).
+# source = Treebank/cdb/4760.xml
+1	Opmerkelijk	opmerkelijk	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	0	root	0:root	_
+2	is	zijn	AUX	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	1	cop	1:cop	_
+3	dat	dat	SCONJ	VG|onder	_	28	mark	28:mark	_
+4	in	in	ADP	VZ|init	_	5	case	5:case	_
+5	Zuid	Zuid	PROPN	SPEC|deeleigen	_	28	obl	28:obl:in	_
+6	Antrim	Antrim	PROPN	SPEC|deeleigen	_	5	flat	5:flat	_
+7	een	een	DET	LID|onbep|stan|agr	Definite=Ind	9	det	9:det	_
+8	onafhankelijke	onafhankelijk	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	9	amod	9:amod	_
+9	kandidaat	kandidaat	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	28	nsubj	28:nsubj|30:nsubj:xsubj	_
+10	met	met	ADP	VZ|init	_	13	case	13:case	_
+11	steun	steun	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	10	fixed	10:fixed	_
+12	van	van	ADP	VZ|init	_	10	fixed	10:fixed	_
+13	stemmen	stem	NOUN	N|soort|mv|basis	Number=Plur	30	obl	30:obl:met_steun_van	_
+14	van	van	ADP	VZ|init	_	15	case	15:case	_
+15	gematigden	gematigde	NOUN	N|soort|mv|basis	Number=Plur	13	nmod	13:nmod:van	_
+16	en	en	CCONJ	VG|neven	_	23	cc	23:cc	_
+17	van	van	ADP	VZ|init	_	23	case	23:case	_
+18	de	de	DET	LID|bep|stan|rest	Definite=Def	23	det	23:det	_
+19	vrijwel	vrijwel	ADV	BW	_	20	advmod	20:advmod	_
+20	geheel	geheel	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	22	advmod	22:advmod	_
+21	achterop	achterop	ADV	BW	_	22	advmod	22:advmod	_
+22	geraakte	raken	VERB	WW|vd|prenom|met-e	VerbForm=Part	23	acl	23:acl	_
+23	New	New	PROPN	SPEC|deeleigen	_	15	conj	13:nmod:van|15:conj:en	_
+24	Ulster	Ulster	PROPN	SPEC|deeleigen	_	23	flat	23:flat	_
+25	Movement	Movement	X	SPEC|vreemd	Foreign=Yes	23	flat	23:flat	_
+26	5212	5212	NUM	TW|hoofd|prenom|stan	_	27	nummod	27:nummod	_
+27	stemmen	stem	NOUN	N|soort|mv|basis	Number=Plur	30	obj	30:obj	_
+28	wist	weten	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	1	csubj	1:csubj	_
+29	te	te	ADP	VZ|init	_	30	mark	30:mark	_
+30	behalen	behalen	VERB	WW|inf|vrij|zonder	VerbForm=Inf	28	xcomp	28:xcomp	SpaceAfter=No
+31	,	,	PUNCT	LET	_	33	punct	33:punct	_
+32	aanzienlijk	aanzienlijk	ADJ	ADJ|prenom|basis|zonder	Degree=Pos	33	amod	33:amod	_
+33	meer	veel	PRON	VNW|onbep|grad|stan|vrij|zonder|comp	PronType=Ind	1	parataxis	1:parataxis	_
+34	dan	dan	SCONJ	VG|onder	_	37	mark	37:mark	_
+35	de	de	DET	LID|bep|stan|rest	Definite=Def	37	det	37:det	_
+36	Noordierse	Noord-Iers	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	37	amod	37:amod	_
+37	Labourkandidaat	labourkandidaat	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	33	advcl	33:advcl:dan	_
+38	(	(	PUNCT	LET	_	40	punct	40:punct	SpaceAfter=No
+39	1773	1773	NUM	TW|hoofd|prenom|stan	_	40	nummod	40:nummod	_
+40	stemmen	stem	NOUN	N|soort|mv|basis	Number=Plur	37	nmod	37:nmod	SpaceAfter=No
+41	)	)	PUNCT	LET	_	40	punct	40:punct	SpaceAfter=No
+42	.	.	PUNCT	LET	_	1	punct	1:punct	_
+
+# sent_id = Treebank_g_suite_398
+# text = gezegd werd mij dat zo'n oplossing bestaat
+# source = Treebank/g_suite/398.xml
+1	gezegd	zeggen	VERB	WW|vd|vrij|zonder	VerbForm=Part	0	root	0:root	_
+2	werd	worden	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	1	aux:pass	1:aux:pass	_
+3	mij	mij	PRON	VNW|pr|pron|obl|vol|1|ev	Case=Acc|Person=1|PronType=Prs	1	iobj	1:iobj	_
+4	dat	dat	SCONJ	VG|onder	_	7	mark	7:mark	_
+5	zo'n	zo'n	DET	VNW|aanw|det|stan|prenom|zonder|agr	_	6	det	6:det	_
+6	oplossing	oplossing	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	7	nsubj	7:nsubj	_
+7	bestaat	bestaan	VERB	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	1	ccomp	1:ccomp	_
+
+# sent_id = Treebank_qa_clef2003_418
+# text = Welk land trad als dertiende lidstaat tot de Europese Unie toe?
+# source = Treebank/qa/clef2003_418.xml
+1	Welk	welk	DET	VNW|vb|det|stan|prenom|zonder|evon	_	2	det	2:det	_
+2	land	land	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	3	nsubj	3:nsubj	_
+3	trad	treden	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	0	root	0:root	_
+4	als	als	ADP	VZ|init	_	6	mark	6:mark	_
+5	dertiende	dertien	ADJ	TW|rang|prenom|stan	_	6	amod	6:amod	_
+6	lidstaat	lidstaat	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	3	advcl	3:advcl:als	_
+7	tot	tot	ADP	VZ|init	_	9	case	9:case	_
+8	de	de	DET	LID|bep|stan|rest	Definite=Def	9	det	9:det	_
+9	Europese	Europees	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	3	obl	3:obl:tot	_
+10	Unie	unie	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	9	fixed	9:fixed	_
+11	toe	toe	ADP	VZ|fin	_	3	compound:prt	3:compound:prt	SpaceAfter=No
+12	?	?	PUNCT	LET	_	3	punct	3:punct	_
+
+# sent_id = Treebank_g_suite_952
+# text = Het is hun veel geld waard om de frequentie te verkrijgen
+# source = Treebank/g_suite/952.xml
+1	Het	het	PRON	VNW|pers|pron|stan|red|3|ev|onz	Person=3|PronType=Prs	6	expl	6:expl	_
+2	is	zijn	AUX	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	6	cop	6:cop	_
+3	hun	hun	PRON	VNW|pers|pron|obl|vol|3p|mv	Case=Acc|Person=3|PronType=Prs	6	iobj	6:iobj	_
+4	veel	veel	DET	VNW|onbep|grad|stan|prenom|zonder|agr|basis	_	5	det	5:det	_
+5	geld	geld	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	6	obj	6:obj	_
+6	waard	waard	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	0	root	0:root	_
+7	om	om	ADP	VZ|init	_	11	mark	11:mark	_
+8	de	de	DET	LID|bep|stan|rest	Definite=Def	9	det	9:det	_
+9	frequentie	frequentie	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	11	obj	11:obj	_
+10	te	te	ADP	VZ|init	_	11	mark	11:mark	_
+11	verkrijgen	verkrijgen	VERB	WW|inf|vrij|zonder	VerbForm=Inf	6	csubj	6:csubj	_
+
+# sent_id = Treebank_h_suite_83
+# text = Het zelf op zaterdag frietjes bakken is een voorrecht
+# source = Treebank/h_suite/83.xml
+1	Het	het	DET	LID|bep|stan|evon	Definite=Def	6	det	6:det	_
+2	zelf	zelf	ADV	BW	_	6	advmod	6:advmod	_
+3	op	op	ADP	VZ|init	_	4	case	4:case	_
+4	zaterdag	zaterdag	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	6	nmod	6:nmod:op	_
+5	frietjes	friet	NOUN	N|soort|mv|dim	Number=Plur	6	obj	6:obj	_
+6	bakken	bakken	VERB	WW|inf|nom|zonder|zonder-n	VerbForm=Inf	9	nsubj	9:nsubj	_
+7	is	zijn	AUX	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	9	cop	9:cop	_
+8	een	een	DET	LID|onbep|stan|agr	Definite=Ind	9	det	9:det	_
+9	voorrecht	voorrecht	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	0	root	0:root	_
+
+# sent_id = Treebank_cdb_5152
+# text = De socialisten waarschuwen ernstig, dat een terugkeer van de Tories zou betekenen "dat alle mensen het slachtoffer zullen worden van economische krachten, die zij niet kunnen controleren".
+# source = Treebank/cdb/5152.xml
+1	De	de	DET	LID|bep|stan|rest	Definite=Def	2	det	2:det	_
+2	socialisten	socialist	NOUN	N|soort|mv|basis	Number=Plur	3	nsubj	3:nsubj	_
+3	waarschuwen	waarschuwen	VERB	WW|pv|tgw|mv	Number=Plur|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+4	ernstig	ernstig	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	3	advmod	3:advmod	SpaceAfter=No
+5	,	,	PUNCT	LET	_	13	punct	13:punct	_
+6	dat	dat	SCONJ	VG|onder	_	13	mark	13:mark	_
+7	een	een	DET	LID|onbep|stan|agr	Definite=Ind	8	det	8:det	_
+8	terugkeer	terugkeer	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	13	nsubj	13:nsubj	_
+9	van	van	ADP	VZ|init	_	11	case	11:case	_
+10	de	de	DET	LID|bep|stan|rest	Definite=Def	11	det	11:det	_
+11	Tories	Tories	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	8	nmod	8:nmod:van	_
+12	zou	zullen	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	13	aux	13:aux	_
+13	betekenen	betekenen	VERB	WW|inf|vrij|zonder	VerbForm=Inf	3	ccomp	3:ccomp	_
+14	"	"	PUNCT	LET	_	19	punct	19:punct	SpaceAfter=No
+15	dat	dat	SCONJ	VG|onder	_	19	mark	19:mark	_
+16	alle	al	DET	VNW|onbep|det|stan|prenom|met-e|agr	_	17	det	17:det	_
+17	mensen	mens	NOUN	N|soort|mv|basis	Number=Plur	19	nsubj	19:nsubj	_
+18	het	het	DET	LID|bep|stan|evon	Definite=Def	19	det	19:det	_
+19	slachtoffer	slachtoffer	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	13	ccomp	13:ccomp	_
+20	zullen	zullen	AUX	WW|pv|tgw|mv	Number=Plur|Tense=Pres|VerbForm=Fin	19	aux	19:aux	_
+21	worden	worden	AUX	WW|inf|vrij|zonder	VerbForm=Inf	19	cop	19:cop	_
+22	van	van	ADP	VZ|init	_	24	case	24:case	_
+23	economische	economisch	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	24	amod	24:amod	_
+24	krachten	kracht	NOUN	N|soort|mv|basis	Number=Plur	19	nmod	19:nmod:van|30:obj:relobj	SpaceAfter=No
+25	,	,	PUNCT	LET	_	30	punct	30:punct	_
+26	die	die	PRON	VNW|betr|pron|stan|vol|persoon|getal	PronType=Rel	30	obj	24:ref	_
+27	zij	zij	PRON	VNW|pers|pron|nomin|vol|3p|mv	Case=Nom|Person=3|PronType=Prs	30	nsubj	30:nsubj	_
+28	niet	niet	ADV	BW	_	30	advmod	30:advmod	_
+29	kunnen	kunnen	AUX	WW|pv|tgw|mv	Number=Plur|Tense=Pres|VerbForm=Fin	30	aux	30:aux	_
+30	controleren	controleren	VERB	WW|inf|vrij|zonder	VerbForm=Inf	24	acl:relcl	24:acl:relcl	SpaceAfter=No
+31	"	"	PUNCT	LET	_	19	punct	19:punct	SpaceAfter=No
+32	.	.	PUNCT	LET	_	3	punct	3:punct	_
+
+# sent_id = Treebank_cdb_3136
+# text = Wat is namelijk het geval?
+# source = Treebank/cdb/3136.xml
+1	Wat	wat	PRON	VNW|vb|pron|stan|vol|3o|ev	Person=3|PronType=Int	5	nsubj	5:nsubj	_
+2	is	zijn	AUX	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_
+3	namelijk	namelijk	ADV	BW	_	5	advmod	5:advmod	_
+4	het	het	DET	LID|bep|stan|evon	Definite=Def	5	det	5:det	_
+5	geval	geval	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	0	root	0:root	SpaceAfter=No
+6	?	?	PUNCT	LET	_	5	punct	5:punct	_
+
+# sent_id = Treebank_cdb_1815
+# text = Dat waren de eerste woorden van de onttroonde titeldrager, nadat hij zijn door alles wat zich Nederlands voelde - en dat was nogal wat tijdens dit onvergetelijke weekeinde in het Innsbrucker olympisch ijsstadion - met ingehouden adem gadegeslagen rit op de 10.000 meter in winnende positie had afgesloten.
+# source = Treebank/cdb/1815.xml
+1	Dat	dat	PRON	VNW|aanw|pron|stan|vol|3o|ev	Person=3|PronType=Dem	5	nsubj	5:nsubj	_
+2	waren	zijn	AUX	WW|pv|verl|mv	Number=Plur|Tense=Past|VerbForm=Fin	5	cop	5:cop	_
+3	de	de	DET	LID|bep|stan|rest	Definite=Def	5	det	5:det	_
+4	eerste	één	ADJ	TW|rang|prenom|stan	_	5	amod	5:amod	_
+5	woorden	woord	NOUN	N|soort|mv|basis	Number=Plur	0	root	0:root	_
+6	van	van	ADP	VZ|init	_	9	case	9:case	_
+7	de	de	DET	LID|bep|stan|rest	Definite=Def	9	det	9:det	_
+8	onttroonde	onttronen	VERB	WW|od|prenom|met-e	VerbForm=Part	9	amod	9:amod	_
+9	titeldrager	titeldrager	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	5	nmod	5:nmod:van	SpaceAfter=No
+10	,	,	PUNCT	LET	_	49	punct	49:punct	_
+11	nadat	nadat	SCONJ	VG|onder	_	49	mark	49:mark	_
+12	hij	hij	PRON	VNW|pers|pron|nomin|vol|3|ev|masc	Case=Nom|Person=3|PronType=Prs	49	nsubj	49:nsubj	_
+13	zijn	zijn	PRON	VNW|bez|det|stan|vol|3|ev|prenom|zonder|agr	Person=3|PronType=Prs	40	nmod:poss	40:nmod:poss	_
+14	door	door	ADP	VZ|init	_	15	case	15:case	_
+15	alles	alles	PRON	VNW|onbep|pron|stan|vol|3o|ev	Person=3|PronType=Ind	39	obl	19:nsubj:relsubj|39:obl:door	_
+16	wat	wat	PRON	VNW|vb|pron|stan|vol|3o|ev	Person=3|PronType=Int	19	nsubj	15:ref	_
+17	zich	zich	PRON	VNW|refl|pron|obl|red|3|getal	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	19	expl:pv	19:expl:pv	_
+18	Nederlands	Nederlands	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	19	xcomp	19:xcomp	_
+19	voelde	voelen	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	15	acl:relcl	15:acl:relcl	_
+20	-	-	PUNCT	LET	_	25	punct	25:punct	_
+21	en	en	CCONJ	VG|neven	_	25	cc	25:cc	_
+22	dat	dat	PRON	VNW|aanw|pron|stan|vol|3o|ev	Person=3|PronType=Dem	25	nsubj	25:nsubj	_
+23	was	zijn	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	25	cop	25:cop	_
+24	nogal	nogal	ADV	BW	_	25	amod	25:amod	_
+25	wat	wat	PRON	VNW|vb|pron|stan|vol|3o|ev	Person=3|PronType=Int	15	conj	15:conj:en|39:obl:door	_
+26	tijdens	tijdens	ADP	VZ|init	_	29	case	29:case	_
+27	dit	dit	DET	VNW|aanw|det|stan|prenom|zonder|evon	_	29	det	29:det	_
+28	onvergetelijke	onvergetelijk	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	29	amod	29:amod	_
+29	weekeinde	weekeinde	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	25	obl	25:obl:tijdens	_
+30	in	in	ADP	VZ|init	_	34	case	34:case	_
+31	het	het	DET	LID|bep|stan|evon	Definite=Def	34	det	34:det	_
+32	Innsbrucker	Innsbrucker	PROPN	N|eigen|ev|basis|genus|stan	Gender=Com,Neut|Number=Sing	34	nmod	34:nmod	_
+33	olympisch	Olympisch	ADJ	ADJ|prenom|basis|zonder	Degree=Pos	34	amod	34:amod	_
+34	ijsstadion	ijsstadion	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	29	nmod	29:nmod:in	_
+35	-	-	PUNCT	LET	_	15	punct	15:punct	_
+36	met	met	ADP	VZ|init	_	38	case	38:case	_
+37	ingehouden	inhouden	VERB	WW|vd|prenom|zonder	VerbForm=Part	38	amod	38:amod	_
+38	adem	adem	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	39	obl	39:obl:met	_
+39	gadegeslagen	gadeslaan	VERB	WW|vd|prenom|zonder	VerbForm=Part	40	acl	40:acl	_
+40	rit	rit	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	49	obj	49:obj	_
+41	op	op	ADP	VZ|init	_	44	case	44:case	_
+42	de	de	DET	LID|bep|stan|rest	Definite=Def	44	det	44:det	_
+43	10.000	10.000	NUM	TW|hoofd|prenom|stan	_	44	nummod	44:nummod	_
+44	meter	meter	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	40	nmod	40:nmod:op	_
+45	in	in	ADP	VZ|init	_	47	case	47:case	_
+46	winnende	winnen	VERB	WW|od|prenom|met-e	VerbForm=Part	47	amod	47:amod	_
+47	positie	positie	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	49	obl	49:obl:in	_
+48	had	hebben	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	49	aux	49:aux	_
+49	afgesloten	afsluiten	VERB	WW|vd|vrij|zonder	VerbForm=Part	5	advcl	5:advcl:nadat	SpaceAfter=No
+50	.	.	PUNCT	LET	_	5	punct	5:punct	_
+
+# sent_id = Treebank_qa_clef2004_795
+# text = Wanneer is Alberto Giacometti geboren?
+# source = Treebank/qa/clef2004_795.xml
+1	Wanneer	wanneer	ADV	BW	_	5	advmod	5:advmod	_
+2	is	zijn	AUX	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	5	aux:pass	5:aux:pass	_
+3	Alberto	Alberto	PROPN	SPEC|deeleigen	_	5	nsubj:pass	5:nsubj:pass	_
+4	Giacometti	Giacometti	PROPN	SPEC|deeleigen	_	3	flat	3:flat	_
+5	geboren	geboren	VERB	WW|vd|vrij|zonder	VerbForm=Part	0	root	0:root	SpaceAfter=No
+6	?	?	PUNCT	LET	_	5	punct	5:punct	_
+
+# sent_id = Treebank_cdb_129
+# text = dat is heel normaal in zo'n gespannen atmosfeer, maar ruzie is er echt niet geweest.
+# source = Treebank/cdb/129.xml
+1	dat	dat	PRON	VNW|aanw|pron|stan|vol|3o|ev	Person=3|PronType=Dem	4	nsubj	4:nsubj	_
+2	is	zijn	AUX	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	4	cop	4:cop	_
+3	heel	heel	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	4	advmod	4:advmod	_
+4	normaal	normaal	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	0	root	0:root	_
+5	in	in	ADP	VZ|init	_	8	case	8:case	_
+6	zo'n	zo'n	DET	VNW|aanw|det|stan|prenom|zonder|agr	_	8	det	8:det	_
+7	gespannen	gespannen	ADJ	ADJ|prenom|basis|zonder	Degree=Pos	8	amod	8:amod	_
+8	atmosfeer	atmosfeer	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	4	obl	4:obl:in	SpaceAfter=No
+9	,	,	PUNCT	LET	_	16	punct	16:punct	_
+10	maar	maar	CCONJ	VG|neven	_	16	cc	16:cc	_
+11	ruzie	ruzie	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	16	nsubj	16:nsubj	_
+12	is	zijn	AUX	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	16	aux	16:aux	_
+13	er	er	ADV	VNW|aanw|adv-pron|stan|red|3|getal	_	16	advmod	16:advmod	_
+14	echt	echt	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	15	advmod	15:advmod	_
+15	niet	niet	ADV	BW	_	16	advmod	16:advmod	_
+16	geweest	zijn	VERB	WW|vd|vrij|zonder	VerbForm=Part	4	conj	4:conj:maar	SpaceAfter=No
+17	.	.	PUNCT	LET	_	4	punct	4:punct	_
+
+# sent_id = Treebank_cdb_328
+# text = De vier charters:
+# source = Treebank/cdb/328.xml
+1	De	de	DET	LID|bep|stan|rest	Definite=Def	3	det	3:det	_
+2	vier	vier	NUM	TW|hoofd|prenom|stan	_	3	nummod	3:nummod	_
+3	charters	charter	NOUN	N|soort|mv|basis	Number=Plur	0	root	0:root	SpaceAfter=No
+4	:	:	PUNCT	LET	_	3	punct	3:punct	_
+
+# sent_id = Treebank_cdb_6206
+# text = "Wij hebben nu ons tweede huis, onze tweede auto, nu moeten de geestelijke spanningen worden aangepakt."
+# source = Treebank/cdb/6206.xml
+1	"	"	PUNCT	LET	_	3	punct	3:punct	SpaceAfter=No
+2	Wij	wij	PRON	VNW|pers|pron|nomin|vol|1|mv	Case=Nom|Person=1|PronType=Prs	3	nsubj	3:nsubj	_
+3	hebben	hebben	VERB	WW|pv|tgw|mv	Number=Plur|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+4	nu	nu	ADV	BW	_	3	advmod	3:advmod	_
+5	ons	ons	PRON	VNW|bez|det|stan|vol|1|mv|prenom|zonder|evon	Person=1|PronType=Prs	7	nmod:poss	7:nmod:poss	_
+6	tweede	twee	ADJ	TW|rang|prenom|stan	_	7	amod	7:amod	_
+7	huis	huis	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	3	obj	3:obj	SpaceAfter=No
+8	,	,	PUNCT	LET	_	11	punct	11:punct	_
+9	onze	ons	PRON	VNW|bez|det|stan|vol|1|mv|prenom|met-e|rest	Person=1|PronType=Prs	11	nmod:poss	11:nmod:poss	_
+10	tweede	twee	ADJ	TW|rang|prenom|stan	_	11	amod	11:amod	_
+11	auto	auto	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	7	conj	3:obj|7:conj	SpaceAfter=No
+12	,	,	PUNCT	LET	_	19	punct	19:punct	_
+13	nu	nu	ADV	BW	_	19	advmod	19:advmod	_
+14	moeten	moeten	AUX	WW|pv|tgw|mv	Number=Plur|Tense=Pres|VerbForm=Fin	19	aux	19:aux	_
+15	de	de	DET	LID|bep|stan|rest	Definite=Def	17	det	17:det	_
+16	geestelijke	geestelijke	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	17	amod	17:amod	_
+17	spanningen	spanning	NOUN	N|soort|mv|basis	Number=Plur	19	nsubj:pass	19:nsubj:pass	_
+18	worden	worden	AUX	WW|inf|vrij|zonder	VerbForm=Inf	19	aux:pass	19:aux:pass	_
+19	aangepakt	aanpakken	VERB	WW|vd|vrij|zonder	VerbForm=Part	3	parataxis	3:parataxis	SpaceAfter=No
+20	.	.	PUNCT	LET	_	3	punct	3:punct	SpaceAfter=No
+21	"	"	PUNCT	LET	_	3	punct	3:punct	_
+
+# sent_id = Treebank_cdb_2854
+# text = Hij heeft daar voor zijn gevoel de meest onrechtvaardige behandeling gehad.
+# source = Treebank/cdb/2854.xml
+1	Hij	hij	PRON	VNW|pers|pron|nomin|vol|3|ev|masc	Case=Nom|Person=3|PronType=Prs	11	nsubj	11:nsubj	_
+2	heeft	hebben	AUX	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	11	aux	11:aux	_
+3	daar	daar	ADV	VNW|aanw|adv-pron|obl|vol|3o|getal	_	11	advmod	11:advmod	_
+4	voor	voor	ADP	VZ|init	_	6	case	6:case	_
+5	zijn	zijn	PRON	VNW|bez|det|stan|vol|3|ev|prenom|zonder|agr	Person=3|PronType=Prs	6	nmod:poss	6:nmod:poss	_
+6	gevoel	gevoel	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	11	obl	11:obl:voor	_
+7	de	de	DET	LID|bep|stan|rest	Definite=Def	10	det	10:det	_
+8	meest	veel	ADV	VNW|onbep|grad|stan|vrij|zonder|sup	_	9	advmod	9:advmod	_
+9	onrechtvaardige	onrechtvaardig	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	10	amod	10:amod	_
+10	behandeling	behandeling	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	11	obj	11:obj	_
+11	gehad	hebben	VERB	WW|vd|vrij|zonder	VerbForm=Part	0	root	0:root	SpaceAfter=No
+12	.	.	PUNCT	LET	_	11	punct	11:punct	_
+
+# sent_id = Treebank_cdb_6828
+# text = Ik hoefde toen niet meer te aarzelen, ook al had een andere vereniging - ik zeg niet welke - eveneens een goed bod op mij gedaan ".
+# source = Treebank/cdb/6828.xml
+1	Ik	ik	PRON	VNW|pers|pron|nomin|vol|1|ev	Case=Nom|Person=1|PronType=Prs	7	nsubj	7:nsubj	_
+2	hoefde	hoeven	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	7	aux	7:aux	_
+3	toen	toen	ADV	BW	_	7	advmod	7:advmod	_
+4	niet	niet	ADV	BW	_	7	advmod	7:advmod	_
+5	meer	veel	ADV	VNW|onbep|grad|stan|vrij|zonder|comp	_	4	advmod	4:advmod	_
+6	te	te	ADP	VZ|init	_	7	mark	7:mark	_
+7	aarzelen	aarzelen	VERB	WW|inf|vrij|zonder	VerbForm=Inf	0	root	0:root	SpaceAfter=No
+8	,	,	PUNCT	LET	_	27	punct	27:punct	_
+9	ook	ook	ADV	BW	_	27	amod	27:amod	_
+10	al	al	ADV	BW	_	27	mark	27:mark	_
+11	had	hebben	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	27	aux	27:aux	_
+12	een	een	DET	LID|onbep|stan|agr	Definite=Ind	14	det	14:det	_
+13	andere	ander	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	14	amod	14:amod	_
+14	vereniging	vereniging	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	27	nsubj	27:nsubj	_
+15	-	-	PUNCT	LET	_	17	punct	17:punct	_
+16	ik	ik	PRON	VNW|pers|pron|nomin|vol|1|ev	Case=Nom|Person=1|PronType=Prs	17	nsubj	17:nsubj	_
+17	zeg	zeggen	VERB	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	14	acl	14:acl	_
+18	niet	niet	ADV	BW	_	17	advmod	17:advmod	_
+19	welke	welk	PRON	VNW|vb|det|stan|nom|met-e|zonder-n	PronType=Int	17	ccomp	17:ccomp	_
+20	-	-	PUNCT	LET	_	14	punct	14:punct	_
+21	eveneens	eveneens	ADV	BW	_	27	advmod	27:advmod	_
+22	een	een	DET	LID|onbep|stan|agr	Definite=Ind	24	det	24:det	_
+23	goed	goed	ADJ	ADJ|prenom|basis|zonder	Degree=Pos	24	amod	24:amod	_
+24	bod	bod	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	27	obj	27:obj	_
+25	op	op	ADP	VZ|init	_	26	case	26:case	_
+26	mij	mij	PRON	VNW|pr|pron|obl|vol|1|ev	Case=Acc|Person=1|PronType=Prs	27	obl	27:obl:op	_
+27	gedaan	doen	VERB	WW|vd|vrij|zonder	VerbForm=Part	7	advcl	7:advcl:al	_
+28	"	"	PUNCT	LET	_	7	punct	7:punct	SpaceAfter=No
+29	.	.	PUNCT	LET	_	7	punct	7:punct	_
+
+# sent_id = Treebank_cdb_1269
+# text = Ze zullen de wereldtentoonstelling bezoeken die daar in de havenstad Osaka wordt gehouden.
+# source = Treebank/cdb/1269.xml
+1	Ze	ze	PRON	VNW|pers|pron|stan|red|3|mv	Person=3|PronType=Prs	5	nsubj	5:nsubj	_
+2	zullen	zullen	AUX	WW|pv|tgw|mv	Number=Plur|Tense=Pres|VerbForm=Fin	5	aux	5:aux	_
+3	de	de	DET	LID|bep|stan|rest	Definite=Def	4	det	4:det	_
+4	wereldtentoonstelling	wereldtentoonstelling	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	5	obj	5:obj|13:nsubj:pass:relsubj	_
+5	bezoeken	bezoeken	VERB	WW|inf|vrij|zonder	VerbForm=Inf	0	root	0:root	_
+6	die	die	PRON	VNW|betr|pron|stan|vol|persoon|getal	PronType=Rel	13	nsubj:pass	4:ref	_
+7	daar	daar	ADV	VNW|aanw|adv-pron|obl|vol|3o|getal	_	13	advmod	13:advmod	_
+8	in	in	ADP	VZ|init	_	10	case	10:case	_
+9	de	de	DET	LID|bep|stan|rest	Definite=Def	10	det	10:det	_
+10	havenstad	havenstad	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	13	obl	13:obl:in	_
+11	Osaka	Osaka	PROPN	N|eigen|ev|basis|onz|stan	Gender=Neut|Number=Sing	10	appos	10:appos	_
+12	wordt	worden	AUX	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	13	aux:pass	13:aux:pass	_
+13	gehouden	houden	VERB	WW|vd|vrij|zonder	VerbForm=Part	4	acl:relcl	4:acl:relcl	SpaceAfter=No
+14	.	.	PUNCT	LET	_	5	punct	5:punct	_
+
+# sent_id = Treebank_cdb_314
+# text = Het is een volledige politieke en grondwettelijke regeling van alle bestaande problemen tussen de Arabieren en de Koerden, welke voortaan in Irak zal gelden ", aldus een hoge regeringsambtenaar.
+# source = Treebank/cdb/314.xml
+1	Het	het	PRON	VNW|pers|pron|stan|red|3|ev|onz	Person=3|PronType=Prs	8	nsubj	8:nsubj	_
+2	is	zijn	AUX	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	8	cop	8:cop	_
+3	een	een	DET	LID|onbep|stan|agr	Definite=Ind	8	det	8:det	_
+4	volledige	volledig	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	8	amod	8:amod	_
+5	politieke	politiek	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	8	nmod	8:nmod	_
+6	en	en	CCONJ	VG|neven	_	7	cc	7:cc	_
+7	grondwettelijke	grondwettelijk	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	5	conj	5:conj:en|8:nmod	_
+8	regeling	regeling	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	0	root	0:root|25:nsubj:relsubj	_
+9	van	van	ADP	VZ|init	_	12	case	12:case	_
+10	alle	al	DET	VNW|onbep|det|stan|prenom|met-e|agr	_	12	det	12:det	_
+11	bestaande	bestaan	VERB	WW|od|prenom|met-e	VerbForm=Part	12	amod	12:amod	_
+12	problemen	probleem	NOUN	N|soort|mv|basis	Number=Plur	8	nmod	8:nmod:van	_
+13	tussen	tussen	ADP	VZ|init	_	15	case	15:case	_
+14	de	de	DET	LID|bep|stan|rest	Definite=Def	15	det	15:det	_
+15	Arabieren	Arabier	PROPN	N|eigen|mv|basis	Number=Plur	12	nmod	12:nmod:tussen	_
+16	en	en	CCONJ	VG|neven	_	18	cc	18:cc	_
+17	de	de	DET	LID|bep|stan|rest	Definite=Def	18	det	18:det	_
+18	Koerden	Koerd	PROPN	N|eigen|mv|basis	Number=Plur	15	conj	12:nmod:tussen|15:conj:en	SpaceAfter=No
+19	,	,	PUNCT	LET	_	25	punct	25:punct	_
+20	welke	welk	PRON	VNW|vb|det|stan|nom|met-e|zonder-n	PronType=Int	25	nsubj	8:ref	_
+21	voortaan	voortaan	ADV	BW	_	25	advmod	25:advmod	_
+22	in	in	ADP	VZ|init	_	23	case	23:case	_
+23	Irak	Irak	PROPN	N|eigen|ev|basis|onz|stan	Gender=Neut|Number=Sing	25	obl	25:obl:in	_
+24	zal	zullen	AUX	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	25	aux	25:aux	_
+25	gelden	gelden	VERB	WW|inf|vrij|zonder	VerbForm=Inf	8	acl:relcl	8:acl:relcl	_
+26	"	"	PUNCT	LET	_	31	punct	31:punct	SpaceAfter=No
+27	,	,	PUNCT	LET	_	31	punct	31:punct	_
+28	aldus	aldus	ADV	BW	_	31	case	31:case	_
+29	een	een	DET	LID|onbep|stan|agr	Definite=Ind	31	det	31:det	_
+30	hoge	hoog	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	31	amod	31:amod	_
+31	regeringsambtenaar	regeringsambtenaar	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	8	parataxis	8:parataxis	SpaceAfter=No
+32	.	.	PUNCT	LET	_	8	punct	8:punct	_
+
+# sent_id = Treebank_cdb_2003
+# text = De hoge kosten, maar vooral de organisatiestructuur van onze ziekenhuizen en van het medisch onderwijs staan de toepassing op grotere schaal in de weg.
+# source = Treebank/cdb/2003.xml
+1	De	de	DET	LID|bep|stan|rest	Definite=Def	3	det	3:det	_
+2	hoge	hoog	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	3	amod	3:amod	_
+3	kosten	kosten	NOUN	N|soort|mv|basis	Number=Plur	17	nsubj	17:nsubj	SpaceAfter=No
+4	,	,	PUNCT	LET	_	8	punct	8:punct	_
+5	maar	maar	CCONJ	VG|neven	_	8	cc	8:cc	_
+6	vooral	vooral	ADV	BW	_	8	amod	8:amod	_
+7	de	de	DET	LID|bep|stan|rest	Definite=Def	8	det	8:det	_
+8	organisatiestructuur	organisatiestructuur	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	3	conj	3:conj:maar|17:nsubj	_
+9	van	van	ADP	VZ|init	_	11	case	11:case	_
+10	onze	ons	PRON	VNW|bez|det|stan|vol|1|mv|prenom|met-e|rest	Person=1|PronType=Prs	11	nmod:poss	11:nmod:poss	_
+11	ziekenhuizen	ziekenhuis	NOUN	N|soort|mv|basis	Number=Plur	8	nmod	8:nmod:van	_
+12	en	en	CCONJ	VG|neven	_	16	cc	16:cc	_
+13	van	van	ADP	VZ|init	_	16	case	16:case	_
+14	het	het	DET	LID|bep|stan|evon	Definite=Def	16	det	16:det	_
+15	medisch	medisch	ADJ	ADJ|prenom|basis|zonder	Degree=Pos	16	amod	16:amod	_
+16	onderwijs	onderwijs	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	11	conj	8:nmod:van|11:conj:en	_
+17	staan	staan	VERB	WW|pv|tgw|mv	Number=Plur|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+18	de	de	DET	LID|bep|stan|rest	Definite=Def	19	det	19:det	_
+19	toepassing	toepassing	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	17	iobj	17:iobj	_
+20	op	op	ADP	VZ|init	_	22	case	22:case	_
+21	grotere	groot	ADJ	ADJ|prenom|comp|met-e|stan	Degree=Cmp	22	amod	22:amod	_
+22	schaal	schaal	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	19	nmod	19:nmod:op	_
+23	in	in	ADP	VZ|init	_	17	compound:prt	17:compound:prt	_
+24	de	de	DET	LID|bep|stan|rest	Definite=Def	23	fixed	23:fixed	_
+25	weg	weg	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	23	fixed	23:fixed	SpaceAfter=No
+26	.	.	PUNCT	LET	_	17	punct	17:punct	_
+
+# sent_id = Treebank_cdb_4493
+# text = Zijn strijd tegen de PTT voert hij door middel van gestencilde brieven aan de leden van de Tweede Kamer, de politieke partijen, de kamers van koophandel en middenstandsverenigingen.
+# source = Treebank/cdb/4493.xml
+1	Zijn	zijn	PRON	VNW|bez|det|stan|vol|3|ev|prenom|zonder|agr	Person=3|PronType=Prs	2	nmod:poss	2:nmod:poss	_
+2	strijd	strijd	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	6	obj	6:obj	_
+3	tegen	tegen	ADP	VZ|init	_	5	case	5:case	_
+4	de	de	DET	LID|bep|stan|rest	Definite=Def	5	det	5:det	_
+5	PTT	PTT	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	2	nmod	2:nmod:tegen	_
+6	voert	voeren	VERB	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+7	hij	hij	PRON	VNW|pers|pron|nomin|vol|3|ev|masc	Case=Nom|Person=3|PronType=Prs	6	nsubj	6:nsubj	_
+8	door	door	ADP	VZ|init	_	12	case	12:case	_
+9	middel	middel	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	8	fixed	8:fixed	_
+10	van	van	ADP	VZ|init	_	8	fixed	8:fixed	_
+11	gestencilde	stencilen	VERB	WW|vd|prenom|met-e	VerbForm=Part	12	amod	12:amod	_
+12	brieven	brief	NOUN	N|soort|mv|basis	Number=Plur	6	obl	6:obl:door_middel_van	_
+13	aan	aan	ADP	VZ|init	_	15	case	15:case	_
+14	de	de	DET	LID|bep|stan|rest	Definite=Def	15	det	15:det	_
+15	leden	lid	NOUN	N|soort|mv|basis	Number=Plur	12	nmod	12:nmod:aan	_
+16	van	van	ADP	VZ|init	_	18	case	18:case	_
+17	de	de	DET	LID|bep|stan|rest	Definite=Def	18	det	18:det	_
+18	Tweede	Tweede	PROPN	SPEC|deeleigen	_	15	nmod	15:nmod:van	_
+19	Kamer	Kamer	PROPN	SPEC|deeleigen	_	18	flat	18:flat	SpaceAfter=No
+20	,	,	PUNCT	LET	_	23	punct	23:punct	_
+21	de	de	DET	LID|bep|stan|rest	Definite=Def	23	det	23:det	_
+22	politieke	politiek	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	23	amod	23:amod	_
+23	partijen	partij	NOUN	N|soort|mv|basis	Number=Plur	15	conj	12:nmod:aan|15:conj:en	SpaceAfter=No
+24	,	,	PUNCT	LET	_	26	punct	26:punct	_
+25	de	de	DET	LID|bep|stan|rest	Definite=Def	26	det	26:det	_
+26	kamers	kamer	NOUN	N|soort|mv|basis	Number=Plur	15	conj	12:nmod:aan|15:conj:en	_
+27	van	van	ADP	VZ|init	_	28	case	28:case	_
+28	koophandel	koophandel	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	26	nmod	26:nmod:van	_
+29	en	en	CCONJ	VG|neven	_	30	cc	30:cc	_
+30	middenstandsverenigingen	middenstandsvereniging	NOUN	N|soort|mv|basis	Number=Plur	15	conj	12:nmod:aan|15:conj:en	SpaceAfter=No
+31	.	.	PUNCT	LET	_	6	punct	6:punct	_
+
+# sent_id = Treebank_cdb_2798
+# text = Ook de bagageaanvoer, die plotseling in een grote hoeveelheid in de aankomsthal belandde, veroorzaakte enige strubbeling.
+# source = Treebank/cdb/2798.xml
+1	Ook	ook	ADV	BW	_	3	amod	3:amod	_
+2	de	de	DET	LID|bep|stan|rest	Definite=Def	3	det	3:det	_
+3	bagageaanvoer	bagageaanvoer	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	16	nsubj	14:nsubj:relsubj|16:nsubj	SpaceAfter=No
+4	,	,	PUNCT	LET	_	14	punct	14:punct	_
+5	die	die	PRON	VNW|betr|pron|stan|vol|persoon|getal	PronType=Rel	14	nsubj	3:ref	_
+6	plotseling	plotseling	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	14	advmod	14:advmod	_
+7	in	in	ADP	VZ|init	_	10	case	10:case	_
+8	een	een	DET	LID|onbep|stan|agr	Definite=Ind	10	det	10:det	_
+9	grote	groot	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	10	amod	10:amod	_
+10	hoeveelheid	hoeveelheid	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	14	obl	14:obl:in	_
+11	in	in	ADP	VZ|init	_	13	case	13:case	_
+12	de	de	DET	LID|bep|stan|rest	Definite=Def	13	det	13:det	_
+13	aankomsthal	aankomsthal	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	14	obl	14:obl:in	_
+14	belandde	belanden	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	3	acl:relcl	3:acl:relcl	SpaceAfter=No
+15	,	,	PUNCT	LET	_	3	punct	3:punct	_
+16	veroorzaakte	veroorzaken	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	0	root	0:root	_
+17	enige	enig	DET	VNW|onbep|det|stan|prenom|met-e|rest	_	18	det	18:det	_
+18	strubbeling	strubbeling	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	16	obj	16:obj	SpaceAfter=No
+19	.	.	PUNCT	LET	_	16	punct	16:punct	_
+
+# sent_id = Treebank_cdb_3212
+# text = K Z O gaat samen met AKU een combinatie vormen onder naam A K Z O.
+# source = Treebank/cdb/3212.xml
+1	K	K	PROPN	SPEC|deeleigen	_	4	nsubj	4:nsubj|10:nsubj:xsubj	_
+2	Z	Z	PROPN	SPEC|deeleigen	_	1	flat	1:flat	_
+3	O	O	PROPN	SPEC|deeleigen	_	1	flat	1:flat	_
+4	gaat	gaan	VERB	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+5	samen	samen	ADV	BW	_	4	advcl	4:advcl	_
+6	met	met	ADP	VZ|init	_	7	case	7:case	_
+7	AKU	AKU	PROPN	N|eigen|ev|basis|genus|stan	Gender=Com,Neut|Number=Sing	5	obl	5:obl:met	_
+8	een	een	DET	LID|onbep|stan|agr	Definite=Ind	9	det	9:det	_
+9	combinatie	combinatie	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	10	obj	10:obj	_
+10	vormen	vormen	VERB	WW|inf|vrij|zonder	VerbForm=Inf	4	xcomp	4:xcomp	_
+11	onder	onder	ADP	VZ|init	_	12	case	12:case	_
+12	naam	naam	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	9	nmod	9:nmod:onder	_
+13	A	A	SYM	SPEC|symb	_	12	appos	12:appos	_
+14	K	K	SYM	SPEC|symb	_	13	flat	13:flat	_
+15	Z	Z	SYM	SPEC|symb	_	13	flat	13:flat	_
+16	O	O	PROPN	SPEC|deeleigen	_	13	flat	13:flat	SpaceAfter=No
+17	.	.	PUNCT	LET	_	4	punct	4:punct	_
+
+# sent_id = Treebank_cdb_1753
+# text = Voor de Roemeen was de tweede prijs (2000 dollar) een pleister op de wonde.
+# source = Treebank/cdb/1753.xml
+1	Voor	voor	ADP	VZ|init	_	3	case	3:case	_
+2	de	de	DET	LID|bep|stan|rest	Definite=Def	3	det	3:det	_
+3	Roemeen	Roemeen	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	13	obl	13:obl:voor	_
+4	was	zijn	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	13	cop	13:cop	_
+5	de	de	DET	LID|bep|stan|rest	Definite=Def	7	det	7:det	_
+6	tweede	twee	ADJ	TW|rang|prenom|stan	_	7	amod	7:amod	_
+7	prijs	prijs	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	13	nsubj	13:nsubj	_
+8	(	(	PUNCT	LET	_	10	punct	10:punct	SpaceAfter=No
+9	2000	2000	NUM	TW|hoofd|prenom|stan	_	10	nummod	10:nummod	_
+10	dollar	dollar	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	7	nmod	7:nmod	SpaceAfter=No
+11	)	)	PUNCT	LET	_	10	punct	10:punct	_
+12	een	een	DET	LID|onbep|stan|agr	Definite=Ind	13	det	13:det	_
+13	pleister	pleister	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	0	root	0:root	_
+14	op	op	ADP	VZ|init	_	16	case	16:case	_
+15	de	de	DET	LID|bep|stan|rest	Definite=Def	16	det	16:det	_
+16	wonde	wonde	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	13	nmod	13:nmod:op	SpaceAfter=No
+17	.	.	PUNCT	LET	_	13	punct	13:punct	_
+
+# sent_id = Treebank_eans_02_02_05_6b
+# text = De planken op zolder kraken.
+# source = Treebank/eans/02_02_05_6b.xml
+1	De	de	DET	LID|bep|stan|rest	Definite=Def	2	det	2:det	_
+2	planken	plank	NOUN	N|soort|mv|basis	Number=Plur	5	nsubj	5:nsubj	_
+3	op	op	ADP	VZ|init	_	4	case	4:case	_
+4	zolder	zolder	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	2	nmod	2:nmod:op	_
+5	kraken	kraken	VERB	WW|pv|tgw|mv	Number=Plur|Tense=Pres|VerbForm=Fin	0	root	0:root	SpaceAfter=No
+6	.	.	PUNCT	LET	_	5	punct	5:punct	_
+
+# sent_id = Treebank_wpspel_543
+# text = Hoe noemt men een kledingstuk voor vrouwen dat uit één stuk bestaat?
+# source = Treebank/wpspel/543.xml
+1	Hoe	hoe	ADV	BW	_	2	xcomp	2:xcomp	_
+2	noemt	noemen	VERB	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+3	men	men	PRON	VNW|pers|pron|nomin|red|3p|ev|masc	Case=Nom|Person=3|PronType=Prs	2	nsubj	2:nsubj	_
+4	een	een	DET	LID|onbep|stan|agr	Definite=Ind	5	det	5:det	_
+5	kledingstuk	kledingstuk	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	2	obj	2:obj|12:nsubj:relsubj	_
+6	voor	voor	ADP	VZ|init	_	7	case	7:case	_
+7	vrouwen	vrouw	NOUN	N|soort|mv|basis	Number=Plur	5	nmod	5:nmod:voor	_
+8	dat	dat	PRON	VNW|betr|pron|stan|vol|3|ev	Person=3|PronType=Rel	12	nsubj	5:ref	_
+9	uit	uit	ADP	VZ|init	_	11	case	11:case	_
+10	één	één	NUM	TW|hoofd|prenom|stan	_	11	nummod	11:nummod	_
+11	stuk	stuk	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	12	obl	12:obl:uit	_
+12	bestaat	bestaan	VERB	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	5	acl:relcl	5:acl:relcl	SpaceAfter=No
+13	?	?	PUNCT	LET	_	2	punct	2:punct	_
+
+# sent_id = Treebank_cdb_4485
+# text = Voor het opnemen van de reserve is van het fonds geen speciale toestemming nodig en het geld hoeft niet te worden terugbetaald.
+# source = Treebank/cdb/4485.xml
+1	Voor	voor	ADP	VZ|init	_	3	case	3:case	_
+2	het	het	DET	LID|bep|stan|evon	Definite=Def	3	det	3:det	_
+3	opnemen	opnemen	VERB	WW|inf|nom|zonder|zonder-n	VerbForm=Inf	14	obl	14:obl:voor	_
+4	van	van	ADP	VZ|init	_	6	case	6:case	_
+5	de	de	DET	LID|bep|stan|rest	Definite=Def	6	det	6:det	_
+6	reserve	reserve	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	3	nmod	3:nmod:van	_
+7	is	zijn	AUX	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	14	cop	14:cop	_
+8	van	van	ADP	VZ|init	_	10	case	10:case	_
+9	het	het	DET	LID|bep|stan|evon	Definite=Def	10	det	10:det	_
+10	fonds	fonds	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	14	obl	14:obl:van	_
+11	geen	geen	DET	VNW|onbep|det|stan|prenom|zonder|agr	_	13	det	13:det	_
+12	speciale	speciaal	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	13	amod	13:amod	_
+13	toestemming	toestemming	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	14	nsubj	14:nsubj	_
+14	nodig	nodig	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	0	root	0:root	_
+15	en	en	CCONJ	VG|neven	_	22	cc	22:cc	_
+16	het	het	DET	LID|bep|stan|evon	Definite=Def	17	det	17:det	_
+17	geld	geld	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	22	nsubj	22:nsubj	_
+18	hoeft	hoeven	AUX	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	22	aux	22:aux	_
+19	niet	niet	ADV	BW	_	22	advmod	22:advmod	_
+20	te	te	ADP	VZ|init	_	22	mark	22:mark	_
+21	worden	worden	AUX	WW|inf|vrij|zonder	VerbForm=Inf	22	aux:pass	22:aux:pass	_
+22	terugbetaald	terugbetalen	VERB	WW|vd|vrij|zonder	VerbForm=Part	14	conj	14:conj:en	SpaceAfter=No
+23	.	.	PUNCT	LET	_	14	punct	14:punct	_
+
+# sent_id = Treebank_cdb_3448
+# text = Het zou de eerste maal zijn, dat sexueel gedrag door een hersenoperatie werd gewijzigd.
+# source = Treebank/cdb/3448.xml
+1	Het	het	PRON	VNW|pers|pron|stan|red|3|ev|onz	Person=3|PronType=Prs	5	nsubj	5:nsubj	_
+2	zou	zullen	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	5	aux	5:aux	_
+3	de	de	DET	LID|bep|stan|rest	Definite=Def	5	det	5:det	_
+4	eerste	één	ADJ	TW|rang|prenom|stan	_	5	amod	5:amod	_
+5	maal	maal	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	0	root	0:root	_
+6	zijn	zijn	AUX	WW|inf|vrij|zonder	VerbForm=Inf	5	cop	5:cop	SpaceAfter=No
+7	,	,	PUNCT	LET	_	15	punct	15:punct	_
+8	dat	dat	SCONJ	VG|onder	_	15	mark	15:mark	_
+9	sexueel	sexueel	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	10	nmod	10:nmod	_
+10	gedrag	gedrag	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	15	nsubj:pass	15:nsubj:pass	_
+11	door	door	ADP	VZ|init	_	13	case	13:case	_
+12	een	een	DET	LID|onbep|stan|agr	Definite=Ind	13	det	13:det	_
+13	hersenoperatie	hersenoperatie	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	15	obl:agent	15:obl:agent	_
+14	werd	worden	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	15	aux:pass	15:aux:pass	_
+15	gewijzigd	wijzigen	VERB	WW|vd|vrij|zonder	VerbForm=Part	5	acl	5:acl:dat	SpaceAfter=No
+16	.	.	PUNCT	LET	_	5	punct	5:punct	_
+
+# sent_id = Treebank_cdb_1145
+# text = Vrijwel uitsluitend door de Pen lukt het om steeds weer te wijzen op het lot van vervolgde schrijvers in zovele landen.
+# source = Treebank/cdb/1145.xml
+1	Vrijwel	vrijwel	ADV	BW	_	2	advmod	2:advmod	_
+2	uitsluitend	uitsluitend	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	5	amod	5:amod	_
+3	door	door	ADP	VZ|init	_	5	case	5:case	_
+4	de	de	DET	LID|bep|stan|rest	Definite=Def	5	det	5:det	_
+5	Pen	pen	NOUN	N|soort|mv|basis	Number=Plur	6	obl	6:obl:door	_
+6	lukt	lukken	VERB	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+7	het	het	PRON	VNW|pers|pron|stan|red|3|ev|onz	Person=3|PronType=Prs	6	expl	6:expl	_
+8	om	om	ADP	VZ|init	_	12	mark	12:mark	_
+9	steeds	steeds	ADV	BW	_	10	advmod	10:advmod	_
+10	weer	weer	ADV	BW	_	12	advmod	12:advmod	_
+11	te	te	ADP	VZ|init	_	12	mark	12:mark	_
+12	wijzen	wijzen	VERB	WW|inf|vrij|zonder	VerbForm=Inf	6	csubj	6:csubj	_
+13	op	op	ADP	VZ|init	_	15	case	15:case	_
+14	het	het	DET	LID|bep|stan|evon	Definite=Def	15	det	15:det	_
+15	lot	lot	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	12	obl	12:obl:op	_
+16	van	van	ADP	VZ|init	_	18	case	18:case	_
+17	vervolgde	vervolgen	VERB	WW|vd|prenom|met-e	VerbForm=Part	18	amod	18:amod	_
+18	schrijvers	schrijver	NOUN	N|soort|mv|basis	Number=Plur	15	nmod	15:nmod:van	_
+19	in	in	ADP	VZ|init	_	21	case	21:case	_
+20	zovele	zoveel	NUM	TW|hoofd|prenom|stan	_	21	nummod	21:nummod	_
+21	landen	land	NOUN	N|soort|mv|basis	Number=Plur	18	nmod	18:nmod:in	SpaceAfter=No
+22	.	.	PUNCT	LET	_	6	punct	6:punct	_
+
+# sent_id = Treebank_cdb_4928
+# text = Deze Chinezen zijn ook gearresteerd.
+# source = Treebank/cdb/4928.xml
+1	Deze	deze	DET	VNW|aanw|det|stan|prenom|met-e|rest	_	2	det	2:det	_
+2	Chinezen	Chinees	PROPN	N|eigen|mv|basis	Number=Plur	5	nsubj:pass	5:nsubj:pass	_
+3	zijn	zijn	AUX	WW|pv|tgw|mv	Number=Plur|Tense=Pres|VerbForm=Fin	5	aux:pass	5:aux:pass	_
+4	ook	ook	ADV	BW	_	5	advmod	5:advmod	_
+5	gearresteerd	arresteren	VERB	WW|vd|vrij|zonder	VerbForm=Part	0	root	0:root	SpaceAfter=No
+6	.	.	PUNCT	LET	_	5	punct	5:punct	_
+
+# sent_id = Treebank_qa_clef2005_0025
+# text = Wanneer is Donatella Della Corte geboren?
+# source = Treebank/qa/clef2005_0025.xml
+1	Wanneer	wanneer	ADV	BW	_	6	advmod	6:advmod	_
+2	is	zijn	AUX	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	6	aux:pass	6:aux:pass	_
+3	Donatella	Donatella	PROPN	SPEC|deeleigen	_	6	nsubj:pass	6:nsubj:pass	_
+4	Della	Della	PROPN	SPEC|deeleigen	_	3	flat	3:flat	_
+5	Corte	Corte	PROPN	SPEC|deeleigen	_	3	flat	3:flat	_
+6	geboren	geboren	VERB	WW|vd|vrij|zonder	VerbForm=Part	0	root	0:root	SpaceAfter=No
+7	?	?	PUNCT	LET	_	6	punct	6:punct	_
+
+# sent_id = Treebank_cdb_3760
+# text = Het lijkt ons daarom niet onredelijk, dat de overheid een deel van dit bedrag besteedt aan voorzieningen ten bate van deze groep ", aldus de actiegroepen.
+# source = Treebank/cdb/3760.xml
+1	Het	het	PRON	VNW|pers|pron|stan|red|3|ev|onz	Person=3|PronType=Prs	6	expl	6:expl	_
+2	lijkt	lijken	AUX	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	6	cop	6:cop	_
+3	ons	ons	PRON	VNW|pr|pron|obl|vol|1|mv	Case=Acc|Person=1|PronType=Prs	6	iobj	6:iobj	_
+4	daarom	daarom	ADV	BW	_	6	advmod	6:advmod	_
+5	niet	niet	ADV	BW	_	6	advmod	6:advmod	_
+6	onredelijk	onredelijk	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	0	root	0:root	SpaceAfter=No
+7	,	,	PUNCT	LET	_	16	punct	16:punct	_
+8	dat	dat	SCONJ	VG|onder	_	16	mark	16:mark	_
+9	de	de	DET	LID|bep|stan|rest	Definite=Def	10	det	10:det	_
+10	overheid	overheid	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	16	nsubj	16:nsubj	_
+11	een	een	DET	LID|onbep|stan|agr	Definite=Ind	12	det	12:det	_
+12	deel	deel	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	16	obj	16:obj	_
+13	van	van	ADP	VZ|init	_	15	case	15:case	_
+14	dit	dit	DET	VNW|aanw|det|stan|prenom|zonder|evon	_	15	det	15:det	_
+15	bedrag	bedrag	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	12	nmod	12:nmod:van	_
+16	besteedt	besteden	VERB	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	6	csubj	6:csubj	_
+17	aan	aan	ADP	VZ|init	_	18	case	18:case	_
+18	voorzieningen	voorziening	NOUN	N|soort|mv|basis	Number=Plur	16	obl	16:obl:aan	_
+19	ten	te	ADP	VZ|versm	_	23	case	23:case	_
+20	bate	baat	NOUN	N|soort|ev|basis|dat	Number=Sing	19	fixed	19:fixed	_
+21	van	van	ADP	VZ|init	_	19	fixed	19:fixed	_
+22	deze	deze	DET	VNW|aanw|det|stan|prenom|met-e|rest	_	23	det	23:det	_
+23	groep	groep	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	18	nmod	18:nmod:te_baat_van	_
+24	"	"	PUNCT	LET	_	28	punct	28:punct	SpaceAfter=No
+25	,	,	PUNCT	LET	_	28	punct	28:punct	_
+26	aldus	aldus	ADV	BW	_	28	case	28:case	_
+27	de	de	DET	LID|bep|stan|rest	Definite=Def	28	det	28:det	_
+28	actiegroepen	actiegroep	NOUN	N|soort|mv|basis	Number=Plur	6	parataxis	6:parataxis	SpaceAfter=No
+29	.	.	PUNCT	LET	_	6	punct	6:punct	_
+
+# sent_id = Treebank_cdb_5752
+# text = Daarmee bedoelde hij de aanleg van een kabelbaan tussen de luchthaven en het Rai-gebouw.
+# source = Treebank/cdb/5752.xml
+1	Daarmee	daarmee	ADV	BW	_	2	advmod	2:advmod	_
+2	bedoelde	bedoelen	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	0	root	0:root	_
+3	hij	hij	PRON	VNW|pers|pron|nomin|vol|3|ev|masc	Case=Nom|Person=3|PronType=Prs	2	nsubj	2:nsubj	_
+4	de	de	DET	LID|bep|stan|rest	Definite=Def	5	det	5:det	_
+5	aanleg	aanleg	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	2	obj	2:obj	_
+6	van	van	ADP	VZ|init	_	8	case	8:case	_
+7	een	een	DET	LID|onbep|stan|agr	Definite=Ind	8	det	8:det	_
+8	kabelbaan	kabelbaan	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	5	nmod	5:nmod:van	_
+9	tussen	tussen	ADP	VZ|init	_	11	case	11:case	_
+10	de	de	DET	LID|bep|stan|rest	Definite=Def	11	det	11:det	_
+11	luchthaven	luchthaven	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	8	nmod	8:nmod:tussen	_
+12	en	en	CCONJ	VG|neven	_	14	cc	14:cc	_
+13	het	het	DET	LID|bep|stan|evon	Definite=Def	14	det	14:det	_
+14	Rai-gebouw	rai-gebouw	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	11	conj	8:nmod:tussen|11:conj:en	SpaceAfter=No
+15	.	.	PUNCT	LET	_	2	punct	2:punct	_
+
+# sent_id = Treebank_cdb_4592
+# text = Maar haar werkzaamheden worden tenminste door twee factoren geremd:
+# source = Treebank/cdb/4592.xml
+1	Maar	maar	CCONJ	VG|neven	_	9	mark	9:mark	_
+2	haar	haar	PRON	VNW|bez|det|stan|vol|3|ev|prenom|zonder|agr	Person=3|PronType=Prs	3	nmod:poss	3:nmod:poss	_
+3	werkzaamheden	werkzaamheden	NOUN	N|soort|mv|basis	Number=Plur	9	nsubj:pass	9:nsubj:pass	_
+4	worden	worden	AUX	WW|pv|tgw|mv	Number=Plur|Tense=Pres|VerbForm=Fin	9	aux:pass	9:aux:pass	_
+5	tenminste	tenminste	ADV	BW	_	8	amod	8:amod	_
+6	door	door	ADP	VZ|init	_	8	case	8:case	_
+7	twee	twee	NUM	TW|hoofd|prenom|stan	_	8	nummod	8:nummod	_
+8	factoren	factor	NOUN	N|soort|mv|basis	Number=Plur	9	obl:agent	9:obl:agent	_
+9	geremd	remmen	VERB	WW|vd|vrij|zonder	VerbForm=Part	0	root	0:root	SpaceAfter=No
+10	:	:	PUNCT	LET	_	9	punct	9:punct	_
+
