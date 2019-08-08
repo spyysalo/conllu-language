@@ -60,7 +60,7 @@ class LangdetectDetector(Detector):
     factory = None
     
     def __init__(self):
-        super().__init__()
+        super(LangdetectDetector, self).__init__()
         if LangdetectDetector.module is None:
             LangdetectDetector.module = __import__('langdetect')
             factory = LangdetectDetector.module.DetectorFactory()
@@ -92,7 +92,7 @@ class LangidDetector(Detector):
     identifier = None
 
     def __init__(self):
-        super().__init__()
+        super(LangidDetector, self).__init__()
         if LangidDetector.module is None:
             langid = __import__('langid.langid').langid
             LangidDetector.module = langid
@@ -126,6 +126,8 @@ def argparser():
                     help='limit language options to 29 UD/MUSE languages')
     ap.add_argument('-t', '--threshold', default=0, type=float,
                     help='confidence threshold for changing language')
+    ap.add_argument('-p', '--prefix', default=False, action='store_true',
+                    help='prexif FORM and LEMMA with language code')
     ap.add_argument('-u', '--use', default=DETECTORS[0], choices=DETECTORS,
                     help='language ID module (default {})'.format(DETECTORS[0]))
     ap.add_argument('conllu', nargs='+', help='CoNLL-U data')
@@ -257,6 +259,10 @@ def main(argv):
             s.comments.append('# language = {}'.format(language))
             s.comments.append('# lang_probs = {}'.format(
                 ' '.join(['{}:{}'.format(l,p) for l,p in ranked])))
+            if args.prefix:
+                for w in s.words:
+                    w.form = '^{}:{}'.format(language, w.form)
+                    w.lemma = '^{}:{}'.format(language, w.lemma)
             print(s)
     return 0
 
