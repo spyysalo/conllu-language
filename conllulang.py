@@ -3,6 +3,7 @@
 import sys
 import os
 
+from logging import warning
 from collections import OrderedDict, Counter
 
 
@@ -77,10 +78,14 @@ class LangdetectDetector(Detector):
         if self.languages is not None:
             prior_map = { l: 1.0/len(self.languages) for l in self.languages }
             detector.set_prior_map(prior_map)
-        probs = detector.get_probabilities()
-        probs = [(p.lang, p.prob) for p in probs]
-        if cutoff is not None:
-            probs = [(l,p) for l,p in probs if p > cutoff]
+        try:
+            probs = detector.get_probabilities()
+            probs = [(p.lang, p.prob) for p in probs]
+            if cutoff is not None:
+                probs = [(l,p) for l,p in probs if p > cutoff]
+        except:
+            warning('failed to detect language for input "{}"'.format(text))
+            probs = [ ('en', 0.0) ]    # fallback
         return probs
 
     def set_languages(self, languages):
