@@ -257,7 +257,7 @@ def main(argv):
     for fn in args.conllu:
         conllu = Conllu(fn)
         for s in conllu:
-            if NEWDOC_COMMENT in s.comments:
+            if any(c.startswith(NEWDOC_COMMENT) for c in s.comments):
                 detector.reset()    # forget history
             language = detector.detect(s.text)
             ranked = detector.rank_languages(s.text, cutoff=1e-5)
