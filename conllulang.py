@@ -241,7 +241,7 @@ def get_detector(args):
     return detector
 
 
-def argparser():
+def get_argparser():
     from argparse import ArgumentParser
     ap = ArgumentParser(description='Sentence-level language recognizer')
     ap.add_argument('-l', '--limit-langs', default=False, action='store_true',
@@ -252,7 +252,7 @@ def argparser():
                     help='prexif FORM and LEMMA with language code')
     ap.add_argument('-u', '--use', default=DETECTORS[0], choices=DETECTORS,
                     help='language ID module (default {})'.format(DETECTORS[0]))
-    ap.add_argument('conllu', nargs='+', help='CoNLL-U data')
+    ap.add_argument('conllu', nargs='*', help='CoNLL-U data')
     return ap
 
 
@@ -280,13 +280,16 @@ def launch(args, q_in, q_out):
             print("Language-detector exiting", file=sys.stderr, flush=True)
             return
         processed = []
-        for s in Conllu.from_string(txt):
+        for s in Conllu.from_string(txt, '<PIPE>'):
             processed.append(process_sentence(s, detector, args))
         q_out.put((jobid, ''.join(processed)))
 
 
+argparser = get_argparser()
+
+
 def main(argv):
-    args = argparser().parse_args(argv[1:])
+    args = argparser.parse_args(argv[1:])
     detector = get_detector(args)
     for fn in args.conllu:
         with open(fn) as f:
