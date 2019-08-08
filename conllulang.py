@@ -5,6 +5,7 @@ import os
 
 from logging import warning
 from collections import OrderedDict, Counter
+from io import StringIO
 
 
 # Number of languages for past sentences to remember
@@ -51,7 +52,7 @@ class Detector(object):
 
     def set_threshold(self, threshold):
         self.threshold = threshold
-        
+
     def reset(self):
         self.history = []
 
@@ -59,7 +60,7 @@ class Detector(object):
 class LangdetectDetector(Detector):
     module = None
     factory = None
-    
+
     def __init__(self):
         super(LangdetectDetector, self).__init__()
         if LangdetectDetector.module is None:
@@ -124,21 +125,6 @@ DETECTOR_MAP = OrderedDict([
 DETECTORS = list(DETECTOR_MAP.keys())
 
 
-def argparser():
-    from argparse import ArgumentParser
-    ap = ArgumentParser()
-    ap.add_argument('-l', '--limit-langs', default=False, action='store_true',
-                    help='limit language options to 29 UD/MUSE languages')
-    ap.add_argument('-t', '--threshold', default=0, type=float,
-                    help='confidence threshold for changing language')
-    ap.add_argument('-p', '--prefix', default=False, action='store_true',
-                    help='prexif FORM and LEMMA with language code')
-    ap.add_argument('-u', '--use', default=DETECTORS[0], choices=DETECTORS,
-                    help='language ID module (default {})'.format(DETECTORS[0]))
-    ap.add_argument('conllu', nargs='+', help='CoNLL-U data')
-    return ap
-
-
 class FormatError(Exception):
     pass
 
@@ -192,9 +178,9 @@ class Sentence(object):
 
 
 class Conllu(object):
-    def __init__(self, path):
-        self.path = path
-        self.stream = open(path)
+    def __init__(self, stream, source):
+        self.source = source
+        self.stream = stream
         self.lineno = 0
         self.finished = False
         self.current = self._get_sentence()
@@ -205,7 +191,7 @@ class Conllu(object):
     def __next__(self):
         s = self.current
         if s is None:
-            raise StopIteration()            
+            raise StopIteration()
         self.current = self._get_sentence()
         return s
 
@@ -224,8 +210,8 @@ class Conllu(object):
                 # blank line marks end of sentence
                 if not words:
                     raise FormatError('empty sentence on line {} in {}'.format(
-                        self.lineno, self.path))
-                s = Sentence(comments, words, self.path, start_lineno)
+                        self.lineno, self.source))
+                s = Sentence(comments, words, self.source, start_lineno)
                 return s
             elif l.startswith('#'):
                 comments.append(l)
@@ -235,12 +221,16 @@ class Conllu(object):
                     raise FormatError(
                         'expected 10 tab-separated fields, got {} on line {}'\
                         'in {}, got {}: {}'.format(
-                            self.lineno, self.path, len(fields), l))
+                            self.lineno, self.source, len(fields), l))
                 words.append(Word(*fields))
         self.finished = True
         return None
 
-            
+    @classmethod
+    def from_string(cls, string, source):
+        return cls(StringIO(string), source)
+
+
 def get_detector(args):
     if args.use not in DETECTOR_MAP:
         raise ValueError(args.use)
@@ -251,24 +241,57 @@ def get_detector(args):
     return detector
 
 
+def argparser():
+    from argparse import ArgumentParser
+    ap = ArgumentParser(description='Sentence-level language recognizer')
+    ap.add_argument('-l', '--limit-langs', default=False, action='store_true',
+                    help='limit language options to 29 UD/MUSE languages')
+    ap.add_argument('-t', '--threshold', default=0, type=float,
+                    help='confidence threshold for changing language')
+    ap.add_argument('-p', '--prefix', default=False, action='store_true',
+                    help='prexif FORM and LEMMA with language code')
+    ap.add_argument('-u', '--use', default=DETECTORS[0], choices=DETECTORS,
+                    help='language ID module (default {})'.format(DETECTORS[0]))
+    ap.add_argument('conllu', nargs='+', help='CoNLL-U data')
+    return ap
+
+
+def process_sentence(s, detector, args):
+    if any(c.startswith(NEWDOC_COMMENT) for c in s.comments):
+        detector.reset()    # forget history
+    language = detector.detect(s.text)
+    ranked = detector.rank_languages(s.text, cutoff=1e-5)
+    s.comments.append('# language = {}'.format(language))
+    s.comments.append('# lang_probs = {}'.format(
+        ' '.join(['{}:{}'.format(l,p) for l,p in ranked])))
+    if args.prefix:
+        for w in s.words:
+            w.form = '^{}:{}'.format(language, w.form)
+            w.lemma = '^{}:{}'.format(language, w.lemma)
+    return str(s)
+
+
+def launch(args, q_in, q_out):
+    detector = get_detector(args)
+    while True:
+        jobid, txt = q_in.get()
+        if jobid == 'FINAL':
+            q_out.put((jobid, txt))
+            print("Language-detector exiting", file=sys.stderr, flush=True)
+            return
+        processed = []
+        for s in Conllu.from_string(txt):
+            processed.append(process_sentence(s, detector, args))
+        q_out.put((jobid, ''.join(processed)))
+
+
 def main(argv):
     args = argparser().parse_args(argv[1:])
     detector = get_detector(args)
     for fn in args.conllu:
-        conllu = Conllu(fn)
-        for s in conllu:
-            if any(c.startswith(NEWDOC_COMMENT) for c in s.comments):
-                detector.reset()    # forget history
-            language = detector.detect(s.text)
-            ranked = detector.rank_languages(s.text, cutoff=1e-5)
-            s.comments.append('# language = {}'.format(language))
-            s.comments.append('# lang_probs = {}'.format(
-                ' '.join(['{}:{}'.format(l,p) for l,p in ranked])))
-            if args.prefix:
-                for w in s.words:
-                    w.form = '^{}:{}'.format(language, w.form)
-                    w.lemma = '^{}:{}'.format(language, w.lemma)
-            print(s)
+        with open(fn) as f:
+            for s in Conllu(f, fn):
+                print(process_sentence(s, detector, args))
     return 0
 
 
