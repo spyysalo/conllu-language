@@ -35,7 +35,7 @@ class Detector(object):
     def detect(self, text):
         ranked = self.rank_languages(text)
         language, prob = ranked[0]
-        if prob < self.threshold and self.history:
+        if prob <= self.threshold and self.history:
             # highest ranked has low probability, fall back on most frequent
             language = Counter(self.history).most_common(1)[0][0]
         else:
